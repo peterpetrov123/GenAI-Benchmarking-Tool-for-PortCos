@@ -1,0 +1,10 @@
+pandas
+numpy
+openpyxl
+PyPDF2
+beautifulsoup4
+selenium
+requests
+azure-ai-formrecognizer
+psycopg2-binary
+azure-storage-blob

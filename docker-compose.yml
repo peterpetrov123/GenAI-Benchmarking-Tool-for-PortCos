@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: finance_app
+    ports:
+      - "5000:5000"  # Change if your app exposes any other ports
+    depends_on:
+      - postgres
+      - azurite
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+
+  postgres:
+    image: postgres:13
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: finance_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite
+    container_name: azurite_storage
+    ports:
+      - "10000:10000"  # Blob service port
+    command: "azurite-blob --blobHost 0.0.0.0 --blobPort 10000"
+
+volumes:
+  postgres_data:
