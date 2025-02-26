@@ -8,3 +8,4 @@ requests
 azure-ai-formrecognizer
 psycopg2-binary
 azure-storage-blob
+webdriver-manager
