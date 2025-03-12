@@ -1,0 +1,71 @@
+{
+    "company": "Pfizer Inc.",
+    "ticker": "PFE",
+    "retrieval_date": "2025-03-12 13:31:01",
+    "files": {
+        "csv": [
+            {
+                "type": "income_statement",
+                "format": "csv",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_income_statement.csv"
+            },
+            {
+                "type": "balance_sheet",
+                "format": "csv",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_balance_sheet.csv"
+            },
+            {
+                "type": "cash_flow",
+                "format": "csv",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_cash_flow.csv"
+            },
+            {
+                "type": "income_statement_quarterly",
+                "format": "csv",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_income_statement_quarterly.csv"
+            },
+            {
+                "type": "balance_sheet_quarterly",
+                "format": "csv",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_balance_sheet_quarterly.csv"
+            },
+            {
+                "type": "cash_flow_quarterly",
+                "format": "csv",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_cash_flow_quarterly.csv"
+            }
+        ],
+        "json": [
+            {
+                "type": "income_statement",
+                "format": "json",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_income_statement.json"
+            },
+            {
+                "type": "balance_sheet",
+                "format": "json",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_balance_sheet.json"
+            },
+            {
+                "type": "cash_flow",
+                "format": "json",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_cash_flow.json"
+            },
+            {
+                "type": "income_statement_quarterly",
+                "format": "json",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_income_statement_quarterly.json"
+            },
+            {
+                "type": "balance_sheet_quarterly",
+                "format": "json",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_balance_sheet_quarterly.json"
+            },
+            {
+                "type": "cash_flow_quarterly",
+                "format": "json",
+                "filename": "C:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\pfizer\\pfizer_cash_flow_quarterly.json"
+            }
+        ]
+    }
+}

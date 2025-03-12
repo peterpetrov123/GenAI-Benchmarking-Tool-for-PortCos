@@ -1,0 +1,338 @@
+[
+    {
+        "": null,
+        "Notes": null,
+        "2024": "$m",
+        "2023": "$m",
+        "2022": "$m"
+    },
+    {
+        "": "Product Sales",
+        "Notes": "1",
+        "2024": "50,938",
+        "2023": "43,789",
+        "2022": "42,998"
+    },
+    {
+        "": "Alliance Revenue",
+        "Notes": "1",
+        "2024": "2,212",
+        "2023": "1,428",
+        "2022": "755"
+    },
+    {
+        "": "Collaboration Revenue",
+        "Notes": "1",
+        "2024": "923",
+        "2023": "594",
+        "2022": "598"
+    },
+    {
+        "": "Total Revenue",
+        "Notes": "",
+        "2024": "54,073",
+        "2023": "45,811",
+        "2022": "44,351"
+    },
+    {
+        "": "Cost of sales",
+        "Notes": "",
+        "2024": "(10,207)",
+        "2023": "(8,268)",
+        "2022": "(12,391)"
+    },
+    {
+        "": "Gross profit",
+        "Notes": "",
+        "2024": "43,866",
+        "2023": "37,543",
+        "2022": "31,960"
+    },
+    {
+        "": "Distribution expense",
+        "Notes": "",
+        "2024": "(555)",
+        "2023": "(539)",
+        "2022": "(536)"
+    },
+    {
+        "": "Research and development expense",
+        "Notes": "2",
+        "2024": "(13,583)",
+        "2023": "(10,935)",
+        "2022": "(9,762)"
+    },
+    {
+        "": "Selling, general and administrative expense",
+        "Notes": "2",
+        "2024": "(19,977)",
+        "2023": "(19,216)",
+        "2022": "(18,419)"
+    },
+    {
+        "": "Other operating income and expense",
+        "Notes": "2",
+        "2024": "252",
+        "2023": "1,340",
+        "2022": "514"
+    },
+    {
+        "": "Operating profit",
+        "Notes": "",
+        "2024": "10,003",
+        "2023": "8,193",
+        "2022": "3,757"
+    },
+    {
+        "": "Finance income",
+        "Notes": "3",
+        "2024": "458",
+        "2023": "344",
+        "2022": "95"
+    },
+    {
+        "": "Finance expense",
+        "Notes": "3",
+        "2024": "(1,742)",
+        "2023": "(1,626)",
+        "2022": "(1,346)"
+    },
+    {
+        "": "Share of after tax losses in associates and joint ventures",
+        "Notes": "11",
+        "2024": "(28)",
+        "2023": "(12)",
+        "2022": "(5)"
+    },
+    {
+        "": "Profit before tax",
+        "Notes": "",
+        "2024": "8,691",
+        "2023": "6,899",
+        "2022": "2,501"
+    },
+    {
+        "": "Taxation",
+        "Notes": "4",
+        "2024": "(1,650)",
+        "2023": "(938)",
+        "2022": "792"
+    },
+    {
+        "": "Profit for the period",
+        "Notes": "",
+        "2024": "7,041",
+        "2023": "5,961",
+        "2022": "3,293"
+    },
+    {
+        "": "Other comprehensive income:",
+        "Notes": "",
+        "2024": "",
+        "2023": "",
+        "2022": ""
+    },
+    {
+        "": "Items that will not be reclassified to profit and loss:",
+        "Notes": "",
+        "2024": "",
+        "2023": "",
+        "2022": ""
+    },
+    {
+        "": "Remeasurement of the defined benefit pension liability",
+        "Notes": "22",
+        "2024": "80",
+        "2023": "(406)",
+        "2022": "1,118"
+    },
+    {
+        "": "Net gains/(losses) on equity investments measured at fair value through Other comprehensive income",
+        "Notes": "",
+        "2024": "139",
+        "2023": "278",
+        "2022": "(88)"
+    },
+    {
+        "": "Fair value movements related to own credit risk on bonds designated as fair value through profit or loss",
+        "Notes": "",
+        "2024": "12",
+        "2023": "(6)",
+        "2022": "2"
+    },
+    {
+        "": "Tax on items that will not be reclassified to profit and loss",
+        "Notes": "4",
+        "2024": "(43)",
+        "2023": "101",
+        "2022": "(216)"
+    },
+    {
+        "": "",
+        "Notes": "",
+        "2024": "188",
+        "2023": "(33)",
+        "2022": "816"
+    },
+    {
+        "": "Items that may be reclassified subsequently to profit and loss: Foreign exchange arising on consolidation",
+        "Notes": "23",
+        "2024": "(957)",
+        "2023": "608",
+        "2022": "(1,446)"
+    },
+    {
+        "": "Foreign exchange arising on designated liabilities in net investment hedges",
+        "Notes": "23",
+        "2024": "(122)",
+        "2023": "24",
+        "2022": "(282)"
+    },
+    {
+        "": "Fair value movements on cash flow hedges",
+        "Notes": "",
+        "2024": "(129)",
+        "2023": "266",
+        "2022": "(97)"
+    },
+    {
+        "": "Fair value movements on cash flow hedges transferred to profit and loss",
+        "Notes": "",
+        "2024": "177",
+        "2023": "(145)",
+        "2022": "73"
+    },
+    {
+        "": "Fair value movements on derivatives designated in net investment hedges",
+        "Notes": "23",
+        "2024": "39",
+        "2023": "44",
+        "2022": "(8)"
+    },
+    {
+        "": "Costs of hedging",
+        "Notes": "",
+        "2024": "(21)",
+        "2023": "(19)",
+        "2022": "(7)"
+    },
+    {
+        "": "Tax on items that may be reclassified subsequently to profit and loss",
+        "Notes": "4",
+        "2024": "25",
+        "2023": "(12)",
+        "2022": "73"
+    },
+    {
+        "": "",
+        "Notes": "",
+        "2024": "(988)",
+        "2023": "766",
+        "2022": "(1,694)"
+    },
+    {
+        "": "Other comprehensive (expense)/income for the period, net of tax",
+        "Notes": "",
+        "2024": "(800)",
+        "2023": "733",
+        "2022": "(878)"
+    },
+    {
+        "": "Total comprehensive income for the period",
+        "Notes": "",
+        "2024": "6,241",
+        "2023": "6,694",
+        "2022": "2,415"
+    },
+    {
+        "": "Profit attributable to:",
+        "Notes": "",
+        "2024": "",
+        "2023": "",
+        "2022": ""
+    },
+    {
+        "": "Owners of the Parent",
+        "Notes": "",
+        "2024": "7,035",
+        "2023": "5,955",
+        "2022": "3,288"
+    },
+    {
+        "": "Non-controlling interests",
+        "Notes": "26",
+        "2024": "6",
+        "2023": "6",
+        "2022": "5"
+    },
+    {
+        "": "Total comprehensive income attributable to:",
+        "Notes": "",
+        "2024": "",
+        "2023": "",
+        "2022": ""
+    },
+    {
+        "": "Owners of the Parent",
+        "Notes": "",
+        "2024": "6,236",
+        "2023": "6,688",
+        "2022": "2,413"
+    },
+    {
+        "": "Non-controlling interests",
+        "Notes": "26",
+        "2024": "5",
+        "2023": "6",
+        "2022": "2"
+    },
+    {
+        "": "",
+        "Notes": "",
+        "2024": "",
+        "2023": "",
+        "2022": ""
+    },
+    {
+        "": "Basic earnings per $0.25 Ordinary Share",
+        "Notes": "5",
+        "2024": "$4.54",
+        "2023": "$3.84",
+        "2022": "$2.12"
+    },
+    {
+        "": "Diluted earnings per $0.25 Ordinary Share",
+        "Notes": "5",
+        "2024": "$4.50",
+        "2023": "$3.81",
+        "2022": "$2.11"
+    },
+    {
+        "": "Weighted average number of Ordinary Shares in issue (millions)",
+        "Notes": "5",
+        "2024": "1,550",
+        "2023": "1,549",
+        "2022": "1,548"
+    },
+    {
+        "": "Diluted weighted average number of Ordinary Shares in issue (millions)",
+        "Notes": "5",
+        "2024": "1,563",
+        "2023": "1,562",
+        "2022": "1,560"
+    },
+    {
+        "": "",
+        "Notes": "",
+        "2024": "",
+        "2023": "",
+        "2022": ""
+    },
+    {
+        "": "Dividends declared and paid in the period",
+        "Notes": "25",
+        "2024": "4,602",
+        "2023": "4,487",
+        "2022": "4,485"
+    }
+]

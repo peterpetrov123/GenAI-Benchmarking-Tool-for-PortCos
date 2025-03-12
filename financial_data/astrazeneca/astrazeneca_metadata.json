@@ -1,0 +1,46 @@
+{
+    "company": "AstraZeneca",
+    "source": "Annual Report PDF",
+    "pdf_info": {
+        "filename": "AstraZeneca_AR_2024_Financial_Statements.pdf",
+        "size_bytes": 6991560,
+        "last_modified": "2025-03-11 14:05:08"
+    },
+    "extraction_date": "2025-03-12 13:48:03",
+    "files": {
+        "csv": [
+            {
+                "type": "income_statement",
+                "format": "csv",
+                "filename": "astrazeneca_income_statement.csv"
+            },
+            {
+                "type": "balance_sheet",
+                "format": "csv",
+                "filename": "astrazeneca_balance_sheet.csv"
+            },
+            {
+                "type": "cash_flow",
+                "format": "csv",
+                "filename": "astrazeneca_cash_flow.csv"
+            }
+        ],
+        "json": [
+            {
+                "type": "income_statement",
+                "format": "json",
+                "filename": "astrazeneca_income_statement.json"
+            },
+            {
+                "type": "balance_sheet",
+                "format": "json",
+                "filename": "astrazeneca_balance_sheet.json"
+            },
+            {
+                "type": "cash_flow",
+                "format": "json",
+                "filename": "astrazeneca_cash_flow.json"
+            }
+        ]
+    }
+}

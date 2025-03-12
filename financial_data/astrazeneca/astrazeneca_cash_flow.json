@@ -1,0 +1,338 @@
+[
+    {
+        "": null,
+        "Notes": null,
+        "2024": "$m",
+        "2023": "$m",
+        "2022": "$m"
+    },
+    {
+        "": "Cash flows from operating activities",
+        "Notes": "",
+        "2024": "",
+        "2023": "",
+        "2022": ""
+    },
+    {
+        "": "Profit before tax",
+        "Notes": "",
+        "2024": "8,691",
+        "2023": "6,899",
+        "2022": "2,501"
+    },
+    {
+        "": "Finance income and expense",
+        "Notes": "3",
+        "2024": "1,284",
+        "2023": "1,282",
+        "2022": "1,251"
+    },
+    {
+        "": "Share of after tax losses of associates and joint ventures",
+        "Notes": "11",
+        "2024": "28",
+        "2023": "12",
+        "2022": "5"
+    },
+    {
+        "": "Depreciation, amortisation and impairment",
+        "Notes": "",
+        "2024": "6,688",
+        "2023": "5,387",
+        "2022": "5,480"
+    },
+    {
+        "": "Increase in trade and other receivables",
+        "Notes": "",
+        "2024": "(1,624)",
+        "2023": "(1,425)",
+        "2022": "(1,349)"
+    },
+    {
+        "": "(Increase)/decrease in inventories",
+        "Notes": "",
+        "2024": "(131)",
+        "2023": "(669)",
+        "2022": "3,941"
+    },
+    {
+        "": "Increase in trade and other payables and provisions",
+        "Notes": "",
+        "2024": "862",
+        "2023": "2,394",
+        "2022": "1,165"
+    },
+    {
+        "": "Gains on disposal of intangible assets",
+        "Notes": "2",
+        "2024": "(64)",
+        "2023": "(251)",
+        "2022": "(104)"
+    },
+    {
+        "": "Fair value movements on contingent consideration arising from business combinations",
+        "Notes": "20",
+        "2024": "311",
+        "2023": "549",
+        "2022": "82"
+    },
+    {
+        "": "Non-cash and other movements",
+        "Notes": "17",
+        "2024": "(121)",
+        "2023": "(386)",
+        "2022": "(692)"
+    },
+    {
+        "": "Cash generated from operations",
+        "Notes": "",
+        "2024": "15,924",
+        "2023": "13,792",
+        "2022": "12,280"
+    },
+    {
+        "": "Interest paid",
+        "Notes": "",
+        "2024": "(1,313)",
+        "2023": "(1,081)",
+        "2022": "(849)"
+    },
+    {
+        "": "Tax paid",
+        "Notes": "",
+        "2024": "(2,750)",
+        "2023": "(2,366)",
+        "2022": "(1,623)"
+    },
+    {
+        "": "Net cash inflow from operating activities",
+        "Notes": "",
+        "2024": "11,861",
+        "2023": "10,345",
+        "2022": "9,808"
+    },
+    {
+        "": "Cash flows from investing activities",
+        "Notes": "",
+        "2024": "",
+        "2023": "",
+        "2022": ""
+    },
+    {
+        "": "Acquisition of subsidiaries, net of cash acquired",
+        "Notes": "27",
+        "2024": "(2,771)",
+        "2023": "(189)",
+        "2022": "(48"
+    },
+    {
+        "": "Payments upon vesting of employee share awards attributable to business combinations",
+        "Notes": "27",
+        "2024": "(3)",
+        "2023": "(84)",
+        "2022": "(215)"
+    },
+    {
+        "": "Payment of contingent consideration from business combinations",
+        "Notes": "20",
+        "2024": "(1,008)",
+        "2023": "(826)",
+        "2022": "(772)"
+    },
+    {
+        "": "Purchase of property, plant and equipment",
+        "Notes": "",
+        "2024": "(1,924)",
+        "2023": "(1,361)",
+        "2022": "(1,091)"
+    },
+    {
+        "": "Disposal of property, plant and equipment",
+        "Notes": "",
+        "2024": "55",
+        "2023": "132",
+        "2022": "282"
+    },
+    {
+        "": "Purchase of intangible assets",
+        "Notes": "",
+        "2024": "(2,662)",
+        "2023": "(2,417)",
+        "2022": "(1,480)"
+    },
+    {
+        "": "Disposal of intangible assets",
+        "Notes": "",
+        "2024": "123",
+        "2023": "291",
+        "2022": "447"
+    },
+    {
+        "": "Movement in profit-participation liability",
+        "Notes": "2",
+        "2024": "-",
+        "2023": "190",
+        "2022": "-"
+    },
+    {
+        "": "Purchase of non-current asset investments",
+        "Notes": "",
+        "2024": "(96)",
+        "2023": "(136)",
+        "2022": "(45)"
+    },
+    {
+        "": "Disposal of non-current asset investments",
+        "Notes": "",
+        "2024": "78",
+        "2023": "32",
+        "2022": "42"
+    },
+    {
+        "": "Movement in short-term investments, fixed deposits and other investing instruments",
+        "Notes": "",
+        "2024": "30",
+        "2023": "97",
+        "2022": "(114)"
+    },
+    {
+        "": "Payments to associates and joint ventures",
+        "Notes": "11",
+        "2024": "(158)",
+        "2023": "(80)",
+        "2022": "(26)"
+    },
+    {
+        "": "Disposal of investments in associates and joint ventures",
+        "Notes": "",
+        "2024": "13",
+        "2023": "-",
+        "2022": ""
+    },
+    {
+        "": "Interest received",
+        "Notes": "",
+        "2024": "343",
+        "2023": "287",
+        "2022": "60"
+    },
+    {
+        "": "Net cash outflow from investing activities",
+        "Notes": "",
+        "2024": "(7,980)",
+        "2023": "(4,064)",
+        "2022": "(2,960)"
+    },
+    {
+        "": "Net cash inflow before financing activities",
+        "Notes": "",
+        "2024": "3,881",
+        "2023": "6,281",
+        "2022": "6,848"
+    },
+    {
+        "": "Cash flows from financing activities",
+        "Notes": "",
+        "2024": "",
+        "2023": "",
+        "2022": ""
+    },
+    {
+        "": "Proceeds from issue of share capital",
+        "Notes": "",
+        "2024": "38",
+        "2023": "33",
+        "2022": "29"
+    },
+    {
+        "": "Own shares purchased by Employee Benefit Trusts",
+        "Notes": "",
+        "2024": "(81)",
+        "2023": "-",
+        "2022": ""
+    },
+    {
+        "": "Issue of loans and borrowings",
+        "Notes": "",
+        "2024": "6,492",
+        "2023": "3,816",
+        "2022": ""
+    },
+    {
+        "": "Repayment of loans and borrowings",
+        "Notes": "",
+        "2024": "(4,652)",
+        "2023": "(4,942)",
+        "2022": "(1,271)"
+    },
+    {
+        "": "Dividends paid",
+        "Notes": "25",
+        "2024": "(4,629)",
+        "2023": "(4,481)",
+        "2022": "(4,364)"
+    },
+    {
+        "": "Hedge contracts relating to dividend payments",
+        "Notes": "25",
+        "2024": "16",
+        "2023": "(19)",
+        "2022": "(127)"
+    },
+    {
+        "": "Repayment of obligations under leases",
+        "Notes": "",
+        "2024": "(316)",
+        "2023": "(268)",
+        "2022": "(244)"
+    },
+    {
+        "": "Movement in short-term borrowings",
+        "Notes": "",
+        "2024": "(31)",
+        "2023": "161",
+        "2022": "74"
+    },
+    {
+        "": "Payment of Acerta Pharma share purchase liability",
+        "Notes": "",
+        "2024": "(833)",
+        "2023": "(867)",
+        "2022": "(920)"
+    },
+    {
+        "": "Net cash outflow from financing activities",
+        "Notes": "",
+        "2024": "(3,996)",
+        "2023": "(6,567)",
+        "2022": "(6,823)"
+    },
+    {
+        "": "Net (decrease)/increase in Cash and cash equivalents in the period",
+        "Notes": "",
+        "2024": "(115)",
+        "2023": "(286)",
+        "2022": "25"
+    },
+    {
+        "": "Cash and cash equivalents at the beginning of the period",
+        "Notes": "",
+        "2024": "5,637",
+        "2023": "5,983",
+        "2022": "6,038"
+    },
+    {
+        "": "Exchange rate effects",
+        "Notes": "",
+        "2024": "(93)",
+        "2023": "(60)",
+        "2022": "(80)"
+    },
+    {
+        "": "Cash and cash equivalents at the end of the period",
+        "Notes": "17",
+        "2024": "5,429",
+        "2023": "5,637",
+        "2022": "5,983"
+    }
+]

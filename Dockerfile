@@ -5,14 +5,17 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the requirements file and install dependencies.
-COPY requirements.txt /app/
+COPY requirements.txt ./
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt
 
-# Copy the rest of your project files.
-COPY . /app/
+# Copy the project files.
+COPY . ./
 
-# Expose port 5000 (optional, if your application requires it)
+# Change working directory to src
+WORKDIR /app/src
+
+# Expose port 5000 (if needed)
 EXPOSE 5000
 
 # Set the default command to run your ETL pipeline script.
