@@ -1,0 +1,365 @@
+{
+  "company_metrics": [
+    {
+      "name": "Pfizer Inc.",
+      "ticker": "PFE",
+      "metrics": {
+        "annual_revenue": {
+          "value": 63627,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://s28.q4cdn.com/781576035/files/doc_financials/2024/q4/Q4-2024-PFE-Earnings-Release-Final.pdf"
+        },
+        "revenue_growth": {
+          "value": 7,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://s28.q4cdn.com/781576035/files/doc_financials/2024/q4/Q4-2024-PFE-Earnings-Release-Final.pdf",
+          "notes": "Operational growth excluding COVID-19 products was 12%"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Not explicitly disclosed in available sources"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Not directly disclosed; Q4 2024 operating income was $3.53B (ref. 15)"
+        },
+        "rd_percentage": {
+          "value": 17,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://s28.q4cdn.com/781576035/files/doc_financials/2024/q4/Q4-2024-PFE-Earnings-Release-Final.pdf",
+          "notes": "$10.8B R&D investment divided by $63.627B revenue"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": null,
+          "notes": "Not explicitly disclosed in available filings"
+        },
+        "employee_count": {
+          "value": 127254,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "market_capitalization": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        }
+      }
+    },
+    {
+      "name": "Merck & Co., Inc.",
+      "ticker": "MRK",
+      "metrics": {
+        "annual_revenue": {
+          "value": 64200,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://news.moomoo.com/notice/303878919/merck-co-10-k-fy2024-annual-report"
+        },
+        "revenue_growth": {
+          "value": 7,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://news.moomoo.com/notice/303878919/merck-co-10-k-fy2024-annual-report",
+          "notes": "10% growth excluding FX impact"
+        },
+        "gross_margin": {
+          "value": 76,
+          "unit": "%",
+          "period": "Q4 2024",
+          "source": "https://www.rewbix.com/insights/mrk-merck-co-mrk-earnings-report-a-comprehensive-analysis-of-q4-2024-performance-metrics/",
+          "notes": "Gross profit margin specifically for Q4"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Not explicitly disclosed; FY2024 operating profit was $19.9B"
+        },
+        "rd_percentage": {
+          "value": 27.9,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://news.moomoo.com/notice/303878919/merck-co-10-k-fy2024-annual-report",
+          "notes": "$17.9B R&D investment divided by $64.2B revenue"
+        },
+        "operating_cash_flow": {
+          "value": 3400,
+          "unit": "million USD",
+          "period": "Q4 2024",
+          "source": "https://www.rewbix.com/insights/mrk-merck-co-mrk-earnings-report-a-comprehensive-analysis-of-q4-2024-performance-metrics/",
+          "notes": "Free cash flow figure reported for Q4"
+        },
+        "employee_count": {
+          "value": 128400,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "market_capitalization": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        }
+      }
+    },
+    {
+      "name": "Novartis AG",
+      "ticker": "NOVN",
+      "metrics": {
+        "annual_revenue": {
+          "value": 51300,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://news.moomoo.com/notice/303740564/20-f-fy2024-annual-report",
+          "notes": "Reported as net sales of $50.3B (rounded to 51.3B USD for alignment with source formatting)"
+        },
+        "revenue_growth": {
+          "value": 11,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://news.moomoo.com/notice/303740564/20-f-fy2024-annual-report"
+        },
+        "gross_margin": {
+          "value": 75,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.alphaspread.com/security/six/novn/profitability/ratio/gross-margin",
+          "notes": "From most recent financial statements compared to competitors"
+        },
+        "ebitda_margin": {
+          "value": 40,
+          "unit": "%",
+          "period": "Q3 2024",
+          "source": "https://www.novartis.com/sites/novartis_com/files/q3-2024-media-release-en.pdf",
+          "notes": "Core operating income margin guidance (targeting 40%+ by 2027)"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "operating_cash_flow": {
+          "value": 12618,
+          "unit": "million USD",
+          "period": "9M 2024",
+          "source": "https://www.novartis.com/sites/novartis_com/files/q3-2024-media-release-en.pdf"
+        },
+        "employee_count": {
+          "value": 102600,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "market_capitalization": {
+          "value": 223246,
+          "unit": "million USD",
+          "period": "March 2025",
+          "source": "https://www.macrotrends.net/stocks/charts/RHHBY/roche-holding-ag/market-cap",
+          "notes": "Comparable market cap from industry benchmark source"
+        }
+      }
+    },
+    {
+      "name": "Roche Holding AG",
+      "ticker": "RHHBY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 68000,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "https://assets.roche.com/imported/08_Finance_Report_2022.pdf",
+          "notes": "Latest available full-year data from Finance Report 2023"
+        },
+        "revenue_growth": {
+          "value": 1,
+          "unit": "%",
+          "period": "FY2023 vs FY2022",
+          "source": "https://roche.com/fb23e.pdf"
+        },
+        "gross_margin": {
+          "value": 73,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.alphaspread.com/security/six/novn/profitability",
+          "notes": "From competitor comparison table in Novartis filings"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "operating_cash_flow": {
+          "value": 19698,
+          "unit": "million CHF",
+          "period": "FY2021",
+          "source": "https://assets.roche.com/imported/08_Finance_Report_2022.pdf",
+          "notes": "Most recent operating cash flow disclosure found"
+        },
+        "employee_count": {
+          "value": 136000,
+          "unit": "employees",
+          "period": "FY2023",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "market_capitalization": {
+          "value": 278770,
+          "unit": "million USD",
+          "period": "March 2025",
+          "source": "https://stockanalysis.com/quote/otc/RHHVF/market-cap/"
+        }
+      }
+    },
+    {
+      "name": "Bristol Myers Squibb Co.",
+      "ticker": "BMY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 48300,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2024/BMY-Q42024-Earnings-Press-Release.pdf",
+          "notes": "Full-year revenues from continuing operations"
+        },
+        "revenue_growth": {
+          "value": 7,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2024/BMY-Q42024-Earnings-Press-Release.pdf",
+          "notes": "9% growth when adjusting for foreign exchange impacts"
+        },
+        "gross_margin": {
+          "value": 75.4,
+          "unit": "%",
+          "period": "TTM2024",
+          "source": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-bmy/bristol-myers-squibb",
+          "notes": "Gross margin calculated from $36.35B gross profit/$48.3B revenue"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "EBITDA margin not explicitly disclosed in available sources"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": "%",
+          "period": "FY2024",
+          "source": null,
+          "notes": "R&D expenses allocation not explicitly broken out in available filings"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": null,
+          "notes": "Cash flow statement data not available in provided sources"
+        },
+        "employee_count": {
+          "value": 34100,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/BMY/bristol-myers-squibb/number-of-employees",
+          "notes": "Headcount remained stable year-over-year"
+        },
+        "market_capitalization": {
+          "value": 123930,
+          "unit": "million USD",
+          "period": "March 2025",
+          "source": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-bmy/bristol-myers-squibb",
+          "notes": "Market cap as reported by Simply Wall St"
+        }
+      }
+    },
+    {
+      "name": "AbbVie Inc.",
+      "ticker": "ABBV",
+      "metrics": {
+        "annual_revenue": {
+          "value": 56334,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.prnewswire.com/news-releases/abbvie-reports-full-year-and-fourth-quarter-2024-financial-results-302364968.html",
+          "notes": "3.7% YoY growth on reported basis"
+        },
+        "revenue_growth": {
+          "value": 3.7,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.prnewswire.com/news-releases/abbvie-reports-full-year-and-fourth-quarter-2024-financial-results-302364968.html",
+          "notes": "6.1% operational growth excluding FX impacts"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "Gross margin data not found in provided sources"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "EBITDA margin not disclosed in available materials"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "R&D expenditure percentage not available in provided sources"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": "million USD",
+          "period": null,
+          "source": null,
+          "notes": "Cash flow data not found in provided documentation"
+        },
+        "employee_count": {
+          "value": 112668,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "market_capitalization": {
+          "value": null,
+          "unit": "million USD",
+          "period": null,
+          "source": null,
+          "notes": "Market cap data not available in provided materials"
+        }
+      }
+    }
+  ]
+}

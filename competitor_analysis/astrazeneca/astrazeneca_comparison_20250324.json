@@ -1,0 +1,102 @@
+{
+  "company_name": "AstraZeneca",
+  "comparison_date": "2025-03-24",
+  "metrics": [
+    {
+      "metric": "Annual Revenue",
+      "values": {
+        "AstraZeneca": "$54,073M",
+        "Pfizer Inc.": "$63,627M",
+        "Merck & Co., Inc.": "$64,200M",
+        "Novartis AG": "$51,300M",
+        "Roche Holding AG": "$68,000M",
+        "Bristol Myers Squibb Co.": "$48,300M",
+        "AbbVie Inc.": "$56,334M"
+      }
+    },
+    {
+      "metric": "Revenue Growth",
+      "values": {
+        "AstraZeneca": "54.9%",
+        "Pfizer Inc.": "7.0%",
+        "Merck & Co., Inc.": "7.0%",
+        "Novartis AG": "11.0%",
+        "Roche Holding AG": "1.0%",
+        "Bristol Myers Squibb Co.": "7.0%",
+        "AbbVie Inc.": "3.7%"
+      }
+    },
+    {
+      "metric": "Gross Margin",
+      "values": {
+        "AstraZeneca": "81.1%",
+        "Pfizer Inc.": "Missing value",
+        "Merck & Co., Inc.": "76.0%",
+        "Novartis AG": "75.0%",
+        "Roche Holding AG": "73.0%",
+        "Bristol Myers Squibb Co.": "75.4%",
+        "AbbVie Inc.": "Missing value"
+      }
+    },
+    {
+      "metric": "EBITDA Margin",
+      "values": {
+        "AstraZeneca": "18.5%",
+        "Pfizer Inc.": "Missing value",
+        "Merck & Co., Inc.": "Missing value",
+        "Novartis AG": "40.0%",
+        "Roche Holding AG": "Missing value",
+        "Bristol Myers Squibb Co.": "Missing value",
+        "AbbVie Inc.": "Missing value"
+      }
+    },
+    {
+      "metric": "R&D % of Revenue",
+      "values": {
+        "AstraZeneca": "25.1%",
+        "Pfizer Inc.": "17.0%",
+        "Merck & Co., Inc.": "27.9%",
+        "Novartis AG": "Missing value",
+        "Roche Holding AG": "Missing value",
+        "Bristol Myers Squibb Co.": "Missing value",
+        "AbbVie Inc.": "Missing value"
+      }
+    },
+    {
+      "metric": "Operating Cash Flow",
+      "values": {
+        "AstraZeneca": "Missing value",
+        "Pfizer Inc.": "Missing value",
+        "Merck & Co., Inc.": "$3,400.00M",
+        "Novartis AG": "$12,618.00M",
+        "Roche Holding AG": "$19,698.00M",
+        "Bristol Myers Squibb Co.": "Missing value",
+        "AbbVie Inc.": "Missing value"
+      }
+    },
+    {
+      "metric": "Employee Count",
+      "values": {
+        "AstraZeneca": "Missing value",
+        "Pfizer Inc.": "127,254",
+        "Merck & Co., Inc.": "128,400",
+        "Novartis AG": "102,600",
+        "Roche Holding AG": "136,000",
+        "Bristol Myers Squibb Co.": "34,100",
+        "AbbVie Inc.": "112,668"
+      }
+    },
+    {
+      "metric": "Market Cap",
+      "values": {
+        "AstraZeneca": "Missing value",
+        "Pfizer Inc.": "Missing value",
+        "Merck & Co., Inc.": "Missing value",
+        "Novartis AG": "$223,246M",
+        "Roche Holding AG": "$278,770M",
+        "Bristol Myers Squibb Co.": "$123,930M",
+        "AbbVie Inc.": "Missing value"
+      }
+    }
+  ]
+}

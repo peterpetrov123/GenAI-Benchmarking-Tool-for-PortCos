@@ -1,0 +1,11 @@
+{
+  "analysis_date": "2025-03-24 12:59:58",
+  "input_company": "AstraZeneca",
+  "industry": "Astrazeneca",
+  "competitors_found": 6,
+  "competitors_with_financials": 6,
+  "files": {
+    "competitors": "astrazeneca_competitors_20250324.json",
+    "financials": "astrazeneca_competitor_financials_20250324.json"
+  }
+}

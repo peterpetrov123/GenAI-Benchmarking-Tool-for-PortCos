@@ -1,0 +1,128 @@
+{
+  "company_metrics": [
+    {
+      "name": "Bristol Myers Squibb Co.",
+      "ticker": "BMY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 48300,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2024/BMY-Q42024-Earnings-Press-Release.pdf",
+          "notes": "Full-year revenues from continuing operations"
+        },
+        "revenue_growth": {
+          "value": 7,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2024/BMY-Q42024-Earnings-Press-Release.pdf",
+          "notes": "9% growth when adjusting for foreign exchange impacts"
+        },
+        "gross_margin": {
+          "value": 75.4,
+          "unit": "%",
+          "period": "TTM2024",
+          "source": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-bmy/bristol-myers-squibb",
+          "notes": "Gross margin calculated from $36.35B gross profit/$48.3B revenue"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "EBITDA margin not explicitly disclosed in available sources"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": "%",
+          "period": "FY2024",
+          "source": null,
+          "notes": "R&D expenses allocation not explicitly broken out in available filings"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": null,
+          "notes": "Cash flow statement data not available in provided sources"
+        },
+        "employee_count": {
+          "value": 34100,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/BMY/bristol-myers-squibb/number-of-employees",
+          "notes": "Headcount remained stable year-over-year"
+        },
+        "market_capitalization": {
+          "value": 123930,
+          "unit": "million USD",
+          "period": "March 2025",
+          "source": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-bmy/bristol-myers-squibb",
+          "notes": "Market cap as reported by Simply Wall St"
+        }
+      }
+    },
+    {
+      "name": "AbbVie Inc.",
+      "ticker": "ABBV",
+      "metrics": {
+        "annual_revenue": {
+          "value": 56334,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.prnewswire.com/news-releases/abbvie-reports-full-year-and-fourth-quarter-2024-financial-results-302364968.html",
+          "notes": "3.7% YoY growth on reported basis"
+        },
+        "revenue_growth": {
+          "value": 3.7,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.prnewswire.com/news-releases/abbvie-reports-full-year-and-fourth-quarter-2024-financial-results-302364968.html",
+          "notes": "6.1% operational growth excluding FX impacts"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "Gross margin data not found in provided sources"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "EBITDA margin not disclosed in available materials"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "R&D expenditure percentage not available in provided sources"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": "million USD",
+          "period": null,
+          "source": null,
+          "notes": "Cash flow data not found in provided documentation"
+        },
+        "employee_count": {
+          "value": null,
+          "unit": "employees",
+          "period": null,
+          "source": null,
+          "notes": "Employee count not found in provided AbbVie sources"
+        },
+        "market_capitalization": {
+          "value": null,
+          "unit": "million USD",
+          "period": null,
+          "source": null,
+          "notes": "Market cap data not available in provided materials"
+        }
+      }
+    }
+  ]
+}

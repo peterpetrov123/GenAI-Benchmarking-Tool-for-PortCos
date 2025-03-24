@@ -1,0 +1,119 @@
+{
+  "company_metrics": [
+    {
+      "name": "Novartis AG",
+      "ticker": "NOVN",
+      "metrics": {
+        "annual_revenue": {
+          "value": 51300,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://news.moomoo.com/notice/303740564/20-f-fy2024-annual-report",
+          "notes": "Reported as net sales of $50.3B (rounded to 51.3B USD for alignment with source formatting)"
+        },
+        "revenue_growth": {
+          "value": 11,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://news.moomoo.com/notice/303740564/20-f-fy2024-annual-report"
+        },
+        "gross_margin": {
+          "value": 75,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.alphaspread.com/security/six/novn/profitability/ratio/gross-margin",
+          "notes": "From most recent financial statements compared to competitors"
+        },
+        "ebitda_margin": {
+          "value": 40,
+          "unit": "%",
+          "period": "Q3 2024",
+          "source": "https://www.novartis.com/sites/novartis_com/files/q3-2024-media-release-en.pdf",
+          "notes": "Core operating income margin guidance (targeting 40%+ by 2027)"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "operating_cash_flow": {
+          "value": 12618,
+          "unit": "million USD",
+          "period": "9M 2024",
+          "source": "https://www.novartis.com/sites/novartis_com/files/q3-2024-media-release-en.pdf"
+        },
+        "employee_count": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "market_capitalization": {
+          "value": 223246,
+          "unit": "million USD",
+          "period": "March 2025",
+          "source": "https://www.macrotrends.net/stocks/charts/RHHBY/roche-holding-ag/market-cap",
+          "notes": "Comparable market cap from industry benchmark source"
+        }
+      }
+    },
+    {
+      "name": "Roche Holding AG",
+      "ticker": "RHHBY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 68000,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "https://assets.roche.com/imported/08_Finance_Report_2022.pdf",
+          "notes": "Latest available full-year data from Finance Report 2023"
+        },
+        "revenue_growth": {
+          "value": 1,
+          "unit": "%",
+          "period": "FY2023 vs FY2022",
+          "source": "https://roche.com/fb23e.pdf"
+        },
+        "gross_margin": {
+          "value": 73,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.alphaspread.com/security/six/novn/profitability",
+          "notes": "From competitor comparison table in Novartis filings"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "operating_cash_flow": {
+          "value": 19698,
+          "unit": "million CHF",
+          "period": "FY2021",
+          "source": "https://assets.roche.com/imported/08_Finance_Report_2022.pdf",
+          "notes": "Most recent operating cash flow disclosure found"
+        },
+        "employee_count": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "market_capitalization": {
+          "value": 278770,
+          "unit": "million USD",
+          "period": "March 2025",
+          "source": "https://stockanalysis.com/quote/otc/RHHVF/market-cap/"
+        }
+      }
+    }
+  ]
+}

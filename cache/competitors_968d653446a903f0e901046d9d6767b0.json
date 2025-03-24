@@ -1,0 +1,67 @@
+{
+  "competitors": [
+    {
+      "name": "Pfizer Inc.",
+      "ticker": "PFE",
+      "relevance_justification": "Similar revenue ($63.6B in 2024) and R&D focus in oncology, immunology, and vaccines. Strong commercial execution with 7% operational revenue growth in non-COVID products[2].",
+      "investor_relations_url": "https://www.pfizerltd.co.in/investor-relations",
+      "recent_financial_report_url": "https://s28.q4cdn.com/781576035/files/doc_financials/2024/q4/Q4-2024-PFE-Earnings-Release-Final.pdf"
+    },
+    {
+      "name": "Merck & Co., Inc.",
+      "ticker": "MRK",
+      "relevance_justification": "Comparable revenue ($64.2B in 2024) and focus on innovative therapies. Grew pharmaceutical sales by 10% (ex-FX) in 2024, with strong R&D pipeline progress[3][4].",
+      "investor_relations_url": "https://www.merck.com/investor-relations/",
+      "recent_financial_report_url": "https://www.merck.com/news/merck-announces-fourth-quarter-and-full-year-2024-financial-results/"
+    },
+    {
+      "name": "Novartis AG",
+      "ticker": "NOVN",
+      "relevance_justification": "Global pharma leader with focus on oncology and immunology. Revenue model combines high-margin pharmaceuticals and generics, aligning with AstraZeneca's diversified approach[5].",
+      "investor_relations_url": "https://www.alphaspread.com/security/six/novn/investor-relations",
+      "recent_financial_report_url": "https://www.alphaspread.com/security/six/novn/investor-relations"
+    },
+    {
+      "name": "Roche Holding AG",
+      "ticker": "RHHBY",
+      "relevance_justification": "Leader in oncology and diagnostics with integrated healthcare solutions. Strategic acquisitions (e.g., Foundation Medicine) mirror AstraZeneca's innovation focus[6][18].",
+      "investor_relations_url": "https://quartr.com/companies/roche-holding-ag_4077",
+      "recent_financial_report_url": "https://quartr.com/companies/roche-holding-ag_4077"
+    },
+    {
+      "name": "Bristol Myers Squibb Co.",
+      "ticker": "BMY",
+      "relevance_justification": "Growth portfolio revenue of $22.6B (2024) in oncology/immunology. Strong R&D pipeline with recent FDA approvals like Cobenfy[9][10].",
+      "investor_relations_url": "https://www.alphaspread.com/security/nyse/bmy/investor-relations",
+      "recent_financial_report_url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2024/BMY-Q42024-Earnings-Press-Release.pdf"
+    },
+    {
+      "name": "AbbVie Inc.",
+      "ticker": "ABBV",
+      "relevance_justification": "High gross margins (81.1% in 2024) and focus on immunology/oncology. $56.3B revenue with strategic pipeline diversification post-Humira[11][12].",
+      "investor_relations_url": "https://www.alphaspread.com/security/nyse/abbv/investor-relations",
+      "recent_financial_report_url": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2024-financial"
+    },
+    {
+      "name": "GlaxoSmithKline PLC",
+      "ticker": "GSK",
+      "relevance_justification": "Diversified portfolio in vaccines and specialty medicines. Achieved 12% CER sales growth in 2023 (ex-COVID), emphasizing R&D for long-term growth[13][14].",
+      "investor_relations_url": "https://www.alphaspread.com/security/lse/gsk/investor-relations",
+      "recent_financial_report_url": "https://www.gsk.com/media/11007/annual-report-2023.pdf"
+    },
+    {
+      "name": "Sanofi",
+      "ticker": "SANOFI",
+      "relevance_justification": "Hybrid model of branded pharmaceuticals and generics. Focus on diabetes, cardiovascular, and vaccine segments aligns with AstraZeneca's therapeutic areas[7].",
+      "investor_relations_url": "https://www.alphaspread.com/security/nse/sanofi/investor-relations",
+      "recent_financial_report_url": "https://www.alphaspread.com/security/nse/sanofi/investor-relations"
+    },
+    {
+      "name": "Eli Lilly and Co.",
+      "ticker": "LLY",
+      "relevance_justification": "High-growth diabetes/oncology portfolio with $3.347B from Imbruvica. Emphasis on precision medicine and R&D-driven pipeline[8].",
+      "investor_relations_url": "https://www.alphaspread.com/security/nyse/lly/investor-relations",
+      "recent_financial_report_url": "https://www.alphaspread.com/security/nyse/lly/investor-relations"
+    }
+  ]
+}

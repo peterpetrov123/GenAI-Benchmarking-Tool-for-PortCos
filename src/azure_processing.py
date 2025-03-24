@@ -8,10 +8,10 @@ import time
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
+
 load_dotenv()
 
-# Azure Document Intelligence configuration - using the correct endpoint format
+# Azure Document Intelligence configuration 
 ENDPOINT = os.getenv("AZURE_DOC_INTELLIGENCE_ENDPOINT").rstrip('/')
 API_KEY = os.getenv("AZURE_DOC_INTELLIGENCE_API_KEY")
 
@@ -432,6 +432,485 @@ def save_raw_analysis(analysis_result, output_dir):
         json.dump(analysis_result, f, indent=4)
     print(f"Saved raw analysis to {filename}")
 
+def extract_key_financial_metrics(processed_statements, company_name, output_dir):
+    """
+    Extract key financial metrics from processed financial statements
+    and save them in a structured format required for competitor analysis.
+    Works with any company's financial data and automatically detects
+    currency and scale.
+    
+    Args:
+        processed_statements: Dictionary containing processed financial statements
+        company_name: Name of the company
+        output_dir: Directory to save the output file
+        
+    Returns:
+        Path to the saved metrics JSON file
+    """
+    import os
+    import json
+    import re
+    import pandas as pd
+    import numpy as np
+    from pathlib import Path
+    
+    print("Extracting key financial metrics for competitor analysis...")
+    
+    # Initialize metrics dictionary with default values
+    metrics = {
+        "company_name": company_name,
+        "industry": "N/A",
+        "business_model": "N/A",
+        "revenue": "N/A",
+        "growth_rate": "N/A",
+        "gross_margin": "N/A",
+        "ebitda_margin": "N/A",
+        "rd_percentage": "N/A",
+        "employee_count": "N/A",
+        "key_products_services": "N/A",
+        "financial_unit": "N/A"
+    }
+    
+    # Determine the currency and scale from the financial statements
+    currency = "EUR"  # Default for European market
+    scale = "millions"  # Default scale
+    
+    # Try to detect currency and scale from the statements
+    for statement_type in ["income_statement", "balance_sheet"]:
+        if statement_type in processed_statements and processed_statements[statement_type] is not None:
+            df = processed_statements[statement_type]
+            
+            # Look for currency and scale indicators in both column headers and data
+            all_text = ' '.join([str(x) for x in df.columns] + [str(x) for x in df.index])
+            all_text = all_text.lower()
+            
+            # Currency detection
+            if "$" in all_text or "usd" in all_text or "dollar" in all_text:
+                currency = "USD"
+            elif "€" in all_text or "eur" in all_text or "euro" in all_text:
+                currency = "EUR"
+            elif "£" in all_text or "gbp" in all_text or "pound" in all_text:
+                currency = "GBP"
+            
+            # Scale detection
+            if "million" in all_text or " m " in all_text or "m$" in all_text or "m€" in all_text or "m£" in all_text:
+                scale = "millions"
+            elif "billion" in all_text or " b " in all_text or "b$" in all_text or "b€" in all_text or "b£" in all_text:
+                scale = "billions"
+            elif "thousand" in all_text or " k " in all_text or "k$" in all_text or "k€" in all_text or "k£" in all_text:
+                scale = "thousands"
+    
+    # Set the detected unit
+    metrics["financial_unit"] = f"{currency} {scale}"
+    
+    # Helper function to safely convert a value to float
+    def safe_float(value):
+        if isinstance(value, (int, float)):
+            return float(value)
+        elif isinstance(value, str):
+            # Remove all non-numeric characters except decimals and negatives
+            clean_value = re.sub(r'[^0-9.-]', '', value)
+            try:
+                return float(clean_value)
+            except ValueError:
+                return None
+        return None
+    
+    # Helper function to find values in financial statements
+    def find_value(statement_type, search_terms, year_column=None, fallback_columns=None):
+        if statement_type not in processed_statements or processed_statements[statement_type] is None:
+            return None
+            
+        df = processed_statements[statement_type]
+        
+        # If no specific columns provided, use the first and second columns
+        if year_column is None:
+            if len(df.columns) > 0:
+                year_column = df.columns[0]
+            else:
+                return None
+        
+        if fallback_columns is None:
+            if len(df.columns) > 1:
+                fallback_columns = df.columns[1:]
+            else:
+                fallback_columns = []
+        
+        # Convert DataFrame index to string for easier searching
+        df.index = df.index.map(str)
+        
+        # Try each search term
+        for term in search_terms:
+            # Case-insensitive search in the index
+            matches = [idx for idx in df.index if term.lower() in str(idx).lower()]
+            if matches:
+                # Get the first matching row
+                row_idx = matches[0]
+                
+                # Try to get the value from the specified year column
+                if year_column in df.columns and pd.notna(df.loc[row_idx, year_column]):
+                    value = safe_float(df.loc[row_idx, year_column])
+                    if value is not None:
+                        return value
+                
+                # Try fallback columns if primary column doesn't have a value
+                for col in fallback_columns:
+                    if col in df.columns and pd.notna(df.loc[row_idx, col]):
+                        value = safe_float(df.loc[row_idx, col])
+                        if value is not None:
+                            return value
+        
+        return None
+    
+    # Determine the most recent year column and previous years for comparisons
+    year_columns = []
+    prev_year_columns = []
+    
+    if "income_statement" in processed_statements and processed_statements["income_statement"] is not None:
+        df = processed_statements["income_statement"]
+        # Find columns that look like years (2022, 2023, 2024, etc.)
+        year_pattern = re.compile(r'20\d\d')
+        year_cols = [col for col in df.columns if isinstance(col, str) and year_pattern.search(str(col))]
+        
+        if year_cols:
+            # Sort in descending order to get most recent years first
+            year_cols.sort(reverse=True)
+            if len(year_cols) > 0:
+                year_columns = [year_cols[0]]
+            if len(year_cols) > 1:
+                prev_year_columns = year_cols[1:]
+    
+    # If we didn't find year columns, use the first few columns
+    if not year_columns and "income_statement" in processed_statements and processed_statements["income_statement"] is not None:
+        cols = processed_statements["income_statement"].columns
+        if len(cols) > 0:
+            year_columns = [cols[0]]
+        if len(cols) > 1:
+            prev_year_columns = cols[1:3]  # Use next 2 columns as previous years
+    
+    # Function to examine raw values in the data to help identify matching rows
+    def print_financial_data(statement_type):
+        if statement_type in processed_statements and processed_statements[statement_type] is not None:
+            df = processed_statements[statement_type]
+            print(f"\nExamining {statement_type} for key data:")
+            # Print a selection of rows that might contain key metrics
+            for idx in df.index:
+                idx_str = str(idx).lower()
+                if any(term in idx_str for term in [
+                    'revenue', 'sales', 'turnover', 'income', 
+                    'gross', 'profit', 'ebitda', 'operating', 
+                    'research', 'r&d', 'development'
+                ]):
+                    row_data = df.loc[idx]
+                    print(f"  {idx}: {row_data.to_dict()}")
+    
+    # Print some debugging info to help diagnose issues
+    print_financial_data("income_statement")
+    
+    # Extract total revenue - try multiple approaches
+    revenue_value = None
+    
+    # Approach 1: Try common revenue terms
+    if year_columns:
+        revenue_value = find_value(
+            "income_statement", 
+            ["total revenue", "revenue", "net sales", "turnover", "total sales"],
+            year_column=year_columns[0],
+            fallback_columns=prev_year_columns
+        )
+    
+    # Approach 2: If not found, try to identify the revenue row by size
+    # (In income statements, revenue is typically the largest positive value)
+    if revenue_value is None and "income_statement" in processed_statements and processed_statements["income_statement"] is not None:
+        df = processed_statements["income_statement"]
+        if year_columns:
+            col = year_columns[0]
+            
+            # Convert all values to float where possible
+            values = []
+            for idx in df.index:
+                try:
+                    val = safe_float(df.loc[idx, col])
+                    if val is not None and val > 0:  # Only positive values
+                        values.append((idx, val))
+                except:
+                    pass
+            
+            # Sort by value (descending)
+            values.sort(key=lambda x: x[1], reverse=True)
+            
+            # Take the largest value that's not unreasonably large
+            if values:
+                top_rows = values[:3]  # Look at top 3 largest values
+                print(f"Largest positive values in {col}:")
+                for idx, val in top_rows:
+                    print(f"  {idx}: {val}")
+                
+                # Use the largest value that's in top rows and contains 'revenue' or similar terms
+                revenue_row = None
+                for idx, val in top_rows:
+                    idx_str = str(idx).lower()
+                    if any(term in idx_str for term in ['revenue', 'sales', 'turnover', 'income']):
+                        revenue_row = idx
+                        revenue_value = val
+                        print(f"Selected revenue row: {idx} with value {val}")
+                        break
+                
+                # If no obvious revenue row, use the largest value
+                if revenue_value is None and top_rows:
+                    revenue_row = top_rows[0][0]
+                    revenue_value = top_rows[0][1]
+                    print(f"Using largest value as revenue: {revenue_row} with value {revenue_value}")
+    
+    # Set the revenue if found
+    if revenue_value is not None:
+        metrics["revenue"] = str(int(revenue_value))  # Round to integer for cleaner output
+    
+    # Calculate revenue growth rate if we have multiple years of data and identified revenue
+    if revenue_value is not None and "income_statement" in processed_statements and year_columns and prev_year_columns:
+        df = processed_statements["income_statement"]
+        
+        # Try to find the revenue row
+        revenue_matches = [idx for idx in df.index if any(term in str(idx).lower() for term in 
+                          ["revenue", "total revenue", "net sales", "turnover", "total sales"])]
+        
+        # If we identified a revenue row and have columns for current and previous year
+        if revenue_matches:
+            revenue_row = revenue_matches[0]
+            current_year = year_columns[0]
+            prev_year = prev_year_columns[0]
+            
+            # Check if both columns exist
+            if current_year in df.columns and prev_year in df.columns:
+                try:
+                    current_revenue = safe_float(df.loc[revenue_row, current_year])
+                    prev_revenue = safe_float(df.loc[revenue_row, prev_year])
+                    
+                    if current_revenue and prev_revenue and prev_revenue > 0:
+                        growth_rate = ((current_revenue - prev_revenue) / prev_revenue) * 100
+                        # Cap at reasonable values
+                        growth_rate = max(min(growth_rate, 100), -100)
+                        metrics["growth_rate"] = f"{growth_rate:.1f}"
+                except Exception as e:
+                    print(f"Error calculating growth rate: {e}")
+    
+    # Extract gross profit and calculate margin
+    if revenue_value is not None and year_columns:
+        # First try to find gross profit directly
+        gross_profit_value = find_value(
+            "income_statement", 
+            ["gross profit", "gross margin", "gross income"],
+            year_column=year_columns[0],
+            fallback_columns=prev_year_columns
+        )
+        
+        # If found, calculate as a percentage of revenue
+        if gross_profit_value is not None:
+            try:
+                gross_margin = (gross_profit_value / revenue_value) * 100
+                # Ensure it's a realistic percentage (between 0 and 100)
+                if 0 <= gross_margin <= 100:
+                    metrics["gross_margin"] = f"{gross_margin:.1f}"
+                else:
+                    print(f"Unrealistic gross margin calculated: {gross_margin}%. Using revenue: {revenue_value}, gross profit: {gross_profit_value}")
+            except Exception as e:
+                print(f"Error calculating gross margin: {e}")
+    
+    # Extract EBITDA and calculate margin
+    if revenue_value is not None and year_columns:
+        # Try to find EBITDA or operating profit
+        ebitda_value = find_value(
+            "income_statement", 
+            ["ebitda", "earnings before interest", "operating profit", "operating income"],
+            year_column=year_columns[0],
+            fallback_columns=prev_year_columns
+        )
+        
+        # Calculate EBITDA margin if we found a value
+        if ebitda_value is not None:
+            try:
+                ebitda_margin = (ebitda_value / revenue_value) * 100
+                # Ensure it's a realistic percentage (between 0 and 100)
+                if 0 <= ebitda_margin <= 100:
+                    metrics["ebitda_margin"] = f"{ebitda_margin:.1f}"
+                else:
+                    print(f"Unrealistic EBITDA margin calculated: {ebitda_margin}%. Using revenue: {revenue_value}, EBITDA: {ebitda_value}")
+            except Exception as e:
+                print(f"Error calculating EBITDA margin: {e}")
+    
+    # Extract R&D expenses and calculate as percentage of revenue
+    if revenue_value is not None and year_columns:
+        rd_value = find_value(
+            "income_statement", 
+            ["research and development", "r&d", "research & development", "development costs"],
+            year_column=year_columns[0],
+            fallback_columns=prev_year_columns
+        )
+        
+        # Calculate R&D percentage if found
+        if rd_value is not None:
+            try:
+                # R&D is typically an expense (negative in some statements)
+                rd_value = abs(rd_value)  # Use absolute value to handle both formats
+                rd_percentage = (rd_value / revenue_value) * 100
+                # Ensure it's a realistic percentage (between 0 and 100)
+                if 0 <= rd_percentage <= 100:
+                    metrics["rd_percentage"] = f"{rd_percentage:.1f}"
+                else:
+                    print(f"Unrealistic R&D percentage calculated: {rd_percentage}%. Using revenue: {revenue_value}, R&D: {rd_value}")
+            except Exception as e:
+                print(f"Error calculating R&D percentage: {e}")
+    
+    # Check the company name directly for common industry indicators
+    company_name_lower = company_name.lower()
+    
+    # Direct company name checking for well-known industries
+    if any(term in company_name_lower for term in ["pharma", "drug", "bio", "life sciences", "therapeutics", "medicine"]):
+        metrics["industry"] = "Pharmaceutical"
+        print(f"Industry detected from company name: Pharmaceutical")
+    elif any(term in company_name_lower for term in ["bank", "invest", "capital", "financial", "asset", "fund"]):
+        metrics["industry"] = "Financial"
+        print(f"Industry detected from company name: Financial")
+    elif any(term in company_name_lower for term in ["tech", "soft", "micro", "byte", "data", "digital", "cyber"]):
+        metrics["industry"] = "Technology"
+        print(f"Industry detected from company name: Technology")
+    
+    # Stronger R&D weighting for industry classification
+    if metrics["rd_percentage"] != "N/A" and metrics["rd_percentage"]:
+        try:
+            rd_percentage = float(metrics["rd_percentage"])
+            if rd_percentage > 15:
+                # Companies with very high R&D are typically pharmaceutical or tech
+                print(f"High R&D percentage detected: {rd_percentage}%")
+                if rd_percentage > 20:
+                    print("Very high R&D suggests pharmaceutical industry")
+                    metrics["industry"] = "Pharmaceutical"
+        except:
+            pass
+                    
+    # If industry is still not determined, proceed with keyword detection
+    if metrics["industry"] == "N/A":
+        # Try to determine industry based on keywords in the financial statements
+        industry_keywords = {
+            "pharmaceutical": ["pharmaceutical", "medicine", "drug", "healthcare", "biotech", "pharma", 
+                              "medical", "clinical", "therapeutic", "prescription", "patient", "treatment"],
+            "technology": ["software", "hardware", "technology", "it services", "cloud", "computing", "tech", 
+                          "digital", "internet", "electronic"],
+            "financial": ["banking", "insurance", "investment", "financial services", "bank", "credit", 
+                         "asset management", "capital", "finance"],
+            "retail": ["retail", "consumer goods", "merchandise", "store", "shop", "e-commerce"],
+            "manufacturing": ["manufacturing", "industrial", "production", "factory", "assembly"],
+            "energy": ["energy", "oil", "gas", "utility", "power", "electricity", "renewable"],
+            "telecommunications": ["telecom", "communications", "network", "cellular", "mobile", "broadband"],
+            "automotive": ["automotive", "car", "vehicle", "motor", "transport"],
+            "healthcare": ["hospital", "clinic", "medical device", "healthcare services", "patient"],
+            "consumer goods": ["consumer products", "fmcg", "food", "beverage", "household"]
+        }
+        
+        # Combine all text from financial statements to analyze for industry keywords
+        all_statement_text = ""
+        for statement_type in processed_statements:
+            if processed_statements[statement_type] is not None:
+                all_statement_text += " ".join(map(str, processed_statements[statement_type].index)) + " "
+                # Also include column headers
+                all_statement_text += " ".join(map(str, processed_statements[statement_type].columns)) + " "
+        
+        all_statement_text = all_statement_text.lower()
+        
+        # Find the industry with the most keyword matches
+        industry_matches = {}
+        for industry, keywords in industry_keywords.items():
+            count = sum(all_statement_text.count(keyword) for keyword in keywords)
+            if count > 0:
+                industry_matches[industry] = count
+        
+        if industry_matches:
+            # Get the industry with the most matches
+            top_industry = max(industry_matches.items(), key=lambda x: x[1])[0]
+            metrics["industry"] = top_industry.capitalize()
+            print(f"Detected industry: {top_industry.capitalize()} with {industry_matches[top_industry]} keyword matches")
+    
+    # Try to infer business model from financial structure
+    if metrics["industry"] != "N/A":
+        industry = metrics["industry"].lower()
+        
+        # Set business model based on industry
+        if "pharmaceutical" in industry:
+            # Check if R&D percentage is available and high (typical for research-based pharma)
+            if metrics["rd_percentage"] != "N/A" and float(metrics["rd_percentage"]) > 10:
+                metrics["business_model"] = "Research-based pharmaceutical company"
+            else:
+                metrics["business_model"] = "Pharmaceutical company"
+                
+        elif "technology" in industry:
+            # Check for high gross margins (typical for software companies)
+            if metrics["gross_margin"] != "N/A" and float(metrics["gross_margin"]) > 50:
+                metrics["business_model"] = "Software/SaaS company"
+            else:
+                metrics["business_model"] = "Technology company"
+                
+        elif "financial" in industry:
+            metrics["business_model"] = "Financial services company"
+            
+        elif "retail" in industry:
+            # Low margins typical for retail
+            if metrics["gross_margin"] != "N/A" and float(metrics["gross_margin"]) < 40:
+                metrics["business_model"] = "Mass-market retail company"
+            else:
+                metrics["business_model"] = "Retail company"
+        else:
+            # Generic business model based on industry
+            metrics["business_model"] = f"{metrics['industry']} company"
+    
+    # If we couldn't determine the industry, provide a generic business model
+    if metrics["business_model"] == "N/A" and metrics["revenue"] != "N/A":
+        metrics["business_model"] = "Company"
+    
+    # Try to infer key products/services from industry
+    if metrics["industry"] != "N/A" and metrics["key_products_services"] == "N/A":
+        industry = metrics["industry"].lower()
+        
+        if "pharmaceutical" in industry:
+            metrics["key_products_services"] = "Pharmaceutical products and therapeutics"
+        elif "technology" in industry:
+            metrics["key_products_services"] = "Technology products and services"
+        elif "financial" in industry:
+            metrics["key_products_services"] = "Financial products and services"
+        elif "retail" in industry:
+            metrics["key_products_services"] = "Consumer goods and retail products"
+        elif "energy" in industry:
+            metrics["key_products_services"] = "Energy production and distribution"
+        elif "healthcare" in industry:
+            metrics["key_products_services"] = "Healthcare services and products"
+    
+    # Replace any N/A values with empty strings for metrics that should be numeric
+    for key in ["revenue", "growth_rate", "gross_margin", "ebitda_margin", "rd_percentage"]:
+        if metrics[key] == "N/A":
+            metrics[key] = ""
+    
+    # Format the metrics for the Perplexity API
+    formatted_metrics = {
+        "company_name": metrics["company_name"],
+        "industry": metrics["industry"],
+        "business_model": metrics["business_model"],
+        "revenue": metrics["revenue"],
+        "growth_rate": metrics["growth_rate"],
+        "gross_margin": metrics["gross_margin"],
+        "ebitda_margin": metrics["ebitda_margin"],
+        "rd_percentage": metrics["rd_percentage"],
+        "employee_count": metrics["employee_count"],
+        "key_products_services": metrics["key_products_services"],
+        "financial_unit": metrics["financial_unit"]
+    }
+    
+    # Save metrics to JSON file
+    metrics_file = os.path.join(output_dir, f"{company_name.lower().replace(' ', '_')}_financial_metrics.json")
+    with open(metrics_file, 'w') as f:
+        json.dump(formatted_metrics, f, indent=4)
+    
+    print(f"Saved key financial metrics to {metrics_file}")
+    return metrics_file
+
 def process_uploaded_financials(pdf_path):
     """
     Wrapper function to process a financial report PDF.
@@ -452,6 +931,7 @@ def process_uploaded_financials(pdf_path):
     analysis_result = analyze_document(pdf_path)
     
     metadata_file = None
+    metrics_file = None
     
     if analysis_result:
         # Save the raw analysis response
@@ -481,6 +961,21 @@ def process_uploaded_financials(pdf_path):
                 prefix=f"{company_name.lower().replace(' ', '_')}_"
             )
             
+            # NEW: Extract and save key financial metrics
+            metrics_file = extract_key_financial_metrics(
+                processed_statements,
+                company_name,
+                company_output_dir
+            )
+            
+            # Add the metrics file to the json_files list
+            if metrics_file:
+                json_files.append({
+                    "type": "financial_metrics",
+                    "format": "json",
+                    "filename": os.path.basename(metrics_file)
+                })
+            
             # Create metadata JSON
             metadata_file = create_metadata_json(
                 csv_files, 
@@ -496,8 +991,10 @@ def process_uploaded_financials(pdf_path):
     else:
         print("❌ Azure Document Intelligence failed to process the document.")
     
-    # Return the path to the metadata file
-    return metadata_file
+    # Return both the metadata file and metrics file
+    return metadata_file, metrics_file
+
+# And update the main function if you're using this script directly:
 if __name__ == "__main__":
     # Ensure the output directory exists
     ensure_directory_exists(OUTPUT_DIR)
@@ -527,11 +1024,27 @@ if __name__ == "__main__":
             # Save to JSON files
             json_files = save_financials_to_json(processed_statements, OUTPUT_DIR)
             
+            # NEW: Extract and save key financial metrics
+            metrics_file = extract_key_financial_metrics(
+                processed_statements,
+                "AstraZeneca",
+                OUTPUT_DIR
+            )
+            
+            # Add the metrics file to the json_files list
+            if metrics_file:
+                json_files.append({
+                    "type": "financial_metrics",
+                    "format": "json",
+                    "filename": os.path.basename(metrics_file)
+                })
+            
             # Create metadata JSON
             metadata_file = create_metadata_json(csv_files, json_files, OUTPUT_DIR)
             
             print(f"\n✅ Complete! Financial data has been extracted and saved to CSV and JSON files in: {OUTPUT_DIR}")
             print(f"📄 Metadata file with all information: {metadata_file}")
+            print(f"📊 Financial metrics for competitor analysis: {metrics_file}")
         else:
             print("❌ No tables found in the document analysis")
     else:
