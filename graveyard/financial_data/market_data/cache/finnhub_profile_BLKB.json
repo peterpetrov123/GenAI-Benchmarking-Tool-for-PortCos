@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Technology",
+    "ipo": "2004-07-22",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BLKB.png",
+    "marketCapitalization": 3147.689202,
+    "name": "Blackbaud Inc",
+    "phone": "18432166200",
+    "shareOutstanding": 49.24,
+    "ticker": "BLKB",
+    "weburl": "https://www.blackbaud.com/"
+}

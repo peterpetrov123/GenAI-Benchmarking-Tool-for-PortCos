@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Insurance",
+    "ipo": "2001-10-26",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PFG.png",
+    "marketCapitalization": 18977.31578,
+    "name": "Principal Financial Group Inc",
+    "phone": "15152475111",
+    "shareOutstanding": 225.57,
+    "ticker": "PFG",
+    "weburl": "https://www.principal.com/"
+}

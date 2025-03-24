@@ -1,0 +1,16 @@
+{
+    "symbol": "SAN.MC",
+    "name": "BANCO SANTANDER S.A.",
+    "industry": "Banks - Diversified",
+    "sector": "Financial Services",
+    "country": "Spain",
+    "region": "Europe",
+    "revenue": 50796998656,
+    "employees": 199958,
+    "market_cap": 96434962432,
+    "currency": "EUR",
+    "exchange": "MCE",
+    "website": "https://www.santander.com",
+    "data_source": "Yahoo Finance",
+    "last_updated": "2025-03-20 11:14:31"
+}

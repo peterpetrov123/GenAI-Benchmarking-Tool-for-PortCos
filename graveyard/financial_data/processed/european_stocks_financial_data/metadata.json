@@ -1,0 +1,8 @@
+{
+    "input_file": "c:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\processed\\investpy_european_stocks.csv",
+    "output_file": "c:\\Users\\peter\\Downloads\\FYP - AnM GenAI Benchmaking tool\\GenAI-Benchmarking-Tool-for-PortCos\\financial_data\\processed\\european_stocks_financial_data\\european_stocks_financial_data.csv",
+    "companies_processed": 67,
+    "total_companies_in_source": 6742,
+    "processing_date": "2025-03-21 11:59:49",
+    "yfinance_version": "0.2.54"
+}

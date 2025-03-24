@@ -1,0 +1,14 @@
+{
+    "symbol": "VOW3.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 54340000000.0,
+    "revenue": null,
+    "profit_margin": 3.5,
+    "operating_margin": 8.79,
+    "return_on_assets": 2.32,
+    "return_on_equity": 6.42,
+    "cash": 94.15,
+    "debt": null,
+    "current_ratio": 1.13
+}

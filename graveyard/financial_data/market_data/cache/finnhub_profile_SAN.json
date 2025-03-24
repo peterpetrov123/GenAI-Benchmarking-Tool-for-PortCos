@@ -1,0 +1,15 @@
+{
+    "country": "ES",
+    "currency": "EUR",
+    "estimateCurrency": "EUR",
+    "exchange": "BOLSA DE MADRID",
+    "finnhubIndustry": "Banking",
+    "ipo": "1990-01-22",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SAN.MC.png",
+    "marketCapitalization": 96793.938942,
+    "name": "Banco Santander SA",
+    "phone": "34912890000",
+    "shareOutstanding": 15152.49,
+    "ticker": "SAN.MC",
+    "weburl": "https://www.santander.com/"
+}

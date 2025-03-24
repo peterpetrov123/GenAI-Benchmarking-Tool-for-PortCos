@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Retail",
+    "ipo": "1998-09-23",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EBAY.png",
+    "marketCapitalization": 30914.438292999996,
+    "name": "eBay Inc",
+    "phone": "14083767400",
+    "shareOutstanding": 466,
+    "ticker": "EBAY",
+    "weburl": "https://www.ebayinc.com/"
+}

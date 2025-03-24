@@ -1,0 +1,13 @@
+{
+    "symbol": "ITX.MC",
+    "data_source": "Yahoo Finance",
+    "market_cap": 144420000000.0,
+    "revenue": null,
+    "profit_margin": 15.18,
+    "operating_margin": 16.41,
+    "return_on_assets": 14.07,
+    "return_on_equity": 30.65,
+    "cash": 3.69,
+    "debt": null,
+    "current_ratio": 1.61
+}

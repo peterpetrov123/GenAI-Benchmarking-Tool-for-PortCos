@@ -1,0 +1,15 @@
+{
+    "country": "GB",
+    "currency": "EUR",
+    "estimateCurrency": "EUR",
+    "exchange": "LONDON STOCK EXCHANGE",
+    "finnhubIndustry": "Telecommunication",
+    "ipo": "1988-10-26",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/VOD.L.png",
+    "marketCapitalization": 18602.152424,
+    "name": "Vodafone Group PLC",
+    "phone": "44163533251",
+    "shareOutstanding": 25005.44,
+    "ticker": "VOD.L",
+    "weburl": "https://www.vodafone.com/"
+}

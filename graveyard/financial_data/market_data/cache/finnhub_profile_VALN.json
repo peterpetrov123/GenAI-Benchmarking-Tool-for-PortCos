@@ -1,0 +1,15 @@
+{
+    "country": "FR",
+    "currency": "EUR",
+    "estimateCurrency": "EUR",
+    "exchange": "NYSE EURONEXT - EURONEXT PARIS",
+    "finnhubIndustry": "Biotechnology",
+    "ipo": "2007-06-28",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/VLA.PA.png",
+    "marketCapitalization": 547.60336,
+    "name": "Valneva SE",
+    "phone": "33228073710",
+    "shareOutstanding": 162.52,
+    "ticker": "VLA.PA",
+    "weburl": "https://valneva.com/"
+}

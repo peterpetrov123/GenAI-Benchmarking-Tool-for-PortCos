@@ -1,0 +1,17 @@
+{
+    "info": {
+        "quoteType": "NONE",
+        "symbol": "TFFP",
+        "language": "en-US",
+        "region": "US",
+        "triggerable": false,
+        "customPriceAlertConfidence": "NONE",
+        "messageBoardId": "finmb_557389546",
+        "esgPopulated": false,
+        "corporateActions": [],
+        "hasPrePostMarketData": false,
+        "tradeable": false,
+        "cryptoTradeable": false,
+        "trailingPegRatio": null
+    },
+    "income_stmt": 

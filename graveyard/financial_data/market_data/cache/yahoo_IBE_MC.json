@@ -1,0 +1,14 @@
+{
+    "symbol": "IBE.MC",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 88080000000.0,
+    "revenue": null,
+    "profit_margin": 12.54,
+    "operating_margin": 5.66,
+    "return_on_assets": 4.53,
+    "return_on_equity": 9.84,
+    "cash": 0.75,
+    "debt": null,
+    "current_ratio": 0.69
+}

@@ -1,0 +1,14 @@
+{
+    "symbol": "MC.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 304720000000.0,
+    "revenue": null,
+    "profit_margin": 14.82,
+    "operating_margin": 20.74,
+    "return_on_assets": 8.36,
+    "return_on_equity": 19.64,
+    "cash": 27.25,
+    "debt": null,
+    "current_ratio": 1.41
+}

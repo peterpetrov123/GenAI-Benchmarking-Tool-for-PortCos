@@ -1,0 +1,13 @@
+{
+    "symbol": "AD.AS",
+    "data_source": "Yahoo Finance",
+    "market_cap": 31020000000.0,
+    "revenue": null,
+    "profit_margin": 1.97,
+    "operating_margin": 4.07,
+    "return_on_assets": 4.27,
+    "return_on_equity": 11.68,
+    "cash": 6.75,
+    "debt": null,
+    "current_ratio": 0.83
+}

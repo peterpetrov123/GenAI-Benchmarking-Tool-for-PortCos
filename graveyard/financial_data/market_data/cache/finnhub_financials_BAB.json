@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.145,
+        "13WeekPriceReturnDaily": -0.0373,
+        "26WeekPriceReturnDaily": -4.1473,
+        "3MonthADReturnStd": 6.9985857,
+        "3MonthAverageTradingVolume": 0.20274,
+        "52WeekHigh": 28.1199,
+        "52WeekHighDate": "2024-09-11",
+        "52WeekLow": 25.6099,
+        "52WeekLowDate": "2024-04-25",
+        "52WeekPriceReturnDaily": 2.0167,
+        "5DayPriceReturnDaily": 0,
+        "beta": 0.31149828,
+        "monthToDatePriceReturnDaily": -0.4456,
+        "priceRelativeToS&P50013Week": 6.1183,
+        "priceRelativeToS&P50026Week": -6.4398,
+        "priceRelativeToS&P5004Week": 8.6003,
+        "priceRelativeToS&P50052Week": -8.5651,
+        "priceRelativeToS&P500Ytd": 5.7572,
+        "yearToDatePriceReturnDaily": 2.5239
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "BAB"
+}

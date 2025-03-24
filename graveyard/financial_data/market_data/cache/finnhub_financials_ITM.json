@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.03873,
+        "13WeekPriceReturnDaily": -1.2072,
+        "26WeekPriceReturnDaily": -2.0266,
+        "3MonthADReturnStd": 4.1527696,
+        "3MonthAverageTradingVolume": 0.04456,
+        "52WeekHigh": 47.01,
+        "52WeekHighDate": "2024-10-01",
+        "52WeekLow": 45.3,
+        "52WeekLowDate": "2024-05-29",
+        "52WeekPriceReturnDaily": -1.5044,
+        "5DayPriceReturnDaily": -0.0109,
+        "beta": 0.2839813,
+        "monthToDatePriceReturnDaily": -1.7893,
+        "priceRelativeToS&P50013Week": 4.9484,
+        "priceRelativeToS&P50026Week": -4.3191,
+        "priceRelativeToS&P5004Week": 6.1027,
+        "priceRelativeToS&P50052Week": -12.0862,
+        "priceRelativeToS&P500Ytd": 2.6476,
+        "yearToDatePriceReturnDaily": -0.5857
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "ITM"
+}

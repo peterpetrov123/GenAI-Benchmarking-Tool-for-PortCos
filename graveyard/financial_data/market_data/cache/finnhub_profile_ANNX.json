@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Biotechnology",
+    "ipo": "2020-07-24",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950387919486.png",
+    "marketCapitalization": 273.177481,
+    "name": "Annexon Inc",
+    "phone": "16508225500",
+    "shareOutstanding": 109.71,
+    "ticker": "ANNX",
+    "weburl": "https://annexonbio.com/"
+}

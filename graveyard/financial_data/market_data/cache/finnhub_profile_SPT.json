@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Technology",
+    "ipo": "2019-12-13",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SPT.png",
+    "marketCapitalization": 1450.175992,
+    "name": "Sprout Social Inc",
+    "phone": "13124504423",
+    "shareOutstanding": 57.76,
+    "ticker": "SPT",
+    "weburl": "https://sproutsocial.com/"
+}

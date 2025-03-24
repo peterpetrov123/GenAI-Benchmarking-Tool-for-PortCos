@@ -1,0 +1,24 @@
+2025-03-21 12:28:21,834 - INFO - Starting data collection process
+2025-03-21 12:28:21,834 - INFO - Found 19 European exchanges
+2025-03-21 12:28:22,172 - INFO - Found 0 stocks on LSE
+2025-03-21 12:28:24,138 - INFO - Found 0 stocks on XETRA
+2025-03-21 12:28:25,459 - INFO - Found 0 stocks on PAR
+2025-03-21 12:28:26,789 - INFO - Found 0 stocks on AMS
+2025-03-21 12:28:28,119 - INFO - Found 0 stocks on BATS
+2025-03-21 12:28:29,445 - INFO - Found 0 stocks on BRU
+2025-03-21 12:28:30,767 - INFO - Found 0 stocks on LIS
+2025-03-21 12:28:32,555 - INFO - Found 0 stocks on MC
+2025-03-21 12:28:33,885 - INFO - Found 0 stocks on OM
+2025-03-21 12:28:35,208 - INFO - Found 0 stocks on HEX
+2025-03-21 12:28:36,524 - INFO - Found 0 stocks on OSL
+2025-03-21 12:28:37,852 - INFO - Found 0 stocks on SWX
+2025-03-21 12:28:39,180 - INFO - Found 0 stocks on WSE
+2025-03-21 12:28:40,497 - INFO - Found 0 stocks on VIE
+2025-03-21 12:28:41,822 - INFO - Found 0 stocks on BUD
+2025-03-21 12:28:43,145 - INFO - Found 0 stocks on IST
+2025-03-21 12:28:44,468 - INFO - Found 0 stocks on AT
+2025-03-21 12:28:45,788 - INFO - Found 0 stocks on CPH
+2025-03-21 12:28:47,115 - INFO - Found 0 stocks on MOEX
+2025-03-21 12:28:48,121 - INFO - Selected 0 European companies for analysis
+2025-03-21 12:28:48,127 - INFO - Successfully collected data for 0 companies
+2025-03-21 12:28:48,127 - INFO - Data saved to financial_data/Financial Modeling Prep API\european_stocks_financial_data.csv

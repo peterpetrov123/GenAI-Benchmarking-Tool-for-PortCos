@@ -1,0 +1,1488 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": null,
+        "13WeekPriceReturnDaily": -39.09091,
+        "26WeekPriceReturnDaily": 86.4564,
+        "3MonthAverageTradingVolume": 0.09986,
+        "52WeekHigh": 0.45,
+        "52WeekHighDate": "2022-06-10",
+        "52WeekLow": 0.05,
+        "52WeekLowDate": "2021-09-01",
+        "52WeekPriceReturnDaily": 5.78947,
+        "5DayPriceReturnDaily": null,
+        "assetTurnoverAnnual": null,
+        "assetTurnoverTTM": null,
+        "beta": -0.94316,
+        "bookValuePerShareAnnual": -0.0009,
+        "bookValuePerShareQuarterly": 0.38235,
+        "bookValueShareGrowth5Y": null,
+        "cashFlowPerShareAnnual": null,
+        "cashFlowPerShareTTM": null,
+        "cashPerSharePerShareAnnual": 0.00064,
+        "cashPerSharePerShareQuarterly": 0.27803,
+        "currentDividendYieldTTM": null,
+        "currentEv/freeCashFlowAnnual": null,
+        "currentEv/freeCashFlowTTM": null,
+        "currentRatioAnnual": 0.60703,
+        "currentRatioQuarterly": 245.3556,
+        "dividendGrowthRate5Y": null,
+        "dividendPerShareAnnual": null,
+        "dividendYieldIndicatedAnnual": null,
+        "ebitdPerShareTTM": -0.10181,
+        "ebitdaCagr5Y": null,
+        "ebitdaInterimCagr5Y": null,
+        "epsBasicExclExtraItemsAnnual": -0.00851,
+        "epsBasicExclExtraItemsTTM": -0.10179,
+        "epsExclExtraItemsAnnual": -0.00851,
+        "epsExclExtraItemsTTM": -0.10179,
+        "epsGrowth3Y": null,
+        "epsGrowth5Y": null,
+        "epsGrowthQuarterlyYoy": -4126.991,
+        "epsGrowthTTMYoy": -1275.541,
+        "epsInclExtraItemsAnnual": -0.00851,
+        "epsInclExtraItemsTTM": -0.10179,
+        "epsNormalizedAnnual": -0.00851,
+        "focfCagr5Y": null,
+        "grossMargin5Y": null,
+        "grossMarginAnnual": null,
+        "grossMarginTTM": null,
+        "inventoryTurnoverAnnual": null,
+        "inventoryTurnoverTTM": null,
+        "longTermDebt/equityAnnual": null,
+        "longTermDebt/equityQuarterly": null,
+        "marketCapitalization": 4.12773,
+        "monthToDatePriceReturnDaily": null,
+        "netIncomeEmployeeAnnual": null,
+        "netIncomeEmployeeTTM": null,
+        "netInterestCoverageAnnual": null,
+        "netInterestCoverageTTM": null,
+        "netMarginGrowth5Y": null,
+        "netProfitMargin5Y": null,
+        "netProfitMarginAnnual": null,
+        "netProfitMarginTTM": null,
+        "operatingMargin5Y": null,
+        "operatingMarginAnnual": null,
+        "operatingMarginTTM": null,
+        "payoutRatioAnnual": null,
+        "payoutRatioTTM": null,
+        "pbAnnual": null,
+        "pbQuarterly": 0.52603,
+        "pcfShareTTM": null,
+        "peBasicExclExtraTTM": null,
+        "peExclExtraAnnual": null,
+        "peExclExtraTTM": null,
+        "peInclExtraTTM": null,
+        "peNormalizedAnnual": null,
+        "pfcfShareAnnual": null,
+        "pfcfShareTTM": null,
+        "pretaxMargin5Y": null,
+        "pretaxMarginAnnual": null,
+        "pretaxMarginTTM": null,
+        "priceRelativeToS&P50013Week": -29.89217,
+        "priceRelativeToS&P50026Week": 17.22306,
+        "priceRelativeToS&P5004Week": -55.31638,
+        "priceRelativeToS&P500Ytd": 127.90412,
+        "psAnnual": null,
+        "psTTM": null,
+        "ptbvAnnual": null,
+        "ptbvQuarterly": 0.6795,
+        "quickRatioAnnual": null,
+        "receivablesTurnoverAnnual": null,
+        "receivablesTurnoverTTM": null,
+        "revenueEmployeeAnnual": null,
+        "revenueEmployeeTTM": null,
+        "revenueGrowth3Y": null,
+        "revenueGrowth5Y": null,
+        "revenueGrowthQuarterlyYoy": null,
+        "revenueGrowthTTMYoy": null,
+        "revenuePerShareAnnual": null,
+        "revenuePerShareTTM": null,
+        "revenueShareGrowth5Y": null,
+        "roaRfy": -196.727,
+        "roeRfy": -462.3579,
+        "roeTTM": -52.085,
+        "roi5Y": null,
+        "roiAnnual": -351.5779,
+        "roiTTM": -52.55733,
+        "tangibleBookValuePerShareAnnual": -0.0009,
+        "tangibleBookValuePerShareQuarterly": 0.29581,
+        "tbvCagr5Y": null,
+        "totalDebt/totalEquityAnnual": null,
+        "totalDebt/totalEquityQuarterly": null,
+        "yearToDatePriceReturnDaily": 86.4564
+    },
+    "metricType": "all",
+    "series": {
+        "annual": {
+            "cashRatio": [
+                {
+                    "period": "2020-12-31",
+                    "v": 3.9720167256352528
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 0.2173452337286547
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0.022747185453860286
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0.010344645031499814
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0.06519521525289938
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0.015546546401364724
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0.008892448092628277
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.02803738317757009
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0.05952380952380953
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": 0.06896551724137932
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2020-12-31",
+                    "v": 3.9846
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 0.3022
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0.0409
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0.0307
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0.0886
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0.0328
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0.0089
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.028
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0.0595
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": 0.069
+                }
+            ],
+            "longtermDebtTotalAsset": [],
+            "longtermDebtTotalCapital": [],
+            "longtermDebtTotalEquity": [],
+            "netDebtToTotalCapital": [
+                {
+                    "period": "2020-12-31",
+                    "v": -1.1849
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": -0.0188
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": -0.007
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": -0.0346
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": -0.007
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": -0.0031
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": -0.0056
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": -0.0151
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": -0.0115
+                }
+            ],
+            "netDebtToTotalEquity": [
+                {
+                    "period": "2020-12-31",
+                    "v": -1.1849
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": -0.0188
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": -0.007
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": -0.0346
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": -0.007
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": -0.0031
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": -0.0056
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": -0.0151
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": -0.0115
+                }
+            ],
+            "totalDebtToEquity": [
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.0028
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": 0
+                }
+            ],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.0022
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": 0
+                }
+            ],
+            "totalDebtToTotalCapital": [
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.0028
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": 0
+                }
+            ],
+            "totalRatio": [
+                {
+                    "period": "2020-12-31",
+                    "v": 3.3196
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 0.3564
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 2.2112
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 2.4699
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 2.8861
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 3.2148
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 3.8522
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 4.3364
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 4.9405
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": 6.9828
+                }
+            ]
+        },
+        "quarterly": {
+            "cashRatio": [
+                {
+                    "period": "2021-09-30",
+                    "v": 1.120252277505256
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 2.7919039869812856
+                },
+                {
+                    "period": "2021-03-31",
+                    "v": 2.7733615221987313
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 3.9720167256352528
+                },
+                {
+                    "period": "2020-09-30",
+                    "v": 3.266147859922179
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 4.60573476702509
+                },
+                {
+                    "period": "2020-03-31",
+                    "v": 3.3559194428759644
+                },
+                {
+                    "period": "2015-03-31",
+                    "v": 0.013469247508876417
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0.022747185453860286
+                },
+                {
+                    "period": "2014-09-30",
+                    "v": 0.0178636264614044
+                },
+                {
+                    "period": "2014-06-30",
+                    "v": 0.016390744988530968
+                },
+                {
+                    "period": "2014-03-31",
+                    "v": 0.030119923825209737
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0.010582010582010583
+                },
+                {
+                    "period": "2013-09-30",
+                    "v": 0.016483516483516484
+                },
+                {
+                    "period": "2013-06-30",
+                    "v": 0.022727272727272728
+                },
+                {
+                    "period": "2013-03-31",
+                    "v": 0.03529411764705882
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0.06666666666666667
+                },
+                {
+                    "period": "2012-09-30",
+                    "v": 0.10062893081761005
+                },
+                {
+                    "period": "2012-06-30",
+                    "v": 0.1437908496732026
+                },
+                {
+                    "period": "2012-03-31",
+                    "v": 0.02666666666666667
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0.013793103448275864
+                },
+                {
+                    "period": "2011-09-30",
+                    "v": 0.014492753623188408
+                },
+                {
+                    "period": "2011-06-30",
+                    "v": 0.022727272727272724
+                },
+                {
+                    "period": "2011-03-31",
+                    "v": 0.007874015748031496
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0.008333333333333333
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0.01769911504424779
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0.009259259259259259
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0.008695652173913044
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.02803738317757009
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0.019801980198019802
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0.031578947368421054
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0.033707865168539325
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2021-09-30",
+                    "v": 1.1637
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 2.7996
+                },
+                {
+                    "period": "2021-03-31",
+                    "v": 2.7814
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 3.9846
+                },
+                {
+                    "period": "2020-09-30",
+                    "v": 3.2763
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 4.6181
+                },
+                {
+                    "period": "2020-03-31",
+                    "v": 3.4854
+                },
+                {
+                    "period": "2015-03-31",
+                    "v": 0.0311
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0.0409
+                },
+                {
+                    "period": "2014-09-30",
+                    "v": 0.0365
+                },
+                {
+                    "period": "2014-06-30",
+                    "v": 0.0356
+                },
+                {
+                    "period": "2014-03-31",
+                    "v": 0.0499
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0.0317
+                },
+                {
+                    "period": "2013-09-30",
+                    "v": 0.033
+                },
+                {
+                    "period": "2013-06-30",
+                    "v": 0.0455
+                },
+                {
+                    "period": "2013-03-31",
+                    "v": 0.0588
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0.0909
+                },
+                {
+                    "period": "2012-09-30",
+                    "v": 0.1258
+                },
+                {
+                    "period": "2012-06-30",
+                    "v": 0.1569
+                },
+                {
+                    "period": "2012-03-31",
+                    "v": 0.0467
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0.0345
+                },
+                {
+                    "period": "2011-09-30",
+                    "v": 0.0145
+                },
+                {
+                    "period": "2011-06-30",
+                    "v": 0.0227
+                },
+                {
+                    "period": "2011-03-31",
+                    "v": 0.0079
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0.0083
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0.0177
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0.0093
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0.0087
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.028
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0.0198
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0.0316
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0.0337
+                }
+            ],
+            "longtermDebtTotalAsset": [],
+            "longtermDebtTotalCapital": [],
+            "longtermDebtTotalEquity": [],
+            "netDebtToTotalCapital": [
+                {
+                    "period": "2021-09-30",
+                    "v": -6.8433
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": -1.3626
+                },
+                {
+                    "period": "2021-03-31",
+                    "v": -1.365
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": -1.1849
+                },
+                {
+                    "period": "2020-09-30",
+                    "v": -1.2744
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": -1.1901
+                },
+                {
+                    "period": "2020-03-31",
+                    "v": -1.2524
+                },
+                {
+                    "period": "2015-03-31",
+                    "v": -0.0118
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": -0.0188
+                },
+                {
+                    "period": "2014-09-30",
+                    "v": -0.0141
+                },
+                {
+                    "period": "2014-06-30",
+                    "v": -0.0123
+                },
+                {
+                    "period": "2014-03-31",
+                    "v": -0.0212
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": -0.0072
+                },
+                {
+                    "period": "2013-09-30",
+                    "v": -0.0105
+                },
+                {
+                    "period": "2013-06-30",
+                    "v": -0.0137
+                },
+                {
+                    "period": "2013-03-31",
+                    "v": -0.02
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": -0.0354
+                },
+                {
+                    "period": "2012-09-30",
+                    "v": -0.0498
+                },
+                {
+                    "period": "2012-06-30",
+                    "v": -0.0663
+                },
+                {
+                    "period": "2012-03-31",
+                    "v": -0.0126
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": -0.0062
+                },
+                {
+                    "period": "2011-09-30",
+                    "v": -0.0062
+                },
+                {
+                    "period": "2011-06-30",
+                    "v": -0.009
+                },
+                {
+                    "period": "2011-03-31",
+                    "v": -0.003
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": -0.0029
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": -0.0057
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": -0.0056
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": -0.0055
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": -0.0094
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": -0.0092
+                }
+            ],
+            "netDebtToTotalEquity": [
+                {
+                    "period": "2021-09-30",
+                    "v": -6.8433
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": -1.3626
+                },
+                {
+                    "period": "2021-03-31",
+                    "v": -1.365
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": -1.1849
+                },
+                {
+                    "period": "2020-09-30",
+                    "v": -1.2744
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": -1.1901
+                },
+                {
+                    "period": "2020-03-31",
+                    "v": -1.2524
+                },
+                {
+                    "period": "2015-03-31",
+                    "v": -0.0118
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": -0.0188
+                },
+                {
+                    "period": "2014-09-30",
+                    "v": -0.0141
+                },
+                {
+                    "period": "2014-06-30",
+                    "v": -0.0123
+                },
+                {
+                    "period": "2014-03-31",
+                    "v": -0.0212
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": -0.0072
+                },
+                {
+                    "period": "2013-09-30",
+                    "v": -0.0105
+                },
+                {
+                    "period": "2013-06-30",
+                    "v": -0.0137
+                },
+                {
+                    "period": "2013-03-31",
+                    "v": -0.02
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": -0.0354
+                },
+                {
+                    "period": "2012-09-30",
+                    "v": -0.0498
+                },
+                {
+                    "period": "2012-06-30",
+                    "v": -0.0663
+                },
+                {
+                    "period": "2012-03-31",
+                    "v": -0.0126
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": -0.0062
+                },
+                {
+                    "period": "2011-09-30",
+                    "v": -0.0062
+                },
+                {
+                    "period": "2011-06-30",
+                    "v": -0.009
+                },
+                {
+                    "period": "2011-03-31",
+                    "v": -0.003
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": -0.0029
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": -0.0057
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": -0.0056
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": -0.0055
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": -0.0094
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": -0.0092
+                }
+            ],
+            "totalDebtToEquity": [
+                {
+                    "period": "2021-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2021-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2020-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2020-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2015-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2014-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2014-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2014-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2013-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2013-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2013-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2012-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2012-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2012-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2011-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2011-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2011-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0.0028
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0.0029
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.0028
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                }
+            ],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2021-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2021-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2020-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2020-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2015-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2014-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2014-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2014-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2013-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2013-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2013-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2012-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2012-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2012-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2011-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2011-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2011-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0.0022
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0.0022
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.0022
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                }
+            ],
+            "totalDebtToTotalCapital": [
+                {
+                    "period": "2021-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2021-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2020-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2020-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2015-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2014-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2014-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2014-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2013-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2013-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2013-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2012-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2012-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2012-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2011-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2011-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2011-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0.0028
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0.0029
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0.0028
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                }
+            ],
+            "totalRatio": [
+                {
+                    "period": "2021-09-30",
+                    "v": 1.1637
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 2.7898
+                },
+                {
+                    "period": "2021-03-31",
+                    "v": 2.6618
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 3.3196
+                },
+                {
+                    "period": "2020-09-30",
+                    "v": 2.779
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 3.2134
+                },
+                {
+                    "period": "2020-03-31",
+                    "v": 2.8708
+                },
+                {
+                    "period": "2015-03-31",
+                    "v": 2.1419
+                },
+                {
+                    "period": "2014-12-31",
+                    "v": 2.2112
+                },
+                {
+                    "period": "2014-09-30",
+                    "v": 2.2669
+                },
+                {
+                    "period": "2014-06-30",
+                    "v": 2.333
+                },
+                {
+                    "period": "2014-03-31",
+                    "v": 2.4213
+                },
+                {
+                    "period": "2013-12-31",
+                    "v": 2.4709
+                },
+                {
+                    "period": "2013-09-30",
+                    "v": 2.5659
+                },
+                {
+                    "period": "2013-06-30",
+                    "v": 2.6648
+                },
+                {
+                    "period": "2013-03-31",
+                    "v": 2.7706
+                },
+                {
+                    "period": "2012-12-31",
+                    "v": 2.8788
+                },
+                {
+                    "period": "2012-09-30",
+                    "v": 3.0189
+                },
+                {
+                    "period": "2012-06-30",
+                    "v": 3.1699
+                },
+                {
+                    "period": "2012-03-31",
+                    "v": 3.12
+                },
+                {
+                    "period": "2011-12-31",
+                    "v": 3.2069
+                },
+                {
+                    "period": "2011-09-30",
+                    "v": 3.3478
+                },
+                {
+                    "period": "2011-06-30",
+                    "v": 3.5152
+                },
+                {
+                    "period": "2011-03-31",
+                    "v": 3.6378
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 3.85
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 4.0973
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 4.2778
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 4.0174
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 4.3364
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 4.5743
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 4.3579
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 4.6517
+                }
+            ]
+        }
+    },
+    "symbol": "SIGN"
+}

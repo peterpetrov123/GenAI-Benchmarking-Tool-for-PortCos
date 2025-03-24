@@ -1,0 +1,14 @@
+{
+    "symbol": "ADS.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 40410000000.0,
+    "revenue": null,
+    "profit_margin": 3.23,
+    "operating_margin": 0.72,
+    "return_on_assets": 4.28,
+    "return_on_equity": 15.27,
+    "cash": 14.17,
+    "debt": null,
+    "current_ratio": 1.24
+}

@@ -1,0 +1,14 @@
+{
+    "symbol": "HEN3.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 29730000000.0,
+    "revenue": null,
+    "profit_margin": 9.3,
+    "operating_margin": 13.37,
+    "return_on_assets": 5.63,
+    "return_on_equity": 9.72,
+    "cash": 8.27,
+    "debt": null,
+    "current_ratio": 1.21
+}

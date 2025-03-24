@@ -1,0 +1,14 @@
+{
+    "symbol": "SAF.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 107180000000.0,
+    "revenue": null,
+    "profit_margin": -2.41,
+    "operating_margin": 14.79,
+    "return_on_assets": 4.78,
+    "return_on_equity": -5.04,
+    "cash": 15.64,
+    "debt": null,
+    "current_ratio": 0.84
+}

@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Pharmaceuticals",
+    "ipo": "1944-01-17",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PFE.png",
+    "marketCapitalization": 148535.411525,
+    "name": "Pfizer Inc",
+    "phone": "12127332323",
+    "shareOutstanding": 5671.45,
+    "ticker": "PFE",
+    "weburl": "https://www.pfizer.com/"
+}

@@ -1,0 +1,14 @@
+{
+    "symbol": "CA.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 8529999999.999999,
+    "revenue": null,
+    "profit_margin": 0.83,
+    "operating_margin": 2.52,
+    "return_on_assets": 2.42,
+    "return_on_equity": 6.1,
+    "cash": 10.44,
+    "debt": null,
+    "current_ratio": 0.88
+}

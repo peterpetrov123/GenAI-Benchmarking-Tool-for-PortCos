@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "1996-07-01",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959058806.png",
+    "marketCapitalization": 588.413474,
+    "name": "Cass Information Systems Inc",
+    "phone": "13145065500",
+    "shareOutstanding": 13.46,
+    "ticker": "CASS",
+    "weburl": "https://www.cassinfo.com/"
+}

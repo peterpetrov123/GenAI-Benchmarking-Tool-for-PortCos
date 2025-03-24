@@ -1,0 +1,15 @@
+{
+    "country": "NL",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NYSE EURONEXT - EURONEXT PARIS",
+    "finnhubIndustry": "Semiconductors",
+    "ipo": "2000-07-18",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/STM.PA.png",
+    "marketCapitalization": 20298.298468,
+    "name": "STMicroelectronics NV",
+    "phone": "31206543210",
+    "shareOutstanding": 911.28,
+    "ticker": "STMPA.PA",
+    "weburl": "https://www.st.com/"
+}

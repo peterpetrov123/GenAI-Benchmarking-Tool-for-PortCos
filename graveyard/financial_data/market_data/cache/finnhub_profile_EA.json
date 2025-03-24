@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Media",
+    "ipo": "1989-01-09",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EA.png",
+    "marketCapitalization": 37333.46875,
+    "name": "Electronic Arts Inc",
+    "phone": "16506281500",
+    "shareOutstanding": 260.62,
+    "ticker": "EA",
+    "weburl": "https://www.ea.com/"
+}

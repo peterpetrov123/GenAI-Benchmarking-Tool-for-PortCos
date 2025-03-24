@@ -1,0 +1,1841 @@
+symbol,name,sector,industry,country,region,market_cap,revenue,employees,profit_margin,operating_margin,trailing_pe,data_source
+AZN,Astrazeneca PLC,Healthcare,Drug Manufacturers - General,United Kingdom,Europe,237457620992.0,54072999936.0,94300.0,0.1301,0.22718,34.00889,"investpy, Yahoo Finance"
+AZN,Astrazeneca PLC,Healthcare,Drug Manufacturers - General,United Kingdom,Europe,237457620992.0,54072999936.0,94300.0,0.1301,0.22718,34.00889,"investpy, Yahoo Finance"
+INTC,Intel Corporation,Technology,Semiconductors,Belgium,Europe,103746789376.0,53100998656.0,108900.0,-0.35321,-0.18548,,"investpy, Yahoo Finance"
+PH,Parker-Hannifin Corporation,Industrials,Specialty Industrial Machinery,Germany,Europe,80442064896.0,19907747840.0,61120.0,0.15866,0.20608,25.772276,"investpy, Yahoo Finance"
+CRH,CRH PLC,Basic Materials,Building Materials,Ireland,Europe,66120249344.0,35571998720.0,79800.0,0.098170005,0.13878,19.440239,"investpy, Yahoo Finance"
+CRH,CRH PLC,Basic Materials,Building Materials,Ireland,Europe,66120249344.0,35571998720.0,79800.0,0.098170005,0.13878,19.440239,"investpy, Yahoo Finance"
+TRV,"The Travelers Companies, Inc.",Financial Services,Insurance - Property & Casualty,Austria,Europe,58844729344.0,46422999040.0,34000.0,0.10767999,0.22418,12.09413,"investpy, Yahoo Finance"
+GIS,"General Mills, Inc.",Consumer Defensive,Packaged Foods,Switzerland,Europe,31930615808.0,19644299264.0,34000.0,0.13024999,0.16707,12.815384,"investpy, Yahoo Finance"
+EBAY,eBay Inc.,Consumer Cyclical,Internet Retail,Austria,Europe,30914439168.0,10282999808.0,11500.0,0.19206,0.18573,16.794935,"investpy, Yahoo Finance"
+SW,Smurfit WestRock plc,Consumer Cyclical,Packaging & Containers,Ireland,Europe,23859521536.0,21109000192.0,100000.0,0.01511,0.029979998,55.7439,"investpy, Yahoo Finance"
+LNT,Alliant Energy Corporation,Utilities,Utilities - Regulated Electric,Germany,Europe,16312776704.0,3980999936.0,2998.0,0.17332001,-0.3125,23.624535,"investpy, Yahoo Finance"
+ALK,"Alaska Air Group, Inc.",Industrials,Airlines,Germany,Europe,6504672256.0,11735000064.0,30207.0,0.03366,0.04527,17.15909,"investpy, Yahoo Finance"
+TNET,"TriNet Group, Inc.",Industrials,Staffing & Employment Services,Belgium,Europe,3905746688.0,4989000192.0,364300.0,0.034679998,-0.010299999,22.991253,"investpy, Yahoo Finance"
+HIW,"Highwoods Properties, Inc.",Real Estate,REIT - Office,Germany,Europe,3172497408.0,830019968.0,350.0,0.12319,0.25464,30.74468,"investpy, Yahoo Finance"
+BLKB,"Blackbaud, Inc.",Technology,Software - Application,Switzerland,Europe,3147689472.0,1155495040.0,2600.0,-0.24507,0.20823999,,"investpy, Yahoo Finance"
+SPT,"Sprout Social, Inc",Technology,Software - Application,United Kingdom,Europe,1449165824.0,405908000.0,1322.0,-0.15267,-0.09951,,"investpy, Yahoo Finance"
+ECPG,Encore Capital Group Inc,Financial Services,Credit Services,Germany,Europe,817586752.0,1316360960.0,7350.0,-0.10578,-0.056649998,,"investpy, Yahoo Finance"
+ITRN,Ituran Location and Control Ltd,Technology,Scientific & Technical Instruments,Germany,Europe,734471680.0,336256992.0,2800.0,0.15956001,0.2176,13.674073,"investpy, Yahoo Finance"
+SLN,Silence Therapeutics Plc - Amer,Healthcare,Biotechnology,United Kingdom,Europe,208260800.0,43258000.0,116.0,-1.04741,0.26517,,"investpy, Yahoo Finance"
+SNT,Senstar Technologies Corporatio,Industrials,Security & Protection Services,United Kingdom,Europe,80885704.0,34455000.0,136.0,0.042519998,0.18802,69.4,"investpy, Yahoo Finance"
+MWG,Multi Ways Holdings Limited,Industrials,Rental & Leasing Services,United Kingdom,Europe,9639036.0,35736000.0,92.0,0.185,0.03832,1.2573913,"investpy, Yahoo Finance"
+BON,Bon Natural Life Limited,Basic Materials,Specialty Chemicals,Norway,Europe,1084345.0,23844556.0,97.0,0.0167,0.07857,1.5294117,"investpy, Yahoo Finance"
+AKVA,ARKANOVA ENERGY COMPANY,Energy,Oil & Gas E&P,Norway,Europe,135456.0,351312.0,7.0,0.0,-8.54736,,"investpy, Yahoo Finance"
+AVA,Avista Corporation,Utilities,Utilities - Diversified,Germany,Europe,3205052160.0,1938000000.0,,0.09288,0.18631001,17.467249,"investpy, Yahoo Finance"
+BIOX,Bioceres Crop Solutions Corp.,Basic Materials,Agricultural Inputs,France,Europe,260551568.0,407732096.0,,0.00368,0.0708,215.5,"investpy, Yahoo Finance"
+FFPP,Fast Finance Pay Corp.,Technology,Software - Infrastructure,Germany,Europe,220275200.0,10433549.0,,0.05447,-0.00892,,"investpy, Yahoo Finance"
+FFPP,Fast Finance Pay Corp.,Technology,Software - Infrastructure,Germany,Europe,220275200.0,10433549.0,,0.05447,-0.00892,,"investpy, Yahoo Finance"
+PHD,Pioneer Floating Rate Trust Pio,Financial Services,Asset Management,United Kingdom,Europe,116509680.0,18291296.0,,0.91012,0.90551,7.026119,"investpy, Yahoo Finance"
+ATOS,"Atossa Therapeutics, Inc.",Healthcare,Biotechnology,France,Europe,90010616.0,,12.0,0.0,0.0,,"investpy, Yahoo Finance"
+BBN,BlackRock Taxable Municipal Bon,Financial Services,Asset Management,Switzerland,Europe,1027609216.0,,,0.0,0.0,87.52631,"investpy, Yahoo Finance"
+DBA,Invesco DB Agriculture Fund,Unknown,Unknown,Italy,Europe,742440000.0,,,,,11.359797,"investpy, Yahoo Finance"
+EMG,"Emergent Capital, Inc.",Unknown,Unknown,United Kingdom,Europe,8481660.0,,,,,,"investpy, Yahoo Finance"
+DIAH,DIAMOND HOLDINGS INC,Basic Materials,Other Industrial Metals & Mining,Sweden,Europe,280537.0,,,0.0,0.0,Infinity,"investpy, Yahoo Finance"
+ENDO,ENDOCAN CORP,Basic Materials,Specialty Chemicals,Sweden,Europe,176381.0,,,0.0,0.0,,"investpy, Yahoo Finance"
+EXCL,EXCELLERANT INC,Financial Services,Shell Companies,Belgium,Europe,1130.0,,,0.0,0.0,,"investpy, Yahoo Finance"
+RIM,BlackBerry,Unknown,Unknown,Germany,Europe,,,,,,,"investpy, Yahoo Finance"
+RPS,Purpose Canadian Preferred Share ETF,Unknown,Unknown,United Kingdom,Europe,,,,,,,"investpy, Yahoo Finance"
+BGSC,Bmo Global Smaller,Unknown,Unknown,United Kingdom,Europe,,,,,,,"investpy, Yahoo Finance"
+NZX,3237,Unknown,Unknown,United Kingdom,Europe,,,,,,,"investpy, Yahoo Finance"
+SCHK,Schwab 1000 Index ETF,Unknown,Unknown,Belgium,Europe,,,,,,24.524181,"investpy, Yahoo Finance"
+BRGE,Blackrock Europe,Unknown,Unknown,United Kingdom,Europe,,,,,,,"investpy, Yahoo Finance"
+AMDG,Leverage Shares 2X Long AMD Dai,Unknown,Unknown,Austria,Europe,,,,,,,"investpy, Yahoo Finance"
+FBD,Fbd Holdings,Unknown,Unknown,Ireland,Europe,,,,,,,"investpy, Yahoo Finance"
+VLS,Valneva,Unknown,Unknown,France,Europe,,,,,,,"investpy, Yahoo Finance"
+VVL,Voss Veksel La,Unknown,Unknown,Norway,Europe,,,,,,,"investpy, Yahoo Finance"
+TFG,Tetragon Financial Group Ltd,Unknown,Unknown,Netherlands,Europe,,,,,,,"investpy, Yahoo Finance"
+STGN,57563,Unknown,Unknown,Switzerland,Europe,,,,,,,"investpy, Yahoo Finance"
+DISCa,Discovery A,Unknown,Unknown,Germany,Europe,,,,,,,"investpy, Yahoo Finance"
+BAG,A.G Barr,Unknown,Unknown,United Kingdom,Europe,,,,,,,"investpy, Yahoo Finance"
+TFFP,TF1,Unknown,Unknown,France,Europe,,,,,,,"investpy, Yahoo Finance"
+GHP,GHP Special Care,Unknown,Unknown,Sweden,Europe,,,,,,,"investpy, Yahoo Finance"
+TUB,Tubize-Fin,Unknown,Unknown,Belgium,Europe,,,,,,,"investpy, Yahoo Finance"
+MAIL,MailUp,Unknown,Unknown,Italy,Europe,,,,,,,"investpy, Yahoo Finance"
+SOF,Amplify ETF Trust Amplify Samsu,Unknown,Unknown,Belgium,Europe,,,,,,,"investpy, Yahoo Finance"
+NVC,18134,Unknown,Unknown,France,Europe,,,,,,,"investpy, Yahoo Finance"
+OET,Okeanis Eco Tankers,Unknown,Unknown,Norway,Europe,,,,,,,"investpy, Yahoo Finance"
+PSG,Prosegur,Unknown,Unknown,Spain,Europe,,,,,,,"investpy, Yahoo Finance"
+DNO,United States Short Oil Fund,Unknown,Unknown,Norway,Europe,,,,,,,"investpy, Yahoo Finance"
+AMDG,Leverage Shares 2X Long AMD Dai,Unknown,Unknown,Austria,Europe,,,,,,,"investpy, Yahoo Finance"
+MLBAT,Batla Minerals,,,France,Europe,,,,,,,investpy
+MWDP,Wendel,,,France,Europe,,,,,,,investpy
+FLOWS,Crowdsoft,,,Sweden,Europe,,,,,,,investpy
+PNIG,Pennant,,,United Kingdom,Europe,,,,,,,investpy
+ARLG,Aareal Bank AG,,,Austria,Europe,,,,,,,investpy
+ZIGN,Zignsec,,,Sweden,Europe,,,,,,,investpy
+SIGN,Signature,,,Austria,Europe,,,,,,,investpy
+ALNSE,NSE SA,,,France,Europe,,,,,,,investpy
+CCH,Coca Cola HBC AG,,,United Kingdom,Europe,,,,,,,investpy
+PGNG,Paragon AG,,,Germany,Europe,,,,,,,investpy
+TSTT,Touchstar,,,United Kingdom,Europe,,,,,,,investpy
+INCOAX,InCoax Networks,,,Sweden,Europe,,,,,,,investpy
+ASTr,Alpha Astika Akinita SA,,,Greece,Europe,,,,,,,investpy
+MGNK,Mologen,,,Germany,Europe,,,,,,,investpy
+PAALb,Per Aarsleff B,,,Denmark,Europe,,,,,,,investpy
+IFXGnEUR,Infineon,,,Switzerland,Europe,,,,,,,investpy
+BLEE,Bleecker,,,France,Europe,,,,,,,investpy
+MLXS,Melexis NV,,,Belgium,Europe,,,,,,,investpy
+GTTG,Tegna,,,Germany,Europe,,,,,,,investpy
+DIGP,Digigram,,,France,Europe,,,,,,,investpy
+NS,Nustar,,,Germany,Europe,,,,,,,investpy
+EURA,Eurazeo,,,France,Europe,,,,,,,investpy
+RMPq,Red Emperor Resources,,,United Kingdom,Europe,,,,,,,investpy
+LOTB,Lotus Bakeries,,,Belgium,Europe,,,,,,,investpy
+THXLE,Theta Legends,,,Netherlands,Europe,,,,,,,investpy
+MLIFE,Global Health Group,,,France,Europe,,,,,,,investpy
+SANT1,S&T AG,,,Germany,Europe,,,,,,,investpy
+OPpref,Oscar Properties Pref,,,Sweden,Europe,,,,,,,investpy
+HRMr,Gek Terna,,,Greece,Europe,,,,,,,investpy
+POLO,Polo Resources,,,United Kingdom,Europe,,,,,,,investpy
+WAFGn,Siltronic AG,,,Germany,Europe,,,,,,,investpy
+SCAb,SCA B,,,Sweden,Europe,,,,,,,investpy
+WEHA,Wereldhave,,,Netherlands,Europe,,,,,,,investpy
+INFRAC,Infracom,,,Sweden,Europe,,,,,,,investpy
+SHA_p,Schaeffler AG,,,Germany,Europe,,,,,,,investpy
+MUVGnEUR,Muench. Rueckvers.,,,Switzerland,Europe,,,,,,,investpy
+AVMNOK,Avocet Mining,,,Sweden,Europe,,,,,,,investpy
+CBOS,Cie Bois Sauvage,,,Belgium,Europe,,,,,,,investpy
+BEVA,Bever Holding NV,,,Netherlands,Europe,,,,,,,investpy
+TGEL,Toupargel,,,France,Europe,,,,,,,investpy
+TLIT,Telecom Italia,,,Italy,Europe,,,,,,,investpy
+YOSO,Obsido Socimi SA,,,Spain,Europe,,,,,,,investpy
+NESNEE,Nestle,,,Switzerland,Europe,,,,,,,investpy
+ALAVY,Audiovalley,,,France,Europe,,,,,,,investpy
+HUMAN,Humana,,,Sweden,Europe,,,,,,,investpy
+LMPL,Londonmetric Property,,,United Kingdom,Europe,,,,,,,investpy
+AACM,AAC Microtec,,,Sweden,Europe,,,,,,,investpy
+CONSTI,Consti Yhtiot Oy,,,Finland,Europe,,,,,,,investpy
+SOIT,Soitec,,,France,Europe,,,,,,,investpy
+SGFI,Sogefi,,,Italy,Europe,,,,,,,investpy
+ALMLB,Miliboo SA,,,France,Europe,,,,,,,investpy
+NETb,NetEnt,,,Sweden,Europe,,,,,,,investpy
+ICIr,Intercontinental Intl RE,,,Greece,Europe,,,,,,,investpy
+UN01,Uniper SE,,,Germany,Europe,,,,,,,investpy
+IMINT,Imint Image Intelligence AB,,,Sweden,Europe,,,,,,,investpy
+HOCN,Hochdorf Holding AG,,,Switzerland,Europe,,,,,,,investpy
+BOAr,Attica Bank,,,Greece,Europe,,,,,,,investpy
+SINCH,CLX Coms,,,Sweden,Europe,,,,,,,investpy
+ALHSW,Horizontal Software,,,France,Europe,,,,,,,investpy
+BION,BB Biotech,,,Switzerland,Europe,,,,,,,investpy
+AGOL,Ashmore Global Opp,,,United Kingdom,Europe,,,,,,,investpy
+JWNG,Jaywing,,,United Kingdom,Europe,,,,,,,investpy
+TTSLA,Tesla,,,Italy,Europe,,,,,,,investpy
+CGCBV,Cargotec Oyj,,,Finland,Europe,,,,,,,investpy
+STRINVS,Aktieselskabet af 23.04,,,Denmark,Europe,,,,,,,investpy
+2CRSI,2Crsi,,,France,Europe,,,,,,,investpy
+EDNn,Edison RSP,,,Italy,Europe,,,,,,,investpy
+AGFB,Agfa Gevaert,,,Belgium,Europe,,,,,,,investpy
+SVEG,Sparebanken Vest,,,Norway,Europe,,,,,,,investpy
+PRTP,Kering,,,France,Europe,,,,,,,investpy
+SIAF-ME,Sino Agro Food,,,Norway,Europe,,,,,,,investpy
+NRSNOK,Norway Royal Salmon,,,Sweden,Europe,,,,,,,investpy
+NRDF,Nordfyns Bank,,,Denmark,Europe,,,,,,,investpy
+BOUVET,Bouvet,,,Norway,Europe,,,,,,,investpy
+APME,AD Pepper Media,,,Germany,Europe,,,,,,,investpy
+VCC2,Vical,,,Germany,Europe,,,,,,,investpy
+AKOyb,Andina B,,,Germany,Europe,,,,,,,investpy
+EMASL,Emas Offshore Construction Pte,,,Norway,Europe,,,,,,,investpy
+SICT,Sicit Group,,,Italy,Europe,,,,,,,investpy
+QUARTpref,Quartiers Properties,,,Sweden,Europe,,,,,,,investpy
+CLSRb,Clinical Laserthermia,,,Sweden,Europe,,,,,,,investpy
+ABBO,Ab-Biotics S.A.,,,Spain,Europe,,,,,,,investpy
+LTEN,Alten,,,France,Europe,,,,,,,investpy
+GJFS,Gjensidige Forsikring,,,Norway,Europe,,,,,,,investpy
+PSMGn,Prosiebensat,,,Switzerland,Europe,,,,,,,investpy
+BE4A,Beazer Homes USA,,,Germany,Europe,,,,,,,investpy
+FMEGEUR,Fresenius ST,,,Switzerland,Europe,,,,,,,investpy
+COFA,Coface,,,France,Europe,,,,,,,investpy
+MANG_p,Man SE VZO,,,Germany,Europe,,,,,,,investpy
+BRKN,Burkhalter Holding AG,,,Switzerland,Europe,,,,,,,investpy
+DANI,Danieli & C,,,Italy,Europe,,,,,,,investpy
+ALDIE,Dietswell,,,France,Europe,,,,,,,investpy
+BPET,BMO Private Equity,,,United Kingdom,Europe,,,,,,,investpy
+LACP,Lacroix,,,France,Europe,,,,,,,investpy
+NAPAT,Napatech,,,Norway,Europe,,,,,,,investpy
+MORr,Motor Oil,,,Greece,Europe,,,,,,,investpy
+HAKG,Einbecker Brauhaus,,,Germany,Europe,,,,,,,investpy
+ALMEC,Mecelec,,,France,Europe,,,,,,,investpy
+GABI,Gabetti Property,,,Italy,Europe,,,,,,,investpy
+PV,Pfeiffer,,,Germany,Europe,,,,,,,investpy
+HLAN,Hal Trust,,,Netherlands,Europe,,,,,,,investpy
+SKJE,Skjern Bank,,,Denmark,Europe,,,,,,,investpy
+WUGG,Westag&Getalit ST,,,Germany,Europe,,,,,,,investpy
+CR8,Carbo Ceramics,,,Germany,Europe,,,,,,,investpy
+XXLNOK,XXL ASA,,,Sweden,Europe,,,,,,,investpy
+ITTr,Intertech,,,Greece,Europe,,,,,,,investpy
+SALIn,Impregilo RSP,,,Italy,Europe,,,,,,,investpy
+IMMNOV,Immunovia publ AB,,,Sweden,Europe,,,,,,,investpy
+EVTG,Evotec AG,,,Germany,Europe,,,,,,,investpy
+BONNOK,Bonheur,,,Sweden,Europe,,,,,,,investpy
+SPOG,Sparebanken Ost,,,Norway,Europe,,,,,,,investpy
+MMKV,Mayr-Melnhof Karton AG,,,Austria,Europe,,,,,,,investpy
+BLVN,Bowleven,,,United Kingdom,Europe,,,,,,,investpy
+ZUCIn,Zucchi RSP,,,Italy,Europe,,,,,,,investpy
+NENTb,Nordic Entertainment B,,,Sweden,Europe,,,,,,,investpy
+BYTr,Byte Computer SA,,,Greece,Europe,,,,,,,investpy
+ARDN,Arden,,,United Kingdom,Europe,,,,,,,investpy
+SWTQ,Schweiter Tech,,,Switzerland,Europe,,,,,,,investpy
+HICL,HICL Infrastructure,,,United Kingdom,Europe,,,,,,,investpy
+C08,Caesars,,,Germany,Europe,,,,,,,investpy
+A60,Allergan,,,Germany,Europe,,,,,,,investpy
+HINV,Home Invest,,,Belgium,Europe,,,,,,,investpy
+IMMO,Immobel,,,Belgium,Europe,,,,,,,investpy
+WTAN,Witan,,,United Kingdom,Europe,,,,,,,investpy
+TCN,Tricorn,,,United Kingdom,Europe,,,,,,,investpy
+LUKN,Luzerner Kantonalbank AG,,,Switzerland,Europe,,,,,,,investpy
+FREG,Fresenius SE,,,Switzerland,Europe,,,,,,,investpy
+NEX,National Express,,,United Kingdom,Europe,,,,,,,investpy
+C52,Colfax,,,Germany,Europe,,,,,,,investpy
+IBST,Ibstock PLC,,,United Kingdom,Europe,,,,,,,investpy
+INEA,Fonciere Inea,,,France,Europe,,,,,,,investpy
+DPAP,Docks des Petroles dAmbes,,,France,Europe,,,,,,,investpy
+TOBII,Tobii AB,,,Sweden,Europe,,,,,,,investpy
+OKEA,Okea,,,Norway,Europe,,,,,,,investpy
+GILDUSD,Gilead,,,Switzerland,Europe,,,,,,,investpy
+AUTON,Autoneum Holding AG,,,Switzerland,Europe,,,,,,,investpy
+TATE,Tate&Lyle,,,United Kingdom,Europe,,,,,,,investpy
+EMOTR,Emotra AB,,,Sweden,Europe,,,,,,,investpy
+BICy,BanColombia,,,Germany,Europe,,,,,,,investpy
+PIRC,Pirelli & C,,,Italy,Europe,,,,,,,investpy
+NNIT,Nnit AS,,,Denmark,Europe,,,,,,,investpy
+YNUM,Numulae Gestion de Servicios,,,Spain,Europe,,,,,,,investpy
+TIGT,Troy,,,United Kingdom,Europe,,,,,,,investpy
+DEFLb,Deflamo AB,,,Sweden,Europe,,,,,,,investpy
+KURN,Kuros Biosciences,,,Switzerland,Europe,,,,,,,investpy
+ALPLA,Planet.FR SA,,,France,Europe,,,,,,,investpy
+MFTC,Matica Fintec,,,Italy,Europe,,,,,,,investpy
+ELGr,Elgeka,,,Greece,Europe,,,,,,,investpy
+S92G,SMA Solar AG,,,Austria,Europe,,,,,,,investpy
+VIPRO,Victoria Properties,,,Denmark,Europe,,,,,,,investpy
+DOFNOK,Dof,,,Sweden,Europe,,,,,,,investpy
+ASSI,Assiteca SpA Internazionale,,,Italy,Europe,,,,,,,investpy
+ALADO,Adomos,,,France,Europe,,,,,,,investpy
+A3B,Acco Brands,,,Germany,Europe,,,,,,,investpy
+RTCG,Realtech AG,,,Germany,Europe,,,,,,,investpy
+PATGn,Patrizia Immobilien,,,Germany,Europe,,,,,,,investpy
+BWONOK,BW Offshore,,,Sweden,Europe,,,,,,,investpy
+EUAV,Euronav,,,Belgium,Europe,,,,,,,investpy
+IFXGn,Infineon,,,Germany,Europe,,,,,,,investpy
+0RIH,Alphabet A,,,United Kingdom,Europe,,,,,,,investpy
+MLALV,Alveen,,,France,Europe,,,,,,,investpy
+UBSG,UBS Group,,,Switzerland,Europe,,,,,,,investpy
+GAMH,GAM Holding,,,Switzerland,Europe,,,,,,,investpy
+SKMO,Skane mollan AB,,,Sweden,Europe,,,,,,,investpy
+OXIG,Oxford Instruments,,,United Kingdom,Europe,,,,,,,investpy
+MIHO,Miris Holding,,,Sweden,Europe,,,,,,,investpy
+SHBb,Svenska Handelsbanken B,,,Sweden,Europe,,,,,,,investpy
+AYIMAb,Ayima,,,Sweden,Europe,,,,,,,investpy
+TUIGn,Tui,,,Germany,Europe,,,,,,,investpy
+NOBINA,Nobina publ AB,,,Sweden,Europe,,,,,,,investpy
+TITC,Titan Cement,,,Belgium,Europe,,,,,,,investpy
+HEAD,Headlam,,,United Kingdom,Europe,,,,,,,investpy
+MBQGn,Mobotix AG,,,Germany,Europe,,,,,,,investpy
+PMAG,PIERER Mobility AG,,,Austria,Europe,,,,,,,investpy
+O2Dn,Telefonica Deutschland AG,,,Austria,Europe,,,,,,,investpy
+ALNOV,Novacyt,,,France,Europe,,,,,,,investpy
+1COV,Covestro,,,Austria,Europe,,,,,,,investpy
+AERWb,Aerowash,,,Sweden,Europe,,,,,,,investpy
+KRNG,Krones AG,,,Germany,Europe,,,,,,,investpy
+NEXII,Nexi,,,Italy,Europe,,,,,,,investpy
+ADSGnEUR,Adidas,,,Switzerland,Europe,,,,,,,investpy
+NEWN,New Value AG,,,Switzerland,Europe,,,,,,,investpy
+DEQGn,Deutsche Euroshop AG,,,Austria,Europe,,,,,,,investpy
+BIONn,BB Biotech,,,Germany,Europe,,,,,,,investpy
+ETGG,Envitec,,,Germany,Europe,,,,,,,investpy
+TELIA,Telia Company,,,Sweden,Europe,,,,,,,investpy
+AAGG,Aumann,,,Germany,Europe,,,,,,,investpy
+EDDS,Editions du Signe,,,France,Europe,,,,,,,investpy
+MULTINOK,Multiconsult AS SE,,,Sweden,Europe,,,,,,,investpy
+GENOb,Genovis AB,,,Sweden,Europe,,,,,,,investpy
+SPOE,Fonciere Volta,,,France,Europe,,,,,,,investpy
+JPS,JPMorgan Japan Smaller,,,United Kingdom,Europe,,,,,,,investpy
+G1AG,GEA Group AG,,,Austria,Europe,,,,,,,investpy
+MOED,Mondadori Editore,,,Italy,Europe,,,,,,,investpy
+PLCS,Polarcus,,,Norway,Europe,,,,,,,investpy
+ROMR,RomReal,,,Norway,Europe,,,,,,,investpy
+GABAT,Gabather,,,Sweden,Europe,,,,,,,investpy
+SOFb,Softronic B,,,Sweden,Europe,,,,,,,investpy
+TKWY,Takeaway Com,,,Netherlands,Europe,,,,,,,investpy
+ARSA,Asiamet Resources,,,United Kingdom,Europe,,,,,,,investpy
+WSUG,WashTec AG,,,Germany,Europe,,,,,,,investpy
+NUSTAY,Nustay,,,Sweden,Europe,,,,,,,investpy
+ALGEN,Genoway,,,France,Europe,,,,,,,investpy
+ALNEV,Neovacs,,,France,Europe,,,,,,,investpy
+EVKn,Evonik,,,Germany,Europe,,,,,,,investpy
+SNH,Senior Housing Properties,,,Germany,Europe,,,,,,,investpy
+MASM,Masmovil Ibercom,,,Spain,Europe,,,,,,,investpy
+REALFI,Realfiction,,,Sweden,Europe,,,,,,,investpy
+SNMP,ShaMaran Petroleum,,,Sweden,Europe,,,,,,,investpy
+KAHOOT-ME,Kahoot,,,Norway,Europe,,,,,,,investpy
+QCOMUSD,Qualcomm,,,Switzerland,Europe,,,,,,,investpy
+COHE,Coheris,,,France,Europe,,,,,,,investpy
+AITN,Applied Industrial Technologies,,,Germany,Europe,,,,,,,investpy
+UMIDAb,Umida B,,,Sweden,Europe,,,,,,,investpy
+GELE,Gel,,,Italy,Europe,,,,,,,investpy
+NESN,Nestle,,,Switzerland,Europe,,,,,,,investpy
+XXLA,XXL ASA,,,Norway,Europe,,,,,,,investpy
+VRLA,Verallia Deutschland,,,France,Europe,,,,,,,investpy
+PUMU,PunaMusta Media,,,Finland,Europe,,,,,,,investpy
+SCOUT,Scout Gaming,,,Sweden,Europe,,,,,,,investpy
+BOUY,Bouygues,,,France,Europe,,,,,,,investpy
+ITWB,Italian Wine Brands SpA,,,Italy,Europe,,,,,,,investpy
+LPKG,LPKF,,,Germany,Europe,,,,,,,investpy
+VNAn,Vonovia,,,Italy,Europe,,,,,,,investpy
+TRMDa,Torm A,,,Denmark,Europe,,,,,,,investpy
+PHAL,PharmaLundensis,,,Sweden,Europe,,,,,,,investpy
+BALCO,Balco Group,,,Sweden,Europe,,,,,,,investpy
+NTAS,NASCIT,,,United Kingdom,Europe,,,,,,,investpy
+HEIG,Heidelbergcement,,,Switzerland,Europe,,,,,,,investpy
+FIIU,Federated Investors B,,,Germany,Europe,,,,,,,investpy
+EONGn,E.ON SE,,,Germany,Europe,,,,,,,investpy
+KOJAMO,Kojamo,,,Finland,Europe,,,,,,,investpy
+MLDYH,Design Your Home Holding AB,,,France,Europe,,,,,,,investpy
+SYS1,System1 Group,,,United Kingdom,Europe,,,,,,,investpy
+SIGF,CS Communication,,,France,Europe,,,,,,,investpy
+TRBG,Tribal,,,United Kingdom,Europe,,,,,,,investpy
+OBDUb,Obducat AB,,,Sweden,Europe,,,,,,,investpy
+ONTEX,Ontex Group,,,Belgium,Europe,,,,,,,investpy
+BRGDNOK,Borregaard,,,Sweden,Europe,,,,,,,investpy
+RHMG,Rheinmetall AG,,,Switzerland,Europe,,,,,,,investpy
+ARC,Arcontech,,,United Kingdom,Europe,,,,,,,investpy
+BDRILL,Borr Drilling,,,Norway,Europe,,,,,,,investpy
+ICTA,ICT Group,,,Netherlands,Europe,,,,,,,investpy
+CEC1_p,Metro,,,Germany,Europe,,,,,,,investpy
+FASTAT,Fastator,,,Sweden,Europe,,,,,,,investpy
+ALU10,U10,,,France,Europe,,,,,,,investpy
+MERL,Merlin Entertainments PLC,,,United Kingdom,Europe,,,,,,,investpy
+RQIH,Randall&Quilter,,,United Kingdom,Europe,,,,,,,investpy
+VPBN,VP Bank AG,,,Switzerland,Europe,,,,,,,investpy
+DFTKn,DF Deutsche Forfait AG,,,Germany,Europe,,,,,,,investpy
+MLGES,Green Energy 4 Seasons,,,France,Europe,,,,,,,investpy
+NICKE,Nickel Mountain,,,Sweden,Europe,,,,,,,investpy
+C21,21St Century,,,United Kingdom,Europe,,,,,,,investpy
+2U3,Alcon,,,Germany,Europe,,,,,,,investpy
+MLCIO,Cioa,,,France,Europe,,,,,,,investpy
+VILr,Unibios,,,Greece,Europe,,,,,,,investpy
+GRBT,Guerbet,,,France,Europe,,,,,,,investpy
+NASNOK,Norwegian Air Shuttle,,,Sweden,Europe,,,,,,,investpy
+BORDb,F.E. Bording B,,,Denmark,Europe,,,,,,,investpy
+G1V,MC Mining,,,Germany,Europe,,,,,,,investpy
+INHG,Indus AG,,,Austria,Europe,,,,,,,investpy
+ULVR,Unilever,,,United Kingdom,Europe,,,,,,,investpy
+TERR,Terreis,,,France,Europe,,,,,,,investpy
+LAMMb,Lammhults Design B,,,Sweden,Europe,,,,,,,investpy
+BC8G,Bechtle AG,,,Germany,Europe,,,,,,,investpy
+TEONE,TargetEveryOne,,,Sweden,Europe,,,,,,,investpy
+HANB,Hanesbrands,,,Germany,Europe,,,,,,,investpy
+ALMDG,MGI Digital,,,France,Europe,,,,,,,investpy
+TAGMb,TagMaster AB,,,Sweden,Europe,,,,,,,investpy
+AVV,Aveva,,,United Kingdom,Europe,,,,,,,investpy
+RATOa,Ratos A,,,Sweden,Europe,,,,,,,investpy
+NBLS,NB Global Floating Rate,,,United Kingdom,Europe,,,,,,,investpy
+BIOTEC,Biotec Pharmacon,,,Norway,Europe,,,,,,,investpy
+6762,TDK,,,Germany,Europe,,,,,,,investpy
+FOODr,Foodlink SA,,,Greece,Europe,,,,,,,investpy
+ESUN,Edisun Power Europe AG,,,Switzerland,Europe,,,,,,,investpy
+PSRA,CoreCivic,,,Germany,Europe,,,,,,,investpy
+INSPL,Insplorion,,,Sweden,Europe,,,,,,,investpy
+CIAZ,CIA,,,Italy,Europe,,,,,,,investpy
+FRAG,Fraport AG,,,Austria,Europe,,,,,,,investpy
+EASYb,EasyFill,,,Sweden,Europe,,,,,,,investpy
+AEL,American Equity Inv. Life,,,Germany,Europe,,,,,,,investpy
+BAIN,Bains Mer Monaco,,,France,Europe,,,,,,,investpy
+FEVG,Fortec,,,Germany,Europe,,,,,,,investpy
+SEZI,Senzime,,,Sweden,Europe,,,,,,,investpy
+PSMGn,Prosiebensat,,,Italy,Europe,,,,,,,investpy
+SUNU,Surgical Innovations,,,United Kingdom,Europe,,,,,,,investpy
+EDHN,Energiedienst Holding AG,,,Switzerland,Europe,,,,,,,investpy
+CLAB,Clabo SPA,,,Italy,Europe,,,,,,,investpy
+GETIb,Getinge B,,,Sweden,Europe,,,,,,,investpy
+BIOBV,Biohit Oyj B,,,Finland,Europe,,,,,,,investpy
+KRTr,Karatzi,,,Greece,Europe,,,,,,,investpy
+MLFIR,Firstcaution,,,France,Europe,,,,,,,investpy
+SBOO,Selvaag Bolig,,,Norway,Europe,,,,,,,investpy
+SCAM,Scottish American,,,United Kingdom,Europe,,,,,,,investpy
+GREAT,Greater Than,,,Sweden,Europe,,,,,,,investpy
+ALPCI,Primecity Investment,,,France,Europe,,,,,,,investpy
+POLME,Polaris Media,,,Norway,Europe,,,,,,,investpy
+54M,Motorcar Parts,,,Germany,Europe,,,,,,,investpy
+SPIS,Spir Communication,,,France,Europe,,,,,,,investpy
+ALVAL,Valbiotis,,,France,Europe,,,,,,,investpy
+APGNA,Applegreen Plc,,,Ireland,Europe,,,,,,,investpy
+ALGIL,Groupe Guillin,,,France,Europe,,,,,,,investpy
+ADKO,Addiko Bank,,,Austria,Europe,,,,,,,investpy
+GLDP,Goldplat,,,United Kingdom,Europe,,,,,,,investpy
+AALLON,Aallon,,,Finland,Europe,,,,,,,investpy
+GLA1V,Glaston,,,Finland,Europe,,,,,,,investpy
+ALVG,Allianz,,,Switzerland,Europe,,,,,,,investpy
+CELGUSD,Celgene,,,Switzerland,Europe,,,,,,,investpy
+MEDCL,Medincell,,,France,Europe,,,,,,,investpy
+SBBd,Samhallsbyggnadsbolaget I D,,,Sweden,Europe,,,,,,,investpy
+VBSN,IVF Hartmann Holding AG,,,Switzerland,Europe,,,,,,,investpy
+VONN,Vontobel Holding,,,Switzerland,Europe,,,,,,,investpy
+DPWGnEUR,Deutsche Post,,,Switzerland,Europe,,,,,,,investpy
+N55,News55,,,Sweden,Europe,,,,,,,investpy
+ALPJT,Poujoulat,,,France,Europe,,,,,,,investpy
+MMO1V,Marimekko Oyj,,,Finland,Europe,,,,,,,investpy
+ABGV,Porr AG,,,Austria,Europe,,,,,,,investpy
+VNVsdb,Vostok New Ventures,,,Sweden,Europe,,,,,,,investpy
+CLASb,Clas Ohlson B,,,Sweden,Europe,,,,,,,investpy
+ALKKO,Kko Intl,,,France,Europe,,,,,,,investpy
+VBGb,VBG GROUP B,,,Sweden,Europe,,,,,,,investpy
+CMOTECb,Scandinavian ChemoTech,,,Sweden,Europe,,,,,,,investpy
+DEDAL,Medasys,,,France,Europe,,,,,,,investpy
+QEC,Questerre Energy Corporation,,,Norway,Europe,,,,,,,investpy
+IBMu,IBM,,,Belgium,Europe,,,,,,,investpy
+PCIB,PCI Biotech,,,Norway,Europe,,,,,,,investpy
+0K34,Monster Beverage,,,United Kingdom,Europe,,,,,,,investpy
+CSCOUSD,Cisco,,,Switzerland,Europe,,,,,,,investpy
+DBKGn,Deutsche Bank AG,,,Switzerland,Europe,,,,,,,investpy
+ROCKa,Rockwool Int. A,,,Denmark,Europe,,,,,,,investpy
+LINP,Finatis,,,France,Europe,,,,,,,investpy
+YGEN,Yourgene Health,,,United Kingdom,Europe,,,,,,,investpy
+MBTLy,Mobil’nye Telesistemy ADR,,,Germany,Europe,,,,,,,investpy
+31L,Sylvania,,,Germany,Europe,,,,,,,investpy
+HPBGn,Heliad,,,Germany,Europe,,,,,,,investpy
+YATO,Atom Hoteles,,,Spain,Europe,,,,,,,investpy
+AMSCA,American Shipping,,,Norway,Europe,,,,,,,investpy
+ZORDIXb,Zordix,,,Sweden,Europe,,,,,,,investpy
+ALBKK,Baikowski,,,France,Europe,,,,,,,investpy
+ALBDM,Bd Multimedia,,,France,Europe,,,,,,,investpy
+ZILGn,Elringklinger AG,,,Austria,Europe,,,,,,,investpy
+MED6,Media 6,,,France,Europe,,,,,,,investpy
+VNEsdb,Veoneer SDR,,,Sweden,Europe,,,,,,,investpy
+TOURN,Tourn International,,,Sweden,Europe,,,,,,,investpy
+PRSNOK,Prosafe,,,Sweden,Europe,,,,,,,investpy
+BEKB,Bekaert,,,Belgium,Europe,,,,,,,investpy
+BCIB,BMO Capital,,,United Kingdom,Europe,,,,,,,investpy
+ALDEV,Devernois,,,France,Europe,,,,,,,investpy
+BDTG,Bertrandt AG,,,Germany,Europe,,,,,,,investpy
+RENA,Renault,,,France,Europe,,,,,,,investpy
+WARN,Warteck Invest Ltd,,,Switzerland,Europe,,,,,,,investpy
+ITALsdb,Italeaf,,,Sweden,Europe,,,,,,,investpy
+BIOSE,Bioservo Tech,,,Sweden,Europe,,,,,,,investpy
+ARJOb,Arjo,,,Sweden,Europe,,,,,,,investpy
+LYKOa,Lyko,,,Sweden,Europe,,,,,,,investpy
+ALTRI,Trilogiq,,,France,Europe,,,,,,,investpy
+PHGy,Koninklijke Philips ADR,,,Germany,Europe,,,,,,,investpy
+ALEVA,Evadix SA,,,Belgium,Europe,,,,,,,investpy
+HVPEa,HarbourVest Global,,,United Kingdom,Europe,,,,,,,investpy
+NIXU,Nixu Oyj,,,Finland,Europe,,,,,,,investpy
+GGBR4,GERDAU PN N1,,,Spain,Europe,,,,,,,investpy
+WIPA,Witan Pacific,,,United Kingdom,Europe,,,,,,,investpy
+BFPy,BBVA Banco Frances ADR,,,Germany,Europe,,,,,,,investpy
+QUART,Quartiers Properties,,,Sweden,Europe,,,,,,,investpy
+MGGT,Meggitt,,,United Kingdom,Europe,,,,,,,investpy
+MKEA,Mauna Kea Tech,,,France,Europe,,,,,,,investpy
+BNAB,National Bank of Belgium,,,Belgium,Europe,,,,,,,investpy
+YNGt,Young & Co’s Brewery,,,United Kingdom,Europe,,,,,,,investpy
+THHG,Thermador,,,France,Europe,,,,,,,investpy
+WSUG,WashTec AG,,,Austria,Europe,,,,,,,investpy
+OBOYAb,Oboya Horticulture,,,Sweden,Europe,,,,,,,investpy
+BOSJO,Bosjo Fastigheter,,,Sweden,Europe,,,,,,,investpy
+A2,A2A,,,Italy,Europe,,,,,,,investpy
+BIOS,Biosearch,,,Spain,Europe,,,,,,,investpy
+POOLb,Poolia B,,,Sweden,Europe,,,,,,,investpy
+AMXL,America Movil,,,Spain,Europe,,,,,,,investpy
+HOTG,Hochtief AG,,,Switzerland,Europe,,,,,,,investpy
+PLED,PledPharma,,,Sweden,Europe,,,,,,,investpy
+PEXAb,PExA AB,,,Sweden,Europe,,,,,,,investpy
+MTXGn,MTU Aero,,,Austria,Europe,,,,,,,investpy
+SOLONNOK,Solon Eiendom,,,Sweden,Europe,,,,,,,investpy
+POY1V,Poyry Oyj,,,Finland,Europe,,,,,,,investpy
+BE0944264663,SCR Sibelco,,,Belgium,Europe,,,,,,,investpy
+PZC,PZ Cussons,,,United Kingdom,Europe,,,,,,,investpy
+MDBr,N Varveris Moda Bagno SA,,,Greece,Europe,,,,,,,investpy
+IVS,IVS Group SA,,,Italy,Europe,,,,,,,investpy
+CTXS,Citrix Systems,,,Austria,Europe,,,,,,,investpy
+ANNX,Annexin Pharma,,,Sweden,Europe,,,,,,,investpy
+LEHTO,Lehto Group Oyj,,,Finland,Europe,,,,,,,investpy
+CPLE6,COPEL PNB,,,Spain,Europe,,,,,,,investpy
+2CUREX,2cureX,,,Sweden,Europe,,,,,,,investpy
+BRGIn,Borgosesia,,,Italy,Europe,,,,,,,investpy
+MCB,McBride,,,United Kingdom,Europe,,,,,,,investpy
+UBXN,U Blox Holding AG,,,Switzerland,Europe,,,,,,,investpy
+ATT,Allianz Tech,,,United Kingdom,Europe,,,,,,,investpy
+DUPD,Dragon-Ukrainian,,,United Kingdom,Europe,,,,,,,investpy
+IFFE,Iffe Futura,,,Spain,Europe,,,,,,,investpy
+SIX,Six Flags,,,Germany,Europe,,,,,,,investpy
+NORBIT,Norbit,,,Norway,Europe,,,,,,,investpy
+FFLY,Firefly AB,,,Sweden,Europe,,,,,,,investpy
+ALBI,Gascogne,,,France,Europe,,,,,,,investpy
+AEGR,Active Energy,,,United Kingdom,Europe,,,,,,,investpy
+DC,Dixons Carphone,,,United Kingdom,Europe,,,,,,,investpy
+GABR,Gabriel Holding,,,Denmark,Europe,,,,,,,investpy
+HOLX,Hologic,,,Austria,Europe,,,,,,,investpy
+PFE,Pfizer,,,Sweden,Europe,,,,,,,investpy
+GLINT,Glintt,,,Portugal,Europe,,,,,,,investpy
+AIR,Airbus Group,,,Spain,Europe,,,,,,,investpy
+ERMT,Eramet,,,France,Europe,,,,,,,investpy
+TIRO_p,Bank fuer Tirol und Vorarlberg,,,Austria,Europe,,,,,,,investpy
+SGSN,SGS,,,Switzerland,Europe,,,,,,,investpy
+TRIPA,TripAdvisor,,,Austria,Europe,,,,,,,investpy
+DAIGn,Daimler,,,Germany,Europe,,,,,,,investpy
+SLMJ,Sanlam Ltd,,,Germany,Europe,,,,,,,investpy
+RAKE,Raketech,,,Sweden,Europe,,,,,,,investpy
+OPG,OPG Power,,,United Kingdom,Europe,,,,,,,investpy
+MBPH,Moberg Pharma,,,Sweden,Europe,,,,,,,investpy
+SEBc,SEB C,,,Sweden,Europe,,,,,,,investpy
+BAH,Booz Allen Hamilton,,,Germany,Europe,,,,,,,investpy
+VGP1,VGP,,,Belgium,Europe,,,,,,,investpy
+OXB,Oxford BioMedica,,,United Kingdom,Europe,,,,,,,investpy
+MDF,Duro Felguera,,,Spain,Europe,,,,,,,investpy
+HRI,Herald,,,United Kingdom,Europe,,,,,,,investpy
+ALPRE,Predilife,,,France,Europe,,,,,,,investpy
+UUAM,Under Armour A,,,Austria,Europe,,,,,,,investpy
+MLGML,Gour Medical,,,France,Europe,,,,,,,investpy
+CHRA,Imprimerie Chirat,,,France,Europe,,,,,,,investpy
+SIRI,Sirius XM,,,Austria,Europe,,,,,,,investpy
+MOGP,Mountfield,,,United Kingdom,Europe,,,,,,,investpy
+BLS,Blackstone Resources,,,Switzerland,Europe,,,,,,,investpy
+8TRA,Traton,,,Germany,Europe,,,,,,,investpy
+RSER,REL,,,United Kingdom,Europe,,,,,,,investpy
+FSV,Fidelity Special,,,United Kingdom,Europe,,,,,,,investpy
+RUSHF,Rush Factory,,,Finland,Europe,,,,,,,investpy
+CRBHO,Cerbium,,,Spain,Europe,,,,,,,investpy
+ALEZV,Easyvista,,,France,Europe,,,,,,,investpy
+VOGr,Vogiatzoglou Systems R,,,Greece,Europe,,,,,,,investpy
+UTX,United Technologies,,,Switzerland,Europe,,,,,,,investpy
+ISRGE,Intuitive Surgical,,,Austria,Europe,,,,,,,investpy
+XTR,Xtract Resources,,,United Kingdom,Europe,,,,,,,investpy
+OSSR,Ossur,,,Denmark,Europe,,,,,,,investpy
+SENZA,SenzaGen,,,Sweden,Europe,,,,,,,investpy
+YMRE,Meridia RE III,,,Spain,Europe,,,,,,,investpy
+SOWGn,Software AG,,,Germany,Europe,,,,,,,investpy
+ENS,Enersys,,,Germany,Europe,,,,,,,investpy
+TOM,Tomra Systems,,,Norway,Europe,,,,,,,investpy
+ACX,Acerinox,,,Spain,Europe,,,,,,,investpy
+MAERSKb,Moller Maersk B,,,Denmark,Europe,,,,,,,investpy
+BMWG,BMW ST,,,Germany,Europe,,,,,,,investpy
+DGV,Digital Value,,,Italy,Europe,,,,,,,investpy
+TL5,Mediaset,,,Spain,Europe,,,,,,,investpy
+NEWT,Newtree,,,Belgium,Europe,,,,,,,investpy
+PEG,Public Service Enterprise,,,Germany,Europe,,,,,,,investpy
+LIVIH,Liv ihop,,,Sweden,Europe,,,,,,,investpy
+CTNGk,Centrotherm,,,Germany,Europe,,,,,,,investpy
+QTCOM,Qt,,,Finland,Europe,,,,,,,investpy
+PDG,Pendragon,,,United Kingdom,Europe,,,,,,,investpy
+UTDI,United Internet AG,,,Switzerland,Europe,,,,,,,investpy
+ALWIT,Witbe Net,,,France,Europe,,,,,,,investpy
+WPL,Woodside Petroleum,,,Germany,Europe,,,,,,,investpy
+PFD,Premier Foods,,,United Kingdom,Europe,,,,,,,investpy
+GAV,Carlo Gavazzi Holding AG,,,Switzerland,Europe,,,,,,,investpy
+MKS,Marks & Spencer,,,United Kingdom,Europe,,,,,,,investpy
+PST,Poste Italiane,,,Italy,Europe,,,,,,,investpy
+SFAr,Sfakianakis R,,,Greece,Europe,,,,,,,investpy
+ORNAV,Orion Oyj A,,,Finland,Europe,,,,,,,investpy
+LAM,Lamprell,,,United Kingdom,Europe,,,,,,,investpy
+LLOY,Lloyds Banking,,,Switzerland,Europe,,,,,,,investpy
+BBN1,The Blackstone,,,Germany,Europe,,,,,,,investpy
+DBPHAb,Double Bond Pharma,,,Sweden,Europe,,,,,,,investpy
+EURA,Eurazeo,,,Germany,Europe,,,,,,,investpy
+AM3D,SLM Solutions,,,Austria,Europe,,,,,,,investpy
+WXFB,Warimpex Ag,,,Austria,Europe,,,,,,,investpy
+CADNi,CRCAM Nord,,,France,Europe,,,,,,,investpy
+WOLS,Association des Commercants,,,Belgium,Europe,,,,,,,investpy
+BOR,Borgestad A,,,Norway,Europe,,,,,,,investpy
+BIOG,Biotest AG ST,,,Germany,Europe,,,,,,,investpy
+ELUXa,Electrolux A,,,Sweden,Europe,,,,,,,investpy
+EUWT,Eurona Wireless Telecom S.A.,,,Spain,Europe,,,,,,,investpy
+PARG,Pargesa I,,,Switzerland,Europe,,,,,,,investpy
+DMSP,Diagnostic Medical,,,France,Europe,,,,,,,investpy
+IMPA,Impresa,,,Portugal,Europe,,,,,,,investpy
+CRAYON,Crayon,,,Norway,Europe,,,,,,,investpy
+IRONI,Ironveld,,,United Kingdom,Europe,,,,,,,investpy
+ITS,ITS Group,,,France,Europe,,,,,,,investpy
+ASCr,AS Company,,,Greece,Europe,,,,,,,investpy
+COLOb,Coloplast,,,Switzerland,Europe,,,,,,,investpy
+EVRY,EVRY,,,Norway,Europe,,,,,,,investpy
+BSTA,Banca Sistema Spa,,,Italy,Europe,,,,,,,investpy
+GWMO,Great Western Mining,,,Ireland,Europe,,,,,,,investpy
+CWCG,Cewe Color,,,Austria,Europe,,,,,,,investpy
+AMD,AMD,,,Germany,Europe,,,,,,,investpy
+PQ,Piquadro,,,Italy,Europe,,,,,,,investpy
+IC2,ICE,,,Germany,Europe,,,,,,,investpy
+AIRN,Airopack Tech Group AG,,,Switzerland,Europe,,,,,,,investpy
+ALPER,La Perla,,,France,Europe,,,,,,,investpy
+BBA,BBA Aviation,,,United Kingdom,Europe,,,,,,,investpy
+MUUSD,Micron,,,Switzerland,Europe,,,,,,,investpy
+TVDGk,Travel24.Com AG,,,Germany,Europe,,,,,,,investpy
+AEDAy,Grupo Aeroportuario Sureste ADR,,,Germany,Europe,,,,,,,investpy
+NYFO,Nyfosa,,,Sweden,Europe,,,,,,,investpy
+MLIML,Imalliance,,,France,Europe,,,,,,,investpy
+PHAR,Pharming Group,,,Netherlands,Europe,,,,,,,investpy
+KOFy,Coca Cola Femsa ADR,,,Germany,Europe,,,,,,,investpy
+WEN,Wentworth,,,United Kingdom,Europe,,,,,,,investpy
+RACE,Ferrari NV,,,Italy,Europe,,,,,,,investpy
+HOLMb,Holmen,,,Sweden,Europe,,,,,,,investpy
+DALI,Delta Air Lines,,,Switzerland,Europe,,,,,,,investpy
+ZILGn,Elringklinger AG,,,Germany,Europe,,,,,,,investpy
+ENER,Enertronica,,,Italy,Europe,,,,,,,investpy
+KAKEL,Kakel Max,,,Sweden,Europe,,,,,,,investpy
+OMNIC,OmniCar,,,Sweden,Europe,,,,,,,investpy
+PSN,Persimmon,,,United Kingdom,Europe,,,,,,,investpy
+AF,Air France KLM,,,Italy,Europe,,,,,,,investpy
+HEIGEUR,Heidelbergcement,,,Switzerland,Europe,,,,,,,investpy
+GAPWb,Gapwaves AB,,,Sweden,Europe,,,,,,,investpy
+JM,JM AB,,,Sweden,Europe,,,,,,,investpy
+PROVIT,Provide IT Sweden,,,Sweden,Europe,,,,,,,investpy
+CBUY,Cloudbuy PLC,,,United Kingdom,Europe,,,,,,,investpy
+CSHG,Cenit AG,,,Germany,Europe,,,,,,,investpy
+ORP,Orpea,,,France,Europe,,,,,,,investpy
+CTSH,Cognizant A,,,Germany,Europe,,,,,,,investpy
+EPGT,EP Global,,,United Kingdom,Europe,,,,,,,investpy
+TSEC,Tempest Security,,,Sweden,Europe,,,,,,,investpy
+AST,Astaldi,,,Italy,Europe,,,,,,,investpy
+TOHN,Tornos,,,Switzerland,Europe,,,,,,,investpy
+LNRE,Leasinvest,,,Belgium,Europe,,,,,,,investpy
+SBOE,Schoeller-Bleckmann AG,,,Switzerland,Europe,,,,,,,investpy
+NIO,Nordic Iron Ore,,,Sweden,Europe,,,,,,,investpy
+HPOLb,HEXPOL B,,,Sweden,Europe,,,,,,,investpy
+STL,Equinor,,,Switzerland,Europe,,,,,,,investpy
+PITE,PiteCo SpA,,,Italy,Europe,,,,,,,investpy
+RCP,RIT Capital,,,United Kingdom,Europe,,,,,,,investpy
+ZALG,Zalando SE,,,Switzerland,Europe,,,,,,,investpy
+SIG,Signet Jewelers,,,Germany,Europe,,,,,,,investpy
+HITy,Hitachi ADR,,,Germany,Europe,,,,,,,investpy
+TEAM,Team Tankers International Ltd,,,Norway,Europe,,,,,,,investpy
+AFGNOK,Af Gruppen,,,Sweden,Europe,,,,,,,investpy
+CPHN,CPH Chemie und Papier Holding,,,Switzerland,Europe,,,,,,,investpy
+SECS,Sensec,,,Sweden,Europe,,,,,,,investpy
+ELO1,Eldorado Gold,,,Germany,Europe,,,,,,,investpy
+TIRU,Tiger,,,United Kingdom,Europe,,,,,,,investpy
+STRONG,Strongpoint,,,Norway,Europe,,,,,,,investpy
+ABSLC,Absolicon Solar Collector,,,Sweden,Europe,,,,,,,investpy
+FFARM,ForFarmers,,,Netherlands,Europe,,,,,,,investpy
+SEMC,Semcon AB,,,Sweden,Europe,,,,,,,investpy
+JINNOK,Jinhui Shipping,,,Sweden,Europe,,,,,,,investpy
+ALGBE,Glob Bioenergi,,,France,Europe,,,,,,,investpy
+JNPR,Juniper,,,Germany,Europe,,,,,,,investpy
+CEXAy,Cemex ADR,,,Germany,Europe,,,,,,,investpy
+SACP,Fiducial Office,,,France,Europe,,,,,,,investpy
+LECO,Lincoln Electrics,,,Germany,Europe,,,,,,,investpy
+JCQ,Jacquet Metal,,,France,Europe,,,,,,,investpy
+CWCG,Cewe Color,,,Germany,Europe,,,,,,,investpy
+KAMUX,Kamux Suomi,,,Finland,Europe,,,,,,,investpy
+ERM,Euromoney,,,United Kingdom,Europe,,,,,,,investpy
+BURF,Burford,,,United Kingdom,Europe,,,,,,,investpy
+THINNOK,Thin Film Electronics ASA,,,Sweden,Europe,,,,,,,investpy
+CLBIO,Corline Biomedical AB,,,Sweden,Europe,,,,,,,investpy
+MIDWa,Midway Holding A,,,Sweden,Europe,,,,,,,investpy
+MOWI,Marine Harvest,,,Norway,Europe,,,,,,,investpy
+CSGG,China Specialty Glass AG,,,Germany,Europe,,,,,,,investpy
+MLFDV,Franck Deville SA,,,France,Europe,,,,,,,investpy
+DPWGn,Deutsche Post,,,Switzerland,Europe,,,,,,,investpy
+CLINEb,Cline Scientific AB,,,Sweden,Europe,,,,,,,investpy
+HEIN,Heineken,,,Netherlands,Europe,,,,,,,investpy
+BYWG,Baywa AG,,,Germany,Europe,,,,,,,investpy
+CBSM,SCBSM,,,France,Europe,,,,,,,investpy
+MA,Mastercard,,,Austria,Europe,,,,,,,investpy
+LM,Legg Mason,,,Germany,Europe,,,,,,,investpy
+EDP,EDP,,,Portugal,Europe,,,,,,,investpy
+IKGn,Intek RSP,,,Italy,Europe,,,,,,,investpy
+SFCC,SF Commercial Properties Fund,,,Switzerland,Europe,,,,,,,investpy
+DRLCO,Maersk Drilling,,,Denmark,Europe,,,,,,,investpy
+ADMr,Holding Company ADMIE,,,Greece,Europe,,,,,,,investpy
+RUBF,Rubis,,,France,Europe,,,,,,,investpy
+ATSV,At&S Austria,,,Austria,Europe,,,,,,,investpy
+KEKr,Kekrops,,,Greece,Europe,,,,,,,investpy
+COSG,Costain,,,United Kingdom,Europe,,,,,,,investpy
+INME,Independent News,,,Ireland,Europe,,,,,,,investpy
+KU2G,Kuka AG,,,Germany,Europe,,,,,,,investpy
+LNA,Le Noble Age,,,France,Europe,,,,,,,investpy
+MNKS,Monks,,,United Kingdom,Europe,,,,,,,investpy
+ABT,Abbott Labs,,,Germany,Europe,,,,,,,investpy
+TLW,Tullow Oil,,,United Kingdom,Europe,,,,,,,investpy
+NOV,National Oilwell Varco,,,Germany,Europe,,,,,,,investpy
+ARCT,Arctic Gold Publ AB,,,Sweden,Europe,,,,,,,investpy
+BR,Broadridge,,,Germany,Europe,,,,,,,investpy
+TR1,Tier1,,,Spain,Europe,,,,,,,investpy
+HAVb,Havsfrun Investment,,,Sweden,Europe,,,,,,,investpy
+NOVN,Novartis,,,Switzerland,Europe,,,,,,,investpy
+ARYN,Aryzta,,,Switzerland,Europe,,,,,,,investpy
+COCA,Coca-Cola Amatil,,,Germany,Europe,,,,,,,investpy
+TGTG,11 88 0 Solutions,,,Germany,Europe,,,,,,,investpy
+LFDE,La Francaise de l'Energie,,,France,Europe,,,,,,,investpy
+BKWB,BKW AG,,,Switzerland,Europe,,,,,,,investpy
+ZG,Zuger Kantonalbank,,,Switzerland,Europe,,,,,,,investpy
+CELL,Cellularline,,,Italy,Europe,,,,,,,investpy
+AAHG,Ahlers,,,Germany,Europe,,,,,,,investpy
+MALAR,Malarasen,,,Sweden,Europe,,,,,,,investpy
+SHLF,Shelf Drilling,,,Norway,Europe,,,,,,,investpy
+1COV,Covestro,,,Switzerland,Europe,,,,,,,investpy
+V,Visa A,,,Switzerland,Europe,,,,,,,investpy
+KEYW,Keyware Tech,,,Belgium,Europe,,,,,,,investpy
+KOMPBK,Komplett Bank,,,Norway,Europe,,,,,,,investpy
+ADAPT,Adapteo,,,Sweden,Europe,,,,,,,investpy
+LOOK,Lookers,,,United Kingdom,Europe,,,,,,,investpy
+PL6,Polaris Industries,,,Germany,Europe,,,,,,,investpy
+SOI,Schroder Oriental,,,United Kingdom,Europe,,,,,,,investpy
+NAVYA,Navya,,,France,Europe,,,,,,,investpy
+SRSP,Sirius Petroleum,,,United Kingdom,Europe,,,,,,,investpy
+ICAG,IAG,,,United Kingdom,Europe,,,,,,,investpy
+VACN,VAT Group,,,Switzerland,Europe,,,,,,,investpy
+DOTD,Dotdigital,,,United Kingdom,Europe,,,,,,,investpy
+ASMI,ASM,,,Netherlands,Europe,,,,,,,investpy
+UPSALE,Upsales Tech,,,Sweden,Europe,,,,,,,investpy
+G1AG,GEA Group AG,,,Switzerland,Europe,,,,,,,investpy
+EDIN,Edinburgh Investment,,,United Kingdom,Europe,,,,,,,investpy
+SHB,Shaftesbury,,,United Kingdom,Europe,,,,,,,investpy
+NNVDA,NVIDIA,,,Italy,Europe,,,,,,,investpy
+COREa,Corem Property,,,Sweden,Europe,,,,,,,investpy
+CXEN,Cxense,,,Norway,Europe,,,,,,,investpy
+GPROUSD,GoPro Inc,,,Switzerland,Europe,,,,,,,investpy
+EOLUb,Eolus Vind publ AB,,,Sweden,Europe,,,,,,,investpy
+LSC,London Security,,,United Kingdom,Europe,,,,,,,investpy
+BINERO,Oniva Online,,,Sweden,Europe,,,,,,,investpy
+DANO,Danone,,,France,Europe,,,,,,,investpy
+TAST,Tasty,,,United Kingdom,Europe,,,,,,,investpy
+CTAS,Cintas,,,Austria,Europe,,,,,,,investpy
+AIXGn,Aixtron,,,Germany,Europe,,,,,,,investpy
+BALYO,Balyo,,,France,Europe,,,,,,,investpy
+FIPPG,Frontier IP,,,United Kingdom,Europe,,,,,,,investpy
+YSPS,Student Properties,,,Spain,Europe,,,,,,,investpy
+SALM,SalMar,,,Norway,Europe,,,,,,,investpy
+BNRGn,Brenntag AG,,,Germany,Europe,,,,,,,investpy
+ENERS,Enersize,,,Sweden,Europe,,,,,,,investpy
+DAL,Datalogic,,,Italy,Europe,,,,,,,investpy
+VIFN,Vifor Pharma,,,Switzerland,Europe,,,,,,,investpy
+MLMON,MonFinancier,,,France,Europe,,,,,,,investpy
+INSTAL,Instalco Intressenter,,,Sweden,Europe,,,,,,,investpy
+STAB,Stabilus,,,Austria,Europe,,,,,,,investpy
+KLR,Keller,,,United Kingdom,Europe,,,,,,,investpy
+FIS,Fidelity National Info,,,Germany,Europe,,,,,,,investpy
+OTELLO,Opera Software,,,Norway,Europe,,,,,,,investpy
+ELYA,G8 Education,,,Germany,Europe,,,,,,,investpy
+SOGNS,Sogn Sparebank,,,Norway,Europe,,,,,,,investpy
+AGATE,Agat Ejendomme,,,Denmark,Europe,,,,,,,investpy
+WEBO,Websolute,,,Italy,Europe,,,,,,,investpy
+SNH,Senior Housing Properties,,,Germany,Europe,,,,,,,investpy
+GSS,Genesis Emerg Mkts,,,United Kingdom,Europe,,,,,,,investpy
+HD,Home Depot,,,Austria,Europe,,,,,,,investpy
+PXD,Pioneer Natural,,,Germany,Europe,,,,,,,investpy
+HASE,Hargreaves Services,,,United Kingdom,Europe,,,,,,,investpy
+MMSFT,Microsoft,,,Italy,Europe,,,,,,,investpy
+LASP,Lan og Spar Bank,,,Denmark,Europe,,,,,,,investpy
+CMA,Comerica,,,Germany,Europe,,,,,,,investpy
+UNG,Universe,,,United Kingdom,Europe,,,,,,,investpy
+CFVT,Confinvest,,,Italy,Europe,,,,,,,investpy
+HYARD,Havyard Group ASA,,,Norway,Europe,,,,,,,investpy
+PAGR,Panariagroup,,,Italy,Europe,,,,,,,investpy
+UTG,Unite,,,United Kingdom,Europe,,,,,,,investpy
+EVTG,Evotec AG,,,Austria,Europe,,,,,,,investpy
+SWUT,SW Umwelttechnik Stoiser Wolschner,,,Austria,Europe,,,,,,,investpy
+S2ME,S2Medical,,,Sweden,Europe,,,,,,,investpy
+XBRANE,Xbrane Biopharma,,,Sweden,Europe,,,,,,,investpy
+TEVAy,Teva ADR,,,Germany,Europe,,,,,,,investpy
+PSF,Poligrafica S Faustino,,,Italy,Europe,,,,,,,investpy
+KIDNOK,Kid ASA,,,Sweden,Europe,,,,,,,investpy
+ENALYZ,Enalyzer A/S,,,Denmark,Europe,,,,,,,investpy
+SOU,Sound Energy,,,United Kingdom,Europe,,,,,,,investpy
+SKBG,Koenig&Bauer AG,,,Germany,Europe,,,,,,,investpy
+ABT,Abbott Labs,,,Switzerland,Europe,,,,,,,investpy
+PRSO,Prosafe,,,Norway,Europe,,,,,,,investpy
+LRE,Lancashire,,,United Kingdom,Europe,,,,,,,investpy
+PSHG_p,Porsche,,,Germany,Europe,,,,,,,investpy
+UBIP,Ubisoft,,,France,Europe,,,,,,,investpy
+ODLNOK,Odfjell Drilli,,,Sweden,Europe,,,,,,,investpy
+PRY,Prysmian,,,Italy,Europe,,,,,,,investpy
+FOU,Fountain,,,Belgium,Europe,,,,,,,investpy
+ARTE,Artea SA,,,France,Europe,,,,,,,investpy
+LEV_p,N Leventeris,,,Greece,Europe,,,,,,,investpy
+FDPF,First Derivatives,,,United Kingdom,Europe,,,,,,,investpy
+SSABAH,SSAB A,,,Finland,Europe,,,,,,,investpy
+YGMP,GMP Property,,,Spain,Europe,,,,,,,investpy
+ON,BIO ON,,,Italy,Europe,,,,,,,investpy
+VBKG,Verbio Vereinigte,,,Germany,Europe,,,,,,,investpy
+VOF,Vinacapital Vietnam,,,United Kingdom,Europe,,,,,,,investpy
+SATG,Sartorius AG,,,Germany,Europe,,,,,,,investpy
+STOB,Stobart,,,United Kingdom,Europe,,,,,,,investpy
+JDAN,Jeudan,,,Denmark,Europe,,,,,,,investpy
+RLT,Relatech,,,Italy,Europe,,,,,,,investpy
+FEWG,Funkwerk AG,,,Germany,Europe,,,,,,,investpy
+LOCAL,Solocal,,,France,Europe,,,,,,,investpy
+GENX,Generix,,,France,Europe,,,,,,,investpy
+CAL,Capital Regional,,,United Kingdom,Europe,,,,,,,investpy
+PRSW,Prologue,,,France,Europe,,,,,,,investpy
+IDXX,IDEXX Labs,,,Austria,Europe,,,,,,,investpy
+SAGAa,Sagax AB,,,Sweden,Europe,,,,,,,investpy
+PRT,Esprinet,,,Italy,Europe,,,,,,,investpy
+ALSIM,Assima PLC,,,France,Europe,,,,,,,investpy
+GLV,Glenveagh Properties,,,Ireland,Europe,,,,,,,investpy
+AGL,Autogrill,,,Italy,Europe,,,,,,,investpy
+COME,Comer Industries,,,Italy,Europe,,,,,,,investpy
+BICP,BIC,,,France,Europe,,,,,,,investpy
+CFTS,CFT,,,Italy,Europe,,,,,,,investpy
+JMF,JPMorgan Mid Cap,,,United Kingdom,Europe,,,,,,,investpy
+PUBP,Publicis Groupe,,,France,Europe,,,,,,,investpy
+INVP,Investec,,,United Kingdom,Europe,,,,,,,investpy
+A6W,Alexandria RE,,,Germany,Europe,,,,,,,investpy
+IBG,Iberpapel Gestion,,,Spain,Europe,,,,,,,investpy
+AMBEA,Ambea,,,Sweden,Europe,,,,,,,investpy
+RUSE,ENR Russia Invest,,,Switzerland,Europe,,,,,,,investpy
+ALFIL,Filae,,,France,Europe,,,,,,,investpy
+ACUC,AcuCort,,,Sweden,Europe,,,,,,,investpy
+VRX,Bausch Health,,,Switzerland,Europe,,,,,,,investpy
+ENC,ENCE,,,Spain,Europe,,,,,,,investpy
+VLLP,Vallourec,,,Switzerland,Europe,,,,,,,investpy
+RDM,Reno De Medici,,,Spain,Europe,,,,,,,investpy
+HTGR,H&T Group,,,United Kingdom,Europe,,,,,,,investpy
+PHIG,Phase Holographic,,,Sweden,Europe,,,,,,,investpy
+LUVE,LU-VE,,,Italy,Europe,,,,,,,investpy
+WAFGn,Siltronic AG,,,Austria,Europe,,,,,,,investpy
+CAPMAN,CapMan B,,,Finland,Europe,,,,,,,investpy
+DWNG,Deutsche Wohnen,,,Germany,Europe,,,,,,,investpy
+ZENZIPb,Zenergy,,,Sweden,Europe,,,,,,,investpy
+SALMON,Salmones Camanchaca,,,Norway,Europe,,,,,,,investpy
+YGGC,GGC,,,Spain,Europe,,,,,,,investpy
+GIGAH,Gigas Hosting SA,,,Spain,Europe,,,,,,,investpy
+CTH,Caretech,,,United Kingdom,Europe,,,,,,,investpy
+CSSG,Croma,,,United Kingdom,Europe,,,,,,,investpy
+DNBNOK,DnB,,,Sweden,Europe,,,,,,,investpy
+SSM,SSM Holding,,,Sweden,Europe,,,,,,,investpy
+DRW3,Draegerwerk VZO,,,Austria,Europe,,,,,,,investpy
+FPIP,FormPipe Software,,,Sweden,Europe,,,,,,,investpy
+AGTA,Agta Record,,,France,Europe,,,,,,,investpy
+NXTMH,Nexstim,,,Finland,Europe,,,,,,,investpy
+ASSAb,ASSA ABLOY B,,,Sweden,Europe,,,,,,,investpy
+OGN,Origin,,,United Kingdom,Europe,,,,,,,investpy
+RING,Sparebank 1 Ringerike Hadeland,,,Norway,Europe,,,,,,,investpy
+PMG,Parkmead Group PLC,,,United Kingdom,Europe,,,,,,,investpy
+PSHP,Pershing Square,,,United Kingdom,Europe,,,,,,,investpy
+CALq,Caledonia Mining,,,United Kingdom,Europe,,,,,,,investpy
+SECUb,Securitas B,,,Sweden,Europe,,,,,,,investpy
+DCC,DCC,,,United Kingdom,Europe,,,,,,,investpy
+HIK,Hikma Pharma,,,United Kingdom,Europe,,,,,,,investpy
+INCU,Incus Investor,,,Norway,Europe,,,,,,,investpy
+ORSO,Orsero,,,Italy,Europe,,,,,,,investpy
+TRACb,Traction B,,,Sweden,Europe,,,,,,,investpy
+CELG,Celgene,,,Austria,Europe,,,,,,,investpy
+2S7,Sprint,,,Germany,Europe,,,,,,,investpy
+CFISH,Crunchfish,,,Sweden,Europe,,,,,,,investpy
+ABNd,ABN AMRO,,,Netherlands,Europe,,,,,,,investpy
+NBEN,Nebag ag,,,Switzerland,Europe,,,,,,,investpy
+AMA1,Youbisheng Green,,,Germany,Europe,,,,,,,investpy
+DB1Gn,Deutsche Boerse,,,Germany,Europe,,,,,,,investpy
+MGNS,Morgan Sindall,,,United Kingdom,Europe,,,,,,,investpy
+H9B1,Herc Holdings,,,Germany,Europe,,,,,,,investpy
+KANC,Kancera AB,,,Sweden,Europe,,,,,,,investpy
+MRCGEUR,Merck,,,Switzerland,Europe,,,,,,,investpy
+IMSI,IMMSI,,,Italy,Europe,,,,,,,investpy
+SCYR,Sacyr,,,Spain,Europe,,,,,,,investpy
+ODX,Omega,,,United Kingdom,Europe,,,,,,,investpy
+GLJn,Grenke,,,Germany,Europe,,,,,,,investpy
+HIG,Hartford,,,Germany,Europe,,,,,,,investpy
+DAMG,Data Modul AG,,,Germany,Europe,,,,,,,investpy
+GOOGL,Alphabet A,,,Austria,Europe,,,,,,,investpy
+SCTS,Softcat PLC,,,United Kingdom,Europe,,,,,,,investpy
+ASOS,Asos,,,United Kingdom,Europe,,,,,,,investpy
+GSP,Gas Plus,,,Italy,Europe,,,,,,,investpy
+MSLH,Marshalls,,,United Kingdom,Europe,,,,,,,investpy
+STAB,Stabilus,,,Germany,Europe,,,,,,,investpy
+MNST,Monster Beverage,,,Austria,Europe,,,,,,,investpy
+ASRNL,ASR Nederland,,,Netherlands,Europe,,,,,,,investpy
+K1RG,Kromi,,,Germany,Europe,,,,,,,investpy
+HSTG,Hastings Group Holdings PLC,,,United Kingdom,Europe,,,,,,,investpy
+SNI,Stolt-Nielsen,,,Norway,Europe,,,,,,,investpy
+BNZL,Bunzl,,,United Kingdom,Europe,,,,,,,investpy
+WHC,Whitehaven Coal,,,Germany,Europe,,,,,,,investpy
+IG,Italgas,,,Italy,Europe,,,,,,,investpy
+MFBP,Malteries FCO-Belges,,,France,Europe,,,,,,,investpy
+2F5,Biondvax Pharma ADR,,,Germany,Europe,,,,,,,investpy
+MVVGn,MVV Energie AG,,,Germany,Europe,,,,,,,investpy
+CAIV,CA Immobilien Anlagen AG,,,Austria,Europe,,,,,,,investpy
+LUC,Lucara Diamond Corp,,,Sweden,Europe,,,,,,,investpy
+BULTEN,Bulten AB,,,Sweden,Europe,,,,,,,investpy
+AJAX,Ajax,,,Netherlands,Europe,,,,,,,investpy
+GRIE,Grino Ecologic S.A.,,,Spain,Europe,,,,,,,investpy
+MTFTy,Mitsubishi UFJ Financial ADR,,,Germany,Europe,,,,,,,investpy
+SVT,Severn Trent,,,United Kingdom,Europe,,,,,,,investpy
+UPS,United Parcel Service,,,Germany,Europe,,,,,,,investpy
+SUH,Sutton Harbour,,,United Kingdom,Europe,,,,,,,investpy
+PNOR,Petronor E&P,,,Norway,Europe,,,,,,,investpy
+EWI1,Electrawinds SE A,,,Germany,Europe,,,,,,,investpy
+DAIGn,Daimler,,,Switzerland,Europe,,,,,,,investpy
+BALN,Baloise Holding,,,Switzerland,Europe,,,,,,,investpy
+SHLG,Siemens Healthineers,,,Germany,Europe,,,,,,,investpy
+EACI,Santa Fe Group,,,Denmark,Europe,,,,,,,investpy
+SSI,Supersonic Imagine,,,France,Europe,,,,,,,investpy
+CLAVI,Clavister Holding AB,,,Sweden,Europe,,,,,,,investpy
+MIPS,MIPS,,,Sweden,Europe,,,,,,,investpy
+DEMG,Deltex,,,United Kingdom,Europe,,,,,,,investpy
+ZOT,Zardoya Otis,,,Spain,Europe,,,,,,,investpy
+ATORX,Alligator Bioscience,,,Sweden,Europe,,,,,,,investpy
+MRM,M.R.M,,,France,Europe,,,,,,,investpy
+EDGEW,Edgeware,,,Sweden,Europe,,,,,,,investpy
+ENRAD,Enrad,,,Sweden,Europe,,,,,,,investpy
+AAAA,AA Plc,,,United Kingdom,Europe,,,,,,,investpy
+CVS,CVS Health Corp,,,Germany,Europe,,,,,,,investpy
+V6CG,Viscom AG,,,Germany,Europe,,,,,,,investpy
+DBOX,Digitalbox,,,United Kingdom,Europe,,,,,,,investpy
+ROTH,Rothschild & Co,,,France,Europe,,,,,,,investpy
+BETR,Beter Bed,,,Netherlands,Europe,,,,,,,investpy
+HIA,Health Italia,,,Italy,Europe,,,,,,,investpy
+ELCO,Elecosoft,,,United Kingdom,Europe,,,,,,,investpy
+AA4,Falck,,,Italy,Europe,,,,,,,investpy
+HHI,Henderson High Income,,,United Kingdom,Europe,,,,,,,investpy
+UAI,U and I Group,,,United Kingdom,Europe,,,,,,,investpy
+MLLED,Novaday,,,France,Europe,,,,,,,investpy
+REAT,React Group,,,United Kingdom,Europe,,,,,,,investpy
+VOWG_p,Volkswagen VZO,,,Germany,Europe,,,,,,,investpy
+BUP,BIOM UP,,,France,Europe,,,,,,,investpy
+NORDID,Nordic Iron Ore,,,Finland,Europe,,,,,,,investpy
+CADOn,Comercial del Plata N,,,Switzerland,Europe,,,,,,,investpy
+IEM,Impax Environmental,,,United Kingdom,Europe,,,,,,,investpy
+WRT1V,Wartsila,,,Finland,Europe,,,,,,,investpy
+GLEN,Glencore,,,United Kingdom,Europe,,,,,,,investpy
+GUGEO,Guideline Geo,,,Sweden,Europe,,,,,,,investpy
+SFQN,SAF Holland,,,Austria,Europe,,,,,,,investpy
+SIOO,Sirio,,,Italy,Europe,,,,,,,investpy
+4BW,BWX Tech,,,Germany,Europe,,,,,,,investpy
+FHZN,Flughafen Zurich,,,Switzerland,Europe,,,,,,,investpy
+ASH,Ashley House,,,United Kingdom,Europe,,,,,,,investpy
+DMG,Digital Magics,,,Italy,Europe,,,,,,,investpy
+PLANZ,Plazza Immobilien AG,,,Switzerland,Europe,,,,,,,investpy
+FIVEPG,5Th Planet Games,,,Norway,Europe,,,,,,,investpy
+CBAX,Commonwealth Bank Australia,,,Germany,Europe,,,,,,,investpy
+NILS,Nilsson Special Vehicles publ AB,,,Sweden,Europe,,,,,,,investpy
+MPEN,MedicPen,,,Sweden,Europe,,,,,,,investpy
+BSGR,B&S Group,,,Netherlands,Europe,,,,,,,investpy
+GATEG,Gate Ventures,,,Denmark,Europe,,,,,,,investpy
+COPMa,CompuGroup AG,,,Germany,Europe,,,,,,,investpy
+TEP,Telecom Plus,,,United Kingdom,Europe,,,,,,,investpy
+DEMANT,William Demant,,,Denmark,Europe,,,,,,,investpy
+ALTTI,Travel Technology Interactive,,,France,Europe,,,,,,,investpy
+OLLI,Installux,,,France,Europe,,,,,,,investpy
+DIEGK,Diegem Kennedy,,,Belgium,Europe,,,,,,,investpy
+VITb,Vitec Software B,,,Sweden,Europe,,,,,,,investpy
+ADLG,Adler Real Estate,,,Austria,Europe,,,,,,,investpy
+COREpref,Corem Property,,,Sweden,Europe,,,,,,,investpy
+D8Sy,Itau CorpBanca ADR,,,Germany,Europe,,,,,,,investpy
+INISSb,Inission,,,Sweden,Europe,,,,,,,investpy
+XMR,XMReality,,,Sweden,Europe,,,,,,,investpy
+SGI,Stanley Gibbons,,,United Kingdom,Europe,,,,,,,investpy
+UBIP,Ubisoft,,,Switzerland,Europe,,,,,,,investpy
+PFG,Provident Financial,,,United Kingdom,Europe,,,,,,,investpy
+FABG,Fabege,,,Sweden,Europe,,,,,,,investpy
+JUNG_p,Jungheinrich AG,,,Germany,Europe,,,,,,,investpy
+YARNOK,Yara International,,,Sweden,Europe,,,,,,,investpy
+YEINT,Yleiselektroniikka,,,Finland,Europe,,,,,,,investpy
+MEDA,Medartis,,,Switzerland,Europe,,,,,,,investpy
+KUBCq,Kubera,,,United Kingdom,Europe,,,,,,,investpy
+FTC,Filtronic,,,United Kingdom,Europe,,,,,,,investpy
+LITIU,Litium,,,Sweden,Europe,,,,,,,investpy
+NUEVOL,Nuevolution AB,,,Sweden,Europe,,,,,,,investpy
+ORM,Ormonde Mining,,,Ireland,Europe,,,,,,,investpy
+CHRH,Chr. Hansen,,,Denmark,Europe,,,,,,,investpy
+ALIDS,Idsud,,,France,Europe,,,,,,,investpy
+SUSW,Surgical Science Sweden,,,Sweden,Europe,,,,,,,investpy
+NOR,Norwegian Ener,,,Norway,Europe,,,,,,,investpy
+STF,Stef,,,France,Europe,,,,,,,investpy
+LIDDS,Lidds AB,,,Sweden,Europe,,,,,,,investpy
+SKAb,Skanska B,,,Sweden,Europe,,,,,,,investpy
+NOHOP,NoHo Partners,,,Finland,Europe,,,,,,,investpy
+BAYNE,Bayn Europe AB,,,Sweden,Europe,,,,,,,investpy
+PTEC,Playtech,,,United Kingdom,Europe,,,,,,,investpy
+NWJ,Eversource Energy,,,Germany,Europe,,,,,,,investpy
+ALKb,ALK-Abello B,,,Denmark,Europe,,,,,,,investpy
+BPDG,Banque Profil Gestion,,,Switzerland,Europe,,,,,,,investpy
+MKO1,Capri Holdings,,,Germany,Europe,,,,,,,investpy
+VWS,Vestas Wind,,,Denmark,Europe,,,,,,,investpy
+YSRR,Serrano 61 Desarrollo,,,Spain,Europe,,,,,,,investpy
+LEBO,Lebon,,,France,Europe,,,,,,,investpy
+GOFORE,Gofore,,,Finland,Europe,,,,,,,investpy
+HEFT,Henderson European,,,United Kingdom,Europe,,,,,,,investpy
+PSON,Pearson,,,United Kingdom,Europe,,,,,,,investpy
+VOWG,Volkswagen ST,,,Belgium,Europe,,,,,,,investpy
+DIOR,Christian Dior,,,France,Europe,,,,,,,investpy
+GATC,GATTACA,,,United Kingdom,Europe,,,,,,,investpy
+RBIV,Raiffeisen Bank,,,Switzerland,Europe,,,,,,,investpy
+PSAGn,PSI AG,,,Germany,Europe,,,,,,,investpy
+NANONOK,Nordic Nanovector ASA,,,Sweden,Europe,,,,,,,investpy
+HHFGn,Hamburger Hafen A-SP,,,Germany,Europe,,,,,,,investpy
+RBA,Ritchie Bros Auctioneers,,,Germany,Europe,,,,,,,investpy
+MANV,Josef Manner Comp AG,,,Austria,Europe,,,,,,,investpy
+ALNG,Awilco LNG,,,Norway,Europe,,,,,,,investpy
+DRWG,Draegerwerk ST,,,Germany,Europe,,,,,,,investpy
+B8JN,Basic Energy Services,,,Germany,Europe,,,,,,,investpy
+JARB,Jardine Matheson,,,United Kingdom,Europe,,,,,,,investpy
+FORN,Forbo Holding AG,,,Switzerland,Europe,,,,,,,investpy
+ALPAT,Plant Advanced Technologies SA,,,France,Europe,,,,,,,investpy
+OPUS,Opus Group publ AB,,,Sweden,Europe,,,,,,,investpy
+R4ER,Reach4Entertainment,,,United Kingdom,Europe,,,,,,,investpy
+DOVA,DoValue,,,Italy,Europe,,,,,,,investpy
+SOON,Sonova H Ag,,,Switzerland,Europe,,,,,,,investpy
+BSXU,Boston Scientific,,,Germany,Europe,,,,,,,investpy
+NEWTON,Newton Nordic,,,Sweden,Europe,,,,,,,investpy
+EYDr,Athens Water,,,Greece,Europe,,,,,,,investpy
+IDVP,IDI,,,France,Europe,,,,,,,investpy
+WEB,Webjet,,,Germany,Europe,,,,,,,investpy
+BKS,Barnes&Noble,,,Germany,Europe,,,,,,,investpy
+SFPF,SF Sustainable Property Fund,,,Switzerland,Europe,,,,,,,investpy
+NWOn,New Work,,,Germany,Europe,,,,,,,investpy
+PHARP,Pharos Energy PLC,,,United Kingdom,Europe,,,,,,,investpy
+AGAT,Agatos,,,Italy,Europe,,,,,,,investpy
+CBOE,Cboe Global,,,Germany,Europe,,,,,,,investpy
+PXSL,Provexis,,,Germany,Europe,,,,,,,investpy
+KINVa,Kinnevik A,,,Sweden,Europe,,,,,,,investpy
+ARGR,Argos,,,United Kingdom,Europe,,,,,,,investpy
+ALGEV,Gevelot,,,France,Europe,,,,,,,investpy
+PCAT,Photocat AS,,,Sweden,Europe,,,,,,,investpy
+SAN,Santander,,,Germany,Europe,,,,,,,investpy
+BIAN,Biancamano,,,Italy,Europe,,,,,,,investpy
+GBGP,GB Group,,,United Kingdom,Europe,,,,,,,investpy
+HZM,Horizonte Minerals,,,United Kingdom,Europe,,,,,,,investpy
+UNIBAP,Unibap,,,Sweden,Europe,,,,,,,investpy
+STEL,SingTel,,,Germany,Europe,,,,,,,investpy
+FGG,Future Gaming Group,,,Sweden,Europe,,,,,,,investpy
+COVI,Contextvision,,,Norway,Europe,,,,,,,investpy
+ZALG,Zalando SE,,,Germany,Europe,,,,,,,investpy
+MTGb,MTG B,,,Sweden,Europe,,,,,,,investpy
+AVG,Avingtrans,,,United Kingdom,Europe,,,,,,,investpy
+INDUCT-ME,Induct,,,Norway,Europe,,,,,,,investpy
+FNL,Finlogic,,,Italy,Europe,,,,,,,investpy
+DESI,Banco Di Desio E Brianza,,,Italy,Europe,,,,,,,investpy
+ALTAN,Le Tanneur,,,France,Europe,,,,,,,investpy
+YAST,Asturias Retail,,,Spain,Europe,,,,,,,investpy
+SLITE,Slitevind,,,Sweden,Europe,,,,,,,investpy
+VALO,VALE ON,,,Spain,Europe,,,,,,,investpy
+WYWYN,Wynnstay,,,United Kingdom,Europe,,,,,,,investpy
+XIOR,Xior Student Housing BVBA,,,Belgium,Europe,,,,,,,investpy
+GILG,DMG Mori Seiki,,,Austria,Europe,,,,,,,investpy
+SIKA,Sika,,,Switzerland,Europe,,,,,,,investpy
+BCPT,BMO Commercial,,,United Kingdom,Europe,,,,,,,investpy
+SIILI,Siili Solutions Oyj,,,Finland,Europe,,,,,,,investpy
+VOD,Vodafone Group PLC,,,United Kingdom,Europe,,,,,,,investpy
+DRIL,Drillcon AB,,,Sweden,Europe,,,,,,,investpy
+SRSr,Gr Sarantis,,,Greece,Europe,,,,,,,investpy
+STBNOK,Storebrand,,,Sweden,Europe,,,,,,,investpy
+SY1G,Symrise AG,,,Austria,Europe,,,,,,,investpy
+TQK,The Wendy’s Co,,,Germany,Europe,,,,,,,investpy
+TWTR,Twitter Inc,,,Austria,Europe,,,,,,,investpy
+ABEO,Abeo SAS,,,France,Europe,,,,,,,investpy
+IPG,IPG,,,Germany,Europe,,,,,,,investpy
+ODF,Odfjell,,,Norway,Europe,,,,,,,investpy
+C0Q,Coca Cola HBC AG,,,Germany,Europe,,,,,,,investpy
+HANDI,Handicare,,,Sweden,Europe,,,,,,,investpy
+COMPIT,Compare-IT Nordic,,,Sweden,Europe,,,,,,,investpy
+ELEKTRA,Grupo Elektra,,,Spain,Europe,,,,,,,investpy
+ZETA,ZetaDisplay AB,,,Sweden,Europe,,,,,,,investpy
+CROS,Crosswood,,,France,Europe,,,,,,,investpy
+ANV,Antares Vision,,,Italy,Europe,,,,,,,investpy
+GSFNOK,Grieg Seafood,,,Sweden,Europe,,,,,,,investpy
+MAERSKa,Moller Maersk A,,,Denmark,Europe,,,,,,,investpy
+PNVA,Paynova,,,Sweden,Europe,,,,,,,investpy
+HBAN,Huntington Bancshares,,,Germany,Europe,,,,,,,investpy
+GFII,Lisi,,,France,Europe,,,,,,,investpy
+PAFR,Pan African Resources,,,Germany,Europe,,,,,,,investpy
+HOMEb,HomeMaid,,,Sweden,Europe,,,,,,,investpy
+OSBO,OSB,,,United Kingdom,Europe,,,,,,,investpy
+SAA1V,Sanoma Oyj,,,Finland,Europe,,,,,,,investpy
+TWTR,Twitter Inc,,,Switzerland,Europe,,,,,,,investpy
+CAPLI,Capelli,,,France,Europe,,,,,,,investpy
+NTSAS,NTS ASA,,,Norway,Europe,,,,,,,investpy
+AOXG,Alstria,,,Austria,Europe,,,,,,,investpy
+SYNCS,Syncona,,,United Kingdom,Europe,,,,,,,investpy
+ALCC,Alcon,,,Switzerland,Europe,,,,,,,investpy
+NJOB,NetJobs Group AB,,,Sweden,Europe,,,,,,,investpy
+HNE,Henderson Eurotrust,,,United Kingdom,Europe,,,,,,,investpy
+CRTO,Crcam Touraine,,,France,Europe,,,,,,,investpy
+IGC,India Capital,,,United Kingdom,Europe,,,,,,,investpy
+NETC,Netcall,,,United Kingdom,Europe,,,,,,,investpy
+HON,Honeywell,,,Germany,Europe,,,,,,,investpy
+III,3I Group,,,United Kingdom,Europe,,,,,,,investpy
+TBIRD,Thunderbird Resorts,,,Netherlands,Europe,,,,,,,investpy
+CSP,CSP International,,,Italy,Europe,,,,,,,investpy
+FCIT,F&C Invest,,,United Kingdom,Europe,,,,,,,investpy
+BRGD,Borregaard,,,Norway,Europe,,,,,,,investpy
+BYOT,Byotrol,,,United Kingdom,Europe,,,,,,,investpy
+ZUMV,Zumtobel AG,,,Austria,Europe,,,,,,,investpy
+CMCOM,Cm,,,Netherlands,Europe,,,,,,,investpy
+HELN,Helvetia,,,Switzerland,Europe,,,,,,,investpy
+ALLN,Allreal Holding,,,Switzerland,Europe,,,,,,,investpy
+BIOWKS,Bio-Works,,,Sweden,Europe,,,,,,,investpy
+1BF,Phoenix,,,Germany,Europe,,,,,,,investpy
+REGN,Regeneron Pharma,,,Germany,Europe,,,,,,,investpy
+AALD,American Airlines,,,Austria,Europe,,,,,,,investpy
+BYGGP,Bygg Partner i Dalarna,,,Sweden,Europe,,,,,,,investpy
+DTEGnEUR,Deutsche Telekom AG,,,Switzerland,Europe,,,,,,,investpy
+ABI,Anheuser Busch Inbev,,,Italy,Europe,,,,,,,investpy
+LGEN,Legal & General,,,United Kingdom,Europe,,,,,,,investpy
+ABF,Associated British Foods,,,United Kingdom,Europe,,,,,,,investpy
+SOPH,Sophos Group PLC,,,United Kingdom,Europe,,,,,,,investpy
+TOTF,Total,,,Switzerland,Europe,,,,,,,investpy
+BEZG,Beazley,,,United Kingdom,Europe,,,,,,,investpy
+ZCCM,ZCCM Investments,,,France,Europe,,,,,,,investpy
+BGHL,Boussard Gavaudan,,,Netherlands,Europe,,,,,,,investpy
+SAPGEUR,SAP,,,Switzerland,Europe,,,,,,,investpy
+MLDTB,Datbim SA,,,France,Europe,,,,,,,investpy
+UW,Waste Management,,,Germany,Europe,,,,,,,investpy
+SIAT,CS RE Siat,,,Switzerland,Europe,,,,,,,investpy
+GDWN,Goodwin,,,United Kingdom,Europe,,,,,,,investpy
+YPARK,Inmobiliaria Park Rose,,,Spain,Europe,,,,,,,investpy
+AFPD,Aluflexpack,,,Switzerland,Europe,,,,,,,investpy
+MOLDC,Costamp,,,Italy,Europe,,,,,,,investpy
+SOSI1,Sotkamo Silver AB,,,Finland,Europe,,,,,,,investpy
+MULQ,MultiQ International,,,Sweden,Europe,,,,,,,investpy
+RAAG,Rational AG,,,Germany,Europe,,,,,,,investpy
+CVN,Carnarvon Petroleum,,,Germany,Europe,,,,,,,investpy
+NY7,Molson Coors Brewing B,,,Germany,Europe,,,,,,,investpy
+LHN,LafargeHolcim,,,France,Europe,,,,,,,investpy
+NKR,Nekkar Asa,,,Norway,Europe,,,,,,,investpy
+ALVER,Vergnet,,,France,Europe,,,,,,,investpy
+JHD,James Halstead,,,United Kingdom,Europe,,,,,,,investpy
+ALSS,Altri,,,Portugal,Europe,,,,,,,investpy
+ABVX,Abivax SA,,,France,Europe,,,,,,,investpy
+BKNGUSD,Booking,,,Switzerland,Europe,,,,,,,investpy
+SCOR,SCOR,,,France,Europe,,,,,,,investpy
+GRLA,Gronlandsbanken,,,Denmark,Europe,,,,,,,investpy
+SIC,Swisscanto CH RE Ifca,,,Switzerland,Europe,,,,,,,investpy
+PSCF,Procimmo Swiss Commercial,,,Switzerland,Europe,,,,,,,investpy
+CMO,Crcam Morbihan,,,France,Europe,,,,,,,investpy
+MLVAP,Kumulus Vape,,,France,Europe,,,,,,,investpy
+AIBG,AIB,,,Ireland,Europe,,,,,,,investpy
+AIKb,AIK Fotboll,,,Sweden,Europe,,,,,,,investpy
+PQR,Parques Reunidos,,,Spain,Europe,,,,,,,investpy
+TOWNT,Town Centre,,,United Kingdom,Europe,,,,,,,investpy
+ALBOU,Bourrelier,,,France,Europe,,,,,,,investpy
+BRWM,Blackrock World Mining,,,United Kingdom,Europe,,,,,,,investpy
+CTH1V,Componenta Oyj,,,Finland,Europe,,,,,,,investpy
+LEADD,Leaddesk,,,Finland,Europe,,,,,,,investpy
+BEG,Begbies Traynor,,,United Kingdom,Europe,,,,,,,investpy
+FTON,Feintool International Holding,,,Switzerland,Europe,,,,,,,investpy
+VJBA,Vestjysk Bank,,,Denmark,Europe,,,,,,,investpy
+SIE,Siemens AG,,,Italy,Europe,,,,,,,investpy
+MAREL,Marel hf,,,Netherlands,Europe,,,,,,,investpy
+INGI,Ingenta,,,United Kingdom,Europe,,,,,,,investpy
+FPO,Petra Diamonds,,,Germany,Europe,,,,,,,investpy
+NEXTNOK,Next Biometrics,,,Sweden,Europe,,,,,,,investpy
+ABBN,ABB,,,Switzerland,Europe,,,,,,,investpy
+DEDIC,Dedicare B,,,Sweden,Europe,,,,,,,investpy
+STAF,Staffline,,,United Kingdom,Europe,,,,,,,investpy
+WINEW,Majestic Wine,,,United Kingdom,Europe,,,,,,,investpy
+ETO,Entertainment One,,,United Kingdom,Europe,,,,,,,investpy
+H2Fn,Heliocentris Energy Solutions,,,Germany,Europe,,,,,,,investpy
+ANP,Anpario,,,United Kingdom,Europe,,,,,,,investpy
+CAH,Cardinal Health,,,Germany,Europe,,,,,,,investpy
+ARYN,Aryzta,,,Ireland,Europe,,,,,,,investpy
+EVE,Evolva Holding,,,Switzerland,Europe,,,,,,,investpy
+RIB,RIB Software AG,,,Germany,Europe,,,,,,,investpy
+REDD,Redde,,,United Kingdom,Europe,,,,,,,investpy
+MBO,Mobilityone,,,United Kingdom,Europe,,,,,,,investpy
+SLB,Schlumberger,,,Switzerland,Europe,,,,,,,investpy
+SGOB,Saint Gobain,,,Italy,Europe,,,,,,,investpy
+IRLABa,IRLAB Therapeutics,,,Sweden,Europe,,,,,,,investpy
+TENr,Terna Energy,,,Greece,Europe,,,,,,,investpy
+INTEGb,Integrum,,,Sweden,Europe,,,,,,,investpy
+IVXG,Invision AG,,,Germany,Europe,,,,,,,investpy
+RAIKV,Raisio,,,Finland,Europe,,,,,,,investpy
+NEPA,Nepa,,,Sweden,Europe,,,,,,,investpy
+CRGIn,Banca Carige RSP,,,Italy,Europe,,,,,,,investpy
+MBBG,MBB Industries AG,,,Germany,Europe,,,,,,,investpy
+BET,BE,,,Italy,Europe,,,,,,,investpy
+HOC,HolidayCheck,,,Germany,Europe,,,,,,,investpy
+SIEGnEUR,Siemens AG,,,Switzerland,Europe,,,,,,,investpy
+PVAC,Pierre Vacances,,,France,Europe,,,,,,,investpy
+REE,Red Electrica,,,Spain,Europe,,,,,,,investpy
+HOFI,Hoist Finance AB,,,Sweden,Europe,,,,,,,investpy
+ELEC,Electra Gruppen,,,Sweden,Europe,,,,,,,investpy
+ELY,Callaway Golf,,,Germany,Europe,,,,,,,investpy
+UIAV,Unternehmens Invest AG,,,Austria,Europe,,,,,,,investpy
+ATVI,Activision Blizzard,,,Austria,Europe,,,,,,,investpy
+JBOG,Jacques Bogart,,,France,Europe,,,,,,,investpy
+VEMFsdb,Vostok Emerging Finance Ltd,,,Sweden,Europe,,,,,,,investpy
+V3VGn,Vita 34 AG,,,Germany,Europe,,,,,,,investpy
+FUGRc,Fugro,,,Netherlands,Europe,,,,,,,investpy
+ALNGNOK,Awilco LNG,,,Sweden,Europe,,,,,,,investpy
+LXSG,Lanxess AG,,,Germany,Europe,,,,,,,investpy
+CRDA,Croda Intl,,,United Kingdom,Europe,,,,,,,investpy
+CONFRZ,Conferize,,,Denmark,Europe,,,,,,,investpy
+2DBn,Dunkin Brands,,,Germany,Europe,,,,,,,investpy
+VLTZ,Graines Voltz,,,France,Europe,,,,,,,investpy
+AAL,Anglo American,,,Switzerland,Europe,,,,,,,investpy
+DB1GnEUR,Deutsche Boerse,,,Switzerland,Europe,,,,,,,investpy
+GIRO,Signaux Girod,,,France,Europe,,,,,,,investpy
+AEDAS,Aedas Homes,,,Spain,Europe,,,,,,,investpy
+ALNN6,Enensys Technologies,,,France,Europe,,,,,,,investpy
+CPRC,Carpetright,,,United Kingdom,Europe,,,,,,,investpy
+MNL,Manchester and London,,,United Kingdom,Europe,,,,,,,investpy
+GSK,GlaxoSmithKline,,,Switzerland,Europe,,,,,,,investpy
+MLTR,Uni Light LED,,,Sweden,Europe,,,,,,,investpy
+NDADK,Nordea Bank,,,Denmark,Europe,,,,,,,investpy
+ALERS,Eurobio Scientific,,,France,Europe,,,,,,,investpy
+HOLCO,Holland Colours,,,Netherlands,Europe,,,,,,,investpy
+SVS,Savills,,,United Kingdom,Europe,,,,,,,investpy
+VZ,Verizon,,,Austria,Europe,,,,,,,investpy
+RISK,Risk Intelligence,,,Sweden,Europe,,,,,,,investpy
+ANEA,Anglo-Eastern Plantations,,,United Kingdom,Europe,,,,,,,investpy
+HELIO,Heliospectra publ AB,,,Sweden,Europe,,,,,,,investpy
+DOKA,Dorma Kaba Holding,,,Switzerland,Europe,,,,,,,investpy
+TRVX,Targovax,,,Norway,Europe,,,,,,,investpy
+BIOa,Bio-Rad Labs,,,Germany,Europe,,,,,,,investpy
+HYR,Hydrodec,,,United Kingdom,Europe,,,,,,,investpy
+SCST,Scandi Standard publ AB,,,Sweden,Europe,,,,,,,investpy
+PCA,Palace Capital PLC,,,United Kingdom,Europe,,,,,,,investpy
+ROSER,Rose Petroleum,,,United Kingdom,Europe,,,,,,,investpy
+CTNGk,Centrotherm,,,Germany,Europe,,,,,,,investpy
+ABM,ABM Industries,,,Germany,Europe,,,,,,,investpy
+DIVIb,Dividend Sweden,,,Sweden,Europe,,,,,,,investpy
+UTDI,United Internet AG,,,Austria,Europe,,,,,,,investpy
+NETG,Net Gaming,,,Sweden,Europe,,,,,,,investpy
+SCAb,SCA B,,,Switzerland,Europe,,,,,,,investpy
+CRR,Carrefour,,,Italy,Europe,,,,,,,investpy
+CBKG,Commerzbank,,,Germany,Europe,,,,,,,investpy
+AAP,Azure Health,,,Germany,Europe,,,,,,,investpy
+FPE4y,Fuchs Petrolub ADR,,,Germany,Europe,,,,,,,investpy
+CVX,Chevron,,,Switzerland,Europe,,,,,,,investpy
+FATL,Fonciere Atland,,,France,Europe,,,,,,,investpy
+A4Y,Accentro Real Estate,,,Germany,Europe,,,,,,,investpy
+SORR,Sparebanken Sor,,,Norway,Europe,,,,,,,investpy
+SAGAG,Saga,,,United Kingdom,Europe,,,,,,,investpy
+1T1,TechnipFMC,,,Germany,Europe,,,,,,,investpy
+ATEO,Atenor,,,Belgium,Europe,,,,,,,investpy
+VOG,Victoria Oil,,,United Kingdom,Europe,,,,,,,investpy
+ALBFR,Sidetrade,,,France,Europe,,,,,,,investpy
+SBUX,Starbucks,,,Switzerland,Europe,,,,,,,investpy
+CGT,Capital Gearing,,,United Kingdom,Europe,,,,,,,investpy
+GIBG,GSW Immobilien AG,,,Germany,Europe,,,,,,,investpy
+ZO1G,Zooplus AG,,,Switzerland,Europe,,,,,,,investpy
+IPF,Intl Personal Finance,,,United Kingdom,Europe,,,,,,,investpy
+RM11,Endologix,,,Germany,Europe,,,,,,,investpy
+IPCOR,Intl Petroleum,,,Sweden,Europe,,,,,,,investpy
+BKY,Berkeley Energy,,,United Kingdom,Europe,,,,,,,investpy
+PARP,Groupe Partouche,,,France,Europe,,,,,,,investpy
+MURG,Murgitroyd,,,United Kingdom,Europe,,,,,,,investpy
+GREENM,GreenMobility,,,Denmark,Europe,,,,,,,investpy
+2UH,ANGI Homeservices,,,Germany,Europe,,,,,,,investpy
+ENVI,Envipco,,,Netherlands,Europe,,,,,,,investpy
+ZV,Zignago Vetro,,,Italy,Europe,,,,,,,investpy
+GFS,G4S,,,United Kingdom,Europe,,,,,,,investpy
+MAR,Marriott Int,,,Austria,Europe,,,,,,,investpy
+PHLYS,Philly Shipyard ASA,,,Norway,Europe,,,,,,,investpy
+HLE,Hella KGaA Hueck & Co,,,Austria,Europe,,,,,,,investpy
+NWRN,Newron Pharmaceuticals,,,Switzerland,Europe,,,,,,,investpy
+G4S,G4S,,,Denmark,Europe,,,,,,,investpy
+MLSML,Smalto,,,France,Europe,,,,,,,investpy
+IOL,Italiaonline,,,Italy,Europe,,,,,,,investpy
+LAGA,Lagardere,,,France,Europe,,,,,,,investpy
+MEMS,Memscap,,,France,Europe,,,,,,,investpy
+FNOX,Fortnox,,,Sweden,Europe,,,,,,,investpy
+SGC,Stagecoach,,,United Kingdom,Europe,,,,,,,investpy
+GGGA,Greenland Minerals&Energy,,,Germany,Europe,,,,,,,investpy
+TRH1V,Trainers House,,,Finland,Europe,,,,,,,investpy
+SCI,SCI,,,Germany,Europe,,,,,,,investpy
+CAF,Construcciones y Auxiliar,,,Spain,Europe,,,,,,,investpy
+HNRGn,Hannover Rueckversicherung SE,,,Austria,Europe,,,,,,,investpy
+BILL,BillerudKorsnas,,,Sweden,Europe,,,,,,,investpy
+SDFGn,K+S AG,,,Italy,Europe,,,,,,,investpy
+SYMA,Softimat,,,Belgium,Europe,,,,,,,investpy
+MTV,Mondo TV,,,Italy,Europe,,,,,,,investpy
+SLBEN,Benfica,,,Portugal,Europe,,,,,,,investpy
+CNDR,Condor,,,United Kingdom,Europe,,,,,,,investpy
+STI,SunTrust Banks,,,Germany,Europe,,,,,,,investpy
+DUEG,Duerr AG,,,Switzerland,Europe,,,,,,,investpy
+FUM,Futura,,,United Kingdom,Europe,,,,,,,investpy
+PANI,Pantheon,,,United Kingdom,Europe,,,,,,,investpy
+MDM,Maisons du Monde,,,France,Europe,,,,,,,investpy
+ISP,Intesa Sanpaolo,,,Switzerland,Europe,,,,,,,investpy
+KOANOK,Kongsberg Automotive,,,Sweden,Europe,,,,,,,investpy
+VDLO,Videlio SA,,,France,Europe,,,,,,,investpy
+ARCMA,ARC Minerals,,,United Kingdom,Europe,,,,,,,investpy
+BVI,Bureau Veritas,,,France,Europe,,,,,,,investpy
+DPWGn,Deutsche Post,,,Germany,Europe,,,,,,,investpy
+BZT,Bezant,,,United Kingdom,Europe,,,,,,,investpy
+COF,Capital One Financial,,,Germany,Europe,,,,,,,investpy
+THRG,Throgmorton,,,United Kingdom,Europe,,,,,,,investpy
+BLY,Boart Longyear,,,Germany,Europe,,,,,,,investpy
+DICn,DIC Asset AG,,,Germany,Europe,,,,,,,investpy
+SREI,Schroder RE,,,United Kingdom,Europe,,,,,,,investpy
+CCAG,Corestate,,,Germany,Europe,,,,,,,investpy
+BMMG,Brueder Mannesmann,,,Germany,Europe,,,,,,,investpy
+DB1Gn,Deutsche Boerse,,,Switzerland,Europe,,,,,,,investpy
+SBRY,J Sainsbury,,,United Kingdom,Europe,,,,,,,investpy
+IRRAS,Irras,,,Sweden,Europe,,,,,,,investpy
+SFQN,SAF Holland,,,Germany,Europe,,,,,,,investpy
+BEFB,Befimmo-Sicafi,,,Belgium,Europe,,,,,,,investpy
+0TDE,Telefonica,,,United Kingdom,Europe,,,,,,,investpy
+ALPN,Alpine Select AG,,,Switzerland,Europe,,,,,,,investpy
+ALKE,Alkemy,,,Italy,Europe,,,,,,,investpy
+ATEANOK,Atea,,,Sweden,Europe,,,,,,,investpy
+NBI,Northbridge Industrial,,,United Kingdom,Europe,,,,,,,investpy
+DOX,Amdocs,,,Germany,Europe,,,,,,,investpy
+FDOP,Giorgio Fedon & Figli,,,Italy,Europe,,,,,,,investpy
+NLFSK,Nilfisk,,,Denmark,Europe,,,,,,,investpy
+NHCBHFFS,Baltic Horizon Fund,,,Sweden,Europe,,,,,,,investpy
+TSCOA,Tractor Supply,,,Austria,Europe,,,,,,,investpy
+EXEL,Exelixis,,,Germany,Europe,,,,,,,investpy
+COKG,Cancom SE,,,Germany,Europe,,,,,,,investpy
+ILK1S,Ilkka Yhtyma,,,Finland,Europe,,,,,,,investpy
+POST,Oesterr. Post AG,,,Austria,Europe,,,,,,,investpy
+BONEX,Bonesupport,,,Sweden,Europe,,,,,,,investpy
+SEIFT,Societa Editoriale Il,,,Italy,Europe,,,,,,,investpy
+AKRr,Akritas SA,,,Greece,Europe,,,,,,,investpy
+OC,Owens Corning,,,Germany,Europe,,,,,,,investpy
+ADSGn,Adidas,,,Italy,Europe,,,,,,,investpy
+BUEy,Buenaventura Mining ADR,,,Germany,Europe,,,,,,,investpy
+BC8G,Bechtle AG,,,Germany,Europe,,,,,,,investpy
+SAVOH,Savo Solar Oy,,,Finland,Europe,,,,,,,investpy
+EMMN,Emmi AG,,,Switzerland,Europe,,,,,,,investpy
+KRMr,Karamolengos Bakery Industry SA,,,Greece,Europe,,,,,,,investpy
+IIJIy,Internet Initiative Japan ADR,,,Germany,Europe,,,,,,,investpy
+NOEJ,Norma AG,,,Austria,Europe,,,,,,,investpy
+YHAB,Heref Habaneras,,,Spain,Europe,,,,,,,investpy
+CLBM,Cleantech Building,,,Denmark,Europe,,,,,,,investpy
+CVLT,CommVault,,,Germany,Europe,,,,,,,investpy
+0QYC,First Majestic Silver,,,United Kingdom,Europe,,,,,,,investpy
+PRES,Pressure,,,United Kingdom,Europe,,,,,,,investpy
+ADVN,Adval Tech Holding AG,,,Switzerland,Europe,,,,,,,investpy
+IKG,Intek,,,Italy,Europe,,,,,,,investpy
+IBES,Nyesa Valores,,,Spain,Europe,,,,,,,investpy
+2U4,HICL Infrastructure,,,Germany,Europe,,,,,,,investpy
+ALMAC,Alma Media,,,Finland,Europe,,,,,,,investpy
+BAP,Groupe Baumgartner Holding,,,Switzerland,Europe,,,,,,,investpy
+AMZN,Amazon.com,,,Italy,Europe,,,,,,,investpy
+SJG,Schroder Japan,,,United Kingdom,Europe,,,,,,,investpy
+AWDR,Awilco Drilling,,,Norway,Europe,,,,,,,investpy
+RISH,Gc Rieber Ship,,,Norway,Europe,,,,,,,investpy
+SEYE,Smart Eye,,,Sweden,Europe,,,,,,,investpy
+AKERBP,Aker BP,,,Norway,Europe,,,,,,,investpy
+NEXS,Nexans,,,France,Europe,,,,,,,investpy
+APPS,Applus Services SA,,,Spain,Europe,,,,,,,investpy
+ATYM,Atalaya Mining,,,United Kingdom,Europe,,,,,,,investpy
+GCOR,Gaming Corps AB,,,Sweden,Europe,,,,,,,investpy
+ADLG,Adler Real Estate,,,Germany,Europe,,,,,,,investpy
+PTCM,Porta,,,United Kingdom,Europe,,,,,,,investpy
+SGKN,St Galler Kantonalbank AG,,,Switzerland,Europe,,,,,,,investpy
+KLAC,KLA-Tencor,,,Austria,Europe,,,,,,,investpy
+NORTH,North Energy,,,Norway,Europe,,,,,,,investpy
+GYC,Grand City,,,Germany,Europe,,,,,,,investpy
+HDFr,Folli Follie,,,Greece,Europe,,,,,,,investpy
+PHLX,Inverko,,,Netherlands,Europe,,,,,,,investpy
+NTRS,Northern Trust,,,Germany,Europe,,,,,,,investpy
+KDNC,Cadence Minerals,,,United Kingdom,Europe,,,,,,,investpy
+ALFRE,Freelance.Com,,,France,Europe,,,,,,,investpy
+MRON,Melrose Industries,,,United Kingdom,Europe,,,,,,,investpy
+VELOX,Veloxis,,,Denmark,Europe,,,,,,,investpy
+TAALA,Taaleri,,,Finland,Europe,,,,,,,investpy
+MLMMC,Multimicrocloud,,,France,Europe,,,,,,,investpy
+C19,C&J Energy,,,Germany,Europe,,,,,,,investpy
+MONC,Moncler SpA,,,Italy,Europe,,,,,,,investpy
+SHBa,Svenska Handelsbanken A,,,Sweden,Europe,,,,,,,investpy
+GBFG,Bilfinger SE,,,Switzerland,Europe,,,,,,,investpy
+TFW,FW Thorpe PLC,,,United Kingdom,Europe,,,,,,,investpy
+NOEJ,Norma AG,,,Switzerland,Europe,,,,,,,investpy
+INGC,Ingenico,,,France,Europe,,,,,,,investpy
+AKOyb,Andina B,,,Germany,Europe,,,,,,,investpy
+MICP,Michelin,,,France,Europe,,,,,,,investpy
+CASS,Cattolica Assicurazioni,,,Italy,Europe,,,,,,,investpy
+VALN,Valora Holding,,,Switzerland,Europe,,,,,,,investpy
+WCMKk,WCM Beteiligungs und Grundbesitz,,,Germany,Europe,,,,,,,investpy
+FMEG,Fresenius ST,,,Switzerland,Europe,,,,,,,investpy
+IVUG,IVU Traffic,,,Germany,Europe,,,,,,,investpy
+ROL,Von Roll Holding AG,,,Switzerland,Europe,,,,,,,investpy
+DNAO,DNA,,,Finland,Europe,,,,,,,investpy
+PEUP,Peugeot,,,Switzerland,Europe,,,,,,,investpy
+IGG,IG Group,,,United Kingdom,Europe,,,,,,,investpy
+ZZb,Zinzino AB,,,Sweden,Europe,,,,,,,investpy
+RWE,RWE AG ST,,,Italy,Europe,,,,,,,investpy
+KGF,Kingfisher,,,United Kingdom,Europe,,,,,,,investpy
+FIR,FIR,,,Switzerland,Europe,,,,,,,investpy
+PMED,Peptonic Medical,,,Sweden,Europe,,,,,,,investpy
+RLE,Real Estate Investors,,,United Kingdom,Europe,,,,,,,investpy
+GWMO,Great Western Mining,,,United Kingdom,Europe,,,,,,,investpy
+PVR1,Patagonia Gold,,,Germany,Europe,,,,,,,investpy
+JFJ,JPMorgan Japanese,,,United Kingdom,Europe,,,,,,,investpy
+CSCO,Cisco,,,Belgium,Europe,,,,,,,investpy
+ADVr,Audio Visual,,,Greece,Europe,,,,,,,investpy
+ALARF,Adeunis,,,France,Europe,,,,,,,investpy
+JBHT,JB Hunt,,,Austria,Europe,,,,,,,investpy
+XIL,Xilam,,,France,Europe,,,,,,,investpy
+V,Visa A,,,Austria,Europe,,,,,,,investpy
+BIMOB,Bimobject,,,Sweden,Europe,,,,,,,investpy
+LEGn,LEG Immobilien AG,,,Germany,Europe,,,,,,,investpy
+MANGS,Mangold AB,,,Sweden,Europe,,,,,,,investpy
+NEM,Newmont Goldcorp,,,Austria,Europe,,,,,,,investpy
+AXP,American Express,,,Switzerland,Europe,,,,,,,investpy
+CDH1,Cedar Realty,,,Germany,Europe,,,,,,,investpy
+INAn,Inapa Inv NV,,,Portugal,Europe,,,,,,,investpy
+NOKIA,Nokia Oyj,,,Sweden,Europe,,,,,,,investpy
+MONNA,Monnalisa,,,Italy,Europe,,,,,,,investpy
+CBHB,Co.Br.Ha D,,,Belgium,Europe,,,,,,,investpy
+SSCOM,Scottish Salmon,,,Norway,Europe,,,,,,,investpy
+ALAMG,Auplata,,,France,Europe,,,,,,,investpy
+DURCb,Duroc B,,,Sweden,Europe,,,,,,,investpy
+O,Realty Income,,,Germany,Europe,,,,,,,investpy
+SWK,Stanley Black Decker,,,Germany,Europe,,,,,,,investpy
+STID,Streit Mecanique,,,France,Europe,,,,,,,investpy
+COB,Cobham,,,United Kingdom,Europe,,,,,,,investpy
+SDGI,Synergie,,,France,Europe,,,,,,,investpy
+ASWN,Asmallworld,,,Switzerland,Europe,,,,,,,investpy
+R2RCy,Renren,,,Germany,Europe,,,,,,,investpy
+ELANb,Elanders B,,,Sweden,Europe,,,,,,,investpy
+BAES,BAE Systems,,,United Kingdom,Europe,,,,,,,investpy
+ASCNOK,ABG Sundal Collier,,,Sweden,Europe,,,,,,,investpy
+RMM,Rambler Metals&Mining,,,United Kingdom,Europe,,,,,,,investpy
+CLL,Cello,,,United Kingdom,Europe,,,,,,,investpy
+INWI,Inwido,,,Sweden,Europe,,,,,,,investpy
+LBTYK,Liberty Global C,,,Austria,Europe,,,,,,,investpy
+RHMG,Rheinmetall AG,,,Austria,Europe,,,,,,,investpy
+BOND,Bonduelle,,,France,Europe,,,,,,,investpy
+COTNE,Comet,,,Switzerland,Europe,,,,,,,investpy
+WPL,Woodside Petroleum,,,Switzerland,Europe,,,,,,,investpy
+ZIN,Zinc Media Group,,,United Kingdom,Europe,,,,,,,investpy
+ECRE,ECR Minerals,,,United Kingdom,Europe,,,,,,,investpy
+URW,WFD Unibail Rodamco,,,Italy,Europe,,,,,,,investpy
+ABCA,Abcam,,,United Kingdom,Europe,,,,,,,investpy
+NCLH,Norwegian Cruise Line,,,Austria,Europe,,,,,,,investpy
+SBANKNOK,Skandiabanken,,,Sweden,Europe,,,,,,,investpy
+EIH,EIH,,,United Kingdom,Europe,,,,,,,investpy
+3SM,AO Smith,,,Germany,Europe,,,,,,,investpy
+AEGN,Aegon,,,Netherlands,Europe,,,,,,,investpy
+AIR,Airbus Group,,,Italy,Europe,,,,,,,investpy
+CRWEN,Crown Energy,,,Sweden,Europe,,,,,,,investpy
+CBL,CBL & Associates,,,Germany,Europe,,,,,,,investpy
+MTTI,Mittel,,,Italy,Europe,,,,,,,investpy
+BERGb,B&B Tools,,,Sweden,Europe,,,,,,,investpy
+MAV,Mavshack publ AB,,,Sweden,Europe,,,,,,,investpy
+ADXN,Addex Therapeutics Ltd,,,Switzerland,Europe,,,,,,,investpy
+ALEUP,Europlasma SA,,,France,Europe,,,,,,,investpy
+NFGAB,Nordic Flanges,,,Sweden,Europe,,,,,,,investpy
+SNR,Senior,,,United Kingdom,Europe,,,,,,,investpy
+ACPH,Acacia Pharma,,,Belgium,Europe,,,,,,,investpy
+OERL,OC Oerlikon Corp,,,Switzerland,Europe,,,,,,,investpy
+ADBE,Adobe,,,Austria,Europe,,,,,,,investpy
+GAGV,Gurktaler AG VZ,,,Austria,Europe,,,,,,,investpy
+REL,Relx,,,Netherlands,Europe,,,,,,,investpy
+TLGG,TLG Immobilien AG,,,Austria,Europe,,,,,,,investpy
+PUMG,Puma SE,,,Germany,Europe,,,,,,,investpy
+NEDP,Nedap,,,Netherlands,Europe,,,,,,,investpy
+EKTL,Euskaltel SA,,,Spain,Europe,,,,,,,investpy
+CHD,Church&Dwight,,,Germany,Europe,,,,,,,investpy
+LEOGn,Leoni AG,,,Austria,Europe,,,,,,,investpy
+AIRG,Airbus Group,,,Germany,Europe,,,,,,,investpy
+SAVOS,Savo Solar Oy,,,Sweden,Europe,,,,,,,investpy
+ALALO,Acheter Louer,,,France,Europe,,,,,,,investpy
+SIPH,SIPH,,,France,Europe,,,,,,,investpy
+TYNN,Tayninh,,,France,Europe,,,,,,,investpy
+LAND,Land Securities,,,United Kingdom,Europe,,,,,,,investpy
+WWIBNOK,Wilhelm Wilhelmsen B,,,Sweden,Europe,,,,,,,investpy
+ALNOR,Nexponor Sociedade Especial Invest,,,Portugal,Europe,,,,,,,investpy
+CLNBB,Cleanbnb,,,Italy,Europe,,,,,,,investpy
+PSSL,Pollen Street,,,United Kingdom,Europe,,,,,,,investpy
+URU,URU Metals,,,United Kingdom,Europe,,,,,,,investpy
+I9DN,Arbutus Biopharma,,,Germany,Europe,,,,,,,investpy
+AVT,Avnet,,,Germany,Europe,,,,,,,investpy
+SPIRA,DalsSpira Mejeri AB,,,Sweden,Europe,,,,,,,investpy
+ALMED,Medicrea Int.,,,France,Europe,,,,,,,investpy
+BRIG,Brighter publ AB,,,Sweden,Europe,,,,,,,investpy
+WEBH,Webis,,,United Kingdom,Europe,,,,,,,investpy
+SRBANK,Sparebank 1Sr,,,Norway,Europe,,,,,,,investpy
+GPEP,GPE Group Pizzorno,,,France,Europe,,,,,,,investpy
+MSFT,Microsoft,,,Switzerland,Europe,,,,,,,investpy
+CLEME,NC Lahega,,,Sweden,Europe,,,,,,,investpy
+EIOF,Eidesvik Offshore,,,Norway,Europe,,,,,,,investpy
+MLPFX,Parfex,,,France,Europe,,,,,,,investpy
+STBS,Secure Trust Bank,,,United Kingdom,Europe,,,,,,,investpy
+ALREA,Realites,,,France,Europe,,,,,,,investpy
+STORM,Storm Real,,,Norway,Europe,,,,,,,investpy
+ALORD,Ordissimo,,,France,Europe,,,,,,,investpy
+TSEM,Tower,,,Germany,Europe,,,,,,,investpy
+MTHH,MT Hoejgaard,,,Denmark,Europe,,,,,,,investpy
+WATURU,Waturu,,,Denmark,Europe,,,,,,,investpy
+PYHE,Haulotte,,,France,Europe,,,,,,,investpy
+AUCP,Augros,,,France,Europe,,,,,,,investpy
+PANGO,Pangaea Oncology,,,Spain,Europe,,,,,,,investpy
+ALHX,AlphaHelix Molecular,,,Sweden,Europe,,,,,,,investpy
+BMTt,TF & JH Braime,,,United Kingdom,Europe,,,,,,,investpy
+NIBC,NIBC Holding,,,Netherlands,Europe,,,,,,,investpy
+BGBN,Bigben,,,France,Europe,,,,,,,investpy
+CNP,CenterPoint Energy,,,Germany,Europe,,,,,,,investpy
+ATCB,Altice NV B,,,Netherlands,Europe,,,,,,,investpy
+SPRINT,Sprint Bioscience AB,,,Sweden,Europe,,,,,,,investpy
+DWNG,Deutsche Wohnen,,,Austria,Europe,,,,,,,investpy
+DHG,Dalata Hotel,,,Ireland,Europe,,,,,,,investpy
+MAJE,Majedie,,,United Kingdom,Europe,,,,,,,investpy
+SBONOK,Selvaag Bolig,,,Sweden,Europe,,,,,,,investpy
+G4U,Globe Metals & Mining,,,Germany,Europe,,,,,,,investpy
+RR5,Range Resources Ltd,,,Germany,Europe,,,,,,,investpy
+VGAS,Volga Gas,,,United Kingdom,Europe,,,,,,,investpy
+ALFAA,Alfa,,,Spain,Europe,,,,,,,investpy
+FCMC,Ferm. Casino Mun. Canne,,,France,Europe,,,,,,,investpy
+ALINN,Millet Innov.,,,France,Europe,,,,,,,investpy
+MASIA,Masi Agricola SpA,,,Italy,Europe,,,,,,,investpy
+SY1G,Symrise AG,,,Germany,Europe,,,,,,,investpy
+BXP,Boston Properties,,,Germany,Europe,,,,,,,investpy
+ALGLD,Gold By Gold,,,France,Europe,,,,,,,investpy
+CCK,Crown,,,Germany,Europe,,,,,,,investpy
+STM,STMicroelectronics,,,Italy,Europe,,,,,,,investpy
+CL,Colgate-Palmolive,,,Austria,Europe,,,,,,,investpy
+SAF,Safran,,,France,Europe,,,,,,,investpy
+SGE,Sage,,,United Kingdom,Europe,,,,,,,investpy
+LAGA,Lagardere,,,Germany,Europe,,,,,,,investpy
+ZUGN,Zug Estates Holding AG,,,Switzerland,Europe,,,,,,,investpy
+EER,East Energy Resources,,,Germany,Europe,,,,,,,investpy
+DEI,Douglas Emmett,,,Germany,Europe,,,,,,,investpy
+ERYP,Erytech Pharma,,,France,Europe,,,,,,,investpy
+FINr,Philippos Nakas SA,,,Greece,Europe,,,,,,,investpy
+DANT,Dantax,,,Denmark,Europe,,,,,,,investpy
+M5ZG,Manz AG,,,Germany,Europe,,,,,,,investpy
+BOCH,Bank of Cyprus,,,United Kingdom,Europe,,,,,,,investpy
+SRS,Saras,,,Italy,Europe,,,,,,,investpy
+NOKy,Nokia ADR,,,Germany,Europe,,,,,,,investpy
+CARRA,Carraro,,,Italy,Europe,,,,,,,investpy
+AZNPy,AstraZeneca ADR,,,Germany,Europe,,,,,,,investpy
+DLTA,Delta Plus,,,France,Europe,,,,,,,investpy
+NMAN,Nederman,,,Sweden,Europe,,,,,,,investpy
+MANTEX,Mantex,,,Sweden,Europe,,,,,,,investpy
+CRME,Salesforce.com,,,Austria,Europe,,,,,,,investpy
+MUVGn,Muench. Rueckvers.,,,Germany,Europe,,,,,,,investpy
+WACGn,Wacker Neuson,,,Switzerland,Europe,,,,,,,investpy
+GVNV,Grandvision BV,,,Netherlands,Europe,,,,,,,investpy
+ERIBR,LM Ericsson B,,,Finland,Europe,,,,,,,investpy
+CHBE,Beneteau,,,France,Europe,,,,,,,investpy
+CMBN,Cembra Money Bank AG,,,Switzerland,Europe,,,,,,,investpy
+ACEL,Chubb,,,Germany,Europe,,,,,,,investpy
+CBAV,Clinica Baviera,,,Spain,Europe,,,,,,,investpy
+HEMFpref,Hemfosa Fastigheter Pref,,,Sweden,Europe,,,,,,,investpy
+HARBb,Harboes Bryggeri B,,,Denmark,Europe,,,,,,,investpy
+DOXA,Doxa AB,,,Sweden,Europe,,,,,,,investpy
+KLEEb,Brd. Klee B,,,Denmark,Europe,,,,,,,investpy
+BREI,BMO Real Estate,,,United Kingdom,Europe,,,,,,,investpy
+ALTXC,Txcom,,,France,Europe,,,,,,,investpy
+MA2,Macmahon Holdings,,,Germany,Europe,,,,,,,investpy
+CLTN,Coltene Holding AG,,,Switzerland,Europe,,,,,,,investpy
+TKTT,Tarkett,,,France,Europe,,,,,,,investpy
+GIMA,Gima TT,,,Italy,Europe,,,,,,,investpy
+ENVIRb,Envirologic,,,Sweden,Europe,,,,,,,investpy
+AHM1,Ahlstrom-Munksjo,,,Finland,Europe,,,,,,,investpy
+EING_p,Einhell VZO,,,Germany,Europe,,,,,,,investpy
+ESENSE,Enersense,,,Finland,Europe,,,,,,,investpy
+0R0J,Zynga,,,United Kingdom,Europe,,,,,,,investpy
+INVEb,Investor B,,,Sweden,Europe,,,,,,,investpy
+GHS,Gresham House Strategic,,,United Kingdom,Europe,,,,,,,investpy
+DOM,Domino’s Pizza,,,United Kingdom,Europe,,,,,,,investpy
+SOFF,Solstad Offsho,,,Norway,Europe,,,,,,,investpy
+DVTM,Devoteam,,,France,Europe,,,,,,,investpy
+WUWGn,Wuestenrot Wuerttembergische,,,Austria,Europe,,,,,,,investpy
+ENDOM,Endomines AB,,,Finland,Europe,,,,,,,investpy
+PNHO,Poenina,,,Switzerland,Europe,,,,,,,investpy
+SMIN,Smiths Group,,,United Kingdom,Europe,,,,,,,investpy
+KP5,Kitron,,,Norway,Europe,,,,,,,investpy
+EVDG,CTS Eventim AG,,,Germany,Europe,,,,,,,investpy
+EQV1V,eQ Oyj,,,Finland,Europe,,,,,,,investpy
+CTPC,Castleton Tech,,,United Kingdom,Europe,,,,,,,investpy
+DEL,Delta Air Lines,,,Germany,Europe,,,,,,,investpy
+RXL,Rexel,,,France,Europe,,,,,,,investpy
+WEHB,Wereldhav B-Sicafi,,,Belgium,Europe,,,,,,,investpy
+MAP,Mapfre,,,Spain,Europe,,,,,,,investpy
+VRKP,Vranken-Pommery,,,France,Europe,,,,,,,investpy
+SEBa,SEB A,,,Sweden,Europe,,,,,,,investpy
+PWOG,Progress Werk Oberkirch,,,Germany,Europe,,,,,,,investpy
+IBAB,Ion Beam Applications,,,Belgium,Europe,,,,,,,investpy
+PREVb,Prevas B,,,Sweden,Europe,,,,,,,investpy
+O2Dn,Telefonica Deutschland AG,,,Switzerland,Europe,,,,,,,investpy
+COPMa,CompuGroup AG,,,Austria,Europe,,,,,,,investpy
+HOYLU,Hoylu,,,Sweden,Europe,,,,,,,investpy
+RDI,RDI Reit,,,United Kingdom,Europe,,,,,,,investpy
+DY2,Dentsply,,,Germany,Europe,,,,,,,investpy
+ALMDT,Mediantechn,,,France,Europe,,,,,,,investpy
+TAS,TAS,,,Italy,Europe,,,,,,,investpy
+CODC,Saint Gobain,,,United Kingdom,Europe,,,,,,,investpy
+ORAN,Orange,,,Italy,Europe,,,,,,,investpy
+TOT,Total,,,Italy,Europe,,,,,,,investpy
+FAAS,Fabasoft AG,,,Germany,Europe,,,,,,,investpy
+SCF,Schroder Income,,,United Kingdom,Europe,,,,,,,investpy
+ADOC,Adocia,,,France,Europe,,,,,,,investpy
+ODHN,Orascom Development,,,Germany,Europe,,,,,,,investpy
+LIO,Liontrust,,,United Kingdom,Europe,,,,,,,investpy
+LOUDS,Cleantech Invest,,,Sweden,Europe,,,,,,,investpy
+ULE,Ultra Electronics,,,United Kingdom,Europe,,,,,,,investpy
+FIEG,Fielmann AG,,,Germany,Europe,,,,,,,investpy
+NTGNT,Neurosearch,,,Denmark,Europe,,,,,,,investpy
+IRIST,Irisity,,,Sweden,Europe,,,,,,,investpy
+SFM1,Sundance Resources,,,Germany,Europe,,,,,,,investpy
+MUVGn,Muench. Rueckvers.,,,Switzerland,Europe,,,,,,,investpy
+DJUR,Djurslands Bank,,,Denmark,Europe,,,,,,,investpy
+TEPRF,Teleperformance,,,France,Europe,,,,,,,investpy
+SESTS,Securities Scotland,,,United Kingdom,Europe,,,,,,,investpy
+SPGP,SP Group,,,Denmark,Europe,,,,,,,investpy
+CRNT,Ceragon,,,Germany,Europe,,,,,,,investpy
+HMSN,HMS Networks,,,Sweden,Europe,,,,,,,investpy
+BELE,Beijer Electronics,,,Sweden,Europe,,,,,,,investpy
+GOEG,Groupe Gorge,,,France,Europe,,,,,,,investpy
+RDSb,Royal Dutch Shell B,,,Netherlands,Europe,,,,,,,investpy
+7DIG,7Digital Group,,,United Kingdom,Europe,,,,,,,investpy
+NDAFI,Nordea Bank,,,Finland,Europe,,,,,,,investpy
+LTD,L Brands,,,Germany,Europe,,,,,,,investpy
+VAF,VAA Vista Alegre,,,Portugal,Europe,,,,,,,investpy
+GSUSD,Goldman Sachs,,,Switzerland,Europe,,,,,,,investpy
+TFI,Trevi Fin Industriale,,,Italy,Europe,,,,,,,investpy
+IMPN,Implenia,,,Switzerland,Europe,,,,,,,investpy
+MYFC,myFC AB,,,Sweden,Europe,,,,,,,investpy
+CRSL,Crystal Amber,,,United Kingdom,Europe,,,,,,,investpy
+PLP,Polypipe Group,,,United Kingdom,Europe,,,,,,,investpy
+RBASE,Raybased,,,Sweden,Europe,,,,,,,investpy
+EXSY,Expert System,,,Italy,Europe,,,,,,,investpy
+QY1,Nextgen Healthcare,,,Germany,Europe,,,,,,,investpy
+SW1,SHW AG,,,Germany,Europe,,,,,,,investpy
+NAVA,Navamedic,,,Norway,Europe,,,,,,,investpy
+EIG,Employers,,,Germany,Europe,,,,,,,investpy
+ANA,Acciona,,,Spain,Europe,,,,,,,investpy
+DANSKE,Danske Bank,,,Denmark,Europe,,,,,,,investpy
+SASY,Sanofi,,,Switzerland,Europe,,,,,,,investpy
+FDA,Fidia,,,Italy,Europe,,,,,,,investpy
+JDE,Jd.Com Inc Adr,,,Austria,Europe,,,,,,,investpy
+STEN,Stentys,,,France,Europe,,,,,,,investpy
+EVERYa,Everysport Media,,,Sweden,Europe,,,,,,,investpy
+AOO,Aedifica,,,Belgium,Europe,,,,,,,investpy
+8SO,Sonos,,,Germany,Europe,,,,,,,investpy
+DRX,Drax Group,,,United Kingdom,Europe,,,,,,,investpy
+INHG,Indus AG,,,Germany,Europe,,,,,,,investpy
+METSA,Metsa Board Oyj A,,,Finland,Europe,,,,,,,investpy
+MLSKN,Microskin,,,France,Europe,,,,,,,investpy
+SGCO,Sg Company,,,Italy,Europe,,,,,,,investpy
+ITM,ITM Power,,,United Kingdom,Europe,,,,,,,investpy
+EEPC,Explosifs Prod Chimiques,,,France,Europe,,,,,,,investpy
+MRCM,Mercantile Investment Trust,,,United Kingdom,Europe,,,,,,,investpy
+SBS,SBS,,,Denmark,Europe,,,,,,,investpy
+SDTC,Soditech Ingenierie,,,France,Europe,,,,,,,investpy
+LEOV,LeoVegas,,,Sweden,Europe,,,,,,,investpy
+PFE,Pfizer,,,Austria,Europe,,,,,,,investpy
+CYH,Community Health Systems,,,Germany,Europe,,,,,,,investpy
+NUOG,Nu-Oil and Gas,,,United Kingdom,Europe,,,,,,,investpy
+SBX-ME,SeaBird Exploration,,,Norway,Europe,,,,,,,investpy
+0JSJ,LKQ,,,United Kingdom,Europe,,,,,,,investpy
+GPRO,GoPro Inc,,,Austria,Europe,,,,,,,investpy
+CLNKb,Cellink,,,Sweden,Europe,,,,,,,investpy
+EDF,Electricite de France,,,France,Europe,,,,,,,investpy
+BRDY,Brady,,,United Kingdom,Europe,,,,,,,investpy
+COMAE,Compta,,,Portugal,Europe,,,,,,,investpy
+LHAG,Lufthansa,,,Italy,Europe,,,,,,,investpy
+VOLO,Volati,,,Sweden,Europe,,,,,,,investpy
+THRU,Thruvision,,,United Kingdom,Europe,,,,,,,investpy
+GYC,Grand City,,,Austria,Europe,,,,,,,investpy
+MRS,MRS PLC,,,United Kingdom,Europe,,,,,,,investpy
+NCM,Newcrest Mining,,,Switzerland,Europe,,,,,,,investpy
+CPPG,CPP Group,,,United Kingdom,Europe,,,,,,,investpy
+METSB,Metsa Board Oyj B,,,Finland,Europe,,,,,,,investpy
+TSLAUSD,Tesla,,,Switzerland,Europe,,,,,,,investpy
+REDWPH,Redwood Pharma,,,Sweden,Europe,,,,,,,investpy
+MATRA,Matra Petroleum,,,Sweden,Europe,,,,,,,investpy
+SWOR,Sword,,,France,Europe,,,,,,,investpy
+CBOT,CBO Territoria,,,France,Europe,,,,,,,investpy
+IGS,Isagro,,,Italy,Europe,,,,,,,investpy
+HEEROS,Heeros,,,Finland,Europe,,,,,,,investpy
+SIPG,Simon Property,,,Germany,Europe,,,,,,,investpy
+1P6,Berry Petroleum,,,Germany,Europe,,,,,,,investpy
+MING,Sparebank 1 SMN,,,Norway,Europe,,,,,,,investpy
+REDS,Redsense Medical,,,Sweden,Europe,,,,,,,investpy
+NEXT,Next Biometrics,,,Norway,Europe,,,,,,,investpy
+BYG,Big Yellow,,,United Kingdom,Europe,,,,,,,investpy
+VRTX,Vertex,,,Austria,Europe,,,,,,,investpy
+SRP,Serco,,,United Kingdom,Europe,,,,,,,investpy
+AT1,Aroundtown,,,Germany,Europe,,,,,,,investpy
+OEX,Oilex,,,United Kingdom,Europe,,,,,,,investpy
+PANR,Pantheon Resources,,,United Kingdom,Europe,,,,,,,investpy
+UKWG,Greencoat,,,United Kingdom,Europe,,,,,,,investpy
+ADBE,Adobe,,,Germany,Europe,,,,,,,investpy
+MLGDI,Guandao Puer,,,France,Europe,,,,,,,investpy
+WSG,Westminster,,,United Kingdom,Europe,,,,,,,investpy
+AXP,American Express,,,Austria,Europe,,,,,,,investpy
+RDEDy,Relx ADR,,,Germany,Europe,,,,,,,investpy
+PP4A,Popular,,,Germany,Europe,,,,,,,investpy
+ANOT,Anoto,,,Sweden,Europe,,,,,,,investpy
+ADJ,ADO Properties SARL,,,Germany,Europe,,,,,,,investpy
+MLPG,MLP AG,,,Austria,Europe,,,,,,,investpy
+ERMA,Enorama Pharma,,,Sweden,Europe,,,,,,,investpy
+DIB,Digital Bros,,,Italy,Europe,,,,,,,investpy
+GILD,Gilead,,,Austria,Europe,,,,,,,investpy
+PPCr,Paperpack Printing Box Manufact,,,Greece,Europe,,,,,,,investpy
+LUV,Southwest Airlines,,,Germany,Europe,,,,,,,investpy
+JENGn,Jenoptik,,,Germany,Europe,,,,,,,investpy
+SBSTA,Schibsted A,,,Norway,Europe,,,,,,,investpy
+ECA,Encana,,,Germany,Europe,,,,,,,investpy
+RAUTE,Raute,,,Finland,Europe,,,,,,,investpy
+DAST,Dassault Systemes,,,France,Europe,,,,,,,investpy
+FNTGn,Freenet AG,,,Germany,Europe,,,,,,,investpy
+RPM,RPM,,,Germany,Europe,,,,,,,investpy
+ZALG,Zalando SE,,,Austria,Europe,,,,,,,investpy
+BBAR,BBVA Banco Frances,,,Spain,Europe,,,,,,,investpy
+ALCOF,Cofidur,,,France,Europe,,,,,,,investpy
+MULT,MultiDocker Cargo,,,Sweden,Europe,,,,,,,investpy
+CCORb,Concordia Maritime B,,,Sweden,Europe,,,,,,,investpy
+RSTP,Restore,,,United Kingdom,Europe,,,,,,,investpy
+LFG,Leone Film Group SpA,,,Italy,Europe,,,,,,,investpy
+EXRS,Extra Space Storage,,,Germany,Europe,,,,,,,investpy
+NOMIN,Nordic Mining,,,Norway,Europe,,,,,,,investpy
+HBRN,Hibernia,,,Ireland,Europe,,,,,,,investpy
+ALANT,Antevenio,,,France,Europe,,,,,,,investpy
+SCEU,Surface Transforms,,,United Kingdom,Europe,,,,,,,investpy
+SDP,Schroder Asia Pacific,,,United Kingdom,Europe,,,,,,,investpy
+UTX,United Technologies,,,Germany,Europe,,,,,,,investpy
+FKRAFT,Fjordkraft,,,Norway,Europe,,,,,,,investpy
+WIRTEK,Wirtek A/S,,,Denmark,Europe,,,,,,,investpy
+VIAFIN,Viafin Service,,,Finland,Europe,,,,,,,investpy
+LRES,Lar Espana Real Estate SOCIMI SA,,,Spain,Europe,,,,,,,investpy
+AMAT,Applied Materials,,,Germany,Europe,,,,,,,investpy
+DTG,Dart Group,,,United Kingdom,Europe,,,,,,,investpy
+SNNS,Sanne Group PLC,,,United Kingdom,Europe,,,,,,,investpy
+JMAT,Johnson Matthey,,,United Kingdom,Europe,,,,,,,investpy
+ITPG,Interpump,,,Italy,Europe,,,,,,,investpy
+HLGZ,Highlight Communications,,,Germany,Europe,,,,,,,investpy
+CARLa,Carlsberg A,,,Denmark,Europe,,,,,,,investpy
+TAU,Tau Capital,,,United Kingdom,Europe,,,,,,,investpy
+DWSG,DWS Group,,,Germany,Europe,,,,,,,investpy
+CMCX,CMC Markets,,,United Kingdom,Europe,,,,,,,investpy
+SABF,Sabaf,,,Italy,Europe,,,,,,,investpy
+CAP,Cai,,,Germany,Europe,,,,,,,investpy
+PRICb,Pricer B,,,Sweden,Europe,,,,,,,investpy
+G7BG,GWB Immobilien,,,Germany,Europe,,,,,,,investpy
+RIEN,Rieter Holding,,,Switzerland,Europe,,,,,,,investpy
+PID,Paragon Id,,,France,Europe,,,,,,,investpy
+YAR,Yara International,,,Norway,Europe,,,,,,,investpy
+4I1,Philip Morris,,,Germany,Europe,,,,,,,investpy
+YVBA,VBARE Iberian Properties,,,Spain,Europe,,,,,,,investpy
+VOD,Vodafone Group PLC,,,Switzerland,Europe,,,,,,,investpy
+MIDWb,Midway Holding B,,,Sweden,Europe,,,,,,,investpy
+TBCG,TBC Bank Group,,,United Kingdom,Europe,,,,,,,investpy
+STCM,Steppe Cement,,,United Kingdom,Europe,,,,,,,investpy
+DDD,3D Systems,,,Switzerland,Europe,,,,,,,investpy
+GCO,Grupo Catalana Occidente,,,Spain,Europe,,,,,,,investpy
+FCM,Friulchem,,,Italy,Europe,,,,,,,investpy
+CTSH,Cognizant A,,,Switzerland,Europe,,,,,,,investpy
+CMM,CommCenter,,,Spain,Europe,,,,,,,investpy
+ALMNG,Madvertise,,,France,Europe,,,,,,,investpy
+SNAPC,Snap,,,Switzerland,Europe,,,,,,,investpy
+DUM,Ducommun,,,Germany,Europe,,,,,,,investpy
+TUBA,Tubacex,,,Spain,Europe,,,,,,,investpy
+MEEK,Modern Ekonomi Sverige Holding,,,Sweden,Europe,,,,,,,investpy
+BSKP,Basler Kantonalbank,,,Switzerland,Europe,,,,,,,investpy
+ARCUSNOK,Arcus,,,Sweden,Europe,,,,,,,investpy
+DEQGn,Deutsche Euroshop AG,,,Germany,Europe,,,,,,,investpy
+T7O,Total Produce,,,Ireland,Europe,,,,,,,investpy
+GHH,Gooch&Housego,,,United Kingdom,Europe,,,,,,,investpy
+FPEG_p,Fuchs Petrolub AG VZO Pref,,,Austria,Europe,,,,,,,investpy
+TW,Taylor Wimpey,,,United Kingdom,Europe,,,,,,,investpy
+CAGR,Credit Agricole,,,Italy,Europe,,,,,,,investpy
+EGENTY,EgnsINVEST Ejendomme,,,Denmark,Europe,,,,,,,investpy
+SKISb,SkiStar,,,Sweden,Europe,,,,,,,investpy
+CNKS,Cenkos,,,United Kingdom,Europe,,,,,,,investpy
+RWEG_p,RWE AG VZO,,,Germany,Europe,,,,,,,investpy
+SCENS,Scandinavian Enviro Systems AB,,,Sweden,Europe,,,,,,,investpy
+QBT,Quabit,,,Spain,Europe,,,,,,,investpy
+YTRA,Trajano Iberia Socimi SA,,,Spain,Europe,,,,,,,investpy
+ECASA,ECA,,,France,Europe,,,,,,,investpy
+BHPy,BHP Billiton Ltd ADR,,,Germany,Europe,,,,,,,investpy
+GNW,Genworth,,,Germany,Europe,,,,,,,investpy
+APAM,Aperam,,,Spain,Europe,,,,,,,investpy
+PANION,Panion Animal,,,Sweden,Europe,,,,,,,investpy
+K2Ab,K2A Knaust & Andersson Fastigheter,,,Sweden,Europe,,,,,,,investpy
+BIBB,BibbInstruments,,,Sweden,Europe,,,,,,,investpy
+MTCM,Maire Tecnimont,,,Italy,Europe,,,,,,,investpy
+SAGT,Saga Tankers,,,Norway,Europe,,,,,,,investpy
+HBC,HSBC,,,France,Europe,,,,,,,investpy
+BOLIGA,Boliga,,,Denmark,Europe,,,,,,,investpy
+IGRI,IG Design,,,United Kingdom,Europe,,,,,,,investpy
+ACBr,Alpha Bank,,,Greece,Europe,,,,,,,investpy
+PAGE,Pagegroup,,,United Kingdom,Europe,,,,,,,investpy
+BRMS,Braemar,,,United Kingdom,Europe,,,,,,,investpy
+PHLOGb,Pharmacolog i Uppsala,,,Sweden,Europe,,,,,,,investpy
+FXI,FX International,,,Sweden,Europe,,,,,,,investpy
+REL,Relx,,,United Kingdom,Europe,,,,,,,investpy
+NBIB,NBI Bearings Europe,,,Spain,Europe,,,,,,,investpy
+ORANW,Oranjewoud NV,,,Netherlands,Europe,,,,,,,investpy
+SU,Suncor Energy,,,Germany,Europe,,,,,,,investpy
+TEDGE,Techedge,,,Italy,Europe,,,,,,,investpy
+SALVS,SalvaRx,,,United Kingdom,Europe,,,,,,,investpy
+CFEB,CFE SA,,,Belgium,Europe,,,,,,,investpy
+AOJp,Broedrene A & O Johansen,,,Denmark,Europe,,,,,,,investpy
+IMAF,Altarea,,,France,Europe,,,,,,,investpy
+BAB,Babcock International,,,Germany,Europe,,,,,,,investpy
+SNBN,Schweizerische Nationalbank,,,Switzerland,Europe,,,,,,,investpy
+HKSAV,HKScan Oyj A,,,Finland,Europe,,,,,,,investpy
+KCOGn,Kloeckner SE,,,Germany,Europe,,,,,,,investpy
+UP7G,United Power Tech,,,Germany,Europe,,,,,,,investpy
+GK6,A2B Australia,,,Germany,Europe,,,,,,,investpy
+ASHM,Ashmore,,,United Kingdom,Europe,,,,,,,investpy
+PROFb,ProfilGruppen B,,,Sweden,Europe,,,,,,,investpy
+HEXNOK,Hexagon Composites,,,Sweden,Europe,,,,,,,investpy
+ERG,ERG,,,Italy,Europe,,,,,,,investpy
+FEVG,Fortec,,,Germany,Europe,,,,,,,investpy
+ADBE,Adobe,,,Switzerland,Europe,,,,,,,investpy
+NWZI,News Invest,,,France,Europe,,,,,,,investpy
+ELKNOK,Elkem,,,Sweden,Europe,,,,,,,investpy
+PHONOK,Photocure,,,Sweden,Europe,,,,,,,investpy
+MRCG,Merck,,,Germany,Europe,,,,,,,investpy
+BE,Beghelli,,,Italy,Europe,,,,,,,investpy
+DRV,Driver,,,United Kingdom,Europe,,,,,,,investpy
+DISCK,Discovery Communications C,,,Austria,Europe,,,,,,,investpy
+CNCTC,Connect Group PLC,,,United Kingdom,Europe,,,,,,,investpy
+VISTIN,Vistin Pharma ASA,,,Norway,Europe,,,,,,,investpy
+BAB,Babcock International,,,United Kingdom,Europe,,,,,,,investpy
+BANB,BACHEM HOLDING AG,,,Switzerland,Europe,,,,,,,investpy
+KCCA,Klaveness Combination Carriers,,,Norway,Europe,,,,,,,investpy
+KRNG,Krones AG,,,Austria,Europe,,,,,,,investpy
+OTS,Oceanteam,,,Norway,Europe,,,,,,,investpy
+METEX,Metabolic Explorer,,,France,Europe,,,,,,,investpy
+OVZON,Ovzon,,,Sweden,Europe,,,,,,,investpy
+BRKM3,BRASKEM PNA,,,Spain,Europe,,,,,,,investpy
+SGH,Slater & Gordon,,,Germany,Europe,,,,,,,investpy
+CL,Colgate-Palmolive,,,Germany,Europe,,,,,,,investpy
+PERP,Pernod Ricard,,,France,Europe,,,,,,,investpy
+BOU,J Boutaris & Son Holding SA,,,Greece,Europe,,,,,,,investpy
+CNGC,China Nonferrous Gold,,,United Kingdom,Europe,,,,,,,investpy
+CCHE,Seche,,,France,Europe,,,,,,,investpy
+CEVAL,CEVA Logistics,,,Switzerland,Europe,,,,,,,investpy
+RAMA,Ramada,,,Portugal,Europe,,,,,,,investpy
+VITA,Vintana,,,United Kingdom,Europe,,,,,,,investpy
+CPINV,CP Invest,,,Belgium,Europe,,,,,,,investpy
+CIMCO,Cimco Marine,,,Sweden,Europe,,,,,,,investpy
+PRL,Pierrel,,,Italy,Europe,,,,,,,investpy
+EVOG,Evolution Gaming,,,Sweden,Europe,,,,,,,investpy
+GREENL,Green Landscaping,,,Sweden,Europe,,,,,,,investpy
+ITW,Illinois Tool Works,,,Germany,Europe,,,,,,,investpy
+WMT,Walmart,,,Austria,Europe,,,,,,,investpy
+BEIJb,Beijer Ref,,,Sweden,Europe,,,,,,,investpy
+MLUTP,Un Toit Pour Toi,,,France,Europe,,,,,,,investpy
+FREG,Fresenius SE,,,Germany,Europe,,,,,,,investpy
+SDFGn,K+S AG,,,Germany,Europe,,,,,,,investpy
+EPED,Faurecia,,,Switzerland,Europe,,,,,,,investpy
+ROBF,Robertet,,,France,Europe,,,,,,,investpy
+SYDB,Sydbank,,,Denmark,Europe,,,,,,,investpy
+SBSG,STRATEC Biomedical,,,Germany,Europe,,,,,,,investpy
+ALT,Altitude,,,United Kingdom,Europe,,,,,,,investpy
+SAPG,SAP,,,Germany,Europe,,,,,,,investpy
+DBK,Deutsche Bank AG,,,Italy,Europe,,,,,,,investpy
+OTEr,Hellenic Telec,,,Greece,Europe,,,,,,,investpy
+KSP,Kingspan,,,Ireland,Europe,,,,,,,investpy
+KRC,Kilroy,,,Germany,Europe,,,,,,,investpy
+BPOST,bpost NV,,,Belgium,Europe,,,,,,,investpy
+ARISE,Arise Windpower,,,Sweden,Europe,,,,,,,investpy
+NILb,Nilorngruppen AB,,,Sweden,Europe,,,,,,,investpy
+LMDr,Lamda Develop,,,Greece,Europe,,,,,,,investpy
+CBKG,Commerzbank,,,Switzerland,Europe,,,,,,,investpy
+CSCE,Lombard Et Medot,,,France,Europe,,,,,,,investpy
+BC8G,Bechtle AG,,,Austria,Europe,,,,,,,investpy
+EURIb,European Institute of Science,,,Sweden,Europe,,,,,,,investpy
+IVISYS,Ivisys AB,,,Sweden,Europe,,,,,,,investpy
+MYRX,Myrexis Inc Cmn Stk,,,Germany,Europe,,,,,,,investpy
+ALPRO,Prodware,,,France,Europe,,,,,,,investpy
+SBC,Sbc Sveriges Bostadsrattscentrum,,,Sweden,Europe,,,,,,,investpy
+IMMOU,Immobiliere Publique de Droit Belge,,,Belgium,Europe,,,,,,,investpy
+SOGN,Societe Generale,,,Switzerland,Europe,,,,,,,investpy
+POLN,Polyphor,,,Switzerland,Europe,,,,,,,investpy
+JENG,Jenoptik,,,Austria,Europe,,,,,,,investpy
+SLW,Wheaton Precious Metals,,,Switzerland,Europe,,,,,,,investpy
+BAINS,Borges Agricultural,,,Spain,Europe,,,,,,,investpy
+NBA,Novabase,,,Portugal,Europe,,,,,,,investpy
+EMSN,Ems Chemie Hld,,,Switzerland,Europe,,,,,,,investpy
+HEMC,Hemcheck Sweden,,,Sweden,Europe,,,,,,,investpy
+BUBL,Bublar,,,Sweden,Europe,,,,,,,investpy
+UU,United Utilities,,,United Kingdom,Europe,,,,,,,investpy
+SPKSJF,Sparekassen Sjaelland,,,Denmark,Europe,,,,,,,investpy
+IMX,Imax,,,Germany,Europe,,,,,,,investpy
+BGN,Banca Generali,,,Italy,Europe,,,,,,,investpy
+KLAR,Klaria Pharma Holding AB,,,Sweden,Europe,,,,,,,investpy
+IFDE,Indle Fin. Entrepr.,,,France,Europe,,,,,,,investpy
+SJJG,Serviceware,,,Germany,Europe,,,,,,,investpy
+RECYb,Recyctec Holding,,,Sweden,Europe,,,,,,,investpy
+RXPA,Recylex,,,France,Europe,,,,,,,investpy
+KAR,Karelia Tobacco Company Inc,,,Greece,Europe,,,,,,,investpy

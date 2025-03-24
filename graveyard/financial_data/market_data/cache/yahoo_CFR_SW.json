@@ -1,0 +1,14 @@
+{
+    "symbol": "CFR.SW",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 96580000000.0,
+    "revenue": null,
+    "profit_margin": 6.4,
+    "operating_margin": 21.91,
+    "return_on_assets": 6.63,
+    "return_on_equity": 17.38,
+    "cash": 32.72,
+    "debt": null,
+    "current_ratio": 2.52
+}

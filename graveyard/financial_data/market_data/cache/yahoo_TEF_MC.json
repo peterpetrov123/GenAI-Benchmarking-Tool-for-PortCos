@@ -1,0 +1,13 @@
+{
+    "symbol": "TEF.MC",
+    "data_source": "Yahoo Finance",
+    "market_cap": 24450000000.0,
+    "revenue": null,
+    "profit_margin": -0.12,
+    "operating_margin": 13.2,
+    "return_on_assets": 2.79,
+    "return_on_equity": 0.84,
+    "cash": 1.51,
+    "debt": null,
+    "current_ratio": 0.87
+}

@@ -1,0 +1,15 @@
+{
+    "country": "IL",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Semiconductors",
+    "ipo": "1994-01-01",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSEM.png",
+    "marketCapitalization": 4292.85035,
+    "name": "Tower Semiconductor Ltd",
+    "phone": "97246506611",
+    "shareOutstanding": 111.07,
+    "ticker": "TSEM",
+    "weburl": "https://towersemi.com/"
+}

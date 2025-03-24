@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.0083,
+        "13WeekPriceReturnDaily": -6.0899,
+        "26WeekPriceReturnDaily": -7.8248,
+        "3MonthADReturnStd": 34.961933,
+        "3MonthAverageTradingVolume": 0.0187,
+        "52WeekHigh": 25.34,
+        "52WeekHighDate": "2024-04-16",
+        "52WeekLow": 14.22,
+        "52WeekLowDate": "2024-11-27",
+        "52WeekPriceReturnDaily": -38.132,
+        "5DayPriceReturnDaily": -3.5723,
+        "beta": -1.2219193,
+        "monthToDatePriceReturnDaily": 0.6311,
+        "priceRelativeToS&P50013Week": 0.0657,
+        "priceRelativeToS&P50026Week": -10.1173,
+        "priceRelativeToS&P5004Week": 10.4747,
+        "priceRelativeToS&P50052Week": -48.7138,
+        "priceRelativeToS&P500Ytd": -4.316,
+        "yearToDatePriceReturnDaily": -7.5493
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "SDP"
+}

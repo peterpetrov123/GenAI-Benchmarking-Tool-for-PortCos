@@ -1,0 +1,688 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.11641,
+        "13WeekPriceReturnDaily": -52.5347,
+        "3MonthADReturnStd": 93.33581,
+        "3MonthAverageTradingVolume": 0.50955,
+        "52WeekHigh": 3.35,
+        "52WeekHighDate": "2024-09-26",
+        "52WeekLow": 0.437,
+        "52WeekLowDate": "2025-03-11",
+        "5DayPriceReturnDaily": 4.9015,
+        "assetTurnoverAnnual": 0.6383,
+        "beta": 0.44504222,
+        "cashFlowPerShareAnnual": 0.0028,
+        "cashPerSharePerShareAnnual": 0.0014,
+        "cashPerSharePerShareQuarterly": 0.0036,
+        "currentRatioAnnual": 0.4837,
+        "currentRatioQuarterly": 0.8114,
+        "ebitdPerShareAnnual": -0.1792,
+        "epsAnnual": -0.2009,
+        "epsBasicExclExtraItemsAnnual": -0.2009,
+        "epsExclExtraItemsAnnual": -0.2009,
+        "epsInclExtraItemsAnnual": -0.2009,
+        "epsNormalizedAnnual": -0.2009,
+        "grossMarginAnnual": 65.27,
+        "longTermDebt/equityAnnual": 0,
+        "longTermDebt/equityQuarterly": 0.1385,
+        "marketCapitalization": 5.006061,
+        "monthToDatePriceReturnDaily": -4.6918,
+        "netInterestCoverageTTM": -9.9093,
+        "netProfitMarginAnnual": -63.98,
+        "operatingMarginAnnual": -67.96,
+        "pcfShareAnnual": 166.3143,
+        "peAnnual": null,
+        "peNormalizedAnnual": null,
+        "pfcfShareAnnual": 175.3436,
+        "pretaxMarginAnnual": -71.64,
+        "priceRelativeToS&P50013Week": -46.3791,
+        "priceRelativeToS&P5004Week": -28.1305,
+        "priceRelativeToS&P500Ytd": -52.3778,
+        "psAnnual": 1.5904,
+        "quickRatioAnnual": 0.2128,
+        "quickRatioQuarterly": 0.4342,
+        "revenueGrowthQuarterlyYoy": -30.52,
+        "revenuePerShareAnnual": 0.3141,
+        "roaRfy": -40.839999999999996,
+        "roeRfy": -330.99,
+        "roiAnnual": -91.2,
+        "totalDebt/totalEquityAnnual": 2.6291,
+        "totalDebt/totalEquityQuarterly": 6.6851,
+        "yearToDatePriceReturnDaily": -55.6111
+    },
+    "metricType": "all",
+    "series": {
+        "annual": {
+            "bookValue": [],
+            "cashRatio": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.003305676927356931
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.022263581050664838
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.6110941272379519
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.4837
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.8196
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 1.4914
+                }
+            ],
+            "ebitPerShare": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.2134
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.4279
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.0054
+                }
+            ],
+            "eps": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.2009
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.4119
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.0032
+                }
+            ],
+            "ev": [],
+            "fcfMargin": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.0091
+                }
+            ],
+            "grossMargin": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.6527
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.531
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.6649
+                }
+            ],
+            "inventoryTurnover": [],
+            "longtermDebtTotalAsset": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0103
+                }
+            ],
+            "longtermDebtTotalCapital": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0252
+                }
+            ],
+            "longtermDebtTotalEquity": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.1539
+                }
+            ],
+            "netDebtToTotalCapital": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.718
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.787
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.1854
+                }
+            ],
+            "netDebtToTotalEquity": [
+                {
+                    "period": "2023-12-31",
+                    "v": 2.6058
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 4.8019
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.2225
+                }
+            ],
+            "netMargin": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.6398
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.9111
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.0085
+                }
+            ],
+            "operatingMargin": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.6796
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.9466
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.0145
+                }
+            ],
+            "payoutRatio": [],
+            "pb": [],
+            "pe": [],
+            "pfcf": [],
+            "pretaxMargin": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.7164
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.9884
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.0236
+                }
+            ],
+            "ps": [],
+            "ptbv": [],
+            "quickRatio": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.2128
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.4148
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 1.0013
+                }
+            ],
+            "receivablesTurnover": [],
+            "roa": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.4084
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.9024
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.0049
+                }
+            ],
+            "roe": [
+                {
+                    "period": "2023-12-31",
+                    "v": -3.3099
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -13.4451
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.0086
+                }
+            ],
+            "roic": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.912
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -2.2036
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.0072
+                }
+            ],
+            "rotc": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.9687
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -2.2893
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.0122
+                }
+            ],
+            "salesPerShare": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.3141
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.452
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.374
+                }
+            ],
+            "sgaToSale": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.3473
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.469
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.3351
+                }
+            ],
+            "tangibleBookValue": [],
+            "totalDebtToEquity": [
+                {
+                    "period": "2023-12-31",
+                    "v": 2.6291
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 5.1015
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.1996
+                }
+            ],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.3244
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.3424
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.1132
+                }
+            ],
+            "totalDebtToTotalCapital": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.7244
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.8361
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0.1664
+                }
+            ],
+            "totalRatio": [
+                {
+                    "period": "2023-12-31",
+                    "v": 1.1407
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 1.0719
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 2.3109
+                }
+            ]
+        },
+        "quarterly": {
+            "assetTurnoverTTM": [],
+            "bookValue": [],
+            "cashRatio": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.008715152623448623
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.022263581050664838
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.024083166470088048
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.8114
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.8196
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.9482
+                }
+            ],
+            "ebitPerShare": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.2134
+                },
+                {
+                    "period": "2023-06-30",
+                    "v": -0.0677
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.4279
+                }
+            ],
+            "eps": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.2009
+                },
+                {
+                    "period": "2023-06-30",
+                    "v": -0.0687
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.4119
+                }
+            ],
+            "ev": [],
+            "fcfMargin": [],
+            "fcfPerShareTTM": [],
+            "grossMargin": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.6527
+                },
+                {
+                    "period": "2023-06-30",
+                    "v": 0.721
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.531
+                }
+            ],
+            "inventoryTurnoverTTM": [],
+            "longtermDebtTotalAsset": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0069
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0103
+                }
+            ],
+            "longtermDebtTotalCapital": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.018
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0252
+                }
+            ],
+            "longtermDebtTotalEquity": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.1385
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.1539
+                }
+            ],
+            "netDebtToTotalCapital": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.8484
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.787
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.1937
+                }
+            ],
+            "netDebtToTotalEquity": [
+                {
+                    "period": "2023-06-30",
+                    "v": 6.5204
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 4.8019
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.2474
+                }
+            ],
+            "netMargin": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.6398
+                },
+                {
+                    "period": "2023-06-30",
+                    "v": -0.4265
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.9111
+                }
+            ],
+            "operatingMargin": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.6796
+                },
+                {
+                    "period": "2023-06-30",
+                    "v": -0.4208
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.9466
+                }
+            ],
+            "payoutRatioTTM": [],
+            "pb": [],
+            "peTTM": [],
+            "pfcfTTM": [],
+            "pretaxMargin": [
+                {
+                    "period": "2023-12-31",
+                    "v": -0.7164
+                },
+                {
+                    "period": "2023-06-30",
+                    "v": -0.4246
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.9884
+                }
+            ],
+            "psTTM": [],
+            "ptbv": [],
+            "quickRatio": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.4342
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.4148
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.3708
+                }
+            ],
+            "receivablesTurnoverTTM": [],
+            "roaTTM": [],
+            "roeTTM": [],
+            "roicTTM": [],
+            "rotcTTM": [],
+            "salesPerShare": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.3141
+                },
+                {
+                    "period": "2023-06-30",
+                    "v": 0.161
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.452
+                }
+            ],
+            "sgaToSale": [
+                {
+                    "period": "2023-12-31",
+                    "v": 0.3473
+                },
+                {
+                    "period": "2023-06-30",
+                    "v": 0.279
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.469
+                }
+            ],
+            "tangibleBookValue": [],
+            "totalDebtToEquity": [
+                {
+                    "period": "2023-06-30",
+                    "v": 6.6851
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 5.1015
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.2776
+                }
+            ],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.3317
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.3424
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.1194
+                }
+            ],
+            "totalDebtToTotalCapital": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.8699
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.8361
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.2173
+                }
+            ],
+            "totalRatio": [
+                {
+                    "period": "2023-06-30",
+                    "v": 1.0522
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 1.0719
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 1.7545
+                }
+            ]
+        }
+    },
+    "symbol": "IBG"
+}

@@ -1,0 +1,18 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.0955,
+        "3MonthAverageTradingVolume": 0.11839,
+        "52WeekHigh": 0.0001,
+        "52WeekHighDate": "2024-05-06",
+        "52WeekLow": 1e-06,
+        "52WeekLowDate": "2025-01-28",
+        "5DayPriceReturnDaily": 0,
+        "beta": 28.47912,
+        "monthToDatePriceReturnDaily": 0,
+        "priceRelativeToS&P500Ytd": 0.4483,
+        "yearToDatePriceReturnDaily": 0
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "SRSr"
+}

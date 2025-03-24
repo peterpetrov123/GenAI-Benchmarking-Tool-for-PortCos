@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.00299,
+        "13WeekPriceReturnDaily": -10.2379,
+        "26WeekPriceReturnDaily": 0.8136,
+        "3MonthADReturnStd": 21.079638,
+        "3MonthAverageTradingVolume": 0.0032,
+        "52WeekHigh": 62.2432,
+        "52WeekHighDate": "2024-11-25",
+        "52WeekLow": 44.43,
+        "52WeekLowDate": "2024-04-17",
+        "52WeekPriceReturnDaily": 16.015,
+        "5DayPriceReturnDaily": 3.8831,
+        "beta": 1.0340626,
+        "monthToDatePriceReturnDaily": -4.8061,
+        "priceRelativeToS&P50013Week": -4.0823,
+        "priceRelativeToS&P50026Week": -1.4789,
+        "priceRelativeToS&P5004Week": 2.3006,
+        "priceRelativeToS&P50052Week": 5.4332,
+        "priceRelativeToS&P500Ytd": -0.4674,
+        "yearToDatePriceReturnDaily": -3.7007
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "PSCF"
+}

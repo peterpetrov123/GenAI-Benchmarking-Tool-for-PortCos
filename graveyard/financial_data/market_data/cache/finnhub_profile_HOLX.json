@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Health Care",
+    "ipo": "1990-03-01",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HOLX.png",
+    "marketCapitalization": 13690.009282000003,
+    "name": "Hologic Inc",
+    "phone": "15082632900",
+    "shareOutstanding": 224.39,
+    "ticker": "HOLX",
+    "weburl": "https://www.hologic.com/"
+}

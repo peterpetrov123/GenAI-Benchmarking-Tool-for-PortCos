@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.01919,
+        "13WeekPriceReturnDaily": 7.7715,
+        "26WeekPriceReturnDaily": -2.9511,
+        "3MonthADReturnStd": 19.506794,
+        "3MonthAverageTradingVolume": 0.01787,
+        "52WeekHigh": 12.21,
+        "52WeekHighDate": "2024-09-18",
+        "52WeekLow": 10.11,
+        "52WeekLowDate": "2025-01-13",
+        "52WeekPriceReturnDaily": 0.2613,
+        "5DayPriceReturnDaily": 0.6559,
+        "beta": 0.4072437,
+        "monthToDatePriceReturnDaily": 10.4479,
+        "priceRelativeToS&P50013Week": 13.9271,
+        "priceRelativeToS&P50026Week": -5.2436,
+        "priceRelativeToS&P5004Week": 14.8018,
+        "priceRelativeToS&P50052Week": -10.3205,
+        "priceRelativeToS&P500Ytd": 13.4085,
+        "yearToDatePriceReturnDaily": 10.1752
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "ULE"
+}

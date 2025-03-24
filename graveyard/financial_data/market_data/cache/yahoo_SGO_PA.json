@@ -1,0 +1,14 @@
+{
+    "symbol": "SGO.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 50980000000.0,
+    "revenue": null,
+    "profit_margin": 6.11,
+    "operating_margin": 10.73,
+    "return_on_assets": 5.43,
+    "return_on_equity": 11.88,
+    "cash": 17.03,
+    "debt": null,
+    "current_ratio": 1.35
+}

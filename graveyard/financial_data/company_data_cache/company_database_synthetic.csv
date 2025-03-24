@@ -1,0 +1,1001 @@
+symbol,name,industry,sector,country,region,revenue,employees,market_cap
+NN,Company 0,Healthcare,Healthcare,USA,North America,100000000,1000,500000000
+OOD,Company 1,Pharmaceuticals,Technology,Germany,Europe,200000000,2000,1000000000
+PP,Company 2,Technology,Financial Services,India,Asia,300000000,3000,1500000000
+QQF,Company 3,Software,Industrials,Brazil,South America,400000000,4000,2000000000
+RR,Company 4,Financial Services,Consumer Discretionary,Canada,North America,500000000,5000,2500000000
+SSH,Company 5,Banking,Energy,Italy,Europe,600000000,6000,3000000000
+TT,Company 6,Manufacturing,Communication Services,India,Asia,700000000,7000,3500000000
+UUJ,Company 7,Retail,Consumer Staples,Argentina,South America,800000000,8000,4000000000
+VV,Company 8,Energy,Materials,Mexico,North America,900000000,9000,4500000000
+WWL,Company 9,Consumer Goods,Utilities,France,Europe,1000000000,10000,5000000000
+XX,Company 10,Telecommunications,Real Estate,India,Asia,100000000,11000,5500000000
+YYN,Company 11,Automotive,Healthcare,Chile,South America,200000000,12000,6000000000
+ZZ,Company 12,Healthcare,Technology,USA,North America,300000000,13000,6500000000
+AAP,Company 13,Pharmaceuticals,Financial Services,Spain,Europe,400000000,14000,7000000000
+BB,Company 14,Technology,Industrials,India,Asia,500000000,15000,7500000000
+CCR,Company 15,Software,Consumer Discretionary,Brazil,South America,600000000,16000,500000000
+DD,Company 16,Financial Services,Energy,Canada,North America,700000000,17000,1000000000
+EET,Company 17,Banking,Communication Services,Finland,Europe,800000000,18000,1500000000
+FF,Company 18,Manufacturing,Consumer Staples,India,Asia,900000000,19000,2000000000
+GGV,Company 19,Retail,Materials,Argentina,South America,1000000000,20000,2500000000
+HH,Company 20,Energy,Utilities,Mexico,North America,100000000,1000,3000000000
+IIX,Company 21,Consumer Goods,Real Estate,UK,Europe,200000000,2000,3500000000
+JJ,Company 22,Telecommunications,Healthcare,India,Asia,300000000,3000,4000000000
+KKZ,Company 23,Automotive,Technology,Chile,South America,400000000,4000,4500000000
+LL,Company 24,Healthcare,Financial Services,USA,North America,500000000,5000,5000000000
+MMB,Company 25,Pharmaceuticals,Industrials,Sweden,Europe,600000000,6000,5500000000
+NN,Company 26,Technology,Consumer Discretionary,India,Asia,700000000,7000,6000000000
+OOD,Company 27,Software,Energy,Brazil,South America,800000000,8000,6500000000
+PP,Company 28,Financial Services,Communication Services,Canada,North America,900000000,9000,7000000000
+QQF,Company 29,Banking,Consumer Staples,Germany,Europe,1000000000,10000,7500000000
+RR,Company 30,Manufacturing,Materials,India,Asia,100000000,11000,500000000
+SSH,Company 31,Retail,Utilities,Argentina,South America,200000000,12000,1000000000
+TT,Company 32,Energy,Real Estate,Mexico,North America,300000000,13000,1500000000
+UUJ,Company 33,Consumer Goods,Healthcare,Italy,Europe,400000000,14000,2000000000
+VV,Company 34,Telecommunications,Technology,India,Asia,500000000,15000,2500000000
+WWL,Company 35,Automotive,Financial Services,Chile,South America,600000000,16000,3000000000
+XX,Company 36,Healthcare,Industrials,USA,North America,700000000,17000,3500000000
+YYN,Company 37,Pharmaceuticals,Consumer Discretionary,France,Europe,800000000,18000,4000000000
+ZZ,Company 38,Technology,Energy,India,Asia,900000000,19000,4500000000
+AAP,Company 39,Software,Communication Services,Brazil,South America,1000000000,20000,5000000000
+BB,Company 40,Financial Services,Consumer Staples,Canada,North America,100000000,1000,5500000000
+CCR,Company 41,Banking,Materials,Spain,Europe,200000000,2000,6000000000
+DD,Company 42,Manufacturing,Utilities,India,Asia,300000000,3000,6500000000
+EET,Company 43,Retail,Real Estate,Argentina,South America,400000000,4000,7000000000
+FF,Company 44,Energy,Healthcare,Mexico,North America,500000000,5000,7500000000
+GGV,Company 45,Consumer Goods,Technology,Finland,Europe,600000000,6000,500000000
+HH,Company 46,Telecommunications,Financial Services,India,Asia,700000000,7000,1000000000
+IIX,Company 47,Automotive,Industrials,Chile,South America,800000000,8000,1500000000
+JJ,Company 48,Healthcare,Consumer Discretionary,USA,North America,900000000,9000,2000000000
+KKZ,Company 49,Pharmaceuticals,Energy,UK,Europe,1000000000,10000,2500000000
+LL,Company 50,Technology,Communication Services,India,Asia,100000000,11000,3000000000
+MMB,Company 51,Software,Consumer Staples,Brazil,South America,200000000,12000,3500000000
+NN,Company 52,Financial Services,Materials,Canada,North America,300000000,13000,4000000000
+OOD,Company 53,Banking,Utilities,Sweden,Europe,400000000,14000,4500000000
+PP,Company 54,Manufacturing,Real Estate,India,Asia,500000000,15000,5000000000
+QQF,Company 55,Retail,Healthcare,Argentina,South America,600000000,16000,5500000000
+RR,Company 56,Energy,Technology,Mexico,North America,700000000,17000,6000000000
+SSH,Company 57,Consumer Goods,Financial Services,Germany,Europe,800000000,18000,6500000000
+TT,Company 58,Telecommunications,Industrials,India,Asia,900000000,19000,7000000000
+UUJ,Company 59,Automotive,Consumer Discretionary,Chile,South America,1000000000,20000,7500000000
+VV,Company 60,Healthcare,Energy,USA,North America,100000000,1000,500000000
+WWL,Company 61,Pharmaceuticals,Communication Services,Italy,Europe,200000000,2000,1000000000
+XX,Company 62,Technology,Consumer Staples,India,Asia,300000000,3000,1500000000
+YYN,Company 63,Software,Materials,Brazil,South America,400000000,4000,2000000000
+ZZ,Company 64,Financial Services,Utilities,Canada,North America,500000000,5000,2500000000
+AAP,Company 65,Banking,Real Estate,France,Europe,600000000,6000,3000000000
+BB,Company 66,Manufacturing,Healthcare,India,Asia,700000000,7000,3500000000
+CCR,Company 67,Retail,Technology,Argentina,South America,800000000,8000,4000000000
+DD,Company 68,Energy,Financial Services,Mexico,North America,900000000,9000,4500000000
+EET,Company 69,Consumer Goods,Industrials,Spain,Europe,1000000000,10000,5000000000
+FF,Company 70,Telecommunications,Consumer Discretionary,India,Asia,100000000,11000,5500000000
+GGV,Company 71,Automotive,Energy,Chile,South America,200000000,12000,6000000000
+HH,Company 72,Healthcare,Communication Services,USA,North America,300000000,13000,6500000000
+IIX,Company 73,Pharmaceuticals,Consumer Staples,Finland,Europe,400000000,14000,7000000000
+JJ,Company 74,Technology,Materials,India,Asia,500000000,15000,7500000000
+KKZ,Company 75,Software,Utilities,Brazil,South America,600000000,16000,500000000
+LL,Company 76,Financial Services,Real Estate,Canada,North America,700000000,17000,1000000000
+MMB,Company 77,Banking,Healthcare,UK,Europe,800000000,18000,1500000000
+NN,Company 78,Manufacturing,Technology,India,Asia,900000000,19000,2000000000
+OOD,Company 79,Retail,Financial Services,Argentina,South America,1000000000,20000,2500000000
+PP,Company 80,Energy,Industrials,Mexico,North America,100000000,1000,3000000000
+QQF,Company 81,Consumer Goods,Consumer Discretionary,Sweden,Europe,200000000,2000,3500000000
+RR,Company 82,Telecommunications,Energy,India,Asia,300000000,3000,4000000000
+SSH,Company 83,Automotive,Communication Services,Chile,South America,400000000,4000,4500000000
+TT,Company 84,Healthcare,Consumer Staples,USA,North America,500000000,5000,5000000000
+UUJ,Company 85,Pharmaceuticals,Materials,Germany,Europe,600000000,6000,5500000000
+VV,Company 86,Technology,Utilities,India,Asia,700000000,7000,6000000000
+WWL,Company 87,Software,Real Estate,Brazil,South America,800000000,8000,6500000000
+XX,Company 88,Financial Services,Healthcare,Canada,North America,900000000,9000,7000000000
+YYN,Company 89,Banking,Technology,Italy,Europe,1000000000,10000,7500000000
+ZZ,Company 90,Manufacturing,Financial Services,India,Asia,100000000,11000,500000000
+AAP,Company 91,Retail,Industrials,Argentina,South America,200000000,12000,1000000000
+BB,Company 92,Energy,Consumer Discretionary,Mexico,North America,300000000,13000,1500000000
+CCR,Company 93,Consumer Goods,Energy,France,Europe,400000000,14000,2000000000
+DD,Company 94,Telecommunications,Communication Services,India,Asia,500000000,15000,2500000000
+EET,Company 95,Automotive,Consumer Staples,Chile,South America,600000000,16000,3000000000
+FF,Company 96,Healthcare,Materials,USA,North America,700000000,17000,3500000000
+GGV,Company 97,Pharmaceuticals,Utilities,Spain,Europe,800000000,18000,4000000000
+HH,Company 98,Technology,Real Estate,India,Asia,900000000,19000,4500000000
+IIX,Company 99,Software,Healthcare,Brazil,South America,1000000000,20000,5000000000
+JJ,Company 100,Financial Services,Technology,Canada,North America,100000000,1000,5500000000
+KKZ,Company 101,Banking,Financial Services,Finland,Europe,200000000,2000,6000000000
+LL,Company 102,Manufacturing,Industrials,India,Asia,300000000,3000,6500000000
+MMB,Company 103,Retail,Consumer Discretionary,Argentina,South America,400000000,4000,7000000000
+NN,Company 104,Energy,Energy,Mexico,North America,500000000,5000,7500000000
+OOD,Company 105,Consumer Goods,Communication Services,UK,Europe,600000000,6000,500000000
+PP,Company 106,Telecommunications,Consumer Staples,India,Asia,700000000,7000,1000000000
+QQF,Company 107,Automotive,Materials,Chile,South America,800000000,8000,1500000000
+RR,Company 108,Healthcare,Utilities,USA,North America,900000000,9000,2000000000
+SSH,Company 109,Pharmaceuticals,Real Estate,Sweden,Europe,1000000000,10000,2500000000
+TT,Company 110,Technology,Healthcare,India,Asia,100000000,11000,3000000000
+UUJ,Company 111,Software,Technology,Brazil,South America,200000000,12000,3500000000
+VV,Company 112,Financial Services,Financial Services,Canada,North America,300000000,13000,4000000000
+WWL,Company 113,Banking,Industrials,Germany,Europe,400000000,14000,4500000000
+XX,Company 114,Manufacturing,Consumer Discretionary,India,Asia,500000000,15000,5000000000
+YYN,Company 115,Retail,Energy,Argentina,South America,600000000,16000,5500000000
+ZZ,Company 116,Energy,Communication Services,Mexico,North America,700000000,17000,6000000000
+AAP,Company 117,Consumer Goods,Consumer Staples,Italy,Europe,800000000,18000,6500000000
+BB,Company 118,Telecommunications,Materials,India,Asia,900000000,19000,7000000000
+CCR,Company 119,Automotive,Utilities,Chile,South America,1000000000,20000,7500000000
+DD,Company 120,Healthcare,Real Estate,USA,North America,100000000,1000,500000000
+EET,Company 121,Pharmaceuticals,Healthcare,France,Europe,200000000,2000,1000000000
+FF,Company 122,Technology,Technology,India,Asia,300000000,3000,1500000000
+GGV,Company 123,Software,Financial Services,Brazil,South America,400000000,4000,2000000000
+HH,Company 124,Financial Services,Industrials,Canada,North America,500000000,5000,2500000000
+IIX,Company 125,Banking,Consumer Discretionary,Spain,Europe,600000000,6000,3000000000
+JJ,Company 126,Manufacturing,Energy,India,Asia,700000000,7000,3500000000
+KKZ,Company 127,Retail,Communication Services,Argentina,South America,800000000,8000,4000000000
+LL,Company 128,Energy,Consumer Staples,Mexico,North America,900000000,9000,4500000000
+MMB,Company 129,Consumer Goods,Materials,Finland,Europe,1000000000,10000,5000000000
+NN,Company 130,Telecommunications,Utilities,India,Asia,100000000,11000,5500000000
+OOD,Company 131,Automotive,Real Estate,Chile,South America,200000000,12000,6000000000
+PP,Company 132,Healthcare,Healthcare,USA,North America,300000000,13000,6500000000
+QQF,Company 133,Pharmaceuticals,Technology,UK,Europe,400000000,14000,7000000000
+RR,Company 134,Technology,Financial Services,India,Asia,500000000,15000,7500000000
+SSH,Company 135,Software,Industrials,Brazil,South America,600000000,16000,500000000
+TT,Company 136,Financial Services,Consumer Discretionary,Canada,North America,700000000,17000,1000000000
+UUJ,Company 137,Banking,Energy,Sweden,Europe,800000000,18000,1500000000
+VV,Company 138,Manufacturing,Communication Services,India,Asia,900000000,19000,2000000000
+WWL,Company 139,Retail,Consumer Staples,Argentina,South America,1000000000,20000,2500000000
+XX,Company 140,Energy,Materials,Mexico,North America,100000000,1000,3000000000
+YYN,Company 141,Consumer Goods,Utilities,Germany,Europe,200000000,2000,3500000000
+ZZ,Company 142,Telecommunications,Real Estate,India,Asia,300000000,3000,4000000000
+AAP,Company 143,Automotive,Healthcare,Chile,South America,400000000,4000,4500000000
+BB,Company 144,Healthcare,Technology,USA,North America,500000000,5000,5000000000
+CCR,Company 145,Pharmaceuticals,Financial Services,Italy,Europe,600000000,6000,5500000000
+DD,Company 146,Technology,Industrials,India,Asia,700000000,7000,6000000000
+EET,Company 147,Software,Consumer Discretionary,Brazil,South America,800000000,8000,6500000000
+FF,Company 148,Financial Services,Energy,Canada,North America,900000000,9000,7000000000
+GGV,Company 149,Banking,Communication Services,France,Europe,1000000000,10000,7500000000
+HH,Company 150,Manufacturing,Consumer Staples,India,Asia,100000000,11000,500000000
+IIX,Company 151,Retail,Materials,Argentina,South America,200000000,12000,1000000000
+JJ,Company 152,Energy,Utilities,Mexico,North America,300000000,13000,1500000000
+KKZ,Company 153,Consumer Goods,Real Estate,Spain,Europe,400000000,14000,2000000000
+LL,Company 154,Telecommunications,Healthcare,India,Asia,500000000,15000,2500000000
+MMB,Company 155,Automotive,Technology,Chile,South America,600000000,16000,3000000000
+NN,Company 156,Healthcare,Financial Services,USA,North America,700000000,17000,3500000000
+OOD,Company 157,Pharmaceuticals,Industrials,Finland,Europe,800000000,18000,4000000000
+PP,Company 158,Technology,Consumer Discretionary,India,Asia,900000000,19000,4500000000
+QQF,Company 159,Software,Energy,Brazil,South America,1000000000,20000,5000000000
+RR,Company 160,Financial Services,Communication Services,Canada,North America,100000000,1000,5500000000
+SSH,Company 161,Banking,Consumer Staples,UK,Europe,200000000,2000,6000000000
+TT,Company 162,Manufacturing,Materials,India,Asia,300000000,3000,6500000000
+UUJ,Company 163,Retail,Utilities,Argentina,South America,400000000,4000,7000000000
+VV,Company 164,Energy,Real Estate,Mexico,North America,500000000,5000,7500000000
+WWL,Company 165,Consumer Goods,Healthcare,Sweden,Europe,600000000,6000,500000000
+XX,Company 166,Telecommunications,Technology,India,Asia,700000000,7000,1000000000
+YYN,Company 167,Automotive,Financial Services,Chile,South America,800000000,8000,1500000000
+ZZ,Company 168,Healthcare,Industrials,USA,North America,900000000,9000,2000000000
+AAP,Company 169,Pharmaceuticals,Consumer Discretionary,Germany,Europe,1000000000,10000,2500000000
+BB,Company 170,Technology,Energy,India,Asia,100000000,11000,3000000000
+CCR,Company 171,Software,Communication Services,Brazil,South America,200000000,12000,3500000000
+DD,Company 172,Financial Services,Consumer Staples,Canada,North America,300000000,13000,4000000000
+EET,Company 173,Banking,Materials,Italy,Europe,400000000,14000,4500000000
+FF,Company 174,Manufacturing,Utilities,India,Asia,500000000,15000,5000000000
+GGV,Company 175,Retail,Real Estate,Argentina,South America,600000000,16000,5500000000
+HH,Company 176,Energy,Healthcare,Mexico,North America,700000000,17000,6000000000
+IIX,Company 177,Consumer Goods,Technology,France,Europe,800000000,18000,6500000000
+JJ,Company 178,Telecommunications,Financial Services,India,Asia,900000000,19000,7000000000
+KKZ,Company 179,Automotive,Industrials,Chile,South America,1000000000,20000,7500000000
+LL,Company 180,Healthcare,Consumer Discretionary,USA,North America,100000000,1000,500000000
+MMB,Company 181,Pharmaceuticals,Energy,Spain,Europe,200000000,2000,1000000000
+NN,Company 182,Technology,Communication Services,India,Asia,300000000,3000,1500000000
+OOD,Company 183,Software,Consumer Staples,Brazil,South America,400000000,4000,2000000000
+PP,Company 184,Financial Services,Materials,Canada,North America,500000000,5000,2500000000
+QQF,Company 185,Banking,Utilities,Finland,Europe,600000000,6000,3000000000
+RR,Company 186,Manufacturing,Real Estate,India,Asia,700000000,7000,3500000000
+SSH,Company 187,Retail,Healthcare,Argentina,South America,800000000,8000,4000000000
+TT,Company 188,Energy,Technology,Mexico,North America,900000000,9000,4500000000
+UUJ,Company 189,Consumer Goods,Financial Services,UK,Europe,1000000000,10000,5000000000
+VV,Company 190,Telecommunications,Industrials,India,Asia,100000000,11000,5500000000
+WWL,Company 191,Automotive,Consumer Discretionary,Chile,South America,200000000,12000,6000000000
+XX,Company 192,Healthcare,Energy,USA,North America,300000000,13000,6500000000
+YYN,Company 193,Pharmaceuticals,Communication Services,Sweden,Europe,400000000,14000,7000000000
+ZZ,Company 194,Technology,Consumer Staples,India,Asia,500000000,15000,7500000000
+AAP,Company 195,Software,Materials,Brazil,South America,600000000,16000,500000000
+BB,Company 196,Financial Services,Utilities,Canada,North America,700000000,17000,1000000000
+CCR,Company 197,Banking,Real Estate,Germany,Europe,800000000,18000,1500000000
+DD,Company 198,Manufacturing,Healthcare,India,Asia,900000000,19000,2000000000
+EET,Company 199,Retail,Technology,Argentina,South America,1000000000,20000,2500000000
+FF,Company 200,Energy,Financial Services,Mexico,North America,100000000,1000,3000000000
+GGV,Company 201,Consumer Goods,Industrials,Italy,Europe,200000000,2000,3500000000
+HH,Company 202,Telecommunications,Consumer Discretionary,India,Asia,300000000,3000,4000000000
+IIX,Company 203,Automotive,Energy,Chile,South America,400000000,4000,4500000000
+JJ,Company 204,Healthcare,Communication Services,USA,North America,500000000,5000,5000000000
+KKZ,Company 205,Pharmaceuticals,Consumer Staples,France,Europe,600000000,6000,5500000000
+LL,Company 206,Technology,Materials,India,Asia,700000000,7000,6000000000
+MMB,Company 207,Software,Utilities,Brazil,South America,800000000,8000,6500000000
+NN,Company 208,Financial Services,Real Estate,Canada,North America,900000000,9000,7000000000
+OOD,Company 209,Banking,Healthcare,Spain,Europe,1000000000,10000,7500000000
+PP,Company 210,Manufacturing,Technology,India,Asia,100000000,11000,500000000
+QQF,Company 211,Retail,Financial Services,Argentina,South America,200000000,12000,1000000000
+RR,Company 212,Energy,Industrials,Mexico,North America,300000000,13000,1500000000
+SSH,Company 213,Consumer Goods,Consumer Discretionary,Finland,Europe,400000000,14000,2000000000
+TT,Company 214,Telecommunications,Energy,India,Asia,500000000,15000,2500000000
+UUJ,Company 215,Automotive,Communication Services,Chile,South America,600000000,16000,3000000000
+VV,Company 216,Healthcare,Consumer Staples,USA,North America,700000000,17000,3500000000
+WWL,Company 217,Pharmaceuticals,Materials,UK,Europe,800000000,18000,4000000000
+XX,Company 218,Technology,Utilities,India,Asia,900000000,19000,4500000000
+YYN,Company 219,Software,Real Estate,Brazil,South America,1000000000,20000,5000000000
+ZZ,Company 220,Financial Services,Healthcare,Canada,North America,100000000,1000,5500000000
+AAP,Company 221,Banking,Technology,Sweden,Europe,200000000,2000,6000000000
+BB,Company 222,Manufacturing,Financial Services,India,Asia,300000000,3000,6500000000
+CCR,Company 223,Retail,Industrials,Argentina,South America,400000000,4000,7000000000
+DD,Company 224,Energy,Consumer Discretionary,Mexico,North America,500000000,5000,7500000000
+EET,Company 225,Consumer Goods,Energy,Germany,Europe,600000000,6000,500000000
+FF,Company 226,Telecommunications,Communication Services,India,Asia,700000000,7000,1000000000
+GGV,Company 227,Automotive,Consumer Staples,Chile,South America,800000000,8000,1500000000
+HH,Company 228,Healthcare,Materials,USA,North America,900000000,9000,2000000000
+IIX,Company 229,Pharmaceuticals,Utilities,Italy,Europe,1000000000,10000,2500000000
+JJ,Company 230,Technology,Real Estate,India,Asia,100000000,11000,3000000000
+KKZ,Company 231,Software,Healthcare,Brazil,South America,200000000,12000,3500000000
+LL,Company 232,Financial Services,Technology,Canada,North America,300000000,13000,4000000000
+MMB,Company 233,Banking,Financial Services,France,Europe,400000000,14000,4500000000
+NN,Company 234,Manufacturing,Industrials,India,Asia,500000000,15000,5000000000
+OOD,Company 235,Retail,Consumer Discretionary,Argentina,South America,600000000,16000,5500000000
+PP,Company 236,Energy,Energy,Mexico,North America,700000000,17000,6000000000
+QQF,Company 237,Consumer Goods,Communication Services,Spain,Europe,800000000,18000,6500000000
+RR,Company 238,Telecommunications,Consumer Staples,India,Asia,900000000,19000,7000000000
+SSH,Company 239,Automotive,Materials,Chile,South America,1000000000,20000,7500000000
+TT,Company 240,Healthcare,Utilities,USA,North America,100000000,1000,500000000
+UUJ,Company 241,Pharmaceuticals,Real Estate,Finland,Europe,200000000,2000,1000000000
+VV,Company 242,Technology,Healthcare,India,Asia,300000000,3000,1500000000
+WWL,Company 243,Software,Technology,Brazil,South America,400000000,4000,2000000000
+XX,Company 244,Financial Services,Financial Services,Canada,North America,500000000,5000,2500000000
+YYN,Company 245,Banking,Industrials,UK,Europe,600000000,6000,3000000000
+ZZ,Company 246,Manufacturing,Consumer Discretionary,India,Asia,700000000,7000,3500000000
+AAP,Company 247,Retail,Energy,Argentina,South America,800000000,8000,4000000000
+BB,Company 248,Energy,Communication Services,Mexico,North America,900000000,9000,4500000000
+CCR,Company 249,Consumer Goods,Consumer Staples,Sweden,Europe,1000000000,10000,5000000000
+DD,Company 250,Telecommunications,Materials,India,Asia,100000000,11000,5500000000
+EET,Company 251,Automotive,Utilities,Chile,South America,200000000,12000,6000000000
+FF,Company 252,Healthcare,Real Estate,USA,North America,300000000,13000,6500000000
+GGV,Company 253,Pharmaceuticals,Healthcare,Germany,Europe,400000000,14000,7000000000
+HH,Company 254,Technology,Technology,India,Asia,500000000,15000,7500000000
+IIX,Company 255,Software,Financial Services,Brazil,South America,600000000,16000,500000000
+JJ,Company 256,Financial Services,Industrials,Canada,North America,700000000,17000,1000000000
+KKZ,Company 257,Banking,Consumer Discretionary,Italy,Europe,800000000,18000,1500000000
+LL,Company 258,Manufacturing,Energy,India,Asia,900000000,19000,2000000000
+MMB,Company 259,Retail,Communication Services,Argentina,South America,1000000000,20000,2500000000
+NN,Company 260,Energy,Consumer Staples,Mexico,North America,100000000,1000,3000000000
+OOD,Company 261,Consumer Goods,Materials,France,Europe,200000000,2000,3500000000
+PP,Company 262,Telecommunications,Utilities,India,Asia,300000000,3000,4000000000
+QQF,Company 263,Automotive,Real Estate,Chile,South America,400000000,4000,4500000000
+RR,Company 264,Healthcare,Healthcare,USA,North America,500000000,5000,5000000000
+SSH,Company 265,Pharmaceuticals,Technology,Spain,Europe,600000000,6000,5500000000
+TT,Company 266,Technology,Financial Services,India,Asia,700000000,7000,6000000000
+UUJ,Company 267,Software,Industrials,Brazil,South America,800000000,8000,6500000000
+VV,Company 268,Financial Services,Consumer Discretionary,Canada,North America,900000000,9000,7000000000
+WWL,Company 269,Banking,Energy,Finland,Europe,1000000000,10000,7500000000
+XX,Company 270,Manufacturing,Communication Services,India,Asia,100000000,11000,500000000
+YYN,Company 271,Retail,Consumer Staples,Argentina,South America,200000000,12000,1000000000
+ZZ,Company 272,Energy,Materials,Mexico,North America,300000000,13000,1500000000
+AAP,Company 273,Consumer Goods,Utilities,UK,Europe,400000000,14000,2000000000
+BB,Company 274,Telecommunications,Real Estate,India,Asia,500000000,15000,2500000000
+CCR,Company 275,Automotive,Healthcare,Chile,South America,600000000,16000,3000000000
+DD,Company 276,Healthcare,Technology,USA,North America,700000000,17000,3500000000
+EET,Company 277,Pharmaceuticals,Financial Services,Sweden,Europe,800000000,18000,4000000000
+FF,Company 278,Technology,Industrials,India,Asia,900000000,19000,4500000000
+GGV,Company 279,Software,Consumer Discretionary,Brazil,South America,1000000000,20000,5000000000
+HH,Company 280,Financial Services,Energy,Canada,North America,100000000,1000,5500000000
+IIX,Company 281,Banking,Communication Services,Germany,Europe,200000000,2000,6000000000
+JJ,Company 282,Manufacturing,Consumer Staples,India,Asia,300000000,3000,6500000000
+KKZ,Company 283,Retail,Materials,Argentina,South America,400000000,4000,7000000000
+LL,Company 284,Energy,Utilities,Mexico,North America,500000000,5000,7500000000
+MMB,Company 285,Consumer Goods,Real Estate,Italy,Europe,600000000,6000,500000000
+NN,Company 286,Telecommunications,Healthcare,India,Asia,700000000,7000,1000000000
+OOD,Company 287,Automotive,Technology,Chile,South America,800000000,8000,1500000000
+PP,Company 288,Healthcare,Financial Services,USA,North America,900000000,9000,2000000000
+QQF,Company 289,Pharmaceuticals,Industrials,France,Europe,1000000000,10000,2500000000
+RR,Company 290,Technology,Consumer Discretionary,India,Asia,100000000,11000,3000000000
+SSH,Company 291,Software,Energy,Brazil,South America,200000000,12000,3500000000
+TT,Company 292,Financial Services,Communication Services,Canada,North America,300000000,13000,4000000000
+UUJ,Company 293,Banking,Consumer Staples,Spain,Europe,400000000,14000,4500000000
+VV,Company 294,Manufacturing,Materials,India,Asia,500000000,15000,5000000000
+WWL,Company 295,Retail,Utilities,Argentina,South America,600000000,16000,5500000000
+XX,Company 296,Energy,Real Estate,Mexico,North America,700000000,17000,6000000000
+YYN,Company 297,Consumer Goods,Healthcare,Finland,Europe,800000000,18000,6500000000
+ZZ,Company 298,Telecommunications,Technology,India,Asia,900000000,19000,7000000000
+AAP,Company 299,Automotive,Financial Services,Chile,South America,1000000000,20000,7500000000
+BB,Company 300,Healthcare,Industrials,USA,North America,100000000,1000,500000000
+CCR,Company 301,Pharmaceuticals,Consumer Discretionary,UK,Europe,200000000,2000,1000000000
+DD,Company 302,Technology,Energy,India,Asia,300000000,3000,1500000000
+EET,Company 303,Software,Communication Services,Brazil,South America,400000000,4000,2000000000
+FF,Company 304,Financial Services,Consumer Staples,Canada,North America,500000000,5000,2500000000
+GGV,Company 305,Banking,Materials,Sweden,Europe,600000000,6000,3000000000
+HH,Company 306,Manufacturing,Utilities,India,Asia,700000000,7000,3500000000
+IIX,Company 307,Retail,Real Estate,Argentina,South America,800000000,8000,4000000000
+JJ,Company 308,Energy,Healthcare,Mexico,North America,900000000,9000,4500000000
+KKZ,Company 309,Consumer Goods,Technology,Germany,Europe,1000000000,10000,5000000000
+LL,Company 310,Telecommunications,Financial Services,India,Asia,100000000,11000,5500000000
+MMB,Company 311,Automotive,Industrials,Chile,South America,200000000,12000,6000000000
+NN,Company 312,Healthcare,Consumer Discretionary,USA,North America,300000000,13000,6500000000
+OOD,Company 313,Pharmaceuticals,Energy,Italy,Europe,400000000,14000,7000000000
+PP,Company 314,Technology,Communication Services,India,Asia,500000000,15000,7500000000
+QQF,Company 315,Software,Consumer Staples,Brazil,South America,600000000,16000,500000000
+RR,Company 316,Financial Services,Materials,Canada,North America,700000000,17000,1000000000
+SSH,Company 317,Banking,Utilities,France,Europe,800000000,18000,1500000000
+TT,Company 318,Manufacturing,Real Estate,India,Asia,900000000,19000,2000000000
+UUJ,Company 319,Retail,Healthcare,Argentina,South America,1000000000,20000,2500000000
+VV,Company 320,Energy,Technology,Mexico,North America,100000000,1000,3000000000
+WWL,Company 321,Consumer Goods,Financial Services,Spain,Europe,200000000,2000,3500000000
+XX,Company 322,Telecommunications,Industrials,India,Asia,300000000,3000,4000000000
+YYN,Company 323,Automotive,Consumer Discretionary,Chile,South America,400000000,4000,4500000000
+ZZ,Company 324,Healthcare,Energy,USA,North America,500000000,5000,5000000000
+AAP,Company 325,Pharmaceuticals,Communication Services,Finland,Europe,600000000,6000,5500000000
+BB,Company 326,Technology,Consumer Staples,India,Asia,700000000,7000,6000000000
+CCR,Company 327,Software,Materials,Brazil,South America,800000000,8000,6500000000
+DD,Company 328,Financial Services,Utilities,Canada,North America,900000000,9000,7000000000
+EET,Company 329,Banking,Real Estate,UK,Europe,1000000000,10000,7500000000
+FF,Company 330,Manufacturing,Healthcare,India,Asia,100000000,11000,500000000
+GGV,Company 331,Retail,Technology,Argentina,South America,200000000,12000,1000000000
+HH,Company 332,Energy,Financial Services,Mexico,North America,300000000,13000,1500000000
+IIX,Company 333,Consumer Goods,Industrials,Sweden,Europe,400000000,14000,2000000000
+JJ,Company 334,Telecommunications,Consumer Discretionary,India,Asia,500000000,15000,2500000000
+KKZ,Company 335,Automotive,Energy,Chile,South America,600000000,16000,3000000000
+LL,Company 336,Healthcare,Communication Services,USA,North America,700000000,17000,3500000000
+MMB,Company 337,Pharmaceuticals,Consumer Staples,Germany,Europe,800000000,18000,4000000000
+NN,Company 338,Technology,Materials,India,Asia,900000000,19000,4500000000
+OOD,Company 339,Software,Utilities,Brazil,South America,1000000000,20000,5000000000
+PP,Company 340,Financial Services,Real Estate,Canada,North America,100000000,1000,5500000000
+QQF,Company 341,Banking,Healthcare,Italy,Europe,200000000,2000,6000000000
+RR,Company 342,Manufacturing,Technology,India,Asia,300000000,3000,6500000000
+SSH,Company 343,Retail,Financial Services,Argentina,South America,400000000,4000,7000000000
+TT,Company 344,Energy,Industrials,Mexico,North America,500000000,5000,7500000000
+UUJ,Company 345,Consumer Goods,Consumer Discretionary,France,Europe,600000000,6000,500000000
+VV,Company 346,Telecommunications,Energy,India,Asia,700000000,7000,1000000000
+WWL,Company 347,Automotive,Communication Services,Chile,South America,800000000,8000,1500000000
+XX,Company 348,Healthcare,Consumer Staples,USA,North America,900000000,9000,2000000000
+YYN,Company 349,Pharmaceuticals,Materials,Spain,Europe,1000000000,10000,2500000000
+ZZ,Company 350,Technology,Utilities,India,Asia,100000000,11000,3000000000
+AAP,Company 351,Software,Real Estate,Brazil,South America,200000000,12000,3500000000
+BB,Company 352,Financial Services,Healthcare,Canada,North America,300000000,13000,4000000000
+CCR,Company 353,Banking,Technology,Finland,Europe,400000000,14000,4500000000
+DD,Company 354,Manufacturing,Financial Services,India,Asia,500000000,15000,5000000000
+EET,Company 355,Retail,Industrials,Argentina,South America,600000000,16000,5500000000
+FF,Company 356,Energy,Consumer Discretionary,Mexico,North America,700000000,17000,6000000000
+GGV,Company 357,Consumer Goods,Energy,UK,Europe,800000000,18000,6500000000
+HH,Company 358,Telecommunications,Communication Services,India,Asia,900000000,19000,7000000000
+IIX,Company 359,Automotive,Consumer Staples,Chile,South America,1000000000,20000,7500000000
+JJ,Company 360,Healthcare,Materials,USA,North America,100000000,1000,500000000
+KKZ,Company 361,Pharmaceuticals,Utilities,Sweden,Europe,200000000,2000,1000000000
+LL,Company 362,Technology,Real Estate,India,Asia,300000000,3000,1500000000
+MMB,Company 363,Software,Healthcare,Brazil,South America,400000000,4000,2000000000
+NN,Company 364,Financial Services,Technology,Canada,North America,500000000,5000,2500000000
+OOD,Company 365,Banking,Financial Services,Germany,Europe,600000000,6000,3000000000
+PP,Company 366,Manufacturing,Industrials,India,Asia,700000000,7000,3500000000
+QQF,Company 367,Retail,Consumer Discretionary,Argentina,South America,800000000,8000,4000000000
+RR,Company 368,Energy,Energy,Mexico,North America,900000000,9000,4500000000
+SSH,Company 369,Consumer Goods,Communication Services,Italy,Europe,1000000000,10000,5000000000
+TT,Company 370,Telecommunications,Consumer Staples,India,Asia,100000000,11000,5500000000
+UUJ,Company 371,Automotive,Materials,Chile,South America,200000000,12000,6000000000
+VV,Company 372,Healthcare,Utilities,USA,North America,300000000,13000,6500000000
+WWL,Company 373,Pharmaceuticals,Real Estate,France,Europe,400000000,14000,7000000000
+XX,Company 374,Technology,Healthcare,India,Asia,500000000,15000,7500000000
+YYN,Company 375,Software,Technology,Brazil,South America,600000000,16000,500000000
+ZZ,Company 376,Financial Services,Financial Services,Canada,North America,700000000,17000,1000000000
+AAP,Company 377,Banking,Industrials,Spain,Europe,800000000,18000,1500000000
+BB,Company 378,Manufacturing,Consumer Discretionary,India,Asia,900000000,19000,2000000000
+CCR,Company 379,Retail,Energy,Argentina,South America,1000000000,20000,2500000000
+DD,Company 380,Energy,Communication Services,Mexico,North America,100000000,1000,3000000000
+EET,Company 381,Consumer Goods,Consumer Staples,Finland,Europe,200000000,2000,3500000000
+FF,Company 382,Telecommunications,Materials,India,Asia,300000000,3000,4000000000
+GGV,Company 383,Automotive,Utilities,Chile,South America,400000000,4000,4500000000
+HH,Company 384,Healthcare,Real Estate,USA,North America,500000000,5000,5000000000
+IIX,Company 385,Pharmaceuticals,Healthcare,UK,Europe,600000000,6000,5500000000
+JJ,Company 386,Technology,Technology,India,Asia,700000000,7000,6000000000
+KKZ,Company 387,Software,Financial Services,Brazil,South America,800000000,8000,6500000000
+LL,Company 388,Financial Services,Industrials,Canada,North America,900000000,9000,7000000000
+MMB,Company 389,Banking,Consumer Discretionary,Sweden,Europe,1000000000,10000,7500000000
+NN,Company 390,Manufacturing,Energy,India,Asia,100000000,11000,500000000
+OOD,Company 391,Retail,Communication Services,Argentina,South America,200000000,12000,1000000000
+PP,Company 392,Energy,Consumer Staples,Mexico,North America,300000000,13000,1500000000
+QQF,Company 393,Consumer Goods,Materials,Germany,Europe,400000000,14000,2000000000
+RR,Company 394,Telecommunications,Utilities,India,Asia,500000000,15000,2500000000
+SSH,Company 395,Automotive,Real Estate,Chile,South America,600000000,16000,3000000000
+TT,Company 396,Healthcare,Healthcare,USA,North America,700000000,17000,3500000000
+UUJ,Company 397,Pharmaceuticals,Technology,Italy,Europe,800000000,18000,4000000000
+VV,Company 398,Technology,Financial Services,India,Asia,900000000,19000,4500000000
+WWL,Company 399,Software,Industrials,Brazil,South America,1000000000,20000,5000000000
+XX,Company 400,Financial Services,Consumer Discretionary,Canada,North America,100000000,1000,5500000000
+YYN,Company 401,Banking,Energy,France,Europe,200000000,2000,6000000000
+ZZ,Company 402,Manufacturing,Communication Services,India,Asia,300000000,3000,6500000000
+AAP,Company 403,Retail,Consumer Staples,Argentina,South America,400000000,4000,7000000000
+BB,Company 404,Energy,Materials,Mexico,North America,500000000,5000,7500000000
+CCR,Company 405,Consumer Goods,Utilities,Spain,Europe,600000000,6000,500000000
+DD,Company 406,Telecommunications,Real Estate,India,Asia,700000000,7000,1000000000
+EET,Company 407,Automotive,Healthcare,Chile,South America,800000000,8000,1500000000
+FF,Company 408,Healthcare,Technology,USA,North America,900000000,9000,2000000000
+GGV,Company 409,Pharmaceuticals,Financial Services,Finland,Europe,1000000000,10000,2500000000
+HH,Company 410,Technology,Industrials,India,Asia,100000000,11000,3000000000
+IIX,Company 411,Software,Consumer Discretionary,Brazil,South America,200000000,12000,3500000000
+JJ,Company 412,Financial Services,Energy,Canada,North America,300000000,13000,4000000000
+KKZ,Company 413,Banking,Communication Services,UK,Europe,400000000,14000,4500000000
+LL,Company 414,Manufacturing,Consumer Staples,India,Asia,500000000,15000,5000000000
+MMB,Company 415,Retail,Materials,Argentina,South America,600000000,16000,5500000000
+NN,Company 416,Energy,Utilities,Mexico,North America,700000000,17000,6000000000
+OOD,Company 417,Consumer Goods,Real Estate,Sweden,Europe,800000000,18000,6500000000
+PP,Company 418,Telecommunications,Healthcare,India,Asia,900000000,19000,7000000000
+QQF,Company 419,Automotive,Technology,Chile,South America,1000000000,20000,7500000000
+RR,Company 420,Healthcare,Financial Services,USA,North America,100000000,1000,500000000
+SSH,Company 421,Pharmaceuticals,Industrials,Germany,Europe,200000000,2000,1000000000
+TT,Company 422,Technology,Consumer Discretionary,India,Asia,300000000,3000,1500000000
+UUJ,Company 423,Software,Energy,Brazil,South America,400000000,4000,2000000000
+VV,Company 424,Financial Services,Communication Services,Canada,North America,500000000,5000,2500000000
+WWL,Company 425,Banking,Consumer Staples,Italy,Europe,600000000,6000,3000000000
+XX,Company 426,Manufacturing,Materials,India,Asia,700000000,7000,3500000000
+YYN,Company 427,Retail,Utilities,Argentina,South America,800000000,8000,4000000000
+ZZ,Company 428,Energy,Real Estate,Mexico,North America,900000000,9000,4500000000
+AAP,Company 429,Consumer Goods,Healthcare,France,Europe,1000000000,10000,5000000000
+BB,Company 430,Telecommunications,Technology,India,Asia,100000000,11000,5500000000
+CCR,Company 431,Automotive,Financial Services,Chile,South America,200000000,12000,6000000000
+DD,Company 432,Healthcare,Industrials,USA,North America,300000000,13000,6500000000
+EET,Company 433,Pharmaceuticals,Consumer Discretionary,Spain,Europe,400000000,14000,7000000000
+FF,Company 434,Technology,Energy,India,Asia,500000000,15000,7500000000
+GGV,Company 435,Software,Communication Services,Brazil,South America,600000000,16000,500000000
+HH,Company 436,Financial Services,Consumer Staples,Canada,North America,700000000,17000,1000000000
+IIX,Company 437,Banking,Materials,Finland,Europe,800000000,18000,1500000000
+JJ,Company 438,Manufacturing,Utilities,India,Asia,900000000,19000,2000000000
+KKZ,Company 439,Retail,Real Estate,Argentina,South America,1000000000,20000,2500000000
+LL,Company 440,Energy,Healthcare,Mexico,North America,100000000,1000,3000000000
+MMB,Company 441,Consumer Goods,Technology,UK,Europe,200000000,2000,3500000000
+NN,Company 442,Telecommunications,Financial Services,India,Asia,300000000,3000,4000000000
+OOD,Company 443,Automotive,Industrials,Chile,South America,400000000,4000,4500000000
+PP,Company 444,Healthcare,Consumer Discretionary,USA,North America,500000000,5000,5000000000
+QQF,Company 445,Pharmaceuticals,Energy,Sweden,Europe,600000000,6000,5500000000
+RR,Company 446,Technology,Communication Services,India,Asia,700000000,7000,6000000000
+SSH,Company 447,Software,Consumer Staples,Brazil,South America,800000000,8000,6500000000
+TT,Company 448,Financial Services,Materials,Canada,North America,900000000,9000,7000000000
+UUJ,Company 449,Banking,Utilities,Germany,Europe,1000000000,10000,7500000000
+VV,Company 450,Manufacturing,Real Estate,India,Asia,100000000,11000,500000000
+WWL,Company 451,Retail,Healthcare,Argentina,South America,200000000,12000,1000000000
+XX,Company 452,Energy,Technology,Mexico,North America,300000000,13000,1500000000
+YYN,Company 453,Consumer Goods,Financial Services,Italy,Europe,400000000,14000,2000000000
+ZZ,Company 454,Telecommunications,Industrials,India,Asia,500000000,15000,2500000000
+AAP,Company 455,Automotive,Consumer Discretionary,Chile,South America,600000000,16000,3000000000
+BB,Company 456,Healthcare,Energy,USA,North America,700000000,17000,3500000000
+CCR,Company 457,Pharmaceuticals,Communication Services,France,Europe,800000000,18000,4000000000
+DD,Company 458,Technology,Consumer Staples,India,Asia,900000000,19000,4500000000
+EET,Company 459,Software,Materials,Brazil,South America,1000000000,20000,5000000000
+FF,Company 460,Financial Services,Utilities,Canada,North America,100000000,1000,5500000000
+GGV,Company 461,Banking,Real Estate,Spain,Europe,200000000,2000,6000000000
+HH,Company 462,Manufacturing,Healthcare,India,Asia,300000000,3000,6500000000
+IIX,Company 463,Retail,Technology,Argentina,South America,400000000,4000,7000000000
+JJ,Company 464,Energy,Financial Services,Mexico,North America,500000000,5000,7500000000
+KKZ,Company 465,Consumer Goods,Industrials,Finland,Europe,600000000,6000,500000000
+LL,Company 466,Telecommunications,Consumer Discretionary,India,Asia,700000000,7000,1000000000
+MMB,Company 467,Automotive,Energy,Chile,South America,800000000,8000,1500000000
+NN,Company 468,Healthcare,Communication Services,USA,North America,900000000,9000,2000000000
+OOD,Company 469,Pharmaceuticals,Consumer Staples,UK,Europe,1000000000,10000,2500000000
+PP,Company 470,Technology,Materials,India,Asia,100000000,11000,3000000000
+QQF,Company 471,Software,Utilities,Brazil,South America,200000000,12000,3500000000
+RR,Company 472,Financial Services,Real Estate,Canada,North America,300000000,13000,4000000000
+SSH,Company 473,Banking,Healthcare,Sweden,Europe,400000000,14000,4500000000
+TT,Company 474,Manufacturing,Technology,India,Asia,500000000,15000,5000000000
+UUJ,Company 475,Retail,Financial Services,Argentina,South America,600000000,16000,5500000000
+VV,Company 476,Energy,Industrials,Mexico,North America,700000000,17000,6000000000
+WWL,Company 477,Consumer Goods,Consumer Discretionary,Germany,Europe,800000000,18000,6500000000
+XX,Company 478,Telecommunications,Energy,India,Asia,900000000,19000,7000000000
+YYN,Company 479,Automotive,Communication Services,Chile,South America,1000000000,20000,7500000000
+ZZ,Company 480,Healthcare,Consumer Staples,USA,North America,100000000,1000,500000000
+AAP,Company 481,Pharmaceuticals,Materials,Italy,Europe,200000000,2000,1000000000
+BB,Company 482,Technology,Utilities,India,Asia,300000000,3000,1500000000
+CCR,Company 483,Software,Real Estate,Brazil,South America,400000000,4000,2000000000
+DD,Company 484,Financial Services,Healthcare,Canada,North America,500000000,5000,2500000000
+EET,Company 485,Banking,Technology,France,Europe,600000000,6000,3000000000
+FF,Company 486,Manufacturing,Financial Services,India,Asia,700000000,7000,3500000000
+GGV,Company 487,Retail,Industrials,Argentina,South America,800000000,8000,4000000000
+HH,Company 488,Energy,Consumer Discretionary,Mexico,North America,900000000,9000,4500000000
+IIX,Company 489,Consumer Goods,Energy,Spain,Europe,1000000000,10000,5000000000
+JJ,Company 490,Telecommunications,Communication Services,India,Asia,100000000,11000,5500000000
+KKZ,Company 491,Automotive,Consumer Staples,Chile,South America,200000000,12000,6000000000
+LL,Company 492,Healthcare,Materials,USA,North America,300000000,13000,6500000000
+MMB,Company 493,Pharmaceuticals,Utilities,Finland,Europe,400000000,14000,7000000000
+NN,Company 494,Technology,Real Estate,India,Asia,500000000,15000,7500000000
+OOD,Company 495,Software,Healthcare,Brazil,South America,600000000,16000,500000000
+PP,Company 496,Financial Services,Technology,Canada,North America,700000000,17000,1000000000
+QQF,Company 497,Banking,Financial Services,UK,Europe,800000000,18000,1500000000
+RR,Company 498,Manufacturing,Industrials,India,Asia,900000000,19000,2000000000
+SSH,Company 499,Retail,Consumer Discretionary,Argentina,South America,1000000000,20000,2500000000
+TT,Company 500,Energy,Energy,Mexico,North America,100000000,1000,3000000000
+UUJ,Company 501,Consumer Goods,Communication Services,Sweden,Europe,200000000,2000,3500000000
+VV,Company 502,Telecommunications,Consumer Staples,India,Asia,300000000,3000,4000000000
+WWL,Company 503,Automotive,Materials,Chile,South America,400000000,4000,4500000000
+XX,Company 504,Healthcare,Utilities,USA,North America,500000000,5000,5000000000
+YYN,Company 505,Pharmaceuticals,Real Estate,Germany,Europe,600000000,6000,5500000000
+ZZ,Company 506,Technology,Healthcare,India,Asia,700000000,7000,6000000000
+AAP,Company 507,Software,Technology,Brazil,South America,800000000,8000,6500000000
+BB,Company 508,Financial Services,Financial Services,Canada,North America,900000000,9000,7000000000
+CCR,Company 509,Banking,Industrials,Italy,Europe,1000000000,10000,7500000000
+DD,Company 510,Manufacturing,Consumer Discretionary,India,Asia,100000000,11000,500000000
+EET,Company 511,Retail,Energy,Argentina,South America,200000000,12000,1000000000
+FF,Company 512,Energy,Communication Services,Mexico,North America,300000000,13000,1500000000
+GGV,Company 513,Consumer Goods,Consumer Staples,France,Europe,400000000,14000,2000000000
+HH,Company 514,Telecommunications,Materials,India,Asia,500000000,15000,2500000000
+IIX,Company 515,Automotive,Utilities,Chile,South America,600000000,16000,3000000000
+JJ,Company 516,Healthcare,Real Estate,USA,North America,700000000,17000,3500000000
+KKZ,Company 517,Pharmaceuticals,Healthcare,Spain,Europe,800000000,18000,4000000000
+LL,Company 518,Technology,Technology,India,Asia,900000000,19000,4500000000
+MMB,Company 519,Software,Financial Services,Brazil,South America,1000000000,20000,5000000000
+NN,Company 520,Financial Services,Industrials,Canada,North America,100000000,1000,5500000000
+OOD,Company 521,Banking,Consumer Discretionary,Finland,Europe,200000000,2000,6000000000
+PP,Company 522,Manufacturing,Energy,India,Asia,300000000,3000,6500000000
+QQF,Company 523,Retail,Communication Services,Argentina,South America,400000000,4000,7000000000
+RR,Company 524,Energy,Consumer Staples,Mexico,North America,500000000,5000,7500000000
+SSH,Company 525,Consumer Goods,Materials,UK,Europe,600000000,6000,500000000
+TT,Company 526,Telecommunications,Utilities,India,Asia,700000000,7000,1000000000
+UUJ,Company 527,Automotive,Real Estate,Chile,South America,800000000,8000,1500000000
+VV,Company 528,Healthcare,Healthcare,USA,North America,900000000,9000,2000000000
+WWL,Company 529,Pharmaceuticals,Technology,Sweden,Europe,1000000000,10000,2500000000
+XX,Company 530,Technology,Financial Services,India,Asia,100000000,11000,3000000000
+YYN,Company 531,Software,Industrials,Brazil,South America,200000000,12000,3500000000
+ZZ,Company 532,Financial Services,Consumer Discretionary,Canada,North America,300000000,13000,4000000000
+AAP,Company 533,Banking,Energy,Germany,Europe,400000000,14000,4500000000
+BB,Company 534,Manufacturing,Communication Services,India,Asia,500000000,15000,5000000000
+CCR,Company 535,Retail,Consumer Staples,Argentina,South America,600000000,16000,5500000000
+DD,Company 536,Energy,Materials,Mexico,North America,700000000,17000,6000000000
+EET,Company 537,Consumer Goods,Utilities,Italy,Europe,800000000,18000,6500000000
+FF,Company 538,Telecommunications,Real Estate,India,Asia,900000000,19000,7000000000
+GGV,Company 539,Automotive,Healthcare,Chile,South America,1000000000,20000,7500000000
+HH,Company 540,Healthcare,Technology,USA,North America,100000000,1000,500000000
+IIX,Company 541,Pharmaceuticals,Financial Services,France,Europe,200000000,2000,1000000000
+JJ,Company 542,Technology,Industrials,India,Asia,300000000,3000,1500000000
+KKZ,Company 543,Software,Consumer Discretionary,Brazil,South America,400000000,4000,2000000000
+LL,Company 544,Financial Services,Energy,Canada,North America,500000000,5000,2500000000
+MMB,Company 545,Banking,Communication Services,Spain,Europe,600000000,6000,3000000000
+NN,Company 546,Manufacturing,Consumer Staples,India,Asia,700000000,7000,3500000000
+OOD,Company 547,Retail,Materials,Argentina,South America,800000000,8000,4000000000
+PP,Company 548,Energy,Utilities,Mexico,North America,900000000,9000,4500000000
+QQF,Company 549,Consumer Goods,Real Estate,Finland,Europe,1000000000,10000,5000000000
+RR,Company 550,Telecommunications,Healthcare,India,Asia,100000000,11000,5500000000
+SSH,Company 551,Automotive,Technology,Chile,South America,200000000,12000,6000000000
+TT,Company 552,Healthcare,Financial Services,USA,North America,300000000,13000,6500000000
+UUJ,Company 553,Pharmaceuticals,Industrials,UK,Europe,400000000,14000,7000000000
+VV,Company 554,Technology,Consumer Discretionary,India,Asia,500000000,15000,7500000000
+WWL,Company 555,Software,Energy,Brazil,South America,600000000,16000,500000000
+XX,Company 556,Financial Services,Communication Services,Canada,North America,700000000,17000,1000000000
+YYN,Company 557,Banking,Consumer Staples,Sweden,Europe,800000000,18000,1500000000
+ZZ,Company 558,Manufacturing,Materials,India,Asia,900000000,19000,2000000000
+AAP,Company 559,Retail,Utilities,Argentina,South America,1000000000,20000,2500000000
+BB,Company 560,Energy,Real Estate,Mexico,North America,100000000,1000,3000000000
+CCR,Company 561,Consumer Goods,Healthcare,Germany,Europe,200000000,2000,3500000000
+DD,Company 562,Telecommunications,Technology,India,Asia,300000000,3000,4000000000
+EET,Company 563,Automotive,Financial Services,Chile,South America,400000000,4000,4500000000
+FF,Company 564,Healthcare,Industrials,USA,North America,500000000,5000,5000000000
+GGV,Company 565,Pharmaceuticals,Consumer Discretionary,Italy,Europe,600000000,6000,5500000000
+HH,Company 566,Technology,Energy,India,Asia,700000000,7000,6000000000
+IIX,Company 567,Software,Communication Services,Brazil,South America,800000000,8000,6500000000
+JJ,Company 568,Financial Services,Consumer Staples,Canada,North America,900000000,9000,7000000000
+KKZ,Company 569,Banking,Materials,France,Europe,1000000000,10000,7500000000
+LL,Company 570,Manufacturing,Utilities,India,Asia,100000000,11000,500000000
+MMB,Company 571,Retail,Real Estate,Argentina,South America,200000000,12000,1000000000
+NN,Company 572,Energy,Healthcare,Mexico,North America,300000000,13000,1500000000
+OOD,Company 573,Consumer Goods,Technology,Spain,Europe,400000000,14000,2000000000
+PP,Company 574,Telecommunications,Financial Services,India,Asia,500000000,15000,2500000000
+QQF,Company 575,Automotive,Industrials,Chile,South America,600000000,16000,3000000000
+RR,Company 576,Healthcare,Consumer Discretionary,USA,North America,700000000,17000,3500000000
+SSH,Company 577,Pharmaceuticals,Energy,Finland,Europe,800000000,18000,4000000000
+TT,Company 578,Technology,Communication Services,India,Asia,900000000,19000,4500000000
+UUJ,Company 579,Software,Consumer Staples,Brazil,South America,1000000000,20000,5000000000
+VV,Company 580,Financial Services,Materials,Canada,North America,100000000,1000,5500000000
+WWL,Company 581,Banking,Utilities,UK,Europe,200000000,2000,6000000000
+XX,Company 582,Manufacturing,Real Estate,India,Asia,300000000,3000,6500000000
+YYN,Company 583,Retail,Healthcare,Argentina,South America,400000000,4000,7000000000
+ZZ,Company 584,Energy,Technology,Mexico,North America,500000000,5000,7500000000
+AAP,Company 585,Consumer Goods,Financial Services,Sweden,Europe,600000000,6000,500000000
+BB,Company 586,Telecommunications,Industrials,India,Asia,700000000,7000,1000000000
+CCR,Company 587,Automotive,Consumer Discretionary,Chile,South America,800000000,8000,1500000000
+DD,Company 588,Healthcare,Energy,USA,North America,900000000,9000,2000000000
+EET,Company 589,Pharmaceuticals,Communication Services,Germany,Europe,1000000000,10000,2500000000
+FF,Company 590,Technology,Consumer Staples,India,Asia,100000000,11000,3000000000
+GGV,Company 591,Software,Materials,Brazil,South America,200000000,12000,3500000000
+HH,Company 592,Financial Services,Utilities,Canada,North America,300000000,13000,4000000000
+IIX,Company 593,Banking,Real Estate,Italy,Europe,400000000,14000,4500000000
+JJ,Company 594,Manufacturing,Healthcare,India,Asia,500000000,15000,5000000000
+KKZ,Company 595,Retail,Technology,Argentina,South America,600000000,16000,5500000000
+LL,Company 596,Energy,Financial Services,Mexico,North America,700000000,17000,6000000000
+MMB,Company 597,Consumer Goods,Industrials,France,Europe,800000000,18000,6500000000
+NN,Company 598,Telecommunications,Consumer Discretionary,India,Asia,900000000,19000,7000000000
+OOD,Company 599,Automotive,Energy,Chile,South America,1000000000,20000,7500000000
+PP,Company 600,Healthcare,Communication Services,USA,North America,100000000,1000,500000000
+QQF,Company 601,Pharmaceuticals,Consumer Staples,Spain,Europe,200000000,2000,1000000000
+RR,Company 602,Technology,Materials,India,Asia,300000000,3000,1500000000
+SSH,Company 603,Software,Utilities,Brazil,South America,400000000,4000,2000000000
+TT,Company 604,Financial Services,Real Estate,Canada,North America,500000000,5000,2500000000
+UUJ,Company 605,Banking,Healthcare,Finland,Europe,600000000,6000,3000000000
+VV,Company 606,Manufacturing,Technology,India,Asia,700000000,7000,3500000000
+WWL,Company 607,Retail,Financial Services,Argentina,South America,800000000,8000,4000000000
+XX,Company 608,Energy,Industrials,Mexico,North America,900000000,9000,4500000000
+YYN,Company 609,Consumer Goods,Consumer Discretionary,UK,Europe,1000000000,10000,5000000000
+ZZ,Company 610,Telecommunications,Energy,India,Asia,100000000,11000,5500000000
+AAP,Company 611,Automotive,Communication Services,Chile,South America,200000000,12000,6000000000
+BB,Company 612,Healthcare,Consumer Staples,USA,North America,300000000,13000,6500000000
+CCR,Company 613,Pharmaceuticals,Materials,Sweden,Europe,400000000,14000,7000000000
+DD,Company 614,Technology,Utilities,India,Asia,500000000,15000,7500000000
+EET,Company 615,Software,Real Estate,Brazil,South America,600000000,16000,500000000
+FF,Company 616,Financial Services,Healthcare,Canada,North America,700000000,17000,1000000000
+GGV,Company 617,Banking,Technology,Germany,Europe,800000000,18000,1500000000
+HH,Company 618,Manufacturing,Financial Services,India,Asia,900000000,19000,2000000000
+IIX,Company 619,Retail,Industrials,Argentina,South America,1000000000,20000,2500000000
+JJ,Company 620,Energy,Consumer Discretionary,Mexico,North America,100000000,1000,3000000000
+KKZ,Company 621,Consumer Goods,Energy,Italy,Europe,200000000,2000,3500000000
+LL,Company 622,Telecommunications,Communication Services,India,Asia,300000000,3000,4000000000
+MMB,Company 623,Automotive,Consumer Staples,Chile,South America,400000000,4000,4500000000
+NN,Company 624,Healthcare,Materials,USA,North America,500000000,5000,5000000000
+OOD,Company 625,Pharmaceuticals,Utilities,France,Europe,600000000,6000,5500000000
+PP,Company 626,Technology,Real Estate,India,Asia,700000000,7000,6000000000
+QQF,Company 627,Software,Healthcare,Brazil,South America,800000000,8000,6500000000
+RR,Company 628,Financial Services,Technology,Canada,North America,900000000,9000,7000000000
+SSH,Company 629,Banking,Financial Services,Spain,Europe,1000000000,10000,7500000000
+TT,Company 630,Manufacturing,Industrials,India,Asia,100000000,11000,500000000
+UUJ,Company 631,Retail,Consumer Discretionary,Argentina,South America,200000000,12000,1000000000
+VV,Company 632,Energy,Energy,Mexico,North America,300000000,13000,1500000000
+WWL,Company 633,Consumer Goods,Communication Services,Finland,Europe,400000000,14000,2000000000
+XX,Company 634,Telecommunications,Consumer Staples,India,Asia,500000000,15000,2500000000
+YYN,Company 635,Automotive,Materials,Chile,South America,600000000,16000,3000000000
+ZZ,Company 636,Healthcare,Utilities,USA,North America,700000000,17000,3500000000
+AAP,Company 637,Pharmaceuticals,Real Estate,UK,Europe,800000000,18000,4000000000
+BB,Company 638,Technology,Healthcare,India,Asia,900000000,19000,4500000000
+CCR,Company 639,Software,Technology,Brazil,South America,1000000000,20000,5000000000
+DD,Company 640,Financial Services,Financial Services,Canada,North America,100000000,1000,5500000000
+EET,Company 641,Banking,Industrials,Sweden,Europe,200000000,2000,6000000000
+FF,Company 642,Manufacturing,Consumer Discretionary,India,Asia,300000000,3000,6500000000
+GGV,Company 643,Retail,Energy,Argentina,South America,400000000,4000,7000000000
+HH,Company 644,Energy,Communication Services,Mexico,North America,500000000,5000,7500000000
+IIX,Company 645,Consumer Goods,Consumer Staples,Germany,Europe,600000000,6000,500000000
+JJ,Company 646,Telecommunications,Materials,India,Asia,700000000,7000,1000000000
+KKZ,Company 647,Automotive,Utilities,Chile,South America,800000000,8000,1500000000
+LL,Company 648,Healthcare,Real Estate,USA,North America,900000000,9000,2000000000
+MMB,Company 649,Pharmaceuticals,Healthcare,Italy,Europe,1000000000,10000,2500000000
+NN,Company 650,Technology,Technology,India,Asia,100000000,11000,3000000000
+OOD,Company 651,Software,Financial Services,Brazil,South America,200000000,12000,3500000000
+PP,Company 652,Financial Services,Industrials,Canada,North America,300000000,13000,4000000000
+QQF,Company 653,Banking,Consumer Discretionary,France,Europe,400000000,14000,4500000000
+RR,Company 654,Manufacturing,Energy,India,Asia,500000000,15000,5000000000
+SSH,Company 655,Retail,Communication Services,Argentina,South America,600000000,16000,5500000000
+TT,Company 656,Energy,Consumer Staples,Mexico,North America,700000000,17000,6000000000
+UUJ,Company 657,Consumer Goods,Materials,Spain,Europe,800000000,18000,6500000000
+VV,Company 658,Telecommunications,Utilities,India,Asia,900000000,19000,7000000000
+WWL,Company 659,Automotive,Real Estate,Chile,South America,1000000000,20000,7500000000
+XX,Company 660,Healthcare,Healthcare,USA,North America,100000000,1000,500000000
+YYN,Company 661,Pharmaceuticals,Technology,Finland,Europe,200000000,2000,1000000000
+ZZ,Company 662,Technology,Financial Services,India,Asia,300000000,3000,1500000000
+AAP,Company 663,Software,Industrials,Brazil,South America,400000000,4000,2000000000
+BB,Company 664,Financial Services,Consumer Discretionary,Canada,North America,500000000,5000,2500000000
+CCR,Company 665,Banking,Energy,UK,Europe,600000000,6000,3000000000
+DD,Company 666,Manufacturing,Communication Services,India,Asia,700000000,7000,3500000000
+EET,Company 667,Retail,Consumer Staples,Argentina,South America,800000000,8000,4000000000
+FF,Company 668,Energy,Materials,Mexico,North America,900000000,9000,4500000000
+GGV,Company 669,Consumer Goods,Utilities,Sweden,Europe,1000000000,10000,5000000000
+HH,Company 670,Telecommunications,Real Estate,India,Asia,100000000,11000,5500000000
+IIX,Company 671,Automotive,Healthcare,Chile,South America,200000000,12000,6000000000
+JJ,Company 672,Healthcare,Technology,USA,North America,300000000,13000,6500000000
+KKZ,Company 673,Pharmaceuticals,Financial Services,Germany,Europe,400000000,14000,7000000000
+LL,Company 674,Technology,Industrials,India,Asia,500000000,15000,7500000000
+MMB,Company 675,Software,Consumer Discretionary,Brazil,South America,600000000,16000,500000000
+NN,Company 676,Financial Services,Energy,Canada,North America,700000000,17000,1000000000
+OOD,Company 677,Banking,Communication Services,Italy,Europe,800000000,18000,1500000000
+PP,Company 678,Manufacturing,Consumer Staples,India,Asia,900000000,19000,2000000000
+QQF,Company 679,Retail,Materials,Argentina,South America,1000000000,20000,2500000000
+RR,Company 680,Energy,Utilities,Mexico,North America,100000000,1000,3000000000
+SSH,Company 681,Consumer Goods,Real Estate,France,Europe,200000000,2000,3500000000
+TT,Company 682,Telecommunications,Healthcare,India,Asia,300000000,3000,4000000000
+UUJ,Company 683,Automotive,Technology,Chile,South America,400000000,4000,4500000000
+VV,Company 684,Healthcare,Financial Services,USA,North America,500000000,5000,5000000000
+WWL,Company 685,Pharmaceuticals,Industrials,Spain,Europe,600000000,6000,5500000000
+XX,Company 686,Technology,Consumer Discretionary,India,Asia,700000000,7000,6000000000
+YYN,Company 687,Software,Energy,Brazil,South America,800000000,8000,6500000000
+ZZ,Company 688,Financial Services,Communication Services,Canada,North America,900000000,9000,7000000000
+AAP,Company 689,Banking,Consumer Staples,Finland,Europe,1000000000,10000,7500000000
+BB,Company 690,Manufacturing,Materials,India,Asia,100000000,11000,500000000
+CCR,Company 691,Retail,Utilities,Argentina,South America,200000000,12000,1000000000
+DD,Company 692,Energy,Real Estate,Mexico,North America,300000000,13000,1500000000
+EET,Company 693,Consumer Goods,Healthcare,UK,Europe,400000000,14000,2000000000
+FF,Company 694,Telecommunications,Technology,India,Asia,500000000,15000,2500000000
+GGV,Company 695,Automotive,Financial Services,Chile,South America,600000000,16000,3000000000
+HH,Company 696,Healthcare,Industrials,USA,North America,700000000,17000,3500000000
+IIX,Company 697,Pharmaceuticals,Consumer Discretionary,Sweden,Europe,800000000,18000,4000000000
+JJ,Company 698,Technology,Energy,India,Asia,900000000,19000,4500000000
+KKZ,Company 699,Software,Communication Services,Brazil,South America,1000000000,20000,5000000000
+LL,Company 700,Financial Services,Consumer Staples,Canada,North America,100000000,1000,5500000000
+MMB,Company 701,Banking,Materials,Germany,Europe,200000000,2000,6000000000
+NN,Company 702,Manufacturing,Utilities,India,Asia,300000000,3000,6500000000
+OOD,Company 703,Retail,Real Estate,Argentina,South America,400000000,4000,7000000000
+PP,Company 704,Energy,Healthcare,Mexico,North America,500000000,5000,7500000000
+QQF,Company 705,Consumer Goods,Technology,Italy,Europe,600000000,6000,500000000
+RR,Company 706,Telecommunications,Financial Services,India,Asia,700000000,7000,1000000000
+SSH,Company 707,Automotive,Industrials,Chile,South America,800000000,8000,1500000000
+TT,Company 708,Healthcare,Consumer Discretionary,USA,North America,900000000,9000,2000000000
+UUJ,Company 709,Pharmaceuticals,Energy,France,Europe,1000000000,10000,2500000000
+VV,Company 710,Technology,Communication Services,India,Asia,100000000,11000,3000000000
+WWL,Company 711,Software,Consumer Staples,Brazil,South America,200000000,12000,3500000000
+XX,Company 712,Financial Services,Materials,Canada,North America,300000000,13000,4000000000
+YYN,Company 713,Banking,Utilities,Spain,Europe,400000000,14000,4500000000
+ZZ,Company 714,Manufacturing,Real Estate,India,Asia,500000000,15000,5000000000
+AAP,Company 715,Retail,Healthcare,Argentina,South America,600000000,16000,5500000000
+BB,Company 716,Energy,Technology,Mexico,North America,700000000,17000,6000000000
+CCR,Company 717,Consumer Goods,Financial Services,Finland,Europe,800000000,18000,6500000000
+DD,Company 718,Telecommunications,Industrials,India,Asia,900000000,19000,7000000000
+EET,Company 719,Automotive,Consumer Discretionary,Chile,South America,1000000000,20000,7500000000
+FF,Company 720,Healthcare,Energy,USA,North America,100000000,1000,500000000
+GGV,Company 721,Pharmaceuticals,Communication Services,UK,Europe,200000000,2000,1000000000
+HH,Company 722,Technology,Consumer Staples,India,Asia,300000000,3000,1500000000
+IIX,Company 723,Software,Materials,Brazil,South America,400000000,4000,2000000000
+JJ,Company 724,Financial Services,Utilities,Canada,North America,500000000,5000,2500000000
+KKZ,Company 725,Banking,Real Estate,Sweden,Europe,600000000,6000,3000000000
+LL,Company 726,Manufacturing,Healthcare,India,Asia,700000000,7000,3500000000
+MMB,Company 727,Retail,Technology,Argentina,South America,800000000,8000,4000000000
+NN,Company 728,Energy,Financial Services,Mexico,North America,900000000,9000,4500000000
+OOD,Company 729,Consumer Goods,Industrials,Germany,Europe,1000000000,10000,5000000000
+PP,Company 730,Telecommunications,Consumer Discretionary,India,Asia,100000000,11000,5500000000
+QQF,Company 731,Automotive,Energy,Chile,South America,200000000,12000,6000000000
+RR,Company 732,Healthcare,Communication Services,USA,North America,300000000,13000,6500000000
+SSH,Company 733,Pharmaceuticals,Consumer Staples,Italy,Europe,400000000,14000,7000000000
+TT,Company 734,Technology,Materials,India,Asia,500000000,15000,7500000000
+UUJ,Company 735,Software,Utilities,Brazil,South America,600000000,16000,500000000
+VV,Company 736,Financial Services,Real Estate,Canada,North America,700000000,17000,1000000000
+WWL,Company 737,Banking,Healthcare,France,Europe,800000000,18000,1500000000
+XX,Company 738,Manufacturing,Technology,India,Asia,900000000,19000,2000000000
+YYN,Company 739,Retail,Financial Services,Argentina,South America,1000000000,20000,2500000000
+ZZ,Company 740,Energy,Industrials,Mexico,North America,100000000,1000,3000000000
+AAP,Company 741,Consumer Goods,Consumer Discretionary,Spain,Europe,200000000,2000,3500000000
+BB,Company 742,Telecommunications,Energy,India,Asia,300000000,3000,4000000000
+CCR,Company 743,Automotive,Communication Services,Chile,South America,400000000,4000,4500000000
+DD,Company 744,Healthcare,Consumer Staples,USA,North America,500000000,5000,5000000000
+EET,Company 745,Pharmaceuticals,Materials,Finland,Europe,600000000,6000,5500000000
+FF,Company 746,Technology,Utilities,India,Asia,700000000,7000,6000000000
+GGV,Company 747,Software,Real Estate,Brazil,South America,800000000,8000,6500000000
+HH,Company 748,Financial Services,Healthcare,Canada,North America,900000000,9000,7000000000
+IIX,Company 749,Banking,Technology,UK,Europe,1000000000,10000,7500000000
+JJ,Company 750,Manufacturing,Financial Services,India,Asia,100000000,11000,500000000
+KKZ,Company 751,Retail,Industrials,Argentina,South America,200000000,12000,1000000000
+LL,Company 752,Energy,Consumer Discretionary,Mexico,North America,300000000,13000,1500000000
+MMB,Company 753,Consumer Goods,Energy,Sweden,Europe,400000000,14000,2000000000
+NN,Company 754,Telecommunications,Communication Services,India,Asia,500000000,15000,2500000000
+OOD,Company 755,Automotive,Consumer Staples,Chile,South America,600000000,16000,3000000000
+PP,Company 756,Healthcare,Materials,USA,North America,700000000,17000,3500000000
+QQF,Company 757,Pharmaceuticals,Utilities,Germany,Europe,800000000,18000,4000000000
+RR,Company 758,Technology,Real Estate,India,Asia,900000000,19000,4500000000
+SSH,Company 759,Software,Healthcare,Brazil,South America,1000000000,20000,5000000000
+TT,Company 760,Financial Services,Technology,Canada,North America,100000000,1000,5500000000
+UUJ,Company 761,Banking,Financial Services,Italy,Europe,200000000,2000,6000000000
+VV,Company 762,Manufacturing,Industrials,India,Asia,300000000,3000,6500000000
+WWL,Company 763,Retail,Consumer Discretionary,Argentina,South America,400000000,4000,7000000000
+XX,Company 764,Energy,Energy,Mexico,North America,500000000,5000,7500000000
+YYN,Company 765,Consumer Goods,Communication Services,France,Europe,600000000,6000,500000000
+ZZ,Company 766,Telecommunications,Consumer Staples,India,Asia,700000000,7000,1000000000
+AAP,Company 767,Automotive,Materials,Chile,South America,800000000,8000,1500000000
+BB,Company 768,Healthcare,Utilities,USA,North America,900000000,9000,2000000000
+CCR,Company 769,Pharmaceuticals,Real Estate,Spain,Europe,1000000000,10000,2500000000
+DD,Company 770,Technology,Healthcare,India,Asia,100000000,11000,3000000000
+EET,Company 771,Software,Technology,Brazil,South America,200000000,12000,3500000000
+FF,Company 772,Financial Services,Financial Services,Canada,North America,300000000,13000,4000000000
+GGV,Company 773,Banking,Industrials,Finland,Europe,400000000,14000,4500000000
+HH,Company 774,Manufacturing,Consumer Discretionary,India,Asia,500000000,15000,5000000000
+IIX,Company 775,Retail,Energy,Argentina,South America,600000000,16000,5500000000
+JJ,Company 776,Energy,Communication Services,Mexico,North America,700000000,17000,6000000000
+KKZ,Company 777,Consumer Goods,Consumer Staples,UK,Europe,800000000,18000,6500000000
+LL,Company 778,Telecommunications,Materials,India,Asia,900000000,19000,7000000000
+MMB,Company 779,Automotive,Utilities,Chile,South America,1000000000,20000,7500000000
+NN,Company 780,Healthcare,Real Estate,USA,North America,100000000,1000,500000000
+OOD,Company 781,Pharmaceuticals,Healthcare,Sweden,Europe,200000000,2000,1000000000
+PP,Company 782,Technology,Technology,India,Asia,300000000,3000,1500000000
+QQF,Company 783,Software,Financial Services,Brazil,South America,400000000,4000,2000000000
+RR,Company 784,Financial Services,Industrials,Canada,North America,500000000,5000,2500000000
+SSH,Company 785,Banking,Consumer Discretionary,Germany,Europe,600000000,6000,3000000000
+TT,Company 786,Manufacturing,Energy,India,Asia,700000000,7000,3500000000
+UUJ,Company 787,Retail,Communication Services,Argentina,South America,800000000,8000,4000000000
+VV,Company 788,Energy,Consumer Staples,Mexico,North America,900000000,9000,4500000000
+WWL,Company 789,Consumer Goods,Materials,Italy,Europe,1000000000,10000,5000000000
+XX,Company 790,Telecommunications,Utilities,India,Asia,100000000,11000,5500000000
+YYN,Company 791,Automotive,Real Estate,Chile,South America,200000000,12000,6000000000
+ZZ,Company 792,Healthcare,Healthcare,USA,North America,300000000,13000,6500000000
+AAP,Company 793,Pharmaceuticals,Technology,France,Europe,400000000,14000,7000000000
+BB,Company 794,Technology,Financial Services,India,Asia,500000000,15000,7500000000
+CCR,Company 795,Software,Industrials,Brazil,South America,600000000,16000,500000000
+DD,Company 796,Financial Services,Consumer Discretionary,Canada,North America,700000000,17000,1000000000
+EET,Company 797,Banking,Energy,Spain,Europe,800000000,18000,1500000000
+FF,Company 798,Manufacturing,Communication Services,India,Asia,900000000,19000,2000000000
+GGV,Company 799,Retail,Consumer Staples,Argentina,South America,1000000000,20000,2500000000
+HH,Company 800,Energy,Materials,Mexico,North America,100000000,1000,3000000000
+IIX,Company 801,Consumer Goods,Utilities,Finland,Europe,200000000,2000,3500000000
+JJ,Company 802,Telecommunications,Real Estate,India,Asia,300000000,3000,4000000000
+KKZ,Company 803,Automotive,Healthcare,Chile,South America,400000000,4000,4500000000
+LL,Company 804,Healthcare,Technology,USA,North America,500000000,5000,5000000000
+MMB,Company 805,Pharmaceuticals,Financial Services,UK,Europe,600000000,6000,5500000000
+NN,Company 806,Technology,Industrials,India,Asia,700000000,7000,6000000000
+OOD,Company 807,Software,Consumer Discretionary,Brazil,South America,800000000,8000,6500000000
+PP,Company 808,Financial Services,Energy,Canada,North America,900000000,9000,7000000000
+QQF,Company 809,Banking,Communication Services,Sweden,Europe,1000000000,10000,7500000000
+RR,Company 810,Manufacturing,Consumer Staples,India,Asia,100000000,11000,500000000
+SSH,Company 811,Retail,Materials,Argentina,South America,200000000,12000,1000000000
+TT,Company 812,Energy,Utilities,Mexico,North America,300000000,13000,1500000000
+UUJ,Company 813,Consumer Goods,Real Estate,Germany,Europe,400000000,14000,2000000000
+VV,Company 814,Telecommunications,Healthcare,India,Asia,500000000,15000,2500000000
+WWL,Company 815,Automotive,Technology,Chile,South America,600000000,16000,3000000000
+XX,Company 816,Healthcare,Financial Services,USA,North America,700000000,17000,3500000000
+YYN,Company 817,Pharmaceuticals,Industrials,Italy,Europe,800000000,18000,4000000000
+ZZ,Company 818,Technology,Consumer Discretionary,India,Asia,900000000,19000,4500000000
+AAP,Company 819,Software,Energy,Brazil,South America,1000000000,20000,5000000000
+BB,Company 820,Financial Services,Communication Services,Canada,North America,100000000,1000,5500000000
+CCR,Company 821,Banking,Consumer Staples,France,Europe,200000000,2000,6000000000
+DD,Company 822,Manufacturing,Materials,India,Asia,300000000,3000,6500000000
+EET,Company 823,Retail,Utilities,Argentina,South America,400000000,4000,7000000000
+FF,Company 824,Energy,Real Estate,Mexico,North America,500000000,5000,7500000000
+GGV,Company 825,Consumer Goods,Healthcare,Spain,Europe,600000000,6000,500000000
+HH,Company 826,Telecommunications,Technology,India,Asia,700000000,7000,1000000000
+IIX,Company 827,Automotive,Financial Services,Chile,South America,800000000,8000,1500000000
+JJ,Company 828,Healthcare,Industrials,USA,North America,900000000,9000,2000000000
+KKZ,Company 829,Pharmaceuticals,Consumer Discretionary,Finland,Europe,1000000000,10000,2500000000
+LL,Company 830,Technology,Energy,India,Asia,100000000,11000,3000000000
+MMB,Company 831,Software,Communication Services,Brazil,South America,200000000,12000,3500000000
+NN,Company 832,Financial Services,Consumer Staples,Canada,North America,300000000,13000,4000000000
+OOD,Company 833,Banking,Materials,UK,Europe,400000000,14000,4500000000
+PP,Company 834,Manufacturing,Utilities,India,Asia,500000000,15000,5000000000
+QQF,Company 835,Retail,Real Estate,Argentina,South America,600000000,16000,5500000000
+RR,Company 836,Energy,Healthcare,Mexico,North America,700000000,17000,6000000000
+SSH,Company 837,Consumer Goods,Technology,Sweden,Europe,800000000,18000,6500000000
+TT,Company 838,Telecommunications,Financial Services,India,Asia,900000000,19000,7000000000
+UUJ,Company 839,Automotive,Industrials,Chile,South America,1000000000,20000,7500000000
+VV,Company 840,Healthcare,Consumer Discretionary,USA,North America,100000000,1000,500000000
+WWL,Company 841,Pharmaceuticals,Energy,Germany,Europe,200000000,2000,1000000000
+XX,Company 842,Technology,Communication Services,India,Asia,300000000,3000,1500000000
+YYN,Company 843,Software,Consumer Staples,Brazil,South America,400000000,4000,2000000000
+ZZ,Company 844,Financial Services,Materials,Canada,North America,500000000,5000,2500000000
+AAP,Company 845,Banking,Utilities,Italy,Europe,600000000,6000,3000000000
+BB,Company 846,Manufacturing,Real Estate,India,Asia,700000000,7000,3500000000
+CCR,Company 847,Retail,Healthcare,Argentina,South America,800000000,8000,4000000000
+DD,Company 848,Energy,Technology,Mexico,North America,900000000,9000,4500000000
+EET,Company 849,Consumer Goods,Financial Services,France,Europe,1000000000,10000,5000000000
+FF,Company 850,Telecommunications,Industrials,India,Asia,100000000,11000,5500000000
+GGV,Company 851,Automotive,Consumer Discretionary,Chile,South America,200000000,12000,6000000000
+HH,Company 852,Healthcare,Energy,USA,North America,300000000,13000,6500000000
+IIX,Company 853,Pharmaceuticals,Communication Services,Spain,Europe,400000000,14000,7000000000
+JJ,Company 854,Technology,Consumer Staples,India,Asia,500000000,15000,7500000000
+KKZ,Company 855,Software,Materials,Brazil,South America,600000000,16000,500000000
+LL,Company 856,Financial Services,Utilities,Canada,North America,700000000,17000,1000000000
+MMB,Company 857,Banking,Real Estate,Finland,Europe,800000000,18000,1500000000
+NN,Company 858,Manufacturing,Healthcare,India,Asia,900000000,19000,2000000000
+OOD,Company 859,Retail,Technology,Argentina,South America,1000000000,20000,2500000000
+PP,Company 860,Energy,Financial Services,Mexico,North America,100000000,1000,3000000000
+QQF,Company 861,Consumer Goods,Industrials,UK,Europe,200000000,2000,3500000000
+RR,Company 862,Telecommunications,Consumer Discretionary,India,Asia,300000000,3000,4000000000
+SSH,Company 863,Automotive,Energy,Chile,South America,400000000,4000,4500000000
+TT,Company 864,Healthcare,Communication Services,USA,North America,500000000,5000,5000000000
+UUJ,Company 865,Pharmaceuticals,Consumer Staples,Sweden,Europe,600000000,6000,5500000000
+VV,Company 866,Technology,Materials,India,Asia,700000000,7000,6000000000
+WWL,Company 867,Software,Utilities,Brazil,South America,800000000,8000,6500000000
+XX,Company 868,Financial Services,Real Estate,Canada,North America,900000000,9000,7000000000
+YYN,Company 869,Banking,Healthcare,Germany,Europe,1000000000,10000,7500000000
+ZZ,Company 870,Manufacturing,Technology,India,Asia,100000000,11000,500000000
+AAP,Company 871,Retail,Financial Services,Argentina,South America,200000000,12000,1000000000
+BB,Company 872,Energy,Industrials,Mexico,North America,300000000,13000,1500000000
+CCR,Company 873,Consumer Goods,Consumer Discretionary,Italy,Europe,400000000,14000,2000000000
+DD,Company 874,Telecommunications,Energy,India,Asia,500000000,15000,2500000000
+EET,Company 875,Automotive,Communication Services,Chile,South America,600000000,16000,3000000000
+FF,Company 876,Healthcare,Consumer Staples,USA,North America,700000000,17000,3500000000
+GGV,Company 877,Pharmaceuticals,Materials,France,Europe,800000000,18000,4000000000
+HH,Company 878,Technology,Utilities,India,Asia,900000000,19000,4500000000
+IIX,Company 879,Software,Real Estate,Brazil,South America,1000000000,20000,5000000000
+JJ,Company 880,Financial Services,Healthcare,Canada,North America,100000000,1000,5500000000
+KKZ,Company 881,Banking,Technology,Spain,Europe,200000000,2000,6000000000
+LL,Company 882,Manufacturing,Financial Services,India,Asia,300000000,3000,6500000000
+MMB,Company 883,Retail,Industrials,Argentina,South America,400000000,4000,7000000000
+NN,Company 884,Energy,Consumer Discretionary,Mexico,North America,500000000,5000,7500000000
+OOD,Company 885,Consumer Goods,Energy,Finland,Europe,600000000,6000,500000000
+PP,Company 886,Telecommunications,Communication Services,India,Asia,700000000,7000,1000000000
+QQF,Company 887,Automotive,Consumer Staples,Chile,South America,800000000,8000,1500000000
+RR,Company 888,Healthcare,Materials,USA,North America,900000000,9000,2000000000
+SSH,Company 889,Pharmaceuticals,Utilities,UK,Europe,1000000000,10000,2500000000
+TT,Company 890,Technology,Real Estate,India,Asia,100000000,11000,3000000000
+UUJ,Company 891,Software,Healthcare,Brazil,South America,200000000,12000,3500000000
+VV,Company 892,Financial Services,Technology,Canada,North America,300000000,13000,4000000000
+WWL,Company 893,Banking,Financial Services,Sweden,Europe,400000000,14000,4500000000
+XX,Company 894,Manufacturing,Industrials,India,Asia,500000000,15000,5000000000
+YYN,Company 895,Retail,Consumer Discretionary,Argentina,South America,600000000,16000,5500000000
+ZZ,Company 896,Energy,Energy,Mexico,North America,700000000,17000,6000000000
+AAP,Company 897,Consumer Goods,Communication Services,Germany,Europe,800000000,18000,6500000000
+BB,Company 898,Telecommunications,Consumer Staples,India,Asia,900000000,19000,7000000000
+CCR,Company 899,Automotive,Materials,Chile,South America,1000000000,20000,7500000000
+DD,Company 900,Healthcare,Utilities,USA,North America,100000000,1000,500000000
+EET,Company 901,Pharmaceuticals,Real Estate,Italy,Europe,200000000,2000,1000000000
+FF,Company 902,Technology,Healthcare,India,Asia,300000000,3000,1500000000
+GGV,Company 903,Software,Technology,Brazil,South America,400000000,4000,2000000000
+HH,Company 904,Financial Services,Financial Services,Canada,North America,500000000,5000,2500000000
+IIX,Company 905,Banking,Industrials,France,Europe,600000000,6000,3000000000
+JJ,Company 906,Manufacturing,Consumer Discretionary,India,Asia,700000000,7000,3500000000
+KKZ,Company 907,Retail,Energy,Argentina,South America,800000000,8000,4000000000
+LL,Company 908,Energy,Communication Services,Mexico,North America,900000000,9000,4500000000
+MMB,Company 909,Consumer Goods,Consumer Staples,Spain,Europe,1000000000,10000,5000000000
+NN,Company 910,Telecommunications,Materials,India,Asia,100000000,11000,5500000000
+OOD,Company 911,Automotive,Utilities,Chile,South America,200000000,12000,6000000000
+PP,Company 912,Healthcare,Real Estate,USA,North America,300000000,13000,6500000000
+QQF,Company 913,Pharmaceuticals,Healthcare,Finland,Europe,400000000,14000,7000000000
+RR,Company 914,Technology,Technology,India,Asia,500000000,15000,7500000000
+SSH,Company 915,Software,Financial Services,Brazil,South America,600000000,16000,500000000
+TT,Company 916,Financial Services,Industrials,Canada,North America,700000000,17000,1000000000
+UUJ,Company 917,Banking,Consumer Discretionary,UK,Europe,800000000,18000,1500000000
+VV,Company 918,Manufacturing,Energy,India,Asia,900000000,19000,2000000000
+WWL,Company 919,Retail,Communication Services,Argentina,South America,1000000000,20000,2500000000
+XX,Company 920,Energy,Consumer Staples,Mexico,North America,100000000,1000,3000000000
+YYN,Company 921,Consumer Goods,Materials,Sweden,Europe,200000000,2000,3500000000
+ZZ,Company 922,Telecommunications,Utilities,India,Asia,300000000,3000,4000000000
+AAP,Company 923,Automotive,Real Estate,Chile,South America,400000000,4000,4500000000
+BB,Company 924,Healthcare,Healthcare,USA,North America,500000000,5000,5000000000
+CCR,Company 925,Pharmaceuticals,Technology,Germany,Europe,600000000,6000,5500000000
+DD,Company 926,Technology,Financial Services,India,Asia,700000000,7000,6000000000
+EET,Company 927,Software,Industrials,Brazil,South America,800000000,8000,6500000000
+FF,Company 928,Financial Services,Consumer Discretionary,Canada,North America,900000000,9000,7000000000
+GGV,Company 929,Banking,Energy,Italy,Europe,1000000000,10000,7500000000
+HH,Company 930,Manufacturing,Communication Services,India,Asia,100000000,11000,500000000
+IIX,Company 931,Retail,Consumer Staples,Argentina,South America,200000000,12000,1000000000
+JJ,Company 932,Energy,Materials,Mexico,North America,300000000,13000,1500000000
+KKZ,Company 933,Consumer Goods,Utilities,France,Europe,400000000,14000,2000000000
+LL,Company 934,Telecommunications,Real Estate,India,Asia,500000000,15000,2500000000
+MMB,Company 935,Automotive,Healthcare,Chile,South America,600000000,16000,3000000000
+NN,Company 936,Healthcare,Technology,USA,North America,700000000,17000,3500000000
+OOD,Company 937,Pharmaceuticals,Financial Services,Spain,Europe,800000000,18000,4000000000
+PP,Company 938,Technology,Industrials,India,Asia,900000000,19000,4500000000
+QQF,Company 939,Software,Consumer Discretionary,Brazil,South America,1000000000,20000,5000000000
+RR,Company 940,Financial Services,Energy,Canada,North America,100000000,1000,5500000000
+SSH,Company 941,Banking,Communication Services,Finland,Europe,200000000,2000,6000000000
+TT,Company 942,Manufacturing,Consumer Staples,India,Asia,300000000,3000,6500000000
+UUJ,Company 943,Retail,Materials,Argentina,South America,400000000,4000,7000000000
+VV,Company 944,Energy,Utilities,Mexico,North America,500000000,5000,7500000000
+WWL,Company 945,Consumer Goods,Real Estate,UK,Europe,600000000,6000,500000000
+XX,Company 946,Telecommunications,Healthcare,India,Asia,700000000,7000,1000000000
+YYN,Company 947,Automotive,Technology,Chile,South America,800000000,8000,1500000000
+ZZ,Company 948,Healthcare,Financial Services,USA,North America,900000000,9000,2000000000
+AAP,Company 949,Pharmaceuticals,Industrials,Sweden,Europe,1000000000,10000,2500000000
+BB,Company 950,Technology,Consumer Discretionary,India,Asia,100000000,11000,3000000000
+CCR,Company 951,Software,Energy,Brazil,South America,200000000,12000,3500000000
+DD,Company 952,Financial Services,Communication Services,Canada,North America,300000000,13000,4000000000
+EET,Company 953,Banking,Consumer Staples,Germany,Europe,400000000,14000,4500000000
+FF,Company 954,Manufacturing,Materials,India,Asia,500000000,15000,5000000000
+GGV,Company 955,Retail,Utilities,Argentina,South America,600000000,16000,5500000000
+HH,Company 956,Energy,Real Estate,Mexico,North America,700000000,17000,6000000000
+IIX,Company 957,Consumer Goods,Healthcare,Italy,Europe,800000000,18000,6500000000
+JJ,Company 958,Telecommunications,Technology,India,Asia,900000000,19000,7000000000
+KKZ,Company 959,Automotive,Financial Services,Chile,South America,1000000000,20000,7500000000
+LL,Company 960,Healthcare,Industrials,USA,North America,100000000,1000,500000000
+MMB,Company 961,Pharmaceuticals,Consumer Discretionary,France,Europe,200000000,2000,1000000000
+NN,Company 962,Technology,Energy,India,Asia,300000000,3000,1500000000
+OOD,Company 963,Software,Communication Services,Brazil,South America,400000000,4000,2000000000
+PP,Company 964,Financial Services,Consumer Staples,Canada,North America,500000000,5000,2500000000
+QQF,Company 965,Banking,Materials,Spain,Europe,600000000,6000,3000000000
+RR,Company 966,Manufacturing,Utilities,India,Asia,700000000,7000,3500000000
+SSH,Company 967,Retail,Real Estate,Argentina,South America,800000000,8000,4000000000
+TT,Company 968,Energy,Healthcare,Mexico,North America,900000000,9000,4500000000
+UUJ,Company 969,Consumer Goods,Technology,Finland,Europe,1000000000,10000,5000000000
+VV,Company 970,Telecommunications,Financial Services,India,Asia,100000000,11000,5500000000
+WWL,Company 971,Automotive,Industrials,Chile,South America,200000000,12000,6000000000
+XX,Company 972,Healthcare,Consumer Discretionary,USA,North America,300000000,13000,6500000000
+YYN,Company 973,Pharmaceuticals,Energy,UK,Europe,400000000,14000,7000000000
+ZZ,Company 974,Technology,Communication Services,India,Asia,500000000,15000,7500000000
+AAP,Company 975,Software,Consumer Staples,Brazil,South America,600000000,16000,500000000
+BB,Company 976,Financial Services,Materials,Canada,North America,700000000,17000,1000000000
+CCR,Company 977,Banking,Utilities,Sweden,Europe,800000000,18000,1500000000
+DD,Company 978,Manufacturing,Real Estate,India,Asia,900000000,19000,2000000000
+EET,Company 979,Retail,Healthcare,Argentina,South America,1000000000,20000,2500000000
+FF,Company 980,Energy,Technology,Mexico,North America,100000000,1000,3000000000
+GGV,Company 981,Consumer Goods,Financial Services,Germany,Europe,200000000,2000,3500000000
+HH,Company 982,Telecommunications,Industrials,India,Asia,300000000,3000,4000000000
+IIX,Company 983,Automotive,Consumer Discretionary,Chile,South America,400000000,4000,4500000000
+JJ,Company 984,Healthcare,Energy,USA,North America,500000000,5000,5000000000
+KKZ,Company 985,Pharmaceuticals,Communication Services,Italy,Europe,600000000,6000,5500000000
+LL,Company 986,Technology,Consumer Staples,India,Asia,700000000,7000,6000000000
+MMB,Company 987,Software,Materials,Brazil,South America,800000000,8000,6500000000
+NN,Company 988,Financial Services,Utilities,Canada,North America,900000000,9000,7000000000
+OOD,Company 989,Banking,Real Estate,France,Europe,1000000000,10000,7500000000
+PP,Company 990,Manufacturing,Healthcare,India,Asia,100000000,11000,500000000
+QQF,Company 991,Retail,Technology,Argentina,South America,200000000,12000,1000000000
+RR,Company 992,Energy,Financial Services,Mexico,North America,300000000,13000,1500000000
+SSH,Company 993,Consumer Goods,Industrials,Spain,Europe,400000000,14000,2000000000
+TT,Company 994,Telecommunications,Consumer Discretionary,India,Asia,500000000,15000,2500000000
+UUJ,Company 995,Automotive,Energy,Chile,South America,600000000,16000,3000000000
+VV,Company 996,Healthcare,Communication Services,USA,North America,700000000,17000,3500000000
+WWL,Company 997,Pharmaceuticals,Consumer Staples,Finland,Europe,800000000,18000,4000000000
+XX,Company 998,Technology,Materials,India,Asia,900000000,19000,4500000000
+YYN,Company 999,Software,Utilities,Brazil,South America,1000000000,20000,5000000000

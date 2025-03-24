@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Leisure Products",
+    "ipo": "1963-08-12",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MAT.png",
+    "marketCapitalization": 6613.90625,
+    "name": "Mattel Inc",
+    "phone": "13102522000",
+    "shareOutstanding": 330.2,
+    "ticker": "MAT",
+    "weburl": "https://corporate.mattel.com/"
+}

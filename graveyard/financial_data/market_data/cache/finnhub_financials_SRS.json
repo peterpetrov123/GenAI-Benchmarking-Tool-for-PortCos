@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.01919,
+        "13WeekPriceReturnDaily": 1.6756,
+        "26WeekPriceReturnDaily": 8.98,
+        "3MonthADReturnStd": 38.415455,
+        "3MonthAverageTradingVolume": 0.01577,
+        "52WeekHigh": 71.92,
+        "52WeekHighDate": "2024-04-18",
+        "52WeekLow": 43.15,
+        "52WeekLowDate": "2024-11-27",
+        "52WeekPriceReturnDaily": -19.479,
+        "5DayPriceReturnDaily": -6.2381,
+        "beta": -2.0279613,
+        "monthToDatePriceReturnDaily": 5.4947,
+        "priceRelativeToS&P50013Week": 7.8312,
+        "priceRelativeToS&P50026Week": 6.6875,
+        "priceRelativeToS&P5004Week": 9.9961,
+        "priceRelativeToS&P50052Week": -30.0608,
+        "priceRelativeToS&P500Ytd": -2.1747,
+        "yearToDatePriceReturnDaily": -5.408
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "SRS"
+}

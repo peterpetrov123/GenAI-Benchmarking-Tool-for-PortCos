@@ -1,0 +1,15 @@
+{
+    "country": "CN",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Biotechnology",
+    "ipo": "2021-02-09",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950439531976.png",
+    "marketCapitalization": 78.801994,
+    "name": "Adagene Inc",
+    "phone": "8651287773632",
+    "shareOutstanding": 55.34,
+    "ticker": "ADAG",
+    "weburl": "https://www.adagene.com/"
+}

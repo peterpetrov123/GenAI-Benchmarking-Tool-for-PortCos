@@ -1,0 +1,17 @@
+{
+    "info": {
+        "quoteType": "NONE",
+        "symbol": "PTNL",
+        "language": "en-US",
+        "region": "US",
+        "triggerable": false,
+        "customPriceAlertConfidence": "NONE",
+        "corporateActions": [],
+        "messageBoardId": "finmb_54074400",
+        "esgPopulated": false,
+        "tradeable": false,
+        "cryptoTradeable": false,
+        "hasPrePostMarketData": false,
+        "trailingPegRatio": null
+    },
+    "income_stmt": 

@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.00282,
+        "13WeekPriceReturnDaily": -5.4528,
+        "26WeekPriceReturnDaily": -1.9606,
+        "3MonthADReturnStd": 25.63024,
+        "3MonthAverageTradingVolume": 0.00481,
+        "52WeekHigh": 35.6591,
+        "52WeekHighDate": "2024-07-16",
+        "52WeekLow": 29.49,
+        "52WeekLowDate": "2024-04-19",
+        "52WeekPriceReturnDaily": -2.8375,
+        "5DayPriceReturnDaily": 4.2593,
+        "beta": 1.6217358,
+        "monthToDatePriceReturnDaily": -1.9871,
+        "priceRelativeToS&P50013Week": 0.7028,
+        "priceRelativeToS&P50026Week": -4.2531,
+        "priceRelativeToS&P5004Week": -1.7502,
+        "priceRelativeToS&P50052Week": -13.4193,
+        "priceRelativeToS&P500Ytd": 2.3019,
+        "yearToDatePriceReturnDaily": -0.9314
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "NXTE"
+}

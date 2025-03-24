@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "LONDON STOCK EXCHANGE",
+    "finnhubIndustry": "Pharmaceuticals",
+    "ipo": "2014-12-23",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950440662426.png",
+    "marketCapitalization": 930.4972416718077,
+    "name": "Indivior PLC",
+    "phone": "8043791090",
+    "shareOutstanding": 124.66,
+    "ticker": "INDV.L",
+    "weburl": "https://www.indivior.com/en"
+}

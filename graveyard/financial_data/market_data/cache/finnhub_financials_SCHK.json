@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.75879,
+        "13WeekPriceReturnDaily": -6.34,
+        "26WeekPriceReturnDaily": 2.5131,
+        "3MonthADReturnStd": 16.680672,
+        "3MonthAverageTradingVolume": 0.54624,
+        "52WeekHigh": 29.65,
+        "52WeekHighDate": "2025-02-19",
+        "52WeekLow": 23.86,
+        "52WeekLowDate": "2024-04-19",
+        "52WeekPriceReturnDaily": 9.9356,
+        "5DayPriceReturnDaily": 3.0155,
+        "beta": 1.0406122,
+        "monthToDatePriceReturnDaily": -4.6073,
+        "priceRelativeToS&P50013Week": -0.1844,
+        "priceRelativeToS&P50026Week": 0.2206,
+        "priceRelativeToS&P5004Week": -0.2388,
+        "priceRelativeToS&P50052Week": -0.6462,
+        "priceRelativeToS&P500Ytd": -0.2284,
+        "yearToDatePriceReturnDaily": -3.4617
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "SCHK"
+}

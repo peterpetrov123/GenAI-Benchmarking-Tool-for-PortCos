@@ -1,0 +1,18 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.07074,
+        "3MonthAverageTradingVolume": 0.06445,
+        "52WeekHigh": 1e-06,
+        "52WeekHighDate": "2025-02-07",
+        "52WeekLow": 1e-06,
+        "52WeekLowDate": "2025-02-07",
+        "5DayPriceReturnDaily": 0,
+        "beta": -6.4197755,
+        "monthToDatePriceReturnDaily": 0,
+        "priceRelativeToS&P500Ytd": 0.571,
+        "yearToDatePriceReturnDaily": 0
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "THRr"
+}

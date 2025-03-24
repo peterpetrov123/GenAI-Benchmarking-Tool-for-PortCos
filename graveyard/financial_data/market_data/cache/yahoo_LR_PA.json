@@ -1,0 +1,14 @@
+{
+    "symbol": "LR.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 28130000000.0,
+    "revenue": null,
+    "profit_margin": 13.49,
+    "operating_margin": 18.53,
+    "return_on_assets": 6.62,
+    "return_on_equity": 16.37,
+    "cash": 7.94,
+    "debt": null,
+    "current_ratio": 1.93
+}

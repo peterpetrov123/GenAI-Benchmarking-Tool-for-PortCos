@@ -1,0 +1,14 @@
+{
+    "symbol": "MUV2.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 77550000000.0,
+    "revenue": null,
+    "profit_margin": 9.26,
+    "operating_margin": 6.9,
+    "return_on_assets": 1.62,
+    "return_on_equity": 18.14,
+    "cash": 46.53,
+    "debt": null,
+    "current_ratio": 0.26
+}

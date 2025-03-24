@@ -1,0 +1,18 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.04412,
+        "3MonthAverageTradingVolume": 0.05144,
+        "52WeekHigh": 15.47,
+        "52WeekHighDate": "2025-01-24",
+        "52WeekLow": 8.63,
+        "52WeekLowDate": "2025-03-11",
+        "5DayPriceReturnDaily": 17.0163,
+        "monthToDatePriceReturnDaily": 11.5721,
+        "priceRelativeToS&P5004Week": -8.3153,
+        "priceRelativeToS&P500Ytd": -21.9788,
+        "yearToDatePriceReturnDaily": -28.6962
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "AMDG"
+}

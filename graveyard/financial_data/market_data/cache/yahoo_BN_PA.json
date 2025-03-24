@@ -1,0 +1,14 @@
+{
+    "symbol": "BN.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 46030000000.0,
+    "revenue": null,
+    "profit_margin": 7.38,
+    "operating_margin": 10.65,
+    "return_on_assets": 4.45,
+    "return_on_equity": 12.33,
+    "cash": 9.56,
+    "debt": null,
+    "current_ratio": 0.93
+}

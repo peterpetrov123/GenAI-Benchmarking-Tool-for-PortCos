@@ -1,0 +1,14 @@
+{
+    "symbol": "SU.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 135470000000.0,
+    "revenue": null,
+    "profit_margin": 11.19,
+    "operating_margin": 17.16,
+    "return_on_assets": 6.53,
+    "return_on_equity": 15.19,
+    "cash": 12.28,
+    "debt": null,
+    "current_ratio": 1.23
+}

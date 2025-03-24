@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Biotechnology",
+    "ipo": "2012-11-08",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ATOS.png",
+    "marketCapitalization": 90.010797,
+    "name": "Atossa Therapeutics Inc",
+    "phone": "12065880256",
+    "shareOutstanding": 125.8,
+    "ticker": "ATOS",
+    "weburl": "https://atossatherapeutics.com/"
+}

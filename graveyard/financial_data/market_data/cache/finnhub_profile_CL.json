@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Consumer products",
+    "ipo": "1930-03-31",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CL.png",
+    "marketCapitalization": 73265.508631,
+    "name": "Colgate-Palmolive Co",
+    "phone": "12123102000",
+    "shareOutstanding": 811.54,
+    "ticker": "CL",
+    "weburl": "https://www.colgatepalmolive.com/"
+}

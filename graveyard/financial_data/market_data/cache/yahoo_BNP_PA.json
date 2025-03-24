@@ -1,0 +1,13 @@
+{
+    "symbol": "BNP.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 91340000000.0,
+    "revenue": null,
+    "profit_margin": 25.61,
+    "operating_margin": 29.56,
+    "return_on_assets": 0.46,
+    "return_on_equity": 9.27,
+    "cash": 901.48,
+    "debt": null
+}

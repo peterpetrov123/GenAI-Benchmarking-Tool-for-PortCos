@@ -1,0 +1,31 @@
+ticker,company_name,exchange,country,last_updated
+BMW,Bayerische Motoren Werke AG,XETR,Germany,2025-03-21
+SIE,Siemens AG,XETR,Germany,2025-03-21
+SAP,SAP SE,XETR,Germany,2025-03-21
+BAS,BASF SE,XETR,Germany,2025-03-21
+ADS,Adidas AG,XETR,Germany,2025-03-21
+AIR,Airbus SE,XPAR,France,2025-03-21
+BNP,BNP Paribas,XPAR,France,2025-03-21
+MC,LVMH Moet Hennessy Louis Vuitton SE,XPAR,France,2025-03-21
+OR,L'Oreal SA,XPAR,France,2025-03-21
+SAN,Sanofi,XPAR,France,2025-03-21
+ULVR,Unilever PLC,XLON,United Kingdom,2025-03-21
+HSBA,HSBC Holdings PLC,XLON,United Kingdom,2025-03-21
+BP,BP PLC,XLON,United Kingdom,2025-03-21
+GSK,GSK PLC,XLON,United Kingdom,2025-03-21
+AZN,AstraZeneca PLC,XLON,United Kingdom,2025-03-21
+ASML,ASML Holding NV,XAMS,Netherlands,2025-03-21
+INGA,ING Groep NV,XAMS,Netherlands,2025-03-21
+AD,Koninklijke Ahold Delhaize NV,XAMS,Netherlands,2025-03-21
+PHIA,Koninklijke Philips NV,XAMS,Netherlands,2025-03-21
+NESN,Nestle SA,XSWX,Switzerland,2025-03-21
+NOVN,Novartis AG,XSWX,Switzerland,2025-03-21
+ROG,Roche Holding AG,XSWX,Switzerland,2025-03-21
+IBE,Iberdrola SA,XMAD,Spain,2025-03-21
+SAN,Banco Santander SA,XMAD,Spain,2025-03-21
+TEF,Telefonica SA,XMAD,Spain,2025-03-21
+BBVA,Banco Bilbao Vizcaya Argentaria SA,XMAD,Spain,2025-03-21
+ISP,Intesa Sanpaolo SpA,XMIL,Italy,2025-03-21
+ENI,Eni SpA,XMIL,Italy,2025-03-21
+ENEL,Enel SpA,XMIL,Italy,2025-03-21
+STLA,Stellantis NV,XMIL,Italy,2025-03-21

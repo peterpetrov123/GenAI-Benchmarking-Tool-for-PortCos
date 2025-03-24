@@ -1,0 +1,15 @@
+{
+    "country": "AR",
+    "currency": "ARS",
+    "estimateCurrency": "ARS",
+    "exchange": "BOLSA DE COMERCIO DE BUENOS AIRES",
+    "finnhubIndustry": "Banking",
+    "ipo": "1993-11-23",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942958560446.png",
+    "marketCapitalization": 4789145.97,
+    "name": "Banco Bbva Argentina SA",
+    "phone": "541143464000",
+    "shareOutstanding": 612.71,
+    "ticker": "BBAR2.BA",
+    "weburl": "https://www.bbva.com.ar/"
+}

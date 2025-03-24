@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 1.71053,
+        "13WeekPriceReturnDaily": -2.095,
+        "26WeekPriceReturnDaily": -2.9128,
+        "3MonthADReturnStd": 4.233067,
+        "3MonthAverageTradingVolume": 0.94381,
+        "52WeekHigh": 46.9,
+        "52WeekHighDate": "2024-10-01",
+        "52WeekLow": 44.97,
+        "52WeekLowDate": "2025-01-10",
+        "52WeekPriceReturnDaily": -2.6836,
+        "5DayPriceReturnDaily": -0.0882,
+        "beta": 0.29881975,
+        "monthToDatePriceReturnDaily": -1.9256,
+        "priceRelativeToS&P50013Week": 4.0606,
+        "priceRelativeToS&P50026Week": -5.2053,
+        "priceRelativeToS&P5004Week": 6.0163,
+        "priceRelativeToS&P50052Week": -13.2654,
+        "priceRelativeToS&P500Ytd": 2.5976,
+        "yearToDatePriceReturnDaily": -0.6357
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "TFI"
+}

@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Hotels, Restaurants & Leisure",
+    "ipo": "1998-03-23",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MAR.png",
+    "marketCapitalization": 67501.239303,
+    "name": "Marriott International Inc",
+    "phone": "13013803000",
+    "shareOutstanding": 275.7,
+    "ticker": "MAR",
+    "weburl": "https://www.marriott.com/"
+}

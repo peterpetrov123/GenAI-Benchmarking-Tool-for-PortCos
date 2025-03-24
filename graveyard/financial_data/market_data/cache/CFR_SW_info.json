@@ -1,0 +1,16 @@
+{
+    "symbol": "CFR.SW",
+    "name": "RICHEMONT N",
+    "industry": "Luxury Goods",
+    "sector": "Consumer Cyclical",
+    "country": "Switzerland",
+    "region": "Europe",
+    "revenue": 20472000512,
+    "employees": 37117,
+    "market_cap": 93537337344,
+    "currency": "CHF",
+    "exchange": "EBS",
+    "website": "https://www.richemont.com",
+    "data_source": "Yahoo Finance",
+    "last_updated": "2025-03-20 11:14:32"
+}

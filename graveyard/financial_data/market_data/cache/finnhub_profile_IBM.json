@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Technology",
+    "ipo": "1915-11-11",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IBM.png",
+    "marketCapitalization": 225621.96875000003,
+    "name": "International Business Machines Corp",
+    "phone": "19144991900",
+    "shareOutstanding": 927.26,
+    "ticker": "IBM",
+    "weburl": "https://www.ibm.com/"
+}

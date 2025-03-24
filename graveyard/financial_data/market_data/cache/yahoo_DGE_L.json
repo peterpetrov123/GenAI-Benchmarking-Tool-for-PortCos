@@ -1,0 +1,14 @@
+{
+    "symbol": "DGE.L",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 45230000000.0,
+    "revenue": null,
+    "profit_margin": 17.79,
+    "operating_margin": 29.1,
+    "return_on_assets": 7.72,
+    "return_on_equity": 32.32,
+    "cash": 0.75,
+    "debt": null,
+    "current_ratio": 1.6
+}

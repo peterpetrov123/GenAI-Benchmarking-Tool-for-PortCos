@@ -1,0 +1,16 @@
+{
+    "symbol": "BNP.PA",
+    "name": "BNP PARIBAS ACT.A",
+    "industry": "Banks - Regional",
+    "sector": "Financial Services",
+    "country": "France",
+    "region": "Europe",
+    "revenue": 45640998912,
+    "employees": 0,
+    "market_cap": 89516834816,
+    "currency": "EUR",
+    "exchange": "PAR",
+    "website": "https://group.bnpparibas",
+    "data_source": "Yahoo Finance",
+    "last_updated": "2025-03-20 11:14:31"
+}

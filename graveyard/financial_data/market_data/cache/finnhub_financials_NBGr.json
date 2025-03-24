@@ -1,0 +1,25 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.00016,
+        "13WeekPriceReturnDaily": -10.4821,
+        "26WeekPriceReturnDaily": 0.2178,
+        "3MonthADReturnStd": 16.379076,
+        "3MonthAverageTradingVolume": 0.00077,
+        "52WeekHigh": 30.57,
+        "52WeekHighDate": "2024-09-16",
+        "52WeekLow": 24.85,
+        "52WeekLowDate": "2024-04-18",
+        "52WeekPriceReturnDaily": -5.1864,
+        "5DayPriceReturnDaily": 0.2317,
+        "monthToDatePriceReturnDaily": 0.2124,
+        "priceRelativeToS&P50013Week": -11.7592,
+        "priceRelativeToS&P50026Week": -4.3223,
+        "priceRelativeToS&P5004Week": -1.8786,
+        "priceRelativeToS&P50052Week": -26.9948,
+        "priceRelativeToS&P500Ytd": 1.1662,
+        "yearToDatePriceReturnDaily": 0.2124
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "NBGr"
+}

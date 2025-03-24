@@ -1,0 +1,13 @@
+{
+    "symbol": "DB1.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 49950000000.0,
+    "revenue": null,
+    "profit_margin": 27.75,
+    "operating_margin": 38.75,
+    "return_on_assets": null,
+    "return_on_equity": 19.84,
+    "cash": null,
+    "debt": null
+}

@@ -1,0 +1,14 @@
+{
+    "symbol": "VOD.L",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 18690000000.0,
+    "revenue": null,
+    "profit_margin": 6.89,
+    "operating_margin": 13.25,
+    "return_on_assets": 1.76,
+    "return_on_equity": 4.41,
+    "cash": 0.49,
+    "debt": null,
+    "current_ratio": 1.37
+}

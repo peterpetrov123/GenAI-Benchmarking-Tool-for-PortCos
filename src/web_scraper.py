@@ -13,9 +13,11 @@ import pandas as pd
 import json
 from datetime import datetime
 import os
+import time
+from tqdm import tqdm  # For progress bar, install with pip if needed
 
-# Set the output directory
-OUTPUT_DIR = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos\financial_data\pfizer"
+# Set the output directory to be in the processed folder
+OUTPUT_DIR = os.path.join("financial_data", "processed", "european_stocks_financial_data")
 
 def ensure_directory_exists(directory):
     """Make sure the output directory exists"""
@@ -24,168 +26,229 @@ def ensure_directory_exists(directory):
         os.makedirs(directory)
     print(f"Files will be saved to: {directory}")
 
-def get_pfizer_financials():
+def load_european_stocks_csv(file_path):
     """
-    Retrieve Pfizer's financial data using the yfinance library.
-    Returns financial statement dataframes.
+    Load the European stocks CSV file
+    
+    Args:
+        file_path (str): Path to the CSV file
+        
+    Returns:
+        pandas.DataFrame: DataFrame containing the stocks data
     """
-    print("Retrieving Pfizer financial data using yfinance...")
-    
-    # Create a Ticker object for Pfizer
-    pfizer = yf.Ticker("PFE")
-    
-    # Get income statement, balance sheet, and cash flow statement
-    income_statement = pfizer.income_stmt
-    balance_sheet = pfizer.balance_sheet
-    cash_flow = pfizer.cashflow
-    
-    # Convert from annual to quarterly if needed
     try:
-        income_statement_quarterly = pfizer.quarterly_income_stmt
-        balance_sheet_quarterly = pfizer.quarterly_balance_sheet
-        cash_flow_quarterly = pfizer.quarterly_cashflow
-    except:
-        print("Quarterly data might not be available for all statements")
-        income_statement_quarterly = None
-        balance_sheet_quarterly = None
-        cash_flow_quarterly = None
+        df = pd.read_csv(file_path)
+        print(f"Loaded {len(df)} stocks from {file_path}")
+        return df
+    except Exception as e:
+        print(f"Error loading CSV file: {str(e)}")
+        return None
+
+def get_company_financials(ticker, company_name=None):
+    """
+    Retrieve a company's financial data using the yfinance library.
     
-    return {
-        'income_statement': income_statement,
-        'balance_sheet': balance_sheet,
-        'cash_flow': cash_flow,
-        'income_statement_quarterly': income_statement_quarterly,
-        'balance_sheet_quarterly': balance_sheet_quarterly,
-        'cash_flow_quarterly': cash_flow_quarterly
-    }
+    Args:
+        ticker (str): The ticker symbol of the company
+        company_name (str, optional): The name of the company
+        
+    Returns:
+        dict: Financial statement dataframes
+    """
+    # Use the provided company name or default to the ticker if none provided
+    company_name = company_name or ticker
+    
+    try:
+        # Create a Ticker object for the company
+        ticker_obj = yf.Ticker(ticker)
+        
+        # Get key financial metrics
+        info = ticker_obj.info
+        
+        # Get financial ratios and metrics
+        financial_data = {
+            'symbol': ticker,
+            'name': company_name,
+            'sector': info.get('sector', 'N/A'),
+            'industry': info.get('industry', 'N/A'),
+            'market_cap': info.get('marketCap', None),
+            'pe_ratio': info.get('trailingPE', None),
+            'forward_pe': info.get('forwardPE', None),
+            'price_to_book': info.get('priceToBook', None),
+            'dividend_yield': info.get('dividendYield', None) * 100 if info.get('dividendYield') else None,
+            'eps_ttm': info.get('trailingEps', None),
+            'eps_forward': info.get('forwardEps', None),
+            'profit_margin': info.get('profitMargins', None) * 100 if info.get('profitMargins') else None,
+            'roa': info.get('returnOnAssets', None) * 100 if info.get('returnOnAssets') else None,
+            'roe': info.get('returnOnEquity', None) * 100 if info.get('returnOnEquity') else None,
+            'revenue_ttm': info.get('totalRevenue', None),
+            'revenue_per_share': info.get('revenuePerShare', None),
+            'price_to_sales': info.get('priceToSalesTrailing12Months', None),
+            'ebitda': info.get('ebitda', None),
+            'debt_to_equity': info.get('debtToEquity', None),
+            'current_ratio': info.get('currentRatio', None),
+            'beta': info.get('beta', None),
+            'peg_ratio': info.get('pegRatio', None),
+            'data_retrieval_date': datetime.now().strftime("%Y-%m-%d")
+        }
+        
+        # Add currency information
+        financial_data['currency'] = info.get('currency', 'N/A')
+        
+        return financial_data
+        
+    except Exception as e:
+        print(f"Error retrieving financial data for {company_name} ({ticker}): {str(e)}")
+        return None
 
-def save_financials_to_csv(financials, output_dir, prefix="pfizer_"):
+def process_companies(stocks_df, num_companies=100):
     """
-    Save financial dataframes to CSV files.
+    Process a specified number of companies from the stocks DataFrame
+    
+    Args:
+        stocks_df (pandas.DataFrame): DataFrame containing stocks data
+        num_companies (int): Number of companies to process
+        
+    Returns:
+        pandas.DataFrame: DataFrame with financial data for the processed companies
     """
-    saved_files = []
-    for name, df in financials.items():
-        if df is not None and not df.empty:
-            filename = os.path.join(output_dir, f"{prefix}{name}.csv")
-            df.to_csv(filename)
-            print(f"Saved {filename}")
-            saved_files.append({"type": name, "format": "csv", "filename": filename})
-    return saved_files
+    # Take the first num_companies stocks
+    companies_to_process = stocks_df.head(num_companies)
+    results = []
+    
+    print(f"Processing financial data for {num_companies} companies...")
+    
+    # Loop through each company with a progress bar
+    for idx, row in tqdm(companies_to_process.iterrows(), total=len(companies_to_process)):
+        symbol = row['symbol']
+        name = row['name']
+        
+        print(f"\nProcessing {idx+1}/{num_companies}: {name} ({symbol})")
+        
+        # Some European stock symbols need to be adjusted for yfinance
+        # Try different formats if needed
+        ticker_variants = [
+            symbol,  # Original symbol
+            f"{symbol}.{'DE' if row['country'] == 'germany' else row['country'][:2].upper()}",  # Symbol.COUNTRY_CODE
+            f"{symbol}-{'DE' if row['country'] == 'germany' else row['country'][:2].upper()}"  # Symbol-COUNTRY_CODE
+        ]
+        
+        financial_data = None
+        for ticker in ticker_variants:
+            try:
+                financial_data = get_company_financials(ticker, name)
+                if financial_data:
+                    # Add country and exchange information from the original dataset
+                    financial_data['country'] = row['country']
+                    financial_data['exchange'] = row['exchange']
+                    financial_data['data_source'] = row['data_source']
+                    financial_data['ticker_used'] = ticker  # Store which ticker format worked
+                    break
+            except Exception as e:
+                print(f"  - Failed with ticker {ticker}: {str(e)}")
+        
+        if financial_data:
+            results.append(financial_data)
+        else:
+            print(f"  - Could not retrieve data for {name} ({symbol})")
+        
+        # Add a small delay to avoid hitting API rate limits
+        time.sleep(1)
+    
+    # Convert results to DataFrame
+    if results:
+        return pd.DataFrame(results)
+    else:
+        return pd.DataFrame()
 
-def save_financials_to_json(financials, output_dir, prefix="pfizer_"):
+def save_to_csv(df, output_dir, filename="european_stocks_financial_data.csv"):
     """
-    Save financial dataframes to JSON files.
+    Save the DataFrame to a CSV file
+    
+    Args:
+        df (pandas.DataFrame): DataFrame to save
+        output_dir (str): Output directory path
+        filename (str): Output filename
     """
-    saved_files = []
-    for name, df in financials.items():
-        if df is not None and not df.empty:
-            # Convert DataFrame to JSON-friendly format
-            # Handle date formatting for JSON serialization
-            json_data = {}
-            for column in df.columns:
-                col_name = column.strftime('%Y-%m-%d') if isinstance(column, pd.Timestamp) else str(column)
-                json_data[col_name] = {}
-                for index in df.index:
-                    value = df.loc[index, column]
-                    # Convert numpy types to native Python types for JSON serialization
-                    if hasattr(value, 'item'):
-                        value = value.item()
-                    # Handle NaN values
-                    if pd.isna(value):
-                        value = None
-                    json_data[col_name][index] = value
-            
-            filename = os.path.join(output_dir, f"{prefix}{name}.json")
-            with open(filename, 'w') as f:
-                json.dump(json_data, f, indent=4)
-            print(f"Saved {filename}")
-            saved_files.append({"type": name, "format": "json", "filename": filename})
-    return saved_files
+    output_path = os.path.join(output_dir, filename)
+    df.to_csv(output_path, index=False)
+    print(f"Saved financial data to {output_path}")
+    return output_path
 
-def create_metadata_json(csv_files, json_files, output_dir, prefix="pfizer_"):
+def create_metadata_json(input_file, output_file, processed_count, total_count, output_dir):
     """
-    Create a metadata JSON file with information about all saved files
-    and the date of retrieval.
+    Create a metadata JSON file with information about the processing
     """
     metadata = {
-        "company": "Pfizer Inc.",
-        "ticker": "PFE",
-        "retrieval_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "files": {
-            "csv": csv_files,
-            "json": json_files
-        }
+        "input_file": input_file,
+        "output_file": output_file,
+        "companies_processed": processed_count,
+        "total_companies_in_source": total_count,
+        "processing_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "yfinance_version": yf.__version__
     }
     
-    filename = os.path.join(output_dir, f"{prefix}metadata.json")
+    filename = os.path.join(output_dir, "metadata.json")
     with open(filename, 'w') as f:
         json.dump(metadata, f, indent=4)
-    print(f"Saved {filename}")
+    print(f"Saved metadata to {filename}")
     return filename
 
-def print_summary(financials):
+def get_absolute_path(relative_path):
     """
-    Print a summary of the financial data.
+    Get the absolute path from a path relative to the project root
     """
-    print("\n=== Pfizer Financial Data Summary ===")
+    # Get the current file's directory
+    current_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # Print summary of annual income statement
-    income_stmt = financials['income_statement']
-    if income_stmt is not None and not income_stmt.empty:
-        print("\nIncome Statement (Annual) - Last 4 Years:")
-        # Try to find and display key metrics
-        key_metrics = ['Total Revenue', 'Operating Income', 'Net Income']
-        available_metrics = [metric for metric in key_metrics if metric in income_stmt.index]
-        
-        if available_metrics:
-            income_summary = income_stmt.loc[available_metrics]
-            print(income_summary)
-            
-            # Calculate net margin if possible
-            if 'Total Revenue' in available_metrics and 'Net Income' in available_metrics:
-                net_margin = income_stmt.loc['Net Income'] / income_stmt.loc['Total Revenue'] * 100
-                print("\nNet Profit Margin (%):")
-                print(net_margin)
-        else:
-            print("Key metrics not found in standard format. Available metrics (first 10):")
-            for i, key in enumerate(income_stmt.index[:10]):
-                print(f"  {key}")
-            print("  ...")
+    # Navigate to project root (assuming this script is in the src directory)
+    project_root = os.path.dirname(current_dir)
     
-    # Print summary of balance sheet
-    balance = financials['balance_sheet']
-    if balance is not None and not balance.empty:
-        print("\nBalance Sheet (Annual) - Key Metrics:")
-        key_metrics = ['Total Assets', 'Total Liabilities Net Minority Interest', 'Total Equity Gross Minority Interest']
-        available_metrics = [metric for metric in key_metrics if metric in balance.index]
-        
-        if available_metrics:
-            for metric in available_metrics:
-                print(f"{metric}:\n{balance.loc[metric]}\n")
-        else:
-            print("Key metrics not found in standard format. Available metrics (first 10):")
-            for i, key in enumerate(balance.index[:10]):
-                print(f"  {key}")
-            print("  ...")
+    # Return the absolute path
+    return os.path.join(project_root, relative_path)
 
 if __name__ == "__main__":
-    # Ensure the output directory exists
-    ensure_directory_exists(OUTPUT_DIR)
+    # Ensure the output directory exists (with absolute path)
+    output_dir_abs = get_absolute_path(OUTPUT_DIR)
+    ensure_directory_exists(output_dir_abs)
     
-    # Get financial data
-    financials = get_pfizer_financials()
+    # Load the European stocks CSV file - use the correct path based on project structure
+    csv_file_path = get_absolute_path(os.path.join("financial_data", "processed", "investpy_european_stocks.csv"))
+    stocks_df = load_european_stocks_csv(csv_file_path)
     
-    # Save to CSV files
-    csv_files = save_financials_to_csv(financials, OUTPUT_DIR)
-    
-    # Save to JSON files
-    json_files = save_financials_to_json(financials, OUTPUT_DIR)
-    
-    # Create metadata JSON with file info and retrieval date
-    metadata_file = create_metadata_json(csv_files, json_files, OUTPUT_DIR)
-    
-    # Print summary
-    print_summary(financials)
-    
-    print(f"\nComplete! Financial data has been retrieved and saved to CSV and JSON files in: {OUTPUT_DIR}")
-    print(f"Metadata file with all information: {metadata_file}")
+    if stocks_df is not None and not stocks_df.empty:
+        # Number of companies to process
+        num_companies = 100
+        
+        # Process the companies
+        financial_data = process_companies(stocks_df, num_companies)
+        
+        if not financial_data.empty:
+            # Save the financial data to CSV
+            output_file = save_to_csv(financial_data, output_dir_abs)
+            
+            # Create metadata JSON
+            metadata_file = create_metadata_json(
+                csv_file_path, 
+                output_file, 
+                len(financial_data), 
+                len(stocks_df),
+                output_dir_abs
+            )
+            
+            # Print summary
+            print("\n=== Processing Summary ===")
+            print(f"Total companies in source file: {len(stocks_df)}")
+            print(f"Companies processed: {len(financial_data)}")
+            print(f"Success rate: {len(financial_data)/num_companies*100:.2f}%")
+            
+            # Show a sample of the data
+            print("\n=== Sample of Financial Data ===")
+            print(financial_data[['symbol', 'name', 'sector', 'market_cap', 'pe_ratio', 'dividend_yield']].head())
+            
+            print(f"\nComplete! Financial data for {len(financial_data)} companies has been retrieved and saved to {output_file}")
+            print(f"Metadata file: {metadata_file}")
+        else:
+            print("No financial data was retrieved. Check for errors above.")
+    else:
+        print(f"Could not load or process the CSV file: {csv_file_path}")

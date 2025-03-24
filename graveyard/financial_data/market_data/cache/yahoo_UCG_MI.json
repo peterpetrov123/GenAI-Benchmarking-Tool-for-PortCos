@@ -1,0 +1,13 @@
+{
+    "symbol": "UCG.MI",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 85590000000.0,
+    "revenue": null,
+    "profit_margin": 40.51,
+    "operating_margin": 74.93,
+    "return_on_assets": 1.25,
+    "return_on_equity": 15.38,
+    "cash": 97.09,
+    "debt": null
+}

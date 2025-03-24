@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Hotels, Restaurants & Leisure",
+    "ipo": "1999-03-29",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BKNG.png",
+    "marketCapitalization": 150589.9375,
+    "name": "Booking Holdings Inc",
+    "phone": "12032998000",
+    "shareOutstanding": 32.82,
+    "ticker": "BKNG",
+    "weburl": "https://www.bookingholdings.com/"
+}

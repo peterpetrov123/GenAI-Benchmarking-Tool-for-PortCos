@@ -5,7 +5,7 @@ services:
     build: .
     container_name: finance_app
     ports:
-      - "5000:5000"  # Change if your app exposes any other ports
+      - "5000:5000"  
     depends_on:
       - postgres
       - azurite

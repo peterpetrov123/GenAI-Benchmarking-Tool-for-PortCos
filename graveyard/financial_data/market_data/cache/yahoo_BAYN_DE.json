@@ -1,0 +1,14 @@
+{
+    "symbol": "BAYN.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 23960000000.0,
+    "revenue": null,
+    "profit_margin": -5.48,
+    "operating_margin": 48.2,
+    "return_on_assets": 3.0,
+    "return_on_equity": -7.82,
+    "cash": 8.23,
+    "debt": null,
+    "current_ratio": 1.19
+}

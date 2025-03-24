@@ -1,0 +1,14 @@
+{
+    "symbol": "RMS.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 260829999999.99997,
+    "revenue": null,
+    "profit_margin": 30.34,
+    "operating_margin": 38.96,
+    "return_on_assets": 17.65,
+    "return_on_equity": 28.47,
+    "cash": 111.08,
+    "debt": null,
+    "current_ratio": 4.26
+}

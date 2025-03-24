@@ -1,0 +1,14 @@
+{
+    "symbol": "GSK.L",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 61250000000.0,
+    "revenue": null,
+    "profit_margin": 8.21,
+    "operating_margin": 12.28,
+    "return_on_assets": 6.53,
+    "return_on_equity": 22.8,
+    "cash": 1.06,
+    "debt": null,
+    "current_ratio": 0.78
+}

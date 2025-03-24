@@ -1,0 +1,14 @@
+{
+    "symbol": "DTE.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 164410000000.0,
+    "revenue": null,
+    "profit_margin": 9.47,
+    "operating_margin": 17.55,
+    "return_on_assets": 5.12,
+    "return_on_equity": 18.6,
+    "cash": 1.73,
+    "debt": null,
+    "current_ratio": 1.06
+}

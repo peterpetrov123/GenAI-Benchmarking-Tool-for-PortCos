@@ -1,0 +1,785 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.1575,
+        "13WeekPriceReturnDaily": null,
+        "26WeekPriceReturnDaily": 9900,
+        "3MonthAverageTradingVolume": 0.1575,
+        "52WeekHigh": 1e-06,
+        "52WeekHighDate": "2025-01-24",
+        "52WeekLow": 1e-06,
+        "52WeekLowDate": "2025-01-24",
+        "52WeekPriceReturnDaily": 9900,
+        "5DayPriceReturnDaily": 0,
+        "assetTurnoverTTM": 4.22257,
+        "beta": 32.020584,
+        "bookValuePerShareAnnual": -0.00229,
+        "bookValuePerShareQuarterly": -0.00205,
+        "cashFlowPerShareAnnual": -0.0002,
+        "cashFlowPerShareQuarterly": -0.0012,
+        "cashPerSharePerShareAnnual": 0.0002,
+        "cashPerSharePerShareQuarterly": 0,
+        "currentDividendYieldTTM": null,
+        "currentRatioAnnual": 0,
+        "currentRatioQuarterly": 0.243,
+        "dividendPerShareAnnual": null,
+        "dividendPerShareTTM": null,
+        "ebitdPerShareAnnual": -0.0021,
+        "ebitdPerShareTTM": -0.0066,
+        "enterpriseValue": 0.2504,
+        "epsAnnual": -0.0021,
+        "epsBasicExclExtraItemsAnnual": -0.0021,
+        "epsBasicExclExtraItemsTTM": -0.0066,
+        "epsExclExtraItemsAnnual": -0.0021,
+        "epsExclExtraItemsTTM": -0.0066,
+        "epsGrowth3Y": null,
+        "epsGrowthQuarterlyYoy": null,
+        "epsGrowthTTMYoy": null,
+        "epsInclExtraItemsAnnual": -0.0021,
+        "epsInclExtraItemsTTM": -0.0066,
+        "epsNormalizedAnnual": -0.0021,
+        "epsTTM": -0.0066,
+        "grossMarginTTM": 40.20984,
+        "marketCapitalization": 0.00039401,
+        "monthToDatePriceReturnDaily": 0,
+        "netInterestCoverageTTM": -150.6786,
+        "netProfitMarginTTM": -318.7809,
+        "operatingMarginTTM": -314.619,
+        "pcfShareAnnual": null,
+        "pcfShareTTM": null,
+        "peAnnual": null,
+        "peBasicExclExtraTTM": null,
+        "peExclExtraTTM": null,
+        "peInclExtraTTM": null,
+        "peNormalizedAnnual": null,
+        "peTTM": null,
+        "pretaxMarginTTM": -318.7809,
+        "priceRelativeToS&P50013Week": -3.36957,
+        "priceRelativeToS&P50026Week": 9123.8131,
+        "priceRelativeToS&P5004Week": -9.69373,
+        "priceRelativeToS&P50052Week": 8732.98899,
+        "priceRelativeToS&P500Ytd": 0.2919,
+        "psTTM": 0.19686,
+        "quickRatioAnnual": 0,
+        "quickRatioQuarterly": 0.243,
+        "revenueGrowth3Y": null,
+        "revenueGrowthQuarterlyYoy": null,
+        "revenueGrowthTTMYoy": null,
+        "revenuePerShareAnnual": 0,
+        "revenuePerShareTTM": 0.0015,
+        "roaRfy": -39.290000000000006,
+        "roeRfy": -42.309999999999995,
+        "roeTTM": -1346.076,
+        "roiAnnual": -42.309999999999995,
+        "tangibleBookValuePerShareAnnual": -0.00229,
+        "tangibleBookValuePerShareQuarterly": -0.00205,
+        "yearToDatePriceReturnDaily": 0
+    },
+    "metricType": "all",
+    "series": {
+        "annual": {
+            "bookValue": [],
+            "cashRatio": [
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2007-06-30",
+                    "v": 11
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2007-06-30",
+                    "v": 14
+                }
+            ],
+            "ev": [
+                {
+                    "period": "2010-06-30",
+                    "v": 5.9875
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 10.2
+                }
+            ],
+            "fcfMargin": [],
+            "inventoryTurnover": [],
+            "longtermDebtTotalAsset": [],
+            "longtermDebtTotalCapital": [],
+            "longtermDebtTotalEquity": [],
+            "netDebtToTotalCapital": [],
+            "netDebtToTotalEquity": [],
+            "payoutRatio": [],
+            "pb": [],
+            "pe": [
+                {
+                    "period": "2010-06-30",
+                    "v": null
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": null
+                }
+            ],
+            "pfcf": [],
+            "ps": [],
+            "ptbv": [],
+            "quickRatio": [
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2007-06-30",
+                    "v": 14
+                }
+            ],
+            "receivablesTurnover": [],
+            "roa": [
+                {
+                    "period": "2007-06-30",
+                    "v": -0.3929
+                }
+            ],
+            "roe": [
+                {
+                    "period": "2007-06-30",
+                    "v": -0.4231
+                }
+            ],
+            "roic": [
+                {
+                    "period": "2007-06-30",
+                    "v": -0.4231
+                }
+            ],
+            "rotc": [
+                {
+                    "period": "2007-06-30",
+                    "v": -0.4231
+                }
+            ],
+            "tangibleBookValue": [],
+            "totalDebtToEquity": [],
+            "totalDebtToTotalAsset": [],
+            "totalDebtToTotalCapital": [],
+            "totalRatio": [
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2007-06-30",
+                    "v": 14
+                }
+            ]
+        },
+        "quarterly": {
+            "assetTurnoverTTM": [],
+            "bookValue": [],
+            "cashRatio": [
+                {
+                    "period": "2011-03-31",
+                    "v": 7.690927269464455e-05
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-03-31",
+                    "v": 0
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2011-03-31",
+                    "v": 0.243
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0.2831
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0.335
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-03-31",
+                    "v": 0
+                }
+            ],
+            "ebitPerShare": [
+                {
+                    "period": "2011-03-31",
+                    "v": -0.0007
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": -0.0022
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": -0.0017
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": -0.002
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": -0.0001
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-09-30",
+                    "v": -0.0001
+                },
+                {
+                    "period": "2008-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-03-31",
+                    "v": -0.0001
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2007-09-30",
+                    "v": -0.0002
+                },
+                {
+                    "period": "2007-06-30",
+                    "v": -0.0001
+                },
+                {
+                    "period": "2007-03-31",
+                    "v": -0.0001
+                }
+            ],
+            "eps": [
+                {
+                    "period": "2011-03-31",
+                    "v": -0.0007
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": -0.0022
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": -0.0017
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": -0.002
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": -0.0001
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-09-30",
+                    "v": -0.0001
+                },
+                {
+                    "period": "2008-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-03-31",
+                    "v": -0.0001
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2007-09-30",
+                    "v": -0.0002
+                },
+                {
+                    "period": "2007-06-30",
+                    "v": -0.0001
+                },
+                {
+                    "period": "2007-03-31",
+                    "v": -0.0001
+                }
+            ],
+            "ev": [
+                {
+                    "period": "2011-03-31",
+                    "v": 6.224
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 4.5172
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 8.2698
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 5.9875
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 3.57
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 6.375
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 10.2
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 10.2
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 10.2
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 10.2
+                }
+            ],
+            "fcfMargin": [],
+            "fcfPerShareTTM": [
+                {
+                    "period": "2011-03-31",
+                    "v": -0.0012
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": -0.0004
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": -0.0004
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": -0.0002
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": -0.0001
+                },
+                {
+                    "period": "2008-09-30",
+                    "v": -0.0001
+                }
+            ],
+            "grossMargin": [
+                {
+                    "period": "2011-03-31",
+                    "v": 0.4021
+                }
+            ],
+            "inventoryTurnoverTTM": [],
+            "longtermDebtTotalAsset": [
+                {
+                    "period": "2010-12-31",
+                    "v": 8.9286
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 8.9286
+                }
+            ],
+            "longtermDebtTotalCapital": [],
+            "longtermDebtTotalEquity": [],
+            "netDebtToTotalCapital": [],
+            "netDebtToTotalEquity": [],
+            "netMargin": [
+                {
+                    "period": "2011-03-31",
+                    "v": -0.5035
+                }
+            ],
+            "operatingMargin": [
+                {
+                    "period": "2011-03-31",
+                    "v": -0.4909
+                }
+            ],
+            "payoutRatioTTM": [],
+            "pb": [],
+            "peTTM": [],
+            "pfcfTTM": [],
+            "pretaxMargin": [
+                {
+                    "period": "2011-03-31",
+                    "v": -0.5035
+                }
+            ],
+            "psTTM": [],
+            "ptbv": [],
+            "quickRatio": [
+                {
+                    "period": "2011-03-31",
+                    "v": 0.243
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-03-31",
+                    "v": 0
+                }
+            ],
+            "receivablesTurnoverTTM": [],
+            "roaTTM": [],
+            "roeTTM": [],
+            "roicTTM": [],
+            "rotcTTM": [],
+            "salesPerShare": [
+                {
+                    "period": "2011-03-31",
+                    "v": 0.0015
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2007-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2007-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2007-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2007-03-31",
+                    "v": 0
+                }
+            ],
+            "sgaToSale": [
+                {
+                    "period": "2011-03-31",
+                    "v": 0.5979
+                }
+            ],
+            "tangibleBookValue": [],
+            "totalDebtToEquity": [],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2011-03-31",
+                    "v": 2.6371
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 8.9286
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 8.9286
+                }
+            ],
+            "totalDebtToTotalCapital": [],
+            "totalRatio": [
+                {
+                    "period": "2011-03-31",
+                    "v": 0.243
+                },
+                {
+                    "period": "2010-12-31",
+                    "v": 0.0803
+                },
+                {
+                    "period": "2010-09-30",
+                    "v": 0.0839
+                },
+                {
+                    "period": "2010-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2010-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2009-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2009-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2008-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2008-03-31",
+                    "v": 0
+                }
+            ]
+        }
+    },
+    "symbol": "ROTH"
+}

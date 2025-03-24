@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "2019-04-04",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TW.png",
+    "marketCapitalization": 33772.437744,
+    "name": "Tradeweb Markets Inc",
+    "phone": "16464306000",
+    "shareOutstanding": 213.1,
+    "ticker": "TW",
+    "weburl": "https://www.tradeweb.com/"
+}

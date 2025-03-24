@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Retail",
+    "ipo": "1994-02-17",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSCO.png",
+    "marketCapitalization": 27555.466797,
+    "name": "Tractor Supply Co",
+    "phone": "16154404600",
+    "shareOutstanding": 531.55,
+    "ticker": "TSCO",
+    "weburl": "https://www.tractorsupply.com/"
+}

@@ -1,0 +1,31 @@
+symbol,name,exchange,country
+BMW,Bayerische Motoren Werke AG,XETR,Germany
+SIE,Siemens AG,XETR,Germany
+SAP,SAP SE,XETR,Germany
+BAS,BASF SE,XETR,Germany
+ADS,Adidas AG,XETR,Germany
+AIR,Airbus SE,XPAR,France
+BNP,BNP Paribas,XPAR,France
+MC,LVMH Moet Hennessy Louis Vuitton SE,XPAR,France
+OR,L'Oreal SA,XPAR,France
+SAN,Sanofi,XPAR,France
+ULVR,Unilever PLC,XLON,United Kingdom
+HSBA,HSBC Holdings PLC,XLON,United Kingdom
+BP,BP PLC,XLON,United Kingdom
+GSK,GSK PLC,XLON,United Kingdom
+AZN,AstraZeneca PLC,XLON,United Kingdom
+ASML,ASML Holding NV,XAMS,Netherlands
+INGA,ING Groep NV,XAMS,Netherlands
+AD,Koninklijke Ahold Delhaize NV,XAMS,Netherlands
+PHIA,Koninklijke Philips NV,XAMS,Netherlands
+NESN,Nestle SA,XSWX,Switzerland
+NOVN,Novartis AG,XSWX,Switzerland
+ROG,Roche Holding AG,XSWX,Switzerland
+IBE,Iberdrola SA,XMAD,Spain
+SAN,Banco Santander SA,XMAD,Spain
+TEF,Telefonica SA,XMAD,Spain
+BBVA,Banco Bilbao Vizcaya Argentaria SA,XMAD,Spain
+ISP,Intesa Sanpaolo SpA,XMIL,Italy
+ENI,Eni SpA,XMIL,Italy
+ENEL,Enel SpA,XMIL,Italy
+STLA,Stellantis NV,XMIL,Italy

@@ -1,0 +1,14 @@
+{
+    "symbol": "REL.L",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 70140000000.0,
+    "revenue": null,
+    "profit_margin": 20.5,
+    "operating_margin": 29.46,
+    "return_on_assets": 11.72,
+    "return_on_equity": 56.0,
+    "cash": 0.06,
+    "debt": null,
+    "current_ratio": 0.52
+}

@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Aerospace & Defense",
+    "ipo": "2020-07-08",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950761139886.png",
+    "marketCapitalization": 12.34,
+    "name": "Astra Space Inc",
+    "phone": "18662787217",
+    "shareOutstanding": 22.89,
+    "ticker": "ASTR",
+    "weburl": "https://astra.com/"
+}

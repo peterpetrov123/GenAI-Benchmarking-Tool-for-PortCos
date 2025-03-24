@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Semiconductors",
+    "ipo": "2021-10-28",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GFS.png",
+    "marketCapitalization": 21181.415738999996,
+    "name": "GlobalFoundries Inc",
+    "phone": "15183059013",
+    "shareOutstanding": 552.65,
+    "ticker": "GFS",
+    "weburl": "https://gf.com/"
+}

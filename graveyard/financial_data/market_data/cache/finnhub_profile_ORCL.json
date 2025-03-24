@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Technology",
+    "ipo": "1986-03-12",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ORCL.png",
+    "marketCapitalization": 428262.602603,
+    "name": "Oracle Corp",
+    "phone": "17378671000",
+    "shareOutstanding": 2804.23,
+    "ticker": "ORCL",
+    "weburl": "https://www.oracle.com/"
+}

@@ -1,0 +1,25 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.00441,
+        "13WeekPriceReturnDaily": -3.9589,
+        "26WeekPriceReturnDaily": -3.6175,
+        "3MonthADReturnStd": 18.27232,
+        "3MonthAverageTradingVolume": 0.0063,
+        "52WeekHigh": 27.22,
+        "52WeekHighDate": "2024-09-27",
+        "52WeekLow": 22.25,
+        "52WeekLowDate": "2025-01-13",
+        "52WeekPriceReturnDaily": -4.298,
+        "5DayPriceReturnDaily": 3.4336,
+        "monthToDatePriceReturnDaily": 4.8163,
+        "priceRelativeToS&P50013Week": 2.1967,
+        "priceRelativeToS&P50026Week": -5.91,
+        "priceRelativeToS&P5004Week": 7.813,
+        "priceRelativeToS&P50052Week": -14.8798,
+        "priceRelativeToS&P500Ytd": 5.947,
+        "yearToDatePriceReturnDaily": 2.7137
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "MEMS"
+}

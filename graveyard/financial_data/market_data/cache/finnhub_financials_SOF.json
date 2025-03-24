@@ -1,0 +1,23 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.00321,
+        "13WeekPriceReturnDaily": -0.1121,
+        "26WeekPriceReturnDaily": -0.0795,
+        "3MonthADReturnStd": 1.4142984,
+        "3MonthAverageTradingVolume": 0.0115,
+        "52WeekHigh": 100.6948,
+        "52WeekHighDate": "2024-05-29",
+        "52WeekLow": 100.155,
+        "52WeekLowDate": "2024-10-30",
+        "5DayPriceReturnDaily": 0.0896,
+        "monthToDatePriceReturnDaily": 0.3144,
+        "priceRelativeToS&P50013Week": -6.0502,
+        "priceRelativeToS&P50026Week": -12.1523,
+        "priceRelativeToS&P5004Week": -2.5871,
+        "priceRelativeToS&P500Ytd": -16.1652,
+        "yearToDatePriceReturnDaily": -0.0497
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "SOF"
+}

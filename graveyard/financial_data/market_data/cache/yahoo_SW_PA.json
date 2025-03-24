@@ -1,0 +1,14 @@
+{
+    "symbol": "SW.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 10630000000.0,
+    "revenue": null,
+    "profit_margin": 0.71,
+    "operating_margin": 3.71,
+    "return_on_assets": 3.57,
+    "return_on_equity": 17.89,
+    "cash": 14.6,
+    "debt": null,
+    "current_ratio": 1.08
+}

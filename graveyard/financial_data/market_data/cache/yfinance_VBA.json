@@ -1,0 +1,28 @@
+{
+    "info": {
+        "quoteType": "ECNQUOTE",
+        "symbol": "VBA",
+        "language": "en-US",
+        "region": "US",
+        "typeDisp": "ECNQUOTE",
+        "quoteSourceName": "Delayed Quote",
+        "triggerable": true,
+        "customPriceAlertConfidence": "HIGH",
+        "corporateActions": [],
+        "marketState": "PRE",
+        "exchange": "NMS",
+        "exchangeTimezoneName": "America/New_York",
+        "exchangeTimezoneShortName": "EDT",
+        "gmtOffSetMilliseconds": -14400000,
+        "market": "us_market",
+        "esgPopulated": false,
+        "fullExchangeName": "NasdaqGS",
+        "sourceInterval": 15,
+        "exchangeDataDelayedBy": 0,
+        "tradeable": false,
+        "cryptoTradeable": false,
+        "hasPrePostMarketData": false,
+        "priceHint": 2,
+        "trailingPegRatio": null
+    },
+    "income_stmt": 

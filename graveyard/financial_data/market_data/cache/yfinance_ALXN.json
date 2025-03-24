@@ -1,0 +1,16 @@
+{
+    "info": {
+        "quoteType": "NONE",
+        "symbol": "ALXN",
+        "language": "en-US",
+        "region": "US",
+        "triggerable": false,
+        "customPriceAlertConfidence": "NONE",
+        "corporateActions": [],
+        "esgPopulated": false,
+        "tradeable": false,
+        "cryptoTradeable": false,
+        "hasPrePostMarketData": false,
+        "trailingPegRatio": null
+    },
+    "income_stmt": 

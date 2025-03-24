@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 1.34199,
+        "13WeekPriceReturnDaily": -13.0089,
+        "26WeekPriceReturnDaily": 7.2459,
+        "3MonthADReturnStd": 27.983187,
+        "3MonthAverageTradingVolume": 1.12548,
+        "52WeekHigh": 110.84,
+        "52WeekHighDate": "2024-12-09",
+        "52WeekLow": 75.96,
+        "52WeekLowDate": "2024-08-05",
+        "52WeekPriceReturnDaily": 9.987,
+        "5DayPriceReturnDaily": 5.2661,
+        "beta": 1.1637741,
+        "monthToDatePriceReturnDaily": -4.6373,
+        "priceRelativeToS&P50013Week": -6.8533,
+        "priceRelativeToS&P50026Week": 4.9534,
+        "priceRelativeToS&P5004Week": -3.5393,
+        "priceRelativeToS&P50052Week": -0.5948,
+        "priceRelativeToS&P500Ytd": -3.9281,
+        "yearToDatePriceReturnDaily": -7.1614
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "IGV"
+}

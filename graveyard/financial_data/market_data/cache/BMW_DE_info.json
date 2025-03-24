@@ -1,0 +1,16 @@
+{
+    "symbol": "BMW.DE",
+    "name": "BAYERISCHE MOTOREN WERKE AG   S",
+    "industry": "Auto Manufacturers",
+    "sector": "Consumer Cyclical",
+    "country": "Germany",
+    "region": "Europe",
+    "revenue": 142380007424,
+    "employees": 159104,
+    "market_cap": 50118602752,
+    "currency": "EUR",
+    "exchange": "GER",
+    "website": "https://www.bmwgroup.com",
+    "data_source": "Yahoo Finance",
+    "last_updated": "2025-03-20 11:14:31"
+}

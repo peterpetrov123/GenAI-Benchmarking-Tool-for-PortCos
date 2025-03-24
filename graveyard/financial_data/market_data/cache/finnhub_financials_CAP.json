@@ -1,0 +1,289 @@
+{
+    "metric": {},
+    "metricType": "all",
+    "series": {
+        "annual": {
+            "cashRatio": [
+                {
+                    "period": "2020-12-31",
+                    "v": 5.999999999999999
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 0.5
+                },
+                {
+                    "period": "2017-12-31",
+                    "v": 0.5
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2020-12-31",
+                    "v": 13
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 0.5
+                },
+                {
+                    "period": "2017-12-31",
+                    "v": 0.5
+                }
+            ],
+            "longtermDebtTotalAsset": [],
+            "longtermDebtTotalCapital": [],
+            "longtermDebtTotalEquity": [],
+            "netDebtToTotalCapital": [
+                {
+                    "period": "2020-12-31",
+                    "v": -0.002
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 0.5
+                },
+                {
+                    "period": "2017-12-31",
+                    "v": 0.5
+                }
+            ],
+            "netDebtToTotalEquity": [
+                {
+                    "period": "2020-12-31",
+                    "v": -0.002
+                }
+            ],
+            "totalDebtToEquity": [
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                }
+            ],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2017-12-31",
+                    "v": 1
+                }
+            ],
+            "totalDebtToTotalCapital": [
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2017-12-31",
+                    "v": 1
+                }
+            ],
+            "totalRatio": [
+                {
+                    "period": "2020-12-31",
+                    "v": 8.0723
+                },
+                {
+                    "period": "2019-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2017-12-31",
+                    "v": 1
+                }
+            ]
+        },
+        "quarterly": {
+            "cashRatio": [
+                {
+                    "period": "2021-03-31",
+                    "v": 0.16666666666666669
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 5.999999999999999
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 0.5
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 0.5
+                },
+                {
+                    "period": "2018-09-30",
+                    "v": 0.5
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2021-03-31",
+                    "v": 1.3333
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 13
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 0.5
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 0.5
+                },
+                {
+                    "period": "2018-09-30",
+                    "v": 0.5
+                }
+            ],
+            "longtermDebtTotalAsset": [],
+            "longtermDebtTotalCapital": [],
+            "longtermDebtTotalEquity": [],
+            "netDebtToTotalCapital": [
+                {
+                    "period": "2021-03-31",
+                    "v": 0.001
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": -0.002
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 0.5
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 0.5
+                },
+                {
+                    "period": "2018-09-30",
+                    "v": 0.5
+                }
+            ],
+            "netDebtToTotalEquity": [
+                {
+                    "period": "2021-03-31",
+                    "v": 0.001
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": -0.002
+                }
+            ],
+            "totalDebtToEquity": [
+                {
+                    "period": "2021-03-31",
+                    "v": 0.0013
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                }
+            ],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2021-03-31",
+                    "v": 0.0012
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 1
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2018-09-30",
+                    "v": 1
+                }
+            ],
+            "totalDebtToTotalCapital": [
+                {
+                    "period": "2021-03-31",
+                    "v": 0.0013
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 1
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2018-09-30",
+                    "v": 1
+                }
+            ],
+            "totalRatio": [
+                {
+                    "period": "2021-03-31",
+                    "v": 9.5789
+                },
+                {
+                    "period": "2020-12-31",
+                    "v": 8.0723
+                },
+                {
+                    "period": "2020-06-30",
+                    "v": 1
+                },
+                {
+                    "period": "2018-12-31",
+                    "v": 1
+                },
+                {
+                    "period": "2018-09-30",
+                    "v": 1
+                }
+            ]
+        }
+    },
+    "symbol": "CAP"
+}

@@ -1,0 +1,14 @@
+{
+    "symbol": "CAP.PA",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 24750000000.0,
+    "revenue": null,
+    "profit_margin": 7.56,
+    "operating_margin": 11.96,
+    "return_on_assets": 6.28,
+    "return_on_equity": 15.06,
+    "cash": 16.41,
+    "debt": null,
+    "current_ratio": 1.21
+}

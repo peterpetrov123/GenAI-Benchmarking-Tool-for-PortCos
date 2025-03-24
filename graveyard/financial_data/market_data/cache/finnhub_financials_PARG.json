@@ -1,0 +1,17 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.00396,
+        "3MonthAverageTradingVolume": 0.00396,
+        "52WeekHigh": 2.75,
+        "52WeekHighDate": "2024-03-20",
+        "52WeekLow": 2,
+        "52WeekLowDate": "2024-03-20",
+        "beta": 2.6658742,
+        "monthToDatePriceReturnDaily": 37.5,
+        "priceRelativeToS&P500Ytd": 37.1695,
+        "yearToDatePriceReturnDaily": 37.5
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "PARG"
+}

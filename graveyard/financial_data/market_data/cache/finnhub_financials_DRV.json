@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.18385,
+        "13WeekPriceReturnDaily": 2.4474,
+        "26WeekPriceReturnDaily": 13.8063,
+        "3MonthADReturnStd": 56.13726,
+        "3MonthAverageTradingVolume": 0.17974,
+        "52WeekHigh": 47.6573,
+        "52WeekHighDate": "2024-04-18",
+        "52WeekLow": 22.015,
+        "52WeekLowDate": "2024-11-27",
+        "52WeekPriceReturnDaily": -28.369,
+        "5DayPriceReturnDaily": -9.3401,
+        "beta": -3.0603075,
+        "monthToDatePriceReturnDaily": 8.0678,
+        "priceRelativeToS&P50013Week": 8.603,
+        "priceRelativeToS&P50026Week": 11.5138,
+        "priceRelativeToS&P5004Week": 11.165,
+        "priceRelativeToS&P50052Week": -38.9508,
+        "priceRelativeToS&P500Ytd": -5.8607,
+        "yearToDatePriceReturnDaily": -9.094
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "DRV"
+}

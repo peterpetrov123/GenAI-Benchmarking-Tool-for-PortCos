@@ -1,0 +1,92 @@
+symbol,name,sector,industry,country,revenue,net_income,gross_profit,operating_income,ebitda,total_assets,total_liabilities,total_equity,current_assets,current_liabilities,cash,pe_ratio,market_cap,employees,profit_margin,operating_margin,data_source,last_updated,current_ratio
+UCG.MI,UniCredit,Financial Services,Technology,Germany,,,,,,,,,,,,,85590000000.0,,40.51,74.93,"Yahoo Finance, MarketScreener",2025-03-20 23:12:00,
+FME.DE,Fresenius Medical Care,Healthcare,Healthcare,Germany,,,,,,,,,,,,,13290000000.0,,2.78,8.03,"Yahoo Finance, MarketScreener",2025-03-20 23:12:00,1.4
+SHL.DE,Siemens Healthineers,Healthcare,Healthcare,Germany,,,,,,,,,,,,,59100000000.0,,8.76,12.71,"Yahoo Finance, MarketScreener",2025-03-20 23:11:59,1.28
+BATS.L,British American Tobacco,Consumer Goods,Technology,United Kingdom,,,,,,,,,,,,,69660000000.0,,11.86,40.91,"Yahoo Finance, MarketScreener",2025-03-20 23:12:02,0.76
+LLOY.L,Lloyds Banking Group,Financial Services,Financial Services,United Kingdom,,,,,,,,,,,,,42630000000.0,,25.26,25.21,"Yahoo Finance, MarketScreener",2025-03-20 23:12:02,
+ACA.PA,Crédit Agricole,Financial Services,Technology,France,,,,,,,,,,,,,51370000000.0,,27.98,40.2,"Yahoo Finance, MarketScreener",2025-03-20 23:12:01,
+ITX.MC,Inditex,Consumer Cyclical,Technology,Spain,,,,,,,,,,,,,144420000000.0,,15.18,16.41,"Yahoo Finance, MarketScreener",2025-03-20 23:12:02,1.61
+DBK.DE,Deutsche Bank,Financial Services,Financial Services,United Kingdom,,,,,,,,,,,,,44160000000.0,,14.63,51.12,"Yahoo Finance, MarketScreener",2025-03-20 23:12:02,
+SHEL.L,Shell,Energy,,United Kingdom,,,,,,,,,,,,,164210000000.0,,5.66,9.93,"Yahoo Finance, MarketScreener",2025-03-20 23:12:31,1.35
+ZURN.SW,Zurich Insurance,Financial Services,Financial Services,Switzerland,,,,,,,,,,,,,86770000000.0,,8.46,11.63,"Yahoo Finance, MarketScreener",2025-03-20 23:12:29,5.86
+DGE.L,Diageo,Consumer Goods,,United Kingdom,,,,,,,,,,,,,45230000000.0,,17.79,29.1,"Yahoo Finance, MarketScreener",2025-03-20 23:12:36,1.6
+ULVR.L,Unilever,Consumer Goods,,United Kingdom,,,,,,,,,,,,,111660000000.0,,9.45,17.28,"Yahoo Finance, MarketScreener",2025-03-20 23:12:34,0.76
+BP.L,BP,Energy,,United Kingdom,,,,,,,,,,,,,68790000000.0,,0.2,-5.09,"Yahoo Finance, MarketScreener",2025-03-20 23:12:34,1.25
+HSBA.L,HSBC Holdings,Financial Services,,United Kingdom,,,,,,,,,,,,,159050000000.0,,39.15,29.03,"Yahoo Finance, MarketScreener",2025-03-20 23:12:36,
+RIO.L,Rio Tinto,Basic Materials,,United Kingdom,,,,,,,,,,,,,79740000000.0,,21.53,23.35,"Yahoo Finance, MarketScreener",2025-03-20 23:12:37,1.63
+AZN.L,AstraZeneca,Healthcare,,United Kingdom,,,,,,,,,,,,,182670000000.0,,13.01,22.72,"Yahoo Finance, MarketScreener",2025-03-20 23:12:35,0.93
+GSK.L,GSK,Healthcare,,United Kingdom,,,,,,,,,,,,,61250000000.0,,8.21,12.28,"Yahoo Finance, MarketScreener",2025-03-20 23:13:01,0.78
+PRU.L,Prudential,Financial Services,,United Kingdom,,,,,,,,,,,,,20250000000.0,,18.93,38.12,"Yahoo Finance, MarketScreener",2025-03-20 23:13:06,1.59
+VOD.L,Vodafone Group,Telecommunications,,United Kingdom,,,,,,,,,,,,,18690000000.0,,6.89,13.25,"Yahoo Finance, MarketScreener",2025-03-20 23:13:03,1.37
+NWG.L,NatWest Group,Financial Services,,United Kingdom,,,,,,,,,,,,,37590000000.0,,33.48,43.76,"Yahoo Finance, MarketScreener",2025-03-20 23:13:07,
+BARC.L,Barclays,Financial Services,,United Kingdom,,,,,,,,,,,,,43700000000.0,,26.01,25.59,"Yahoo Finance, MarketScreener",2025-03-20 23:13:08,
+SAP.DE,SAP,Technology,,Germany,,,,,,,,,,,,,289720000000.0,,9.14,25.79,"Yahoo Finance, MarketScreener",2025-03-20 23:13:08,1.12
+REL.L,RELX,Media,,United Kingdom,,,,,,,,,,,,,70140000000.0,,20.5,29.46,"Yahoo Finance, MarketScreener",2025-03-20 23:13:10,0.52
+SIE.DE,Siemens,Industrials,,Germany,,,,,,,,,,,,,185390000000.0,,12.56,11.25,"Yahoo Finance, MarketScreener",2025-03-20 23:13:11,1.54
+DTE.DE,Deutsche Telekom,Telecommunications,,Germany,,,,,,,,,,,,,164410000000.0,,9.47,17.55,"Yahoo Finance, MarketScreener",2025-03-20 23:13:35,1.06
+ALV.DE,Allianz,Financial Services,,Germany,,,,,,,,,,,,,137190000000.0,,9.34,12.56,"Yahoo Finance, MarketScreener",2025-03-20 23:13:35,3.78
+BAYN.DE,Bayer,Healthcare,,Germany,,,,,,,,,,,,,23960000000.0,,-5.48,48.2,"Yahoo Finance, MarketScreener",2025-03-20 23:13:39,1.19
+BMW.DE,BMW,Consumer Cyclical,,Germany,,,,,,,,,,,,,51230000000.0,,5.12,4.79,"Yahoo Finance, MarketScreener",2025-03-20 23:13:39,1.1
+MUV2.DE,Munich Re,Financial Services,,Germany,,,,,,,,,,,,,77550000000.0,,9.26,6.9,"Yahoo Finance, MarketScreener",2025-03-20 23:13:40,0.26
+VOW3.DE,Volkswagen,Consumer Cyclical,,Germany,,,,,,,,,,,,,54340000000.0,,3.5,8.79,"Yahoo Finance, MarketScreener",2025-03-20 23:14:09,1.13
+HEI.DE,HeidelbergCement,Basic Materials,,Germany,,,,,,,,,,,,,32540000000.0,,8.4,16.55,"Yahoo Finance, MarketScreener",2025-03-20 23:14:10,1.27
+ADS.DE,Adidas,Consumer Cyclical,,Germany,,,,,,,,,,,,,40410000000.0,,3.23,0.72,"Yahoo Finance, MarketScreener",2025-03-20 23:14:09,1.24
+RWE.DE,RWE,Utilities,,United Kingdom,,,,,,,,,,,,,24580000000.0,,11.93,33.36,"Yahoo Finance, MarketScreener",2025-03-20 23:14:13,1.54
+OR.PA,L'Oréal,Consumer Defensive,,France,,,,,,,,,,,,,193340000000.0,,14.74,17.09,"Yahoo Finance, MarketScreener",2025-03-20 23:14:16,1.13
+DB1.DE,Deutsche Börse,Financial Services,,Germany,,,,,,,,,,,,,49950000000.0,,27.75,38.75,"Yahoo Finance, MarketScreener",2025-03-20 23:14:40,
+MC.PA,LVMH,Consumer Cyclical,,France,,,,,,,,,,,,,304720000000.0,,14.82,20.74,"Yahoo Finance, MarketScreener",2025-03-20 23:14:41,1.41
+AIR.PA,Airbus,Industrials,,France,,,,,,,,,,,,,134979999999.99998,,6.11,9.96,"Yahoo Finance, MarketScreener",2025-03-20 23:14:44,1.14
+BAS.DE,BASF,Basic Materials,,Germany,,,,,,,,,,,,,46570000000.0,,1.99,2.87,"Yahoo Finance, MarketScreener",2025-03-20 23:14:41,1.83
+SAN.PA,Sanofi,Healthcare,,France,,,,,,,,,,,,,135360000000.00002,,12.56,13.99,"Yahoo Finance, MarketScreener",2025-03-20 23:14:42,1.46
+BNP.PA,BNP Paribas,Financial Services,,France,,,,,,,,,,,,,91340000000.0,,25.61,29.56,"Yahoo Finance, MarketScreener",2025-03-20 23:14:45,
+CS.PA,AXA,Financial Services,,France,,,,,,,,,,,,,87510000000.0,,9.64,15.82,"Yahoo Finance, MarketScreener",2025-03-20 23:14:47,52.64
+HEN3.DE,Henkel,Consumer Defensive,,Germany,,,,,,,,,,,,,29730000000.0,,9.3,13.37,"Yahoo Finance, MarketScreener",2025-03-20 23:14:45,1.21
+KER.PA,Kering,Consumer Cyclical,,France,,,,,,,,,,,,,26290000000.0,,6.59,11.89,"Yahoo Finance, MarketScreener",2025-03-20 23:15:26,1.11
+RI.PA,Pernod Ricard,Consumer Defensive,,France,,,,,,,,,,,,,24420000000.0,,9.81,31.87,"Yahoo Finance, MarketScreener",2025-03-20 23:15:29,1.98
+SGO.PA,Saint-Gobain,Industrials,,France,,,,,,,,,,,,,50980000000.0,,6.11,10.73,"Yahoo Finance, MarketScreener",2025-03-20 23:15:30,1.35
+NOVN.SW,Novartis,Healthcare,,Switzerland,,,,,,,,,,,,,194030000000.0,,23.09,29.94,"Yahoo Finance, MarketScreener",2025-03-20 23:15:32,1.03
+BN.PA,Danone,Consumer Defensive,,France,,,,,,,,,,,,,46030000000.0,,7.38,10.65,"Yahoo Finance, MarketScreener",2025-03-20 23:15:30,0.93
+GLE.PA,Société Générale,Financial Services,,France,,,,,,,,,,,,,33790000000.0,,16.63,17.94,"Yahoo Finance, MarketScreener",2025-03-20 23:15:30,
+RMS.PA,Hermès International,Consumer Cyclical,,France,,,,,,,,,,,,,260829999999.99997,,30.34,38.96,"Yahoo Finance, MarketScreener",2025-03-20 23:15:31,4.26
+ROG.SW,Roche,Healthcare,,Switzerland,,,,,,,,,,,,,245190000000.0,,13.27,27.72,"Yahoo Finance, MarketScreener",2025-03-20 23:15:32,1.48
+NESN.SW,Nestlé,Consumer Defensive,,Switzerland,,,,,,,,,,,,,230930000000.0,,11.87,16.74,"Yahoo Finance, MarketScreener",2025-03-20 23:16:10,0.82
+UBSG.SW,UBS Group,Financial Services,,Switzerland,,,,,,,,,,,,,92260000000.0,,10.59,49.64,"Yahoo Finance, MarketScreener",2025-03-20 23:16:14,
+AD.AS,Ahold Delhaize,Consumer Defensive,,Netherlands,,,,,,,,,,,,,31020000000.0,,1.97,4.07,"Yahoo Finance, MarketScreener",2025-03-20 23:16:18,0.83
+ASML.AS,ASML Holding,Technology,,Netherlands,,,,,,,,,,,,,264660000000.00003,,26.79,36.22,"Yahoo Finance, MarketScreener",2025-03-20 23:16:17,1.53
+CFR.SW,Richemont,Consumer Cyclical,,United Kingdom,,,,,,,,,,,,,96580000000.0,,6.4,21.91,"Yahoo Finance, MarketScreener",2025-03-20 23:16:17,2.52
+PHIA.AS,Philips,Healthcare,,Netherlands,,,,,,,,,,,,,22690000000.0,,-3.89,12.07,"Yahoo Finance, MarketScreener",2025-03-20 23:16:19,1.23
+SAN.MC,Banco Santander,Financial Services,,Spain,,,,,,,,,,,,,98780000000.0,,24.75,42.46,"Yahoo Finance, MarketScreener",2025-03-20 23:16:20,
+INGA.AS,ING Groep,Financial Services,,Germany,,,,,,,,,,,,,57310000000.0,,26.6,18.1,"Yahoo Finance, MarketScreener",2025-03-20 23:16:18,
+BBVA.MC,BBVA,Financial Services,,Spain,,,,,,,,,,,,,77400000000.0,,31.85,50.56,"Yahoo Finance, MarketScreener",2025-03-20 23:16:59,
+UNA.AS,Unilever,Consumer Defensive,,United Kingdom,,,,,,,,,,,,,132710000000.00002,,9.45,17.28,"Yahoo Finance, MarketScreener",2025-03-20 23:16:58,0.76
+IBE.MC,Iberdrola,Utilities,,United Kingdom,,,,,,,,,,,,,88080000000.0,,12.54,5.66,"Yahoo Finance, MarketScreener",2025-03-20 23:17:03,0.69
+ENI.MI,Eni,Energy,,Italy,,,,,,,,,,,,,43800000000.0,,2.9,5.01,"Yahoo Finance, MarketScreener",2025-03-20 23:17:06,1.16
+TEF.MC,Telefónica,Telecommunications,,Spain,,,,,,,,,,,,,24450000000.0,,-0.12,13.2,"Yahoo Finance, MarketScreener",2025-03-20 23:17:05,0.87
+ENEL.MI,Enel,Utilities,,Italy,,,,,,,,,,,,,72890000000.0,,8.89,12.03,"Yahoo Finance, MarketScreener",2025-03-20 23:17:05,0.83
+ERIC-B.ST,Ericsson,Technology,,Sweden,,,,,,,,,,,,,276620000000.0,,0.01,-6.12,"Yahoo Finance, MarketScreener",2025-03-20 23:17:08,1.17
+ISP.MI,Intesa Sanpaolo,Financial Services,,Italy,,,,,,,,,,,,,87860000000.0,,33.55,36.36,"Yahoo Finance, MarketScreener",2025-03-20 23:17:07,
+VOLV-B.ST,Volvo,Industrials,,Sweden,,,,,,,,,,,,,646570000000.0,,9.56,10.19,"Yahoo Finance, MarketScreener",2025-03-20 23:17:43,1.27
+MAERSK-B.CO,Maersk,Industrials,,Denmark,,,,,,,,,,,,,182070000000.0,,11.01,13.98,"Yahoo Finance, MarketScreener",2025-03-20 23:17:47,2.45
+SAF.PA,Safran,Industrials,,France,,,,,,,,,,,,,107180000000.0,,-2.41,14.79,"Yahoo Finance, MarketScreener",2025-03-20 23:17:51,0.84
+CAP.PA,Capgemini,Technology,,United Kingdom,,,,,,,,,,,,,24750000000.0,,7.56,11.96,"Yahoo Finance, MarketScreener",2025-03-20 23:17:49,1.21
+SU.PA,Schneider Electric,Industrials,,France,,,,,,,,,,,,,135470000000.0,,11.19,17.16,"Yahoo Finance, MarketScreener",2025-03-20 23:17:54,1.23
+LR.PA,Legrand,Industrials,,France,,,,,,,,,,,,,28130000000.0,,13.49,18.53,"Yahoo Finance, MarketScreener",2025-03-20 23:17:54,1.93
+FRE.DE,Fresenius,Healthcare,,Germany,,,,,,,,,,,,,22530000000.0,,4.13,8.33,"Yahoo Finance, MarketScreener",2025-03-20 23:17:52,
+GIVN.SW,Givaudan,Basic Materials,,Switzerland,,,,,,,,,,,,,36560000000.0,,14.71,18.23,"Yahoo Finance, MarketScreener",2025-03-20 23:17:52,1.49
+ABI.BR,Anheuser-Busch InBev,Consumer Defensive,,Belgium,,,,,,,,,,,,,113410000000.0,,9.8,24.77,"Yahoo Finance, MarketScreener",2025-03-20 23:18:31,0.7
+HEIA.AS,Heineken,Consumer Defensive,,Netherlands,,,,,,,,,,,,,44040000000.0,,3.28,14.38,"Yahoo Finance, MarketScreener",2025-03-20 23:18:34,0.76
+PRX.AS,Prosus,Technology,,Netherlands,,,,,,,,,,,,,105050000000.0,,132.98,4.59,"Yahoo Finance, MarketScreener",2025-03-20 23:18:36,4.11
+EVO.ST,Evolution Gaming,Consumer Cyclical,,Sweden,,,,,,,,,,,,,163760000000.0,,56.19,61.11,"Yahoo Finance, MarketScreener",2025-03-20 23:18:39,1.82
+KBC.BR,KBC Group,Financial Services,,Belgium,,,,,,,,,,,,,34790000000.0,,31.22,37.73,"Yahoo Finance, MarketScreener",2025-03-20 23:18:37,
+AGN.AS,Aegon,Financial Services,,United Kingdom,,,,,,,,,,,,,10010000000.0,,-0.24,-0.74,"Yahoo Finance, MarketScreener",2025-03-20 23:18:39,24.05
+SW.PA,Sodexo,Consumer Cyclical,,France,,,,,,,,,,,,,10630000000.0,,0.71,3.71,"Yahoo Finance, MarketScreener",2025-03-20 23:18:40,1.08
+CA.PA,Carrefour,Consumer Defensive,,France,,,,,,,,,,,,,8529999999.999999,,0.83,2.52,"Yahoo Finance, MarketScreener",2025-03-20 23:18:40,0.88
+UHR.SW,Swatch Group,Consumer Cyclical,,Switzerland,,,,,,,,,,,,,8660000000.0,,2.87,3.04,"Yahoo Finance, MarketScreener",2025-03-20 23:19:17,9.79
+GFC.PA,Gecina,Real Estate,,France,,,,,,,,,,,,,6380000000.0,,36.69,73.65,"Yahoo Finance, MarketScreener",2025-03-20 23:19:19,0.72
+CSGN.SW,Credit Suisse,Financial Services,Technology,Switzerland,,,,,,,,,,,,,,,,,"Yahoo Finance, MarketScreener",2025-03-20 23:19:20,
+FP.PA,TotalEnergies,Energy,,France,,,,,,,,,,,,,,,,,"Yahoo Finance, MarketScreener",2025-03-20 23:19:25,
+DOM.DE,Dominion Energy,Utilities,Energy,Germany,,,,,,,,,,,,,,,,,"Yahoo Finance, MarketScreener",2025-03-20 23:19:24,
+WDI.DE,Wirecard,Technology,,Germany,,,,,,,,,,,,,,,,,"Yahoo Finance, MarketScreener",2025-03-20 23:19:28,
+STM.PA,STMicroelectronics,Technology,,France,,,,,,,,,,,,,,,,,"Yahoo Finance, MarketScreener",2025-03-20 23:19:28,
+NOVO-B.CO,Novo Nordisk,Healthcare,,Denmark,,,,,,,,,,,,,,,34.78,49.69,"Yahoo Finance, MarketScreener",2025-03-20 23:19:26,0.74
+CLA.DE,ClariantAG,Basic Materials,,Germany,,,,,,,,,,,,,,,,,"Yahoo Finance, MarketScreener",2025-03-20 23:20:02,

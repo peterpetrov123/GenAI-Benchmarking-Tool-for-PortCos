@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "1980-03-17",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NTRS.png",
+    "marketCapitalization": 19276.842963,
+    "name": "Northern Trust Corp",
+    "phone": "13126306000",
+    "shareOutstanding": 194.97,
+    "ticker": "NTRS",
+    "weburl": "https://www.northerntrust.com/"
+}

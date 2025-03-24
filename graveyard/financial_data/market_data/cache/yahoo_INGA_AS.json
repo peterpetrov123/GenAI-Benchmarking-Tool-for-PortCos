@@ -1,0 +1,13 @@
+{
+    "symbol": "INGA.AS",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 57310000000.0,
+    "revenue": null,
+    "profit_margin": 26.6,
+    "operating_margin": 18.1,
+    "return_on_assets": 0.56,
+    "return_on_equity": 10.23,
+    "cash": 45.84,
+    "debt": null
+}

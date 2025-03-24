@@ -1,0 +1,13 @@
+{
+    "symbol": "GFC.PA",
+    "data_source": "Yahoo Finance",
+    "market_cap": 6380000000.0,
+    "revenue": null,
+    "profit_margin": 36.69,
+    "operating_margin": 73.65,
+    "return_on_assets": 1.93,
+    "return_on_equity": 2.94,
+    "cash": 2.42,
+    "debt": null,
+    "current_ratio": 0.72
+}

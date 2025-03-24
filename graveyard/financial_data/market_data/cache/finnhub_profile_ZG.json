@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Real Estate",
+    "ipo": "2011-07-20",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ZG.png",
+    "marketCapitalization": 17116.333899,
+    "name": "Zillow Group Inc",
+    "phone": "12064707000",
+    "shareOutstanding": 242.55,
+    "ticker": "Z",
+    "weburl": "https://www.zillowgroup.com/"
+}

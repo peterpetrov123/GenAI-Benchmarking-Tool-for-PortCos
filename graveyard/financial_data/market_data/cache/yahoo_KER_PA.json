@@ -1,0 +1,14 @@
+{
+    "symbol": "KER.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 26290000000.0,
+    "revenue": null,
+    "profit_margin": 6.59,
+    "operating_margin": 11.89,
+    "return_on_assets": 3.77,
+    "return_on_equity": 7.73,
+    "cash": 28.69,
+    "debt": null,
+    "current_ratio": 1.11
+}

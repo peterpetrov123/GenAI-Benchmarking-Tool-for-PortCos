@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.18842,
+        "13WeekPriceReturnDaily": -1.2709,
+        "26WeekPriceReturnDaily": 4.0578,
+        "3MonthADReturnStd": 12.234292,
+        "3MonthAverageTradingVolume": 0.21661,
+        "52WeekHigh": 82.325,
+        "52WeekHighDate": "2025-03-03",
+        "52WeekLow": 68.49,
+        "52WeekLowDate": "2024-04-17",
+        "52WeekPriceReturnDaily": 12.2062,
+        "5DayPriceReturnDaily": 2.7223,
+        "beta": 0.8290507,
+        "monthToDatePriceReturnDaily": -3.2597,
+        "priceRelativeToS&P50013Week": 4.8847,
+        "priceRelativeToS&P50026Week": 1.7653,
+        "priceRelativeToS&P5004Week": 3.5904,
+        "priceRelativeToS&P50052Week": 1.6244,
+        "priceRelativeToS&P500Ytd": 5.0973,
+        "yearToDatePriceReturnDaily": 1.864
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "DLN"
+}

@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Life Sciences Tools & Services",
+    "ipo": "2000-08-04",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BRKR.png",
+    "marketCapitalization": 6746.329081,
+    "name": "Bruker Corp",
+    "phone": "19786633660",
+    "shareOutstanding": 151.71,
+    "ticker": "BRKR",
+    "weburl": "https://www.bruker.com/"
+}

@@ -1,0 +1,14 @@
+{
+    "symbol": "RI.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 24420000000.0,
+    "revenue": null,
+    "profit_margin": 9.81,
+    "operating_margin": 31.87,
+    "return_on_assets": 4.66,
+    "return_on_equity": 6.48,
+    "cash": 7.61,
+    "debt": null,
+    "current_ratio": 1.98
+}

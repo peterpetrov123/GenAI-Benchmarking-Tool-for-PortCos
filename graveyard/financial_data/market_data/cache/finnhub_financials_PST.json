@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.0504,
+        "13WeekPriceReturnDaily": -1.9517,
+        "26WeekPriceReturnDaily": 8.1519,
+        "3MonthADReturnStd": 12.5322695,
+        "3MonthAverageTradingVolume": 0.01723,
+        "52WeekHigh": 25.19,
+        "52WeekHighDate": "2024-04-25",
+        "52WeekLow": 21.31,
+        "52WeekLowDate": "2024-09-11",
+        "52WeekPriceReturnDaily": -2.8709,
+        "5DayPriceReturnDaily": 0.0648,
+        "beta": -0.507069,
+        "monthToDatePriceReturnDaily": 0.4551,
+        "priceRelativeToS&P50013Week": 4.2039,
+        "priceRelativeToS&P50026Week": 5.8594,
+        "priceRelativeToS&P5004Week": 3.3274,
+        "priceRelativeToS&P50052Week": -13.4527,
+        "priceRelativeToS&P500Ytd": -0.0745,
+        "yearToDatePriceReturnDaily": -3.3078
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "PST"
+}

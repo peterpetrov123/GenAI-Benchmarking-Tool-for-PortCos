@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.30049,
+        "13WeekPriceReturnDaily": 20.8615,
+        "26WeekPriceReturnDaily": 20.5901,
+        "3MonthADReturnStd": 31.260836,
+        "3MonthAverageTradingVolume": 0.2877,
+        "52WeekHigh": 38,
+        "52WeekHighDate": "2025-03-18",
+        "52WeekLow": 23.24,
+        "52WeekLowDate": "2024-03-20",
+        "52WeekPriceReturnDaily": 57.5199,
+        "5DayPriceReturnDaily": 4.7938,
+        "beta": 0.5583345,
+        "monthToDatePriceReturnDaily": 14.1469,
+        "priceRelativeToS&P50013Week": 27.0171,
+        "priceRelativeToS&P50026Week": 18.2976,
+        "priceRelativeToS&P5004Week": 13.6013,
+        "priceRelativeToS&P50052Week": 46.9381,
+        "priceRelativeToS&P500Ytd": 36.9935,
+        "yearToDatePriceReturnDaily": 33.7602
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "RING"
+}

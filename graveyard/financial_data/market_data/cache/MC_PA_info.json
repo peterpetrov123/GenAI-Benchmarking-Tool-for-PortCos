@@ -1,0 +1,16 @@
+{
+    "symbol": "MC.PA",
+    "name": "LVMH",
+    "industry": "Luxury Goods",
+    "sector": "Consumer Cyclical",
+    "country": "France",
+    "region": "Europe",
+    "revenue": 84682997760,
+    "employees": 200518,
+    "market_cap": 303372500992,
+    "currency": "EUR",
+    "exchange": "PAR",
+    "website": "https://www.lvmh.com",
+    "data_source": "Yahoo Finance",
+    "last_updated": "2025-03-20 11:14:31"
+}

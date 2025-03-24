@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.20989,
+        "13WeekPriceReturnDaily": -7.3702,
+        "26WeekPriceReturnDaily": 2.0244,
+        "3MonthADReturnStd": 16.76327,
+        "3MonthAverageTradingVolume": 0.24424,
+        "52WeekHigh": 112.8955,
+        "52WeekHighDate": "2024-12-03",
+        "52WeekLow": 95.02,
+        "52WeekLowDate": "2024-08-05",
+        "52WeekPriceReturnDaily": -1.4687,
+        "5DayPriceReturnDaily": 4.5623,
+        "beta": 1.0218427,
+        "monthToDatePriceReturnDaily": -4.072,
+        "priceRelativeToS&P50013Week": -1.2146,
+        "priceRelativeToS&P50026Week": -0.2681,
+        "priceRelativeToS&P5004Week": 0.3466,
+        "priceRelativeToS&P50052Week": -12.0505,
+        "priceRelativeToS&P500Ytd": -0.1801,
+        "yearToDatePriceReturnDaily": -3.4134
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "SPGP"
+}

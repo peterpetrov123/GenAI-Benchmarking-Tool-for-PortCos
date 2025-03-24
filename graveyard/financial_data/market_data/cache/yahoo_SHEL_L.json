@@ -1,0 +1,14 @@
+{
+    "symbol": "SHEL.L",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 164210000000.0,
+    "revenue": null,
+    "profit_margin": 5.66,
+    "operating_margin": 9.93,
+    "return_on_assets": 5.38,
+    "return_on_equity": 8.97,
+    "cash": 6.4,
+    "debt": null,
+    "current_ratio": 1.35
+}

@@ -22,6 +22,8 @@ PDF_PATH = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Ben
 BASE_DIR = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos"
 OUTPUT_DIR = os.path.join(BASE_DIR, "financial_data", "astrazeneca")
 
+FINANCIAL_DATA_DIR = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos\financial_data"
+
 def ensure_directory_exists(directory):
     """Make sure the output directory exists"""
     if not os.path.exists(directory):
@@ -434,17 +436,26 @@ def process_uploaded_financials(pdf_path):
     """
     Wrapper function to process a financial report PDF.
     It extracts financial data and saves it in the appropriate folder.
+    Returns the path to the metadata file.
     """
-    ensure_directory_exists(OUTPUT_DIR)
+    # Extract company name from PDF filename
+    pdf_filename = os.path.basename(pdf_path)
+    company_name = os.path.splitext(pdf_filename)[0]
+    
+    # Create output directory for this company
+    company_output_dir = os.path.join(FINANCIAL_DATA_DIR, company_name.lower().replace(" ", "_"))
+    ensure_directory_exists(company_output_dir)
 
     print("\n🚀 Starting Azure Document Intelligence processing...")
     
     # Analyze the uploaded PDF
     analysis_result = analyze_document(pdf_path)
     
+    metadata_file = None
+    
     if analysis_result:
         # Save the raw analysis response
-        save_raw_analysis(analysis_result, OUTPUT_DIR)
+        save_raw_analysis(analysis_result, company_output_dir)
         
         # Extract tables from the analysis result
         tables = extract_tables_from_analysis(analysis_result)
@@ -457,21 +468,36 @@ def process_uploaded_financials(pdf_path):
             processed_statements = process_financial_statements(financial_statements)
             
             # Save as CSV
-            csv_files = save_financials_to_csv(processed_statements, OUTPUT_DIR)
+            csv_files = save_financials_to_csv(
+                processed_statements, 
+                company_output_dir, 
+                prefix=f"{company_name.lower().replace(' ', '_')}_"
+            )
             
             # Save as JSON
-            json_files = save_financials_to_json(processed_statements, OUTPUT_DIR)
+            json_files = save_financials_to_json(
+                processed_statements, 
+                company_output_dir, 
+                prefix=f"{company_name.lower().replace(' ', '_')}_"
+            )
             
             # Create metadata JSON
-            metadata_file = create_metadata_json(csv_files, json_files, OUTPUT_DIR)
+            metadata_file = create_metadata_json(
+                csv_files, 
+                json_files, 
+                company_output_dir, 
+                prefix=f"{company_name.lower().replace(' ', '_')}_"
+            )
             
-            print(f"\n✅ Financial data extracted and saved in: {OUTPUT_DIR}")
+            print(f"\n✅ Financial data extracted and saved in: {company_output_dir}")
             print(f"📄 Metadata file created: {metadata_file}")
         else:
             print("❌ No tables detected in the document analysis.")
     else:
         print("❌ Azure Document Intelligence failed to process the document.")
-
+    
+    # Return the path to the metadata file
+    return metadata_file
 if __name__ == "__main__":
     # Ensure the output directory exists
     ensure_directory_exists(OUTPUT_DIR)

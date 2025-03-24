@@ -1,0 +1,14 @@
+{
+    "symbol": "BMW.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 51230000000.0,
+    "revenue": null,
+    "profit_margin": 5.12,
+    "operating_margin": 4.79,
+    "return_on_assets": 2.73,
+    "return_on_equity": 8.17,
+    "cash": 26.01,
+    "debt": null,
+    "current_ratio": 1.1
+}

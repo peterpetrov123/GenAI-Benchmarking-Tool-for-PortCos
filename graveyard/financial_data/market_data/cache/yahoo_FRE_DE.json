@@ -1,0 +1,13 @@
+{
+    "symbol": "FRE.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 22530000000.0,
+    "revenue": null,
+    "profit_margin": 4.13,
+    "operating_margin": 8.33,
+    "return_on_assets": null,
+    "return_on_equity": 4.44,
+    "cash": 2.65,
+    "debt": null
+}

@@ -1,0 +1,68 @@
+symbol,name,sector,industry,market_cap,pe_ratio,forward_pe,price_to_book,dividend_yield,eps_ttm,eps_forward,profit_margin,roa,roe,revenue_ttm,revenue_per_share,price_to_sales,ebitda,debt_to_equity,current_ratio,beta,peg_ratio,data_retrieval_date,currency,country,exchange,data_source,ticker_used
+BATS,British American Tobacco,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,BATS
+IHG,InterContinental,Consumer Cyclical,Lodging,17581234176.0,29.267532,21.061682,-7.678888,149.0,3.85,5.35,12.755999000000001,13.61,,4922999808.0,5.10018,3.5712442,1072000000.0,,0.969,0.926,,2025-03-21,USD,United Kingdom,Unknown,investpy,IHG
+BP,BP,Energy,Oil & Gas Integrated,90010148864.0,248.21428,9.217506,9.301392,553.0,0.14,3.77,0.20299999000000002,2.321,1.5010000000000001,187386003456.0,17.154,0.48034617,26961000448.0,91.354,1.25,0.464,,2025-03-21,USD,United Kingdom,Unknown,investpy,BP
+NXT,Next,Technology,Solar,6634334208.0,11.1037035,13.304733,4.593932,,4.05,3.38,20.118,17.701,53.539,2771369984.0,19.544,2.3938825,728697984.0,10.199,2.205,2.246,,2025-03-21,USD,United Kingdom,Unknown,investpy,NXT
+EZJ,EasyJet,N/A,N/A,,15.136739,,,202.99999999999997,,,,,,,,,,,,,,2025-03-21,USD,United Kingdom,Unknown,investpy,EZJ
+MKS,Marks & Spencer,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,MKS
+GNS,Genus,Consumer Defensive,Education & Training Services,22886400.0,0.2352941,-2.0,0.071958624,,1.36,-0.16,-25.606,-16.659,-13.786000000000001,16147349.0,1.723,1.4173472,-18407570.0,10.195,2.52,10.623,,2025-03-21,USD,United Kingdom,Unknown,investpy,GNS
+OMU,Old Mutual,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,OMU
+RBS,RBS PLC,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,RBS
+PRU,Prudential,Financial Services,Insurance - Life,39216119808.0,14.770666,7.5411844,1.4092534,487.0,7.5,14.69,3.873,0.27499999999999997,9.486,70404997120.0,196.937,0.5570076,3592999936.0,127.448,1.146,1.259,,2025-03-21,USD,United Kingdom,Unknown,investpy,PRU
+PFD,Premier Foods,Financial Services,Asset Management,145234384.0,5.159817,,0.9072662,648.0,2.19,,170.25101,3.712,18.709,16532385.0,1.286,8.784842,,56.908,1.925,0.849,,2025-03-21,USD,United Kingdom,Unknown,investpy,PFD
+VOD,Vodafone Group PLC,Communication Services,Telecom Services,24294619136.0,10.210526,11.411764,4.3458776,743.0,0.95,0.85,6.890000000000001,1.7610000000000001,4.4060003,37010001920.0,6.88,0.6564339,9024000000.0,95.375,1.365,0.538,,2025-03-21,USD,United Kingdom,Unknown,investpy,VOD
+BNKR,Bankers,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,BNKR
+GNK,Greene King,Industrials,Marine Shipping,598183040.0,7.9942856,8.086705,0.64547384,858.0,1.75,1.73,18.061,4.388,8.302,423016000.0,9.825,1.4140909,127926000.0,9.612,2.41,0.983,,2025-03-21,USD,United Kingdom,Unknown,investpy,GNK
+BWNG,N Brown Group,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,BWNG
+FERG,Ferguson,Industrials,Industrial Distribution,32892434432.0,20.1599,14.846014,5.9429274,198.0,8.13,11.04,5.485,9.711,30.072,29898000384.0,148.598,1.100155,2856999936.0,109.692,1.824,1.31,,2025-03-21,USD,United Kingdom,Unknown,investpy,FERG
+AZN,AstraZeneca,Healthcare,Drug Manufacturers - General,237457620992.0,34.00889,13.938069,2.909063,202.99999999999997,2.25,5.49,13.01,7.8779995000000005,17.593999,54072999936.0,2.895538,4.3914266,17567000576.0,74.527,0.927,0.157,,2025-03-21,USD,United Kingdom,Unknown,investpy,AZN
+JKX,JKX Oil,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,JKX
+BWY,Bellway,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,BWY
+IMB,Imperial Brands,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,IMB
+RB,Reckitt Benckiser,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,RB
+KGF,Kingfisher,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,KGF
+REL,Relx,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,REL
+MRW,Morrison Supermarkets,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,MRW
+CNA,Centrica,Financial Services,Insurance - Property & Casualty,13326411776.0,13.977273,9.335863,1.2675185,374.0,3.52,5.27,6.72,1.28,9.399000000000001,14270000128.0,52.56,0.9338761,1411000064.0,30.553,0.372,0.679,,2025-03-21,USD,United Kingdom,Unknown,investpy,CNA
+III,3I Group,Technology,Information Technology Services,179508976.0,62.0,10.941176,1.875,484.0,0.06,0.34,1.1469999,1.593,2.8619999,247584992.0,5.075,0.72503984,11645000.0,67.571,2.376,1.166,,2025-03-21,USD,United Kingdom,Unknown,investpy,III
+WPP,WPP,Communication Services,Advertising Agencies,8790382592.0,12.697819,7.214159,12.654455,299.0,3.21,5.65,3.6769999999999996,3.1770001999999997,16.625,14741000192.0,13.687,0.596322,1586000000.0,170.005,0.88,0.955,,2025-03-21,USD,United Kingdom,Unknown,investpy,WPP
+TSCO,Tesco,Consumer Cyclical,Specialty Retail,27555448832.0,25.411766,4.657682,12.151899,177.0,2.04,11.13,7.399,9.658,49.828997,14883230720.0,27.718,1.8514427,1914694016.0,238.926,1.427,0.842,,2025-03-21,USD,United Kingdom,Unknown,investpy,TSCO
+SLA,Standard Life Aberdeen,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,SLA
+DGE,Diageo,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,DGE
+HIK,Hikma Pharma,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,HIK
+WG,John Wood,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,WG
+RDSa,Royal Dutch Shell A,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,RDSa
+RIO,Rio Tinto PLC,Basic Materials,Other Industrial Metals & Mining,103655038976.0,8.899575,9.225806,1.8490654,639.0,7.07,6.82,21.529,8.4750004,20.251,53658001408.0,33.059,1.9317722,19057000448.0,24.535,1.628,0.556,,2025-03-21,USD,United Kingdom,Unknown,investpy,RIO
+HFD,Halfords,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,HFD
+AAL,Anglo American,Industrials,Airlines,7404305920.0,9.080646,5.5742574,-1.8617725,,1.24,2.02,1.5610000000000002,3.374,,54210998272.0,82.513,0.13658309,5615000064.0,,0.541,1.27,,2025-03-21,USD,United Kingdom,Unknown,investpy,AAL
+CPI,Capita,N/A,N/A,,18.476974,,,266.0,,,,,,,,,,,,,,2025-03-21,USD,United Kingdom,Unknown,investpy,CPI
+GSK,GlaxoSmithKline,Healthcare,Drug Manufacturers - General,80200531968.0,24.32716,9.165116,11.764179,394.0,1.62,4.3,8.207,6.525,22.804001,31375998976.0,15.392,2.5561109,8312999936.0,129.803,0.783,0.286,,2025-03-21,USD,United Kingdom,Unknown,investpy,GSK
+AV,Aviva,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,AV
+GOG,Go-Ahead,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,GOG
+TAN,Tanfield,N/A,N/A,,17.846216,,,51.0,,,,,,,,,,,,,,2025-03-21,USD,United Kingdom,Unknown,investpy,TAN
+ABF,Associated British Foods,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,ABF
+ISA,Inmarsat,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,ISA
+TLW,Tullow Oil,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,TLW
+LSE,London Stock Exchange,Energy,Oil & Gas Equipment & Services,140796752.0,17.229168,,3.22166,,0.48,,11.721,6.9879999999999995,22.128999,69073376.0,4.456,2.038365,8054563.0,4.571,2.275,,,2025-03-21,USD,United Kingdom,Unknown,investpy,LSE
+JDW,J D Wetherspoon,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,JDW
+CNE,Cairn,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,CNE
+SRP,Serco,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,SRP
+EMG,Man Group,N/A,N/A,8481660.0,,-0.5,0.0427777,,,,,,,,,,,,,,,2025-03-21,USD,United Kingdom,Unknown,investpy,EMG
+CPRC,Carpetright,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,CPRC
+RR,Rolls-Royce Holdings,Industrials,Specialty Industrial Machinery,245038576.0,,-17.833334,4.612069,,-0.12,,-203.59799999999998,-17.080000000000002,-29.276999999999997,4391000.0,0.056,55.804733,-8118000.0,1.456,39.736,,,2025-03-21,USD,United Kingdom,Unknown,investpy,RR
+WTB,Whitbread,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,WTB
+PNN,Pennon,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,PNN
+RSA,RSA Insurance,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,RSA
+BVS,Bovis Homes,Healthcare,Medical Devices,644368192.0,,14.757575,4.328889,,-0.52,0.66,-5.8509998,3.2360002,-21.554000000000002,573280000.0,8.882,1.1240026,58979000.0,191.836,1.31,0.863,,2025-03-21,USD,United Kingdom,Unknown,investpy,BVS
+PSN,Persimmon,Technology,Information Technology Services,6301978624.0,27.839624,15.172236,2.607927,,2.12,3.89,3.4819999999999998,5.564,11.837,6750576128.0,63.52,0.9335468,553828992.0,56.212,1.285,0.779,,2025-03-21,USD,United Kingdom,Unknown,investpy,PSN
+QQ,Qinetiq,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,QQ
+UU,United Utilities,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,UU
+SHI,SIG,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,SHI
+COB,Cobham,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,COB
+CRH,CRH,Basic Materials,Building Materials,66120249344.0,19.440239,16.077429,3.0591516,152.0,5.02,6.07,9.8170005,6.282,15.834999999999999,35571998720.0,52.059,1.8587724,6727000064.0,68.114,1.368,1.368,,2025-03-21,USD,United Kingdom,Unknown,investpy,CRH
+GPOR,Great Portland Estates,Energy,Oil & Gas E&P,3303040768.0,,9.065815,1.919589,,-14.71,20.36,-28.748,2.781,-13.219,909219008.0,50.372,3.632833,464487008.0,40.541,0.669,0.665,,2025-03-21,USD,United Kingdom,Unknown,investpy,GPOR
+SSE,SSE,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,SSE
+STAN,Standard Chartered,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,STAN
+PAGE,Pagegroup,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,PAGE
+BLND,British Land Company,Technology,Software - Application,965942656.0,,74.4,-17.06422,,-0.24,0.05,-26.753,-13.718,-52.748,162019008.0,0.638,5.9619093,-40360000.0,2.783,3.47,1.404,,2025-03-21,USD,United Kingdom,Unknown,investpy,BLND
+WEIR,Weir Group,N/A,N/A,,,,,,,,,,,,,,,,,,,2025-03-21,N/A,United Kingdom,Unknown,investpy,WEIR

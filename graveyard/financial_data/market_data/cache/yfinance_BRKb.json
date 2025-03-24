@@ -1,0 +1,18 @@
+{
+    "info": {
+        "quoteType": "NONE",
+        "symbol": "BRKB",
+        "language": "en-US",
+        "region": "US",
+        "triggerable": false,
+        "customPriceAlertConfidence": "NONE",
+        "messageBoardId": "finmb_255251",
+        "corporateActions": [],
+        "esgPopulated": false,
+        "hasPrePostMarketData": false,
+        "financialCurrency": "USD",
+        "tradeable": false,
+        "cryptoTradeable": false,
+        "trailingPegRatio": null
+    },
+    "income_stmt": 

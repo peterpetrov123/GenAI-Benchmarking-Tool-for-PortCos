@@ -1,0 +1,14 @@
+{
+    "symbol": "SAN.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 135360000000.00002,
+    "revenue": null,
+    "profit_margin": 12.56,
+    "operating_margin": 13.99,
+    "return_on_assets": 4.28,
+    "return_on_equity": 7.3,
+    "cash": 6.03,
+    "debt": null,
+    "current_ratio": 1.46
+}

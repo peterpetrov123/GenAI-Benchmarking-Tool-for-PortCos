@@ -1,0 +1,14 @@
+{
+    "symbol": "BP.L",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 68790000000.0,
+    "revenue": null,
+    "profit_margin": 0.2,
+    "operating_margin": -5.09,
+    "return_on_assets": 2.32,
+    "return_on_equity": 1.5,
+    "cash": 2.8,
+    "debt": null,
+    "current_ratio": 1.25
+}

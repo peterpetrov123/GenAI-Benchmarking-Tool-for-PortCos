@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Road & Rail",
+    "ipo": "1983-01-01",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/JBHT.png",
+    "marketCapitalization": 14750.710332000002,
+    "name": "J B Hunt Transport Services Inc",
+    "phone": "14798200000",
+    "shareOutstanding": 100.01,
+    "ticker": "JBHT",
+    "weburl": "https://www.jbhunt.com/"
+}

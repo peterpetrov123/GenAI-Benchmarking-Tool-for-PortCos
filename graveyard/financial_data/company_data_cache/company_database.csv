@@ -1,0 +1,68 @@
+symbol,name,industry,sector,country,region,revenue,employees,market_cap
+BP.L,BP PLC $0.25,Oil & Gas Integrated,Energy,United Kingdom,Europe,187386003456.0,100500.0,69625028608.0
+HSBA.L,HSBC HOLDINGS PLC ORD $0.50 (UK,Banks - Diversified,Financial Services,United Kingdom,Europe,61253001216.0,211304.0,159833636864.0
+GSK.L,GSK PLC ORD 31 1/4P,Drug Manufacturers - General,Healthcare,United Kingdom,Europe,31375998976.0,68629.0,61478256640.0
+ULVR.L,UNILEVER PLC ORD 3 1/9P,Household & Personal Products,Consumer Defensive,United Kingdom,Europe,60761001984.0,115964.0,112174948352.0
+RIO.L,RIO TINTO PLC ORD 10P,Other Industrial Metals & Mining,Basic Materials,United Kingdom,Europe,53658001408.0,60000.0,78216978432.0
+SHEL.L,SHELL PLC ORD EUR0.07,Oil & Gas Integrated,Energy,United Kingdom,Europe,284312010752.0,,163879010304.0
+BATS.L,BRITISH AMERICAN TOBACCO PLC OR,Tobacco,Consumer Defensive,United Kingdom,Europe,25866999808.0,48989.0,69520580608.0
+AZN.L,ASTRAZENECA PLC ORD SHS $0.25,Drug Manufacturers - General,Healthcare,United Kingdom,Europe,54072999936.0,94300.0,181275705344.0
+LLOY.L,LLOYDS BANKING GROUP PLC ORD 10,Banks - Regional,Financial Services,United Kingdom,Europe,17504999424.0,61228.0,42588155904.0
+VOD.L,VODAFONE GROUP PLC ORD USD0.20 ,Telecom Services,Communication Services,United Kingdom,Europe,37010001920.0,93000.0,18945415168.0
+SAP.DE,SAP SE                        I,Software - Application,Technology,Germany,Europe,34176000000.0,109121.0,290772549632.0
+SIE.DE,SIEMENS AG                    N,Specialty Industrial Machinery,Industrials,Germany,Europe,76538003456.0,313000.0,180722253824.0
+ALV.DE,Allianz SE                    v,Insurance - Diversified,Financial Services,Germany,Europe,107345002496.0,156626.0,136961490944.0
+BAS.DE,BASF SE                       N,Chemicals,Basic Materials,Germany,Europe,65259999232.0,111822.0,46048436224.0
+BMW.DE,BAYERISCHE MOTOREN WERKE AG   S,Auto Manufacturers,Consumer Cyclical,Germany,Europe,142380007424.0,159104.0,50334441472.0
+DTE.DE,DEUTSCHE TELEKOM AG           N,Telecom Services,Communication Services,Germany,Europe,118431997952.0,198194.0,165740986368.0
+DBK.DE,DEUTSCHE BANK AG              N,Banks - Regional,Financial Services,Germany,Europe,29674999808.0,89753.0,44145778688.0
+HEN.DE,Henkel AG & Co. KGaA          I,Household & Personal Products,Consumer Defensive,Germany,Europe,21585999872.0,47150.0,29578158080.0
+ADS.DE,adidas AG                     N,Footwear & Accessories,Consumer Cyclical,Germany,Europe,23683000320.0,46045.0,40387473408.0
+BNP.PA,BNP PARIBAS ACT.A,Banks - Regional,Financial Services,France,Europe,45640998912.0,,92468264960.0
+MC.PA,LVMH,Luxury Goods,Consumer Cyclical,France,Europe,84682997760.0,200518.0,301191397376.0
+SAN.PA,SANOFI,Drug Manufacturers - General,Healthcare,France,Europe,44286001152.0,82878.0,134929154048.0
+AIR.PA,AIRBUS SE,Aerospace & Defense,Industrials,Netherlands,Europe,69230002176.0,156921.0,133912248320.0
+OR.PA,L'OREAL,Household & Personal Products,Consumer Defensive,France,Europe,43486801920.0,90000.0,189292691456.0
+CS.PA,AXA,Insurance - Diversified,Financial Services,France,Europe,81808998400.0,,86582624256.0
+RI.PA,PERNOD RICARD,Beverages - Wineries & Distilleries,Consumer Defensive,France,Europe,11184000000.0,19557.0,24088328192.0
+EN.PA,BOUYGUES,Engineering & Construction,Industrials,France,Europe,56797999104.0,200862.0,13632932864.0
+EL.PA,ESSILORLUXOTTICA,Medical Instruments & Supplies,Healthcare,France,Europe,26507999232.0,153498.0,121590972416.0
+ML.PA,MICHELIN,Unknown,Unknown,France,Europe,,,24209469440.0
+ASML.AS,ASML HOLDING,Semiconductor Equipment & Materials,Technology,Netherlands,Europe,28262899712.0,42786.0,260019159040.0
+SAP.DE,SAP SE                        I,Software - Application,Technology,Germany,Europe,34176000000.0,109121.0,290772549632.0
+LVMH.PA,1181948,Unknown,Unknown,Europe,Europe,,,
+SIE.DE,SIEMENS AG                    N,Specialty Industrial Machinery,Industrials,Germany,Europe,76538003456.0,313000.0,180761804800.0
+SAN.MC,BANCO SANTANDER S.A.,Banks - Diversified,Financial Services,Spain,Europe,50796998656.0,199958.0,97142603776.0
+AIR.PA,AIRBUS SE,Aerospace & Defense,Industrials,Netherlands,Europe,69230002176.0,156921.0,133912248320.0
+ALV.DE,Allianz SE                    v,Insurance - Diversified,Financial Services,Germany,Europe,107345002496.0,156626.0,136961490944.0
+ENI.MI,ENI,Oil & Gas Integrated,Energy,Italy,Europe,91213996032.0,,44134699008.0
+ENEL.MI,ENEL,Utilities - Diversified,Utilities,Italy,Europe,78947000320.0,60359.0,74108272640.0
+SAN.MC,BANCO SANTANDER S.A.,Banks - Diversified,Financial Services,Spain,Europe,50796998656.0,199958.0,97142603776.0
+ITX.MC,INDUSTRIA DE DISE...O TEXTIL S.,Apparel Retail,Consumer Cyclical,Spain,Europe,38632001536.0,67195.0,145069064192.0
+BBVA.MC,BANCO BILBAO VIZCAYA ARGENTARIA,Banks - Diversified,Financial Services,Spain,Europe,31569999872.0,125916.0,75613200384.0
+IBE.MC,ACCIONES IBERDROLA,Utilities - Diversified,Utilities,Spain,Europe,44738998272.0,41000.0,90045939712.0
+REP.MC,"REPSOL,  S.A.",Oil & Gas Integrated,Energy,Spain,Europe,51386998784.0,25601.0,14031667200.0
+TEF.MC,"TELEFONICA,S.A.",Telecom Services,Communication Services,Spain,Europe,41315000320.0,100870.0,24604745728.0
+AMS.MC,"AMADEUS IT GROUP, S.A.",Information Technology Services,Technology,Spain,Europe,6141700096.0,20643.0,32312819712.0
+ELE.MC,"ENDESA,S.A.",Utilities - Regulated Electric,Utilities,Spain,Europe,20935000064.0,8914.0,24674799616.0
+FER.MC,FERROVIAL SE,Infrastructure Operations,Industrials,Netherlands,Europe,9146999808.0,25264.0,29609205760.0
+MAP.MC,"MAPFRE, S.A.",Insurance - Diversified,Financial Services,Spain,Europe,29243699200.0,30585.0,8778756096.0
+ATCO-A.ST,Atlas Copco AB ser. A,Specialty Industrial Machinery,Industrials,Sweden,Europe,176771006464.0,55146.0,783900344320.0
+AZN.ST,AstraZeneca PLC,Drug Manufacturers - General,Healthcare,United Kingdom,Europe,54072999936.0,94300.0,2377945448448.0
+ERIC-B.ST,"Ericsson, Telefonab. L M ser. B",Communication Equipment,Technology,Sweden,Europe,247880007680.0,93897.0,278150578176.0
+HM-B.ST,"Hennes & Mauritz AB, H & M ser.",Apparel Manufacturing,Consumer Cyclical,Sweden,Europe,234477993984.0,96457.0,217087492096.0
+VOLV-B.ST,"Volvo, AB ser. B",Farm & Heavy Construction Machinery,Industrials,Sweden,Europe,526815985664.0,89680.0,624254451712.0
+NDA-SE.ST,Nordea Bank Abp,Banks - Regional,Financial Services,Finland,Europe,11816999936.0,30157.0,456956149760.0
+SEB-A.ST,Skandinaviska Enskilda Banken s,Banks - Regional,Financial Services,Sweden,Europe,81000996864.0,19000.0,345428459520.0
+SAND.ST,Sandvik AB,Specialty Industrial Machinery,Industrials,Sweden,Europe,122878001152.0,36295.0,285750034432.0
+SWED-A.ST,Swedbank AB ser A,Banks - Regional,Financial Services,Sweden,Europe,74370998272.0,17567.0,293680283648.0
+INVE-B.ST,Investor AB ser. B,Asset Management,Financial Services,Sweden,Europe,176775004160.0,18805.0,947573686272.0
+NESN.SW,NESTLE N,Packaged Foods,Consumer Defensive,Switzerland,Europe,91719999488.0,251786.0,235352440832.0
+ROG.SW,ROCHE GS,Drug Manufacturers - General,Healthcare,Switzerland,Europe,62394998784.0,103249.0,247149412352.0
+NOVN.SW,NOVARTIS N,Drug Manufacturers - General,Healthcare,Switzerland,Europe,51721998336.0,75883.0,196975738880.0
+UHR.SW,SWATCH GROUP I,Luxury Goods,Consumer Cyclical,Switzerland,Europe,6735000064.0,32477.0,8317166080.0
+ABBN.SW,ABB LTD N,Electrical Equipment & Parts,Industrials,Switzerland,Europe,32849999872.0,109900.0,91967291392.0
+SREN.SW,SWISS RE N,Insurance - Reinsurance,Financial Services,Switzerland,Europe,44452999168.0,15000.0,43566616576.0
+ZURN.SW,ZURICH INSURANCE N,Insurance - Diversified,Financial Services,Switzerland,Europe,68717998080.0,,86594641920.0
+HOLN.SW,HOLCIM N,Building Materials,Basic Materials,Switzerland,Europe,26407000064.0,62391.0,54671806464.0
+GIVN.SW,GIVAUDAN N,Specialty Chemicals,Basic Materials,Switzerland,Europe,7411999744.0,16942.0,36056186880.0

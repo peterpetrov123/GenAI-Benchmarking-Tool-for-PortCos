@@ -1,0 +1,14 @@
+{
+    "symbol": "HEI.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 32540000000.0,
+    "revenue": null,
+    "profit_margin": 8.4,
+    "operating_margin": 16.55,
+    "return_on_assets": 5.08,
+    "return_on_equity": 9.82,
+    "cash": 17.98,
+    "debt": null,
+    "current_ratio": 1.27
+}

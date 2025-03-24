@@ -1,0 +1,16 @@
+{
+    "symbol": "BBVA.MC",
+    "name": "BANCO BILBAO VIZCAYA ARGENTARIA",
+    "industry": "Banks - Diversified",
+    "sector": "Financial Services",
+    "country": "Spain",
+    "region": "Europe",
+    "revenue": 31569999872,
+    "employees": 125916,
+    "market_cap": 76073730048,
+    "currency": "EUR",
+    "exchange": "MCE",
+    "website": "https://www.bbva.com",
+    "data_source": "Yahoo Finance",
+    "last_updated": "2025-03-20 11:14:31"
+}

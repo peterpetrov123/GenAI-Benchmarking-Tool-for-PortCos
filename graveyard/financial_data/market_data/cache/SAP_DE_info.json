@@ -1,0 +1,16 @@
+{
+    "symbol": "SAP.DE",
+    "name": "SAP SE                        I",
+    "industry": "Software - Application",
+    "sector": "Technology",
+    "country": "Germany",
+    "region": "Europe",
+    "revenue": 34176000000,
+    "employees": 109121,
+    "market_cap": 290889203712,
+    "currency": "EUR",
+    "exchange": "GER",
+    "website": "https://www.sap.com",
+    "data_source": "Yahoo Finance",
+    "last_updated": "2025-03-20 11:14:31"
+}

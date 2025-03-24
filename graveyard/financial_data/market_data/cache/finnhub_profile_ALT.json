@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Biotechnology",
+    "ipo": "2005-10-06",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ALT.png",
+    "marketCapitalization": 445.1389510000001,
+    "name": "Altimmune Inc",
+    "phone": "12406541450",
+    "shareOutstanding": 77.01,
+    "ticker": "ALT",
+    "weburl": "https://altimmune.com/"
+}

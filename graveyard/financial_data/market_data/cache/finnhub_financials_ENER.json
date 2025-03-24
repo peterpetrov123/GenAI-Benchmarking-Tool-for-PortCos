@@ -1,0 +1,783 @@
+{
+    "metric": {
+        "beta": 0.01216906,
+        "bookValuePerShareAnnual": 7.8385,
+        "bookValuePerShareQuarterly": 4.2547,
+        "cashFlowPerShareAnnual": -0.0231,
+        "cashFlowPerShareQuarterly": -0.2302,
+        "cashPerSharePerShareAnnual": 0.0038,
+        "cashPerSharePerShareQuarterly": 0.0038,
+        "currentRatioAnnual": 0.2308,
+        "currentRatioQuarterly": 0.1,
+        "ebitdPerShareAnnual": -0.0565,
+        "ebitdPerShareTTM": -0.0607,
+        "enterpriseValue": 112.6296,
+        "epsAnnual": 0.0411,
+        "epsBasicExclExtraItemsAnnual": 0.0411,
+        "epsBasicExclExtraItemsTTM": 0.1865,
+        "epsExclExtraItemsAnnual": 0.0411,
+        "epsExclExtraItemsTTM": 0.1865,
+        "epsGrowthQuarterlyYoy": null,
+        "epsGrowthTTMYoy": null,
+        "epsInclExtraItemsAnnual": 0.0411,
+        "epsInclExtraItemsTTM": 0.1865,
+        "epsNormalizedAnnual": 0.0411,
+        "epsTTM": 0.1865,
+        "marketCapitalization": 111.92963,
+        "netIncomeEmployeeAnnual": 0.1733,
+        "netIncomeEmployeeTTM": 0.5967,
+        "pbAnnual": 1.2857,
+        "pbQuarterly": 2.4395,
+        "pcfShareAnnual": null,
+        "pcfShareTTM": null,
+        "peAnnual": 107.6246,
+        "peBasicExclExtraTTM": 31.2653,
+        "peExclExtraTTM": 31.2653,
+        "peInclExtraTTM": 31.2653,
+        "peNormalizedAnnual": 107.6246,
+        "peTTM": 31.2653,
+        "quickRatioAnnual": 0.0769,
+        "quickRatioQuarterly": 0.0667,
+        "roaRfy": 0.49,
+        "roaTTM": 2.07,
+        "roeRfy": 0.51,
+        "roeTTM": 2.18,
+        "roiAnnual": 0.51,
+        "roiTTM": 2.18,
+        "totalDebt/totalEquityAnnual": 0,
+        "totalDebt/totalEquityQuarterly": 0.0155
+    },
+    "metricType": "all",
+    "series": {
+        "annual": {
+            "bookValue": [
+                {
+                    "period": "2022-12-31",
+                    "v": 203.8
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 202.8
+                }
+            ],
+            "cashRatio": [
+                {
+                    "period": "2022-12-31",
+                    "v": 0.07692307692307693
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 3.4999999999999996
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2022-12-31",
+                    "v": 0.2308
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 5
+                }
+            ],
+            "ev": [
+                {
+                    "period": "2022-12-31",
+                    "v": 261.93
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 220.071
+                }
+            ],
+            "fcfMargin": [],
+            "inventoryTurnover": [],
+            "longtermDebtTotalAsset": [],
+            "longtermDebtTotalCapital": [],
+            "longtermDebtTotalEquity": [],
+            "netDebtToTotalCapital": [
+                {
+                    "period": "2022-12-31",
+                    "v": -0.0005
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.0035
+                }
+            ],
+            "netDebtToTotalEquity": [
+                {
+                    "period": "2022-12-31",
+                    "v": -0.0005
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.0035
+                }
+            ],
+            "payoutRatio": [],
+            "pb": [
+                {
+                    "period": "2022-12-31",
+                    "v": 1.2857
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 1.0886
+                }
+            ],
+            "pe": [
+                {
+                    "period": "2022-12-31",
+                    "v": 251.9519
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": null
+                }
+            ],
+            "pfcf": [],
+            "ps": [],
+            "ptbv": [],
+            "quickRatio": [
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0769
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 3.5
+                }
+            ],
+            "receivablesTurnover": [],
+            "roa": [
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0049
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.0096
+                }
+            ],
+            "roe": [
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0051
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.0099
+                }
+            ],
+            "roic": [
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0051
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.0099
+                }
+            ],
+            "rotc": [
+                {
+                    "period": "2022-12-31",
+                    "v": -0.0071
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.0104
+                }
+            ],
+            "tangibleBookValue": [],
+            "totalDebtToEquity": [
+                {
+                    "period": "2022-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0
+                }
+            ],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2022-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0
+                }
+            ],
+            "totalDebtToTotalCapital": [
+                {
+                    "period": "2022-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0
+                }
+            ],
+            "totalRatio": [
+                {
+                    "period": "2022-12-31",
+                    "v": 24.6977
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 28.04
+                }
+            ]
+        },
+        "quarterly": {
+            "assetTurnoverTTM": [],
+            "bookValue": [
+                {
+                    "period": "2023-06-30",
+                    "v": 45.1
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 205.3
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 203.8
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 202.7
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 202.2
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 202.3
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 202.8
+                }
+            ],
+            "cashRatio": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.07692307692307693
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 0.3
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.4285714285714286
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 0.8
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 3.4999999999999996
+                },
+                {
+                    "period": "2021-09-30",
+                    "v": 0.25
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 0.33333333333333337
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.1
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0.1
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.2308
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 0.6
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.8571
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 1.4
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 5
+                },
+                {
+                    "period": "2021-09-30",
+                    "v": 0.25
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 0.3333
+                }
+            ],
+            "ev": [
+                {
+                    "period": "2023-06-30",
+                    "v": 110.7207
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 268.3684
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 261.93
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 258.0903
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 255.7456
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 254.351
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 220.071
+                }
+            ],
+            "fcfMargin": [],
+            "fcfPerShareTTM": [
+                {
+                    "period": "2023-06-30",
+                    "v": -0.2302
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": -0.0231
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.0231
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": -0.0438
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": -0.0408
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": -0.0369
+                }
+            ],
+            "inventoryTurnoverTTM": [],
+            "longtermDebtTotalAsset": [],
+            "longtermDebtTotalCapital": [],
+            "longtermDebtTotalEquity": [],
+            "netDebtToTotalCapital": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0153
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0.0005
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.0005
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": -0.0015
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": -0.0015
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": -0.002
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.0035
+                },
+                {
+                    "period": "2021-09-30",
+                    "v": 0.5
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 0.5
+                }
+            ],
+            "netDebtToTotalEquity": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0155
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0.0005
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.0005
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": -0.0015
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": -0.0015
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": -0.002
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": -0.0035
+                }
+            ],
+            "payoutRatioTTM": [],
+            "pb": [
+                {
+                    "period": "2023-06-30",
+                    "v": 2.4395
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 1.3067
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 1.2857
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 1.2747
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 1.2663
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 1.2593
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 1.0886
+                }
+            ],
+            "peTTM": [
+                {
+                    "period": "2023-06-30",
+                    "v": 30.732
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 90.9384
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 251.9519
+                }
+            ],
+            "pfcfTTM": [],
+            "psTTM": [],
+            "ptbv": [],
+            "quickRatio": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0667
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0769
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 0.3
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0.4286
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 0.8
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 3.5
+                },
+                {
+                    "period": "2021-09-30",
+                    "v": 0.25
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 0.3333
+                }
+            ],
+            "receivablesTurnoverTTM": [],
+            "roaTTM": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0207
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0.0139
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0049
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": -0.0023
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": -0.0168
+                }
+            ],
+            "roeTTM": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0218
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0.0145
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0051
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": -0.0024
+                }
+            ],
+            "roicTTM": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0218
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0.0145
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0.0051
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": -0.0024
+                }
+            ],
+            "rotcTTM": [
+                {
+                    "period": "2023-06-30",
+                    "v": -0.0077
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": -0.0064
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": -0.0071
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": -0.008
+                }
+            ],
+            "tangibleBookValue": [],
+            "totalDebtToEquity": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0155
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0.0005
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0
+                }
+            ],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0127
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0.0005
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2021-09-30",
+                    "v": 0.4
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 0.5
+                }
+            ],
+            "totalDebtToTotalCapital": [
+                {
+                    "period": "2023-06-30",
+                    "v": 0.0153
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 0.0005
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 0
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 0
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 0
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 0
+                },
+                {
+                    "period": "2021-09-30",
+                    "v": 1
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 1
+                }
+            ],
+            "totalRatio": [
+                {
+                    "period": "2023-06-30",
+                    "v": 5.4216
+                },
+                {
+                    "period": "2023-03-31",
+                    "v": 23.3152
+                },
+                {
+                    "period": "2022-12-31",
+                    "v": 24.6977
+                },
+                {
+                    "period": "2022-09-30",
+                    "v": 25.7195
+                },
+                {
+                    "period": "2022-06-30",
+                    "v": 26.5949
+                },
+                {
+                    "period": "2022-03-31",
+                    "v": 27.2727
+                },
+                {
+                    "period": "2021-12-31",
+                    "v": 28.04
+                },
+                {
+                    "period": "2021-09-30",
+                    "v": 1.25
+                },
+                {
+                    "period": "2021-06-30",
+                    "v": 1.3333
+                }
+            ]
+        }
+    },
+    "symbol": "ENER"
+}

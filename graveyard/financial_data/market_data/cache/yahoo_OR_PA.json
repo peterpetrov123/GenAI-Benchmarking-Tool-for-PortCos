@@ -1,0 +1,14 @@
+{
+    "symbol": "OR.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 193340000000.0,
+    "revenue": null,
+    "profit_margin": 14.74,
+    "operating_margin": 17.09,
+    "return_on_assets": 9.53,
+    "return_on_equity": 20.62,
+    "cash": 7.58,
+    "debt": null,
+    "current_ratio": 1.13
+}

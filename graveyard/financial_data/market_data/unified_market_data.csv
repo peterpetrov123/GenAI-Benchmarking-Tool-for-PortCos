@@ -1,0 +1,92 @@
+symbol,name,industry,sector,country,region,revenue,employees,market_cap,currency,exchange,website,data_source,last_updated,source,net_income,gross_profit,operating_income,ebitda,total_assets,total_liabilities,total_equity,current_assets,current_liabilities,cash,pe_ratio,profit_margin,operating_margin,current_ratio
+SHEL.L,Shell,Unknown,Energy,United Kingdom,Europe,,,164210000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:18,Curated List,,,,,,,,,,,,5.66,9.93,1.35
+BP.L,BP,Unknown,Energy,United Kingdom,Europe,,,68790000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:18,Curated List,,,,,,,,,,,,0.2,-5.09,1.25
+HSBA.L,HSBC Holdings,Unknown,Financial Services,United Kingdom,Europe,,,159050000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:18,Curated List,,,,,,,,,,,,39.15,29.03,
+ULVR.L,Unilever,Unknown,Consumer Goods,United Kingdom,Europe,,,111660000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:18,Curated List,,,,,,,,,,,,9.45,17.28,0.76
+AZN.L,AstraZeneca,Unknown,Healthcare,United Kingdom,Europe,,,182670000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:18,Curated List,,,,,,,,,,,,13.01,22.72,0.93
+DGE.L,Diageo,Unknown,Consumer Goods,United Kingdom,Europe,,,45230000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:18,Curated List,,,,,,,,,,,,17.79,29.1,1.6
+RIO.L,Rio Tinto,Unknown,Basic Materials,United Kingdom,Europe,,,79740000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:18,Curated List,,,,,,,,,,,,21.53,23.35,1.63
+GSK.L,GSK,Unknown,Healthcare,United Kingdom,Europe,,,61250000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:18,Curated List,,,,,,,,,,,,8.21,12.28,0.78
+VOD.L,Vodafone Group,Unknown,Telecommunications,United Kingdom,Europe,,,18690000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:51,Curated List,,,,,,,,,,,,6.89,13.25,1.37
+NWG.L,NatWest Group,Unknown,Financial Services,United Kingdom,Europe,,,37590000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:55,Curated List,,,,,,,,,,,,33.48,43.76,
+BATS.L,British American Tobacco,Technology,Consumer Goods,United Kingdom,Europe,,,69660000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:05:54,Curated List,,,,,,,,,,,,11.86,40.91,0.76
+BARC.L,Barclays,Unknown,Financial Services,United Kingdom,Europe,,,43700000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:52,Curated List,,,,,,,,,,,,26.01,25.59,
+PRU.L,Prudential,Unknown,Financial Services,United Kingdom,Europe,,,20250000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:55,Curated List,,,,,,,,,,,,18.93,38.12,1.59
+LLOY.L,Lloyds Banking Group,Financial Services,Financial Services,United Kingdom,Europe,,,42630000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:05:50,Curated List,,,,,,,,,,,,25.26,25.21,
+SAP.DE,SAP,Unknown,Technology,Germany,Europe,,,289720000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:59,Curated List,,,,,,,,,,,,9.14,25.79,1.12
+REL.L,RELX,Unknown,Media,United Kingdom,Europe,,,70140000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:05:54,Curated List,,,,,,,,,,,,20.5,29.46,0.52
+SIE.DE,Siemens,Unknown,Industrials,Germany,Europe,,,185390000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:23,Curated List,,,,,,,,,,,,12.56,11.25,1.54
+DTE.DE,Deutsche Telekom,Unknown,Telecommunications,Germany,Europe,,,164410000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:26,Curated List,,,,,,,,,,,,9.47,17.55,1.06
+ALV.DE,Allianz,Unknown,Financial Services,Germany,Europe,,,137190000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:26,Curated List,,,,,,,,,,,,9.34,12.56,3.78
+BAYN.DE,Bayer,Unknown,Healthcare,Germany,Europe,,,23960000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:30,Curated List,,,,,,,,,,,,-5.48,48.2,1.19
+BMW.DE,BMW,Unknown,Consumer Cyclical,Germany,Europe,,,51230000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:33,Curated List,,,,,,,,,,,,5.12,4.79,1.1
+DB1.DE,Deutsche Börse,Unknown,Financial Services,Germany,Europe,,,49950000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:37,Curated List,,,,,,,,,,,,27.75,38.75,
+MUV2.DE,Munich Re,Unknown,Financial Services,Germany,Europe,,,77550000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:40,Curated List,,,,,,,,,,,,9.26,6.9,0.26
+BAS.DE,BASF,Unknown,Basic Materials,Germany,Europe,,,46570000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:36,Curated List,,,,,,,,,,,,1.99,2.87,1.83
+HEN3.DE,Henkel,Unknown,Consumer Defensive,Germany,Europe,,,29730000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:58,Curated List,,,,,,,,,,,,9.3,13.37,1.21
+VOW3.DE,Volkswagen,Unknown,Consumer Cyclical,Germany,Europe,,,54340000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:57,Curated List,,,,,,,,,,,,3.5,8.79,1.13
+ADS.DE,Adidas,Unknown,Consumer Cyclical,Germany,Europe,,,40410000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:06:57,Curated List,,,,,,,,,,,,3.23,0.72,1.24
+DBK.DE,Deutsche Bank,Financial Services,Financial Services,Germany,Europe,,,44160000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:07:06,Curated List,,,,,,,,,,,,14.63,51.12,
+HEI.DE,HeidelbergCement,Unknown,Basic Materials,Germany,Europe,,,32540000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:08,Curated List,,,,,,,,,,,,8.4,16.55,1.27
+RWE.DE,RWE,Unknown,Utilities,Germany,Europe,,,24580000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:07,Curated List,,,,,,,,,,,,11.93,33.36,1.54
+OR.PA,L'Oréal,Unknown,Consumer Defensive,France,Europe,,,193340000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:11,Curated List,,,,,,,,,,,,14.74,17.09,1.13
+MC.PA,LVMH,Unknown,Consumer Cyclical,France,Europe,,,304720000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:10,Curated List,,,,,,,,,,,,14.82,20.74,1.41
+SAN.PA,Sanofi,Unknown,Healthcare,France,Europe,,,135360000000.00002,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:28,Curated List,,,,,,,,,,,,12.56,13.99,1.46
+AIR.PA,Airbus,Unknown,Industrials,France,Europe,,,134979999999.99998,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:30,Curated List,,,,,,,,,,,,6.11,9.96,1.14
+BNP.PA,BNP Paribas,Unknown,Financial Services,France,Europe,,,91340000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:30,Curated List,,,,,,,,,,,,25.61,29.56,
+CS.PA,AXA,Unknown,Financial Services,France,Europe,,,87510000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:38,Curated List,,,,,,,,,,,,9.64,15.82,52.64
+KER.PA,Kering,Unknown,Consumer Cyclical,France,Europe,,,26290000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:39,Curated List,,,,,,,,,,,,6.59,11.89,1.11
+CA.PA,Carrefour,Unknown,Consumer Defensive,France,Europe,,,8529999999.999999,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:44,Curated List,,,,,,,,,,,,0.83,2.52,0.88
+FP.PA,TotalEnergies,Unknown,Energy,France,Europe,,,,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:42,Curated List,,,,,,,,,,,,,,
+RI.PA,Pernod Ricard,Unknown,Consumer Defensive,France,Europe,,,24420000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:07:41,Curated List,,,,,,,,,,,,9.81,31.87,1.98
+BN.PA,Danone,Unknown,Consumer Defensive,France,Europe,,,46030000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:00,Curated List,,,,,,,,,,,,7.38,10.65,0.93
+SGO.PA,Saint-Gobain,Unknown,Industrials,France,Europe,,,50980000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:03,Curated List,,,,,,,,,,,,6.11,10.73,1.35
+ACA.PA,Crédit Agricole,Technology,Financial Services,France,Europe,,,51370000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:08:03,Curated List,,,,,,,,,,,,27.98,40.2,
+GLE.PA,Société Générale,Unknown,Financial Services,France,Europe,,,33790000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:09,Curated List,,,,,,,,,,,,16.63,17.94,
+RMS.PA,Hermès International,Unknown,Consumer Cyclical,France,Europe,,,260830000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:10,Curated List,,,,,,,,,,,,30.34,38.96,4.26
+NOVN.SW,Novartis,Unknown,Healthcare,Switzerland,Europe,,,194030000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:16,Curated List,,,,,,,,,,,,23.09,29.94,1.03
+ROG.SW,Roche,Unknown,Healthcare,Switzerland,Europe,,,245190000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:16,Curated List,,,,,,,,,,,,13.27,27.72,1.48
+NESN.SW,Nestlé,Unknown,Consumer Defensive,Switzerland,Europe,,,230930000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:15,Curated List,,,,,,,,,,,,11.87,16.74,0.82
+UBSG.SW,UBS Group,Unknown,Financial Services,Switzerland,Europe,,,92260000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:30,Curated List,,,,,,,,,,,,10.59,49.64,
+CFR.SW,Richemont,Unknown,Consumer Cyclical,Switzerland,Europe,,,96580000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:33,Curated List,,,,,,,,,,,,6.4,21.91,2.52
+ASML.AS,ASML Holding,Unknown,Technology,Netherlands,Europe,,,264660000000.00003,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:38,Curated List,,,,,,,,,,,,26.79,36.22,1.53
+AD.AS,Ahold Delhaize,Unknown,Consumer Defensive,Netherlands,Europe,,,31020000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:41,Curated List,,,,,,,,,,,,1.97,4.07,0.83
+INGA.AS,ING Groep,Unknown,Financial Services,Netherlands,Europe,,,57310000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:44,Curated List,,,,,,,,,,,,26.6,18.1,
+PHIA.AS,Philips,Unknown,Healthcare,Netherlands,Europe,,,22690000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:48,Curated List,,,,,,,,,,,,-3.89,12.07,1.23
+SAN.MC,Banco Santander,Unknown,Financial Services,Spain,Europe,,,98780000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:48,Curated List,,,,,,,,,,,,24.75,42.46,
+UNA.AS,Unilever,Unknown,Consumer Defensive,Netherlands,Europe,,,132710000000.00002,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:08:48,Curated List,,,,,,,,,,,,9.45,17.28,0.76
+BBVA.MC,BBVA,Unknown,Financial Services,Spain,Europe,,,77400000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:02,Curated List,,,,,,,,,,,,31.85,50.56,
+ITX.MC,Inditex,Technology,Consumer Cyclical,Spain,Europe,,,144420000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:09:07,Curated List,,,,,,,,,,,,15.18,16.41,1.61
+IBE.MC,Iberdrola,Unknown,Utilities,Spain,Europe,,,88080000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:08,Curated List,,,,,,,,,,,,12.54,5.66,0.69
+TEF.MC,Telefónica,Unknown,Telecommunications,Spain,Europe,,,24450000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:12,Curated List,,,,,,,,,,,,-0.12,13.2,0.87
+ENI.MI,Eni,Unknown,Energy,Italy,Europe,,,43800000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:18,Curated List,,,,,,,,,,,,2.9,5.01,1.16
+ENEL.MI,Enel,Unknown,Utilities,Italy,Europe,,,72890000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:19,Curated List,,,,,,,,,,,,8.89,12.03,0.83
+ISP.MI,Intesa Sanpaolo,Unknown,Financial Services,Italy,Europe,,,87860000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:20,Curated List,,,,,,,,,,,,33.55,36.36,
+UCG.MI,UniCredit,Technology,Financial Services,Italy,Europe,,,85590000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:09:21,Curated List,,,,,,,,,,,,40.51,74.93,
+ERIC-B.ST,Ericsson,Unknown,Technology,Sweden,Europe,,,276620000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:33,Curated List,,,,,,,,,,,,0.01,-6.12,1.17
+VOLV-B.ST,Volvo,Unknown,Industrials,Sweden,Europe,,,646570000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:39,Curated List,,,,,,,,,,,,9.56,10.19,1.27
+NOVO-B.CO,Novo Nordisk,Unknown,Healthcare,Denmark,Europe,,,,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:42,Curated List,,,,,,,,,,,,34.78,49.69,0.74
+MAERSK-B.CO,Maersk,Unknown,Industrials,Denmark,Europe,,,182070000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:47,Curated List,,,,,,,,,,,,11.01,13.98,2.45
+STM.PA,STMicroelectronics,Unknown,Technology,France,Europe,,,,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:48,Curated List,,,,,,,,,,,,,,
+CAP.PA,Capgemini,Unknown,Technology,France,Europe,,,24750000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:53,Curated List,,,,,,,,,,,,7.56,11.96,1.21
+WDI.DE,Wirecard,Unknown,Technology,Germany,Europe,,,,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:53,Curated List,,,,,,,,,,,,,,
+SAF.PA,Safran,Unknown,Industrials,France,Europe,,,107180000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:09:55,Curated List,,,,,,,,,,,,-2.41,14.79,0.84
+SHL.DE,Siemens Healthineers,Healthcare,Healthcare,Germany,Europe,,,59100000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:10:04,Curated List,,,,,,,,,,,,8.76,12.71,1.28
+GIVN.SW,Givaudan,Unknown,Basic Materials,Switzerland,Europe,,,36560000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:09,Curated List,,,,,,,,,,,,14.71,18.23,1.49
+FRE.DE,Fresenius,Unknown,Healthcare,Germany,Europe,,,22530000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:16,Curated List,,,,,,,,,,,,4.13,8.33,
+FME.DE,Fresenius Medical Care,Healthcare,Healthcare,Germany,Europe,,,13290000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:10:20,Curated List,,,,,,,,,,,,2.78,8.03,1.4
+UHR.SW,Swatch Group,Unknown,Consumer Cyclical,Switzerland,Europe,,,8660000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:23,Curated List,,,,,,,,,,,,2.87,3.04,9.79
+SU.PA,Schneider Electric,Unknown,Industrials,France,Europe,,,135470000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:20,Curated List,,,,,,,,,,,,11.19,17.16,1.23
+LR.PA,Legrand,Unknown,Industrials,France,Europe,,,28130000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:25,Curated List,,,,,,,,,,,,13.49,18.53,1.93
+ABI.BR,Anheuser-Busch InBev,Unknown,Consumer Defensive,Belgium,Europe,,,113410000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:29,Curated List,,,,,,,,,,,,9.8,24.77,0.7
+HEIA.AS,Heineken,Unknown,Consumer Defensive,Netherlands,Europe,,,44040000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:35,Curated List,,,,,,,,,,,,3.28,14.38,0.76
+PRX.AS,Prosus,Unknown,Technology,Netherlands,Europe,,,105050000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:42,Curated List,,,,,,,,,,,,132.98,4.59,4.11
+CSGN.SW,Credit Suisse,Technology,Financial Services,Switzerland,Europe,,,,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:10:50,Curated List,,,,,,,,,,,,,,
+ZURN.SW,Zurich Insurance,Financial Services,Financial Services,Switzerland,Europe,,,86770000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:10:48,Curated List,,,,,,,,,,,,8.46,11.63,5.86
+KBC.BR,KBC Group,Unknown,Financial Services,Belgium,Europe,,,34790000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:54,Curated List,,,,,,,,,,,,31.22,37.73,
+EVO.ST,Evolution Gaming,Unknown,Consumer Cyclical,Sweden,Europe,,,163760000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:10:54,Curated List,,,,,,,,,,,,56.19,61.11,1.82
+CLA.DE,ClariantAG,Unknown,Basic Materials,Germany,Europe,,,,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:11:00,Curated List,,,,,,,,,,,,,,
+AGN.AS,Aegon,Unknown,Financial Services,Netherlands,Europe,,,10010000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:11:03,Curated List,,,,,,,,,,,,-0.24,-0.74,24.05
+SW.PA,Sodexo,Unknown,Consumer Cyclical,France,Europe,,,10630000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:11:04,Curated List,,,,,,,,,,,,0.71,3.71,1.08
+GFC.PA,Gecina,Unknown,Real Estate,France,Europe,,,6380000000.0,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener",2025-03-20 23:11:14,Curated List,,,,,,,,,,,,36.69,73.65,0.72
+DOM.DE,Dominion Energy,Energy,Utilities,Germany,Europe,,,,Unknown,Unknown,,"Curated List, Yahoo Finance, MarketScreener, Inferred",2025-03-20 23:11:20,Curated List,,,,,,,,,,,,,,

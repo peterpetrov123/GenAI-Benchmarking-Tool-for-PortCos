@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.31758,
+        "13WeekPriceReturnDaily": -2.2214,
+        "26WeekPriceReturnDaily": 7.3141,
+        "3MonthADReturnStd": 15.872708,
+        "3MonthAverageTradingVolume": 0.40148,
+        "52WeekHigh": 28.485,
+        "52WeekHighDate": "2025-02-19",
+        "52WeekLow": 22.79,
+        "52WeekLowDate": "2024-08-05",
+        "52WeekPriceReturnDaily": 13.1956,
+        "5DayPriceReturnDaily": 0.864,
+        "beta": 0.2582942,
+        "monthToDatePriceReturnDaily": 1.359,
+        "priceRelativeToS&P50013Week": 3.9342,
+        "priceRelativeToS&P50026Week": 5.0216,
+        "priceRelativeToS&P5004Week": 3.2533,
+        "priceRelativeToS&P50052Week": 2.6138,
+        "priceRelativeToS&P500Ytd": 4.2111,
+        "yearToDatePriceReturnDaily": 0.9778
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "DBA"
+}

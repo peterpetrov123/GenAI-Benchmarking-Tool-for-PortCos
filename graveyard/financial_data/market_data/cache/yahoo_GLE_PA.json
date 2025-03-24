@@ -1,0 +1,13 @@
+{
+    "symbol": "GLE.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 33790000000.0,
+    "revenue": null,
+    "profit_margin": 16.63,
+    "operating_margin": 17.94,
+    "return_on_assets": 0.33,
+    "return_on_equity": 6.58,
+    "cash": 860.91,
+    "debt": null
+}

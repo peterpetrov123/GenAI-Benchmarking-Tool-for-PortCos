@@ -1,0 +1,14 @@
+{
+    "symbol": "AZN.L",
+    "data_source": "Yahoo Finance",
+    "country": "United Kingdom",
+    "market_cap": 182670000000.0,
+    "revenue": null,
+    "profit_margin": 13.01,
+    "operating_margin": 22.72,
+    "return_on_assets": 7.88,
+    "return_on_equity": 17.59,
+    "cash": 3.56,
+    "debt": null,
+    "current_ratio": 0.93
+}

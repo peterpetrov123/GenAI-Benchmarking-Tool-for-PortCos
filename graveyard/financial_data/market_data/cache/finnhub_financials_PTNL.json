@@ -1,0 +1,229 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": null,
+        "13WeekPriceReturnDaily": null,
+        "26WeekPriceReturnDaily": null,
+        "3MonthAverageTradingVolume": null,
+        "52WeekHigh": 0,
+        "52WeekHighDate": null,
+        "52WeekLow": 0,
+        "52WeekLowDate": null,
+        "52WeekPriceReturnDaily": null,
+        "5DayPriceReturnDaily": null,
+        "assetTurnoverAnnual": null,
+        "assetTurnoverTTM": null,
+        "beta": null,
+        "bookValuePerShareAnnual": -0.0012,
+        "bookValuePerShareQuarterly": -0.0085,
+        "bookValueShareGrowth5Y": null,
+        "cashFlowPerShareAnnual": null,
+        "cashFlowPerShareTTM": null,
+        "cashPerSharePerShareAnnual": null,
+        "cashPerSharePerShareQuarterly": 0,
+        "currentDividendYieldTTM": null,
+        "currentEv/freeCashFlowAnnual": null,
+        "currentEv/freeCashFlowTTM": null,
+        "currentRatioAnnual": 0.00393,
+        "currentRatioQuarterly": 0.0997,
+        "dividendGrowthRate5Y": null,
+        "dividendPerShareAnnual": null,
+        "dividendYieldIndicatedAnnual": null,
+        "ebitdPerShareTTM": -0.0177,
+        "ebitdaCagr5Y": null,
+        "ebitdaInterimCagr5Y": null,
+        "epsBasicExclExtraItemsAnnual": -0.00143,
+        "epsBasicExclExtraItemsTTM": -0.0177,
+        "epsExclExtraItemsAnnual": -0.00143,
+        "epsExclExtraItemsTTM": -0.0177,
+        "epsGrowth3Y": null,
+        "epsGrowth5Y": null,
+        "epsGrowthQuarterlyYoy": null,
+        "epsGrowthTTMYoy": null,
+        "epsInclExtraItemsAnnual": -0.00144,
+        "epsInclExtraItemsTTM": -0.0177,
+        "epsNormalizedAnnual": -0.00143,
+        "epsTTM": -0.0177,
+        "focfCagr5Y": null,
+        "grossMargin5Y": null,
+        "grossMarginAnnual": null,
+        "grossMarginTTM": null,
+        "inventoryTurnoverAnnual": null,
+        "inventoryTurnoverTTM": null,
+        "longTermDebt/equityAnnual": null,
+        "longTermDebt/equityQuarterly": null,
+        "marketCapitalization": -100000,
+        "monthToDatePriceReturnDaily": null,
+        "netIncomeEmployeeAnnual": null,
+        "netIncomeEmployeeTTM": null,
+        "netInterestCoverageAnnual": -33.70513,
+        "netInterestCoverageTTM": -339.7126,
+        "netMarginGrowth5Y": null,
+        "netProfitMargin5Y": null,
+        "netProfitMarginAnnual": null,
+        "netProfitMarginTTM": null,
+        "operatingMargin5Y": null,
+        "operatingMarginAnnual": null,
+        "operatingMarginTTM": null,
+        "payoutRatioAnnual": null,
+        "payoutRatioTTM": null,
+        "pbAnnual": null,
+        "pbQuarterly": null,
+        "pcfShareTTM": null,
+        "peBasicExclExtraTTM": 116475.4528,
+        "peExclExtraAnnual": null,
+        "peExclExtraTTM": 116475.4528,
+        "peInclExtraTTM": 116475.4528,
+        "peNormalizedAnnual": null,
+        "peTTM": 116475.4528,
+        "pfcfShareAnnual": null,
+        "pfcfShareTTM": null,
+        "pretaxMargin5Y": null,
+        "pretaxMarginAnnual": null,
+        "pretaxMarginTTM": null,
+        "priceRelativeToS&P50013Week": null,
+        "priceRelativeToS&P50026Week": null,
+        "priceRelativeToS&P5004Week": null,
+        "priceRelativeToS&P500Ytd": null,
+        "psAnnual": null,
+        "psTTM": null,
+        "ptbvAnnual": null,
+        "ptbvQuarterly": null,
+        "quickRatioAnnual": null,
+        "quickRatioQuarterly": 0.0012,
+        "receivablesTurnoverAnnual": null,
+        "receivablesTurnoverTTM": null,
+        "revenueEmployeeAnnual": null,
+        "revenueEmployeeTTM": null,
+        "revenueGrowth3Y": null,
+        "revenueGrowth5Y": null,
+        "revenueGrowthQuarterlyYoy": null,
+        "revenueGrowthTTMYoy": null,
+        "revenuePerShareAnnual": null,
+        "revenuePerShareTTM": 0,
+        "revenueShareGrowth5Y": null,
+        "roaRfy": -7768.047,
+        "roeRfy": null,
+        "roeTTM": null,
+        "roi5Y": null,
+        "roiAnnual": null,
+        "roiTTM": null,
+        "tangibleBookValuePerShareAnnual": -0.0012,
+        "tangibleBookValuePerShareQuarterly": -0.0085,
+        "tbvCagr5Y": null,
+        "totalDebt/totalEquityAnnual": null,
+        "totalDebt/totalEquityQuarterly": null,
+        "yearToDatePriceReturnDaily": null
+    },
+    "metricType": "all",
+    "series": {
+        "annual": {},
+        "quarterly": {
+            "assetTurnoverTTM": [],
+            "bookValue": [],
+            "cashRatio": [
+                {
+                    "period": "2019-09-30",
+                    "v": 0.0011801498790346373
+                },
+                {
+                    "period": "2019-06-30",
+                    "v": 0.0019700316399020954
+                },
+                {
+                    "period": "2019-03-31",
+                    "v": 0.017770034843205575
+                }
+            ],
+            "currentRatio": [
+                {
+                    "period": "2019-09-30",
+                    "v": 0.0997
+                },
+                {
+                    "period": "2019-06-30",
+                    "v": 0.1363
+                },
+                {
+                    "period": "2019-03-31",
+                    "v": 0.4098
+                }
+            ],
+            "ev": [],
+            "fcfMargin": [],
+            "fcfPerShareTTM": [],
+            "inventoryTurnoverTTM": [],
+            "longtermDebtTotalAsset": [],
+            "longtermDebtTotalCapital": [],
+            "longtermDebtTotalEquity": [],
+            "netDebtToTotalCapital": [
+                {
+                    "period": "2019-03-31",
+                    "v": 2.5442
+                }
+            ],
+            "netDebtToTotalEquity": [],
+            "payoutRatioTTM": [],
+            "pb": [],
+            "peTTM": [],
+            "pfcfTTM": [],
+            "psTTM": [],
+            "ptbv": [],
+            "quickRatio": [
+                {
+                    "period": "2019-09-30",
+                    "v": 0.0012
+                },
+                {
+                    "period": "2019-06-30",
+                    "v": 0.002
+                },
+                {
+                    "period": "2019-03-31",
+                    "v": 0.0178
+                }
+            ],
+            "receivablesTurnoverTTM": [],
+            "roaTTM": [],
+            "roeTTM": [],
+            "roicTTM": [],
+            "rotcTTM": [],
+            "tangibleBookValue": [],
+            "totalDebtToEquity": [],
+            "totalDebtToTotalAsset": [
+                {
+                    "period": "2019-09-30",
+                    "v": 2.8589
+                },
+                {
+                    "period": "2019-06-30",
+                    "v": 2.5355
+                },
+                {
+                    "period": "2019-03-31",
+                    "v": 2.3452
+                }
+            ],
+            "totalDebtToTotalCapital": [
+                {
+                    "period": "2019-03-31",
+                    "v": 2.5921
+                }
+            ],
+            "totalRatio": [
+                {
+                    "period": "2019-09-30",
+                    "v": 0.0997
+                },
+                {
+                    "period": "2019-06-30",
+                    "v": 0.1363
+                },
+                {
+                    "period": "2019-03-31",
+                    "v": 0.4098
+                }
+            ]
+        }
+    },
+    "symbol": "PTNL"
+}

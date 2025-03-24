@@ -1,0 +1,16 @@
+{
+    "symbol": "AIR.PA",
+    "name": "AIRBUS SE",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "country": "Netherlands",
+    "region": "Europe",
+    "revenue": 69230002176,
+    "employees": 156921,
+    "market_cap": 131499089920,
+    "currency": "EUR",
+    "exchange": "PAR",
+    "website": "https://www.airbus.com",
+    "data_source": "Yahoo Finance",
+    "last_updated": "2025-03-20 11:14:31"
+}

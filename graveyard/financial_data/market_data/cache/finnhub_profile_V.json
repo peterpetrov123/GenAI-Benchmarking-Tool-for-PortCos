@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "2008-03-25",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/V.png",
+    "marketCapitalization": 663239.327028,
+    "name": "Visa Inc",
+    "phone": "16504323200",
+    "shareOutstanding": 1953.58,
+    "ticker": "V",
+    "weburl": "https://usa.visa.com/"
+}

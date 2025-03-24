@@ -1,0 +1,14 @@
+{
+    "symbol": "BAS.DE",
+    "data_source": "Yahoo Finance",
+    "country": "Germany",
+    "market_cap": 46570000000.0,
+    "revenue": null,
+    "profit_margin": 1.99,
+    "operating_margin": 2.87,
+    "return_on_assets": 1.61,
+    "return_on_equity": 3.95,
+    "cash": 3.33,
+    "debt": null,
+    "current_ratio": 1.83
+}

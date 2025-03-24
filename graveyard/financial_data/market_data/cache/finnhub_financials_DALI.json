@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.01128,
+        "13WeekPriceReturnDaily": -9.353,
+        "26WeekPriceReturnDaily": 3.1987,
+        "3MonthADReturnStd": 20.404072,
+        "3MonthAverageTradingVolume": 0.00492,
+        "52WeekHigh": 27.6485,
+        "52WeekHighDate": "2024-12-04",
+        "52WeekLow": 21.7176,
+        "52WeekLowDate": "2024-08-05",
+        "52WeekPriceReturnDaily": 5.0985,
+        "5DayPriceReturnDaily": 4.5099,
+        "beta": 0.65298307,
+        "monthToDatePriceReturnDaily": -4.9244,
+        "priceRelativeToS&P50013Week": -3.1974,
+        "priceRelativeToS&P50026Week": 0.9062,
+        "priceRelativeToS&P5004Week": -1.6601,
+        "priceRelativeToS&P50052Week": -5.4833,
+        "priceRelativeToS&P500Ytd": -1.7648,
+        "yearToDatePriceReturnDaily": -4.9981
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "DALI"
+}

@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.14034,
+        "13WeekPriceReturnDaily": 2.2059,
+        "26WeekPriceReturnDaily": -0.2563,
+        "3MonthADReturnStd": 11.751887,
+        "3MonthAverageTradingVolume": 0.10988,
+        "52WeekHigh": 19.989,
+        "52WeekHighDate": "2024-10-21",
+        "52WeekLow": 17.2837,
+        "52WeekLowDate": "2024-04-16",
+        "52WeekPriceReturnDaily": 7.0407,
+        "5DayPriceReturnDaily": 2.9085,
+        "beta": 0.8495078,
+        "monthToDatePriceReturnDaily": 2.2596,
+        "priceRelativeToS&P50013Week": 8.3615,
+        "priceRelativeToS&P50026Week": -2.5488,
+        "priceRelativeToS&P5004Week": 8.0717,
+        "priceRelativeToS&P50052Week": -3.5411,
+        "priceRelativeToS&P500Ytd": 9.514,
+        "yearToDatePriceReturnDaily": 6.2807
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "PID"
+}

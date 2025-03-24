@@ -1,0 +1,26 @@
+{
+    "metric": {
+        "10DayAverageTradingVolume": 0.048,
+        "13WeekPriceReturnDaily": -19.242,
+        "26WeekPriceReturnDaily": -19.0058,
+        "3MonthADReturnStd": 29.386723,
+        "3MonthAverageTradingVolume": 0.11147,
+        "52WeekHigh": 29.78,
+        "52WeekHighDate": "2024-03-22",
+        "52WeekLow": 15.99,
+        "52WeekLowDate": "2025-02-11",
+        "52WeekPriceReturnDaily": -41.6228,
+        "5DayPriceReturnDaily": 2.5293,
+        "beta": 0.08216101,
+        "monthToDatePriceReturnDaily": -4.1522,
+        "priceRelativeToS&P50013Week": -13.0864,
+        "priceRelativeToS&P50026Week": -21.2983,
+        "priceRelativeToS&P5004Week": 6.3689,
+        "priceRelativeToS&P50052Week": -52.2046,
+        "priceRelativeToS&P500Ytd": -12.0572,
+        "yearToDatePriceReturnDaily": -15.2905
+    },
+    "metricType": "all",
+    "series": {},
+    "symbol": "KCCA"
+}

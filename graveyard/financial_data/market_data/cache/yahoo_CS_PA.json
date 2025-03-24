@@ -1,0 +1,14 @@
+{
+    "symbol": "CS.PA",
+    "data_source": "Yahoo Finance",
+    "country": "France",
+    "market_cap": 87510000000.0,
+    "revenue": null,
+    "profit_margin": 9.64,
+    "operating_margin": 15.82,
+    "return_on_assets": 1.11,
+    "return_on_equity": 14.35,
+    "cash": 8.74,
+    "debt": null,
+    "current_ratio": 52.64
+}

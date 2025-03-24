@@ -1,0 +1,15 @@
+{
+    "country": "US",
+    "currency": "USD",
+    "estimateCurrency": "USD",
+    "exchange": "NASDAQ NMS - GLOBAL MARKET",
+    "finnhubIndustry": "Financial Services",
+    "ipo": "1999-07-09",
+    "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ECPG.png",
+    "marketCapitalization": 817.586441,
+    "name": "Encore Capital Group Inc",
+    "phone": "18583091679",
+    "shareOutstanding": 23.69,
+    "ticker": "ECPG",
+    "weburl": "https://www.encorecapital.com/"
+}

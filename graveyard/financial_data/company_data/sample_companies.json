@@ -1,0 +1,72 @@
+[
+  {
+    "ticker":"BMW.XETR",
+    "company_name":"Bayerische Motoren Werke AG",
+    "exchange":"XETR",
+    "country":"Germany",
+    "last_updated":"2025-03-21"
+  },
+  {
+    "ticker":"SIE.XETR",
+    "company_name":"Siemens AG",
+    "exchange":"XETR",
+    "country":"Germany",
+    "last_updated":"2025-03-21"
+  },
+  {
+    "ticker":"SAP.XETR",
+    "company_name":"SAP SE",
+    "exchange":"XETR",
+    "country":"Germany",
+    "last_updated":"2025-03-21"
+  },
+  {
+    "ticker":"BAS.XETR",
+    "company_name":"BASF SE",
+    "exchange":"XETR",
+    "country":"Germany",
+    "last_updated":"2025-03-21"
+  },
+  {
+    "ticker":"ADS.XETR",
+    "company_name":"Adidas AG",
+    "exchange":"XETR",
+    "country":"Germany",
+    "last_updated":"2025-03-21"
+  },
+  {
+    "ticker":"AIR.XPAR",
+    "company_name":"Airbus SE",
+    "exchange":"XPAR",
+    "country":"France",
+    "last_updated":"2025-03-21"
+  },
+  {
+    "ticker":"BNP.XPAR",
+    "company_name":"BNP Paribas",
+    "exchange":"XPAR",
+    "country":"France",
+    "last_updated":"2025-03-21"
+  },
+  {
+    "ticker":"MC.XPAR",
+    "company_name":"LVMH Moet Hennessy Louis Vuitton SE",
+    "exchange":"XPAR",
+    "country":"France",
+    "last_updated":"2025-03-21"
+  },
+  {
+    "ticker":"OR.XPAR",
+    "company_name":"L'Oreal SA",
+    "exchange":"XPAR",
+    "country":"France",
+    "last_updated":"2025-03-21"
+  },
+  {
+    "ticker":"SAN.XPAR",
+    "company_name":"Sanofi",
+    "exchange":"XPAR",
+    "country":"France",
+    "last_updated":"2025-03-21"
+  }
+]
