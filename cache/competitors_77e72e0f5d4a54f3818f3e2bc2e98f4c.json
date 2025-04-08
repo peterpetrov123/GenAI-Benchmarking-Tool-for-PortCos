@@ -1,0 +1,67 @@
+{
+  "competitors": [
+    {
+      "name": "Smartsheet Inc.",
+      "ticker": "SMAR",
+      "relevance_justification": "SaaS-based collaboration platform with spreadsheet-like project management features, competing in workspace productivity tools with 30%+ revenue growth and 80%+ gross margins[3][10].",
+      "investor_relations_url": "https://investors.smartsheet.com",
+      "recent_financial_report_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001366561/3e5a5736-18b2-4ee8-85c4-5d9e3c328d7d.pdf"
+    },
+    {
+      "name": "Atlassian Corporation",
+      "ticker": "TEAM",
+      "relevance_justification": "Developer of Confluence (knowledge management) and Jira (project management) with SaaS business model, 85%+ gross margins, and $3B+ annual revenue[5][9].",
+      "investor_relations_url": "https://investors.atlassian.com",
+      "recent_financial_report_url": "https://s2.q4cdn.com/141359120/files/doc_financials/2023/teams/Atlassian-FY23-Annual-Report.pdf"
+    },
+    {
+      "name": "Asana, Inc.",
+      "ticker": "ASAN",
+      "relevance_justification": "Work management platform with 40%+ revenue growth, negative EBITDA margins, and R&D-intensive SaaS model comparable to Notion's financial profile[10][13].",
+      "investor_relations_url": "https://investors.asana.com",
+      "recent_financial_report_url": "https://investors.asana.com/static-files/4e8c5e82-ae05-4702-8d78-01b9f8cb6e21"
+    },
+    {
+      "name": "monday.com Ltd.",
+      "ticker": "MNDY",
+      "relevance_justification": "Work OS platform with 50%+ revenue growth, 85% gross margins, and $500M+ ARR competing in customizable workspace solutions[10][13].",
+      "investor_relations_url": "https://investors.monday.com",
+      "recent_financial_report_url": "https://d34nbwv9prankt.cloudfront.net/api/file/lj5aQr0QhWZqO7E2tZLY"
+    },
+    {
+      "name": "Adobe Inc.",
+      "ticker": "ADBE",
+      "relevance_justification": "Enterprise SaaS competitor through Adobe Workfront (project management) and document collaboration tools, with significant R&D investment matching Notion's 25% R&D ratio[4][9].",
+      "investor_relations_url": "https://www.adobe.com/investor-relations.html",
+      "recent_financial_report_url": "https://www.adobe.com/content/dam/cc/en/investor-relations/pdfs/2023_q4_earnings_release.pdf"
+    },
+    {
+      "name": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "relevance_justification": "Competes through Quip collaboration platform with similar gross margins (84%) and enterprise SaaS focus, though at larger scale[9][16].",
+      "investor_relations_url": "https://investor.salesforce.com",
+      "recent_financial_report_url": "https://s24.q4cdn.com/574569502/files/doc_financials/2024/q4/Salesforce-FY24-Q4-Earnings-Release.pdf"
+    },
+    {
+      "name": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "relevance_justification": "Competes via OneNote, Teams, and SharePoint with 85%+ gross margins in productivity software segment, though with diversified business model[5][9].",
+      "investor_relations_url": "https://www.microsoft.com/en-us/investor",
+      "recent_financial_report_url": "https://www.microsoft.com/investor/reports/ar24/index.html"
+    },
+    {
+      "name": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "relevance_justification": "Google Workspace competes in document collaboration with 80%+ gross margins and $30B+ annual revenue in productivity tools segment[9][14].",
+      "investor_relations_url": "https://abc.xyz/investor",
+      "recent_financial_report_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000019/goog-20231231.htm"
+    },
+    {
+      "name": "Dropbox, Inc.",
+      "ticker": "DBX",
+      "relevance_justification": "File collaboration platform with 80%+ gross margins and $2B+ revenue, though with slower growth than Notion's 40% rate[9][14].",
+      "investor_relations_url": "https://investors.dropbox.com",
+      "recent_financial_report_url": "https://dropbox.gcs-web.com/static-files/6e6d3a4f-30a3-4d5b-8b6a-6a5b5a5b5a5b"
+    }
+  ]
+}

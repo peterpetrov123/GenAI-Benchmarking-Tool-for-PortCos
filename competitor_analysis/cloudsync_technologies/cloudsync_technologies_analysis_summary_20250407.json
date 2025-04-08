@@ -1,0 +1,11 @@
+{
+  "analysis_date": "2025-04-07 12:41:27",
+  "input_company": "CloudSync Technologies",
+  "industry": "Software as a Service (SaaS)",
+  "competitors_found": 6,
+  "competitors_with_financials": 6,
+  "files": {
+    "competitors": "cloudsync_technologies_competitors_20250407.json",
+    "financials": "cloudsync_technologies_competitor_financials_20250407.json"
+  }
+}

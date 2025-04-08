@@ -1,0 +1,23 @@
+{
+  "market_capitalization": {
+    "value": 985.30614,
+    "unit": "million USD",
+    "period": "Latest",
+    "source": "Finnhub stock/profile2",
+    "notes": "Market capitalization in millions USD"
+  },
+  "price_to_earnings_ratio": {
+    "value": 19.1955,
+    "unit": "ratio",
+    "period": "TTM",
+    "source": "Finnhub stock/metric",
+    "notes": "Price to earnings ratio (trailing twelve months)"
+  },
+  "gross_margin": {
+    "value": 6779.000000000001,
+    "unit": "%",
+    "period": "TTM",
+    "source": "Finnhub stock/metric",
+    "notes": "Gross margin percentage (trailing twelve months)"
+  }
+}

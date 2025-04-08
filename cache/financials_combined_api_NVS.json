@@ -1,0 +1,65 @@
+{
+  "market_capitalization": {
+    "value": 211512.639,
+    "unit": "million USD",
+    "period": "Latest",
+    "source": "Alpha Vantage OVERVIEW",
+    "notes": "Market capitalization in millions USD"
+  },
+  "employee_count": {
+    "value": null,
+    "unit": "employees",
+    "period": "Latest",
+    "source": "Alpha Vantage OVERVIEW",
+    "notes": "Full-time employee count"
+  },
+  "price_to_earnings_ratio": {
+    "value": 18.03,
+    "unit": "ratio",
+    "period": "Latest",
+    "source": "Alpha Vantage OVERVIEW",
+    "notes": "Price to earnings ratio"
+  },
+  "ebitda_margin": {
+    "value": 23.1,
+    "unit": "%",
+    "period": "Latest",
+    "source": "Alpha Vantage OVERVIEW",
+    "notes": "Using profit margin as an approximation for EBITDA margin"
+  },
+  "annual_revenue": {
+    "value": 51722.0,
+    "unit": "million USD",
+    "period": "2024-12-31",
+    "source": "Alpha Vantage INCOME_STATEMENT",
+    "notes": "Annual revenue from income statement"
+  },
+  "revenue_growth": {
+    "value": 10.8,
+    "unit": "%",
+    "period": "2024-12-31 vs 2023-12-31",
+    "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+    "notes": "Year-over-year revenue growth"
+  },
+  "gross_margin": {
+    "value": 75.2,
+    "unit": "%",
+    "period": "2024-12-31",
+    "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+    "notes": "Gross margin percentage"
+  },
+  "rd_percentage": {
+    "value": 19.4,
+    "unit": "%",
+    "period": "2024-12-31",
+    "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+    "notes": "R&D expenses as percentage of revenue"
+  },
+  "operating_cash_flow": {
+    "value": 17619.0,
+    "unit": "million USD",
+    "period": "2024-12-31",
+    "source": "Alpha Vantage CASH_FLOW",
+    "notes": "Operating cash flow from cash flow statement"
+  }
+}

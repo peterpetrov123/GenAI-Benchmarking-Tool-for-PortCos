@@ -1,0 +1,460 @@
+{
+  "company_metrics": [
+    {
+      "name": "Atlassian Corporation",
+      "ticker": "TEAM",
+      "metrics": {
+        "annual_revenue": {
+          "value": 2740,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://dcfmodeling.com/blogs/health/team-financial-health"
+        },
+        "revenue_growth": {
+          "value": 11,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://dcfmodeling.com/blogs/health/team-financial-health"
+        },
+        "gross_margin": {
+          "value": 82.66,
+          "unit": "%",
+          "period": "Q4 2024",
+          "source": "https://ycharts.com/companies/TEAM/gross_profit_margin"
+        },
+        "ebitda_margin": {
+          "value": -0.88,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.alphaquery.com/stock/TEAM/fundamentals/annual/ebitda-margin"
+        },
+        "rd_percentage": {
+          "value": "Not Available",
+          "unit": "% of Revenue",
+          "period": "FY2024",
+          "source": "Not available in public reports"
+        },
+        "operating_cash_flow": {
+          "value": 868,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "https://www.sec.gov/Archives/edgar/data/1650372/000165037223000054/team2023annualreport.pdf"
+        },
+        "employee_count": {
+          "value": 12157,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "https://www.bullfincher.io/companies/atlassian-corporation/number-of-employees"
+        },
+        "market_capitalization": {
+          "value": 4370,
+          "unit": "million USD",
+          "period": "IPO (2015)",
+          "source": "https://en.wikipedia.org/wiki/Atlassian"
+        },
+        "recurring_revenue": {
+          "value": "Significant portion via Cloud",
+          "unit": "Qualitative",
+          "period": "FY2023",
+          "source": "https://www.sec.gov/Archives/edgar/data/1650372/000165037223000054/team2023annualreport.pdf"
+        },
+        "customer_acquisition_cost": {
+          "value": "Not Available",
+          "unit": "USD per customer",
+          "period": "FY2024",
+          "source": "Not available in public reports"
+        }
+      }
+    },
+    {
+      "name": "Smartsheet Inc.",
+      "ticker": "SMAR",
+      "metrics": {
+        "annual_revenue": {
+          "value": 958,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "10"
+        },
+        "revenue_growth": {
+          "value": 17,
+          "unit": "%",
+          "period": "FY2025 Q3 YoY",
+          "source": "1"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": "4"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": "1"
+        },
+        "operating_cash_flow": {
+          "value": 172.75,
+          "unit": "million USD",
+          "period": "Nine months FY2025",
+          "source": "1"
+        },
+        "employee_count": {
+          "value": 3330,
+          "unit": "employees",
+          "period": "January 31, 2024",
+          "source": "3"
+        },
+        "market_capitalization": {
+          "value": 7.91,
+          "unit": "billion USD",
+          "period": "Current",
+          "source": "3"
+        },
+        "recurring_revenue": {
+          "value": 1133,
+          "unit": "million USD (annualized recurring revenue)",
+          "period": "FY2025 Q3",
+          "source": "1"
+        },
+        "customer_acquisition_cost": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        }
+      }
+    },
+    {
+      "name": "Asana, Inc.",
+      "ticker": "ASAN",
+      "metrics": {
+        "annual_revenue": {
+          "value": 579.3,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "https://dcfmodeling.com/blogs/health/asan-financial-health"
+        },
+        "revenue_growth": {
+          "value": 44.6,
+          "unit": "percent",
+          "period": "FY2023",
+          "source": "https://www.macrotrends.net/stocks/charts/ASAN/asana/revenue"
+        },
+        "gross_margin": {
+          "value": 88.1,
+          "unit": "percent",
+          "period": "FY2023",
+          "source": "https://dcfmodeling.com/blogs/health/asan-financial-health"
+        },
+        "ebitda_margin": {
+          "value": -31.4,
+          "unit": "percent",
+          "period": "FY2023",
+          "source": "https://dcfmodeling.com/blogs/health/asan-financial-health"
+        },
+        "rd_percentage": {
+          "value": 41.3,
+          "unit": "percent of revenue",
+          "period": "FY2023",
+          "source": "https://dcfmodeling.com/blogs/health/asan-financial-health"
+        },
+        "operating_cash_flow": {
+          "value": 20.2,
+          "unit": "million USD",
+          "period": "Q2 FY2024",
+          "source": "https://investors.asana.com/news-releases/news-release-details/asana-announces-second-quarter-fiscal-2024-results"
+        },
+        "employee_count": {
+          "value": 1300,
+          "unit": "employees",
+          "period": "FY2023",
+          "source": "https://dcfmodeling.com/products/asan-business-model-canvas"
+        },
+        "market_capitalization": {
+          "value": null,
+          "unit": "million USD",
+          "period": "April 2025",
+          "source": null
+        },
+        "recurring_revenue": {
+          "value": 579.5,
+          "unit": "million USD annual recurring revenue",
+          "period": "FY2023",
+          "source": "https://dcfmodeling.com/blogs/health/asan-financial-health"
+        },
+        "customer_acquisition_cost": {
+          "value": 1001,
+          "unit": "USD per customer",
+          "period": "FY2023",
+          "source": "https://dcfmodeling.com/products/asan-business-model-canvas"
+        }
+      }
+    },
+    {
+      "name": "monday.com Ltd.",
+      "ticker": "MNDY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 972,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://ir.monday.com/news-and-events/news-releases/news-details/2025/monday.com-Announces-Fourth-Quarter-and-Fiscal-Year-2024-Results/default.aspx"
+        },
+        "revenue_growth": {
+          "value": 32,
+          "unit": "percent",
+          "period": "YoY FY2024",
+          "source": "https://ir.monday.com/news-and-events/news-releases/news-details/2025/monday.com-Announces-Fourth-Quarter-and-Fiscal-Year-2024-Results/default.aspx"
+        },
+        "gross_margin": {
+          "value": 89.33,
+          "unit": "percent",
+          "period": "FY2024",
+          "source": "https://stockanalysis.com/stocks/mndy/statistics/"
+        },
+        "ebitda_margin": {
+          "value": -1.34,
+          "unit": "percent",
+          "period": "FY2024",
+          "source": "https://stockanalysis.com/stocks/mndy/statistics/"
+        },
+        "rd_percentage": {
+          "value": 21.99,
+          "unit": "percent of revenue",
+          "period": "FY2024",
+          "source": "https://ir.monday.com/news-and-events/news-releases/news-details/2025/monday.com-Announces-Fourth-Quarter-and-Fiscal-Year-2024-Results/default.aspx"
+        },
+        "operating_cash_flow": {
+          "value": 311.07,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://stockanalysis.com/stocks/mndy/statistics/"
+        },
+        "employee_count": {
+          "value": 245000,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "https://ir.monday.com/overview/default.aspx"
+        },
+        "market_capitalization": {
+          "value": 13540,
+          "unit": "million USD",
+          "period": "April 2025",
+          "source": "https://stockanalysis.com/stocks/mndy/statistics/"
+        },
+        "recurring_revenue": {
+          "value": 1000,
+          "unit": "million USD ARR",
+          "period": "FY2024",
+          "source": "https://ir.monday.com/news-and-events/news-releases/news-details/2025/monday.com-Announces-Fourth-Quarter-and-Fiscal-Year-2024-Results/default.aspx"
+        },
+        "customer_acquisition_cost": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        }
+      }
+    },
+    {
+      "name": "Adobe Inc.",
+      "ticker": "ADBE",
+      "metrics": {
+        "annual_revenue": {
+          "value": 21510,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/a56sthg53egr.pdf"
+        },
+        "revenue_growth": {
+          "value": 11,
+          "unit": "percent",
+          "period": "FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/a56sthg53egr.pdf"
+        },
+        "gross_margin": {
+          "value": 89.04,
+          "unit": "percent",
+          "period": "FY2024",
+          "source": "https://www.alphaquery.com/stock/ADBE/fundamentals/annual/gross-margin"
+        },
+        "ebitda_margin": {
+          "value": 35.33,
+          "unit": "percent",
+          "period": "FY2024",
+          "source": "https://www.alphaquery.com/stock/ADBE/fundamentals/annual/gross-margin"
+        },
+        "rd_percentage": {
+          "value": 10.97,
+          "unit": "percent",
+          "period": "FY2024",
+          "source": "https://www.alphaquery.com/stock/ADBE/fundamentals/annual/gross-margin"
+        },
+        "operating_cash_flow": {
+          "value": 8060,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/a56sthg53egr.pdf"
+        },
+        "employee_count": {
+          "value": 30709,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "https://bullfincher.io/companies/adobe/number-of-employees"
+        },
+        "market_capitalization": {
+          "value": 162240,
+          "unit": "million USD",
+          "period": "April 1, 2025",
+          "source": "https://ycharts.com/companies/ADBE/market_cap"
+        },
+        "recurring_revenue": {
+          "value": 17330,
+          "unit": "million USD",
+          "period": "Q4 FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/a56sthg53egr.pdf"
+        }
+      }
+    },
+    {
+      "name": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "metrics": {
+        "annual_revenue": {
+          "value": 34900,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "9"
+        },
+        "revenue_growth": {
+          "value": 10,
+          "unit": "percent",
+          "period": "FY2023",
+          "source": "9"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": "percent",
+          "period": null,
+          "source": null
+        },
+        "ebitda_margin": {
+          "value": 33.72,
+          "unit": "percent",
+          "period": "FY2025",
+          "source": "4"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": "percent",
+          "period": null,
+          "source": null
+        },
+        "operating_cash_flow": {
+          "value": 7100,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "1"
+        },
+        "employee_count": {
+          "value": 73000,
+          "unit": null,
+          "period": "FY2023",
+          "source": "9"
+        },
+        "market_capitalization": {
+          "value": 102930,
+          "unit": "million USD",
+          "period": "FY2025",
+          "source": "4"
+        },
+        "recurring_revenue": {
+          "value": 29020,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "1"
+        },
+        "customer_acquisition_cost": {
+          "value": null,
+          "unit": "USD",
+          "period": null,
+          "source": null
+        }
+      }
+    },
+    {
+      "name": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "metrics": {
+        "annual_revenue": {
+          "value": 34900,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "9"
+        },
+        "revenue_growth": {
+          "value": 10,
+          "unit": "percent",
+          "period": "FY2023",
+          "source": "9"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": "percent",
+          "period": null,
+          "source": null
+        },
+        "ebitda_margin": {
+          "value": 33.72,
+          "unit": "percent",
+          "period": "FY2025",
+          "source": "4"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": "percent",
+          "period": null,
+          "source": null
+        },
+        "operating_cash_flow": {
+          "value": 7100,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "1"
+        },
+        "employee_count": {
+          "value": 73000,
+          "unit": null,
+          "period": "FY2023",
+          "source": "9"
+        },
+        "market_capitalization": {
+          "value": 102930,
+          "unit": "million USD",
+          "period": "FY2025",
+          "source": "4"
+        },
+        "recurring_revenue": {
+          "value": 29020,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "1"
+        },
+        "customer_acquisition_cost": {
+          "value": null,
+          "unit": "USD",
+          "period": null,
+          "source": null
+        }
+      }
+    }
+  ]
+}

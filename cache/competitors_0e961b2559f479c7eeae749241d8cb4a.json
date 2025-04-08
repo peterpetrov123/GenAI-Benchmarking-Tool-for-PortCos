@@ -1,0 +1,67 @@
+{
+  "competitors": [
+    {
+      "name": "Roche Holding AG",
+      "ticker": "RHHBY",
+      "relevance_justification": "Similar revenue scale ($49.9B pharmaceutical sales) with comparable R&D focus (25% of revenue invested in R&D). Strong oncology/immunology portfolio aligns with therapeutic focus[1][6][11].",
+      "investor_relations_url": "https://www.roche.com/investors.htm",
+      "recent_financial_report_url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf"
+    },
+    {
+      "name": "AbbVie Inc.",
+      "ticker": "ABBV",
+      "relevance_justification": "Nearly identical revenue ($54.3B) with matching pharmaceutical business model. Faces similar lifecycle management challenges with 25%+ R&D reinvestment[1][9][16].",
+      "investor_relations_url": "https://www.alphaspread.com/security/nyse/abbv/investor-relations",
+      "recent_financial_report_url": "https://www.alphaspread.com/security/nyse/abbv/investor-relations"
+    },
+    {
+      "name": "Merck & Co.",
+      "ticker": "MRK",
+      "relevance_justification": "Largest R&D spender ($30.5B) with comparable gross margin (82.5%). Similar immuno-oncology focus and blockbuster drug dependency[6][12][16].",
+      "investor_relations_url": "https://www.merck.com/investor-relations/",
+      "recent_financial_report_url": "https://www.merck.com/news/merck-announces-fourth-quarter-and-full-year-2024-financial-results/"
+    },
+    {
+      "name": "Novartis AG",
+      "ticker": "NVS",
+      "relevance_justification": "Leader in access-oriented R&D with $51B revenue. Matches therapeutic focus and governance structure for global drug distribution[2][13][16].",
+      "investor_relations_url": "https://www.novartis.com/investors",
+      "recent_financial_report_url": "https://builtin.com/job/investor-relations-executive-director/3470116"
+    },
+    {
+      "name": "GlaxoSmithKline",
+      "ticker": "GSK",
+      "relevance_justification": "$31.4B revenue with 7% growth. Comparable vaccine/therapeutic pipeline and 29.2% operating margin profile[2][16][6].",
+      "investor_relations_url": "https://www.gsk.com/en-gb/investors/",
+      "recent_financial_report_url": "https://www.gsk.com/media/11774/fy-2024-results-slides.pdf"
+    },
+    {
+      "name": "Eli Lilly and Company",
+      "ticker": "LLY",
+      "relevance_justification": "High-growth profile (32% revenue increase) with similar cardiometabolic therapeutic focus. Matches R&D intensity at 24% of revenue[17][4][6].",
+      "investor_relations_url": "https://investor.lilly.com/",
+      "recent_financial_report_url": "https://www.moomoo.com/news/notice/303843836/eli-lilly-and-co-10-k-fy2024-annual-report"
+    },
+    {
+      "name": "Pfizer Inc.",
+      "ticker": "PFE",
+      "relevance_justification": "Despite larger scale ($159B revenue), matches R&D percentage (25%) and faces similar patent cliff challenges with comparable therapeutic areas[6][7][10].",
+      "investor_relations_url": "https://www.pfizer.com/investors",
+      "recent_financial_report_url": "https://www.pfizerltd.co.in/investor-relations"
+    },
+    {
+      "name": "Bristol-Myers Squibb",
+      "ticker": "BMY",
+      "relevance_justification": "Oncology-focused portfolio with $45B revenue. Similar gross margin profile (74%) and R&D investment strategy[14][6][16].",
+      "investor_relations_url": "https://www.bms.com/investors.html",
+      "recent_financial_report_url": "https://www.alphaspread.com/security/nyse/bmy/investor-relations"
+    },
+    {
+      "name": "Novo Nordisk",
+      "ticker": "NVO",
+      "relevance_justification": "High-growth (25.7% sales increase) with comparable obesity/diabetes focus. Matches EBITDA margin profile (32.7%)[19][6][16].",
+      "investor_relations_url": "https://www.novonordisk.com/investors.html",
+      "recent_financial_report_url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf"
+    }
+  ]
+}

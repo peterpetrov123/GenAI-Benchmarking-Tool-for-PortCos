@@ -1,0 +1,447 @@
+{
+  "company_metrics": [
+    {
+      "name": "Robinhood Markets, Inc.",
+      "ticker": "HOOD",
+      "metrics": {
+        "annual_revenue": {
+          "value": 1900,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "https://www.globenewswire.com/news-release/2024/2/13/2828627/0/en/Robinhood-Reports-Fourth-Quarter-and-Full-Year-2023-Results.html"
+        },
+        "revenue_growth": {
+          "value": 37,
+          "unit": "percent",
+          "period": "FY2023 vs FY2022",
+          "source": "https://www.globenewswire.com/news-release/2024/2/13/2828627/0/en/Robinhood-Reports-Fourth-Quarter-and-Full-Year-2023-Results.html"
+        },
+        "gross_margin": {
+          "value": 89.47,
+          "unit": "percent",
+          "period": "FY2023",
+          "source": "https://www.globenewswire.com/news-release/2024/2/13/2828627/0/en/Robinhood-Reports-Fourth-Quarter-and-Full-Year-2023-Results.html"
+        },
+        "ebitda_margin": {
+          "value": 28.21,
+          "unit": "percent",
+          "period": "FY2023",
+          "source": "https://www.globenewswire.com/news-release/2024/2/13/2828627/0/en/Robinhood-Reports-Fourth-Quarter-and-Full-Year-2023-Results.html"
+        },
+        "rd_percentage": {
+          "value": 10,
+          "unit": "percent",
+          "period": "FY2023",
+          "source": "https://s28.q4cdn.com/948876185/files/doc_financials/2023/ar/robinhood-2023-annual-report.pdf"
+        },
+        "operating_cash_flow": {
+          "value": 536,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "https://www.globenewswire.com/news-release/2024/2/13/2828627/0/en/Robinhood-Reports-Fourth-Quarter-and-Full-Year-2023-Results.html"
+        },
+        "employee_count": {
+          "value": 2300,
+          "unit": "employees",
+          "period": "as of Dec 31, 2023",
+          "source": "https://stockanalysis.com/stocks/hood/employees/"
+        },
+        "market_capitalization": {
+          "value": 30.56,
+          "unit": "billion USD",
+          "period": "as of April 2025",
+          "source": "https://stockanalysis.com/stocks/hood/statistics/"
+        },
+        "recurring_revenue": {
+          "value": 540,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "https://s28.q4cdn.com/948876185/files/doc_financials/2023/ar/robinhood-2023-annual-report.pdf"
+        },
+        "customer_acquisition_cost": {
+          "value": 60,
+          "unit": "USD",
+          "period": "FY2023",
+          "source": "https://www.globenewswire.com/news-release/2024/2/13/2828627/0/en/Robinhood-Reports-Fourth-Quarter-and-Full-Year-2023-Results.html"
+        }
+      }
+    },
+    {
+      "name": "Upstart Holdings, Inc.",
+      "ticker": "UPST",
+      "metrics": {
+        "annual_revenue": {
+          "value": 842,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://en.wikipedia.org/wiki/Upstart_Holdings"
+        },
+        "revenue_growth": {
+          "value": "Not specified",
+          "unit": "%",
+          "period": "FY2024",
+          "source": "No data available in provided sources"
+        },
+        "gross_margin": {
+          "value": "72.6% (latest available for FY2023)",
+          "unit": "%",
+          "period": "FY2023",
+          "source": "https://finbox.com/NASDAQGS:UPST/explorer/gp_margin/"
+        },
+        "ebitda_margin": {
+          "value": "Not specified",
+          "unit": "%",
+          "period": "FY2024",
+          "source": "No data available in provided sources"
+        },
+        "rd_percentage": {
+          "value": "Not specified",
+          "unit": "% of revenue",
+          "period": "FY2024",
+          "source": "No data available in provided sources"
+        },
+        "operating_cash_flow": {
+          "value": "Not specified",
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "No data available in provided sources"
+        },
+        "employee_count": {
+          "value": 1193,
+          "unit": "number",
+          "period": "December 31, 2024",
+          "source": "https://stockanalysis.com/stocks/upst/employees/"
+        },
+        "market_capitalization": {
+          "value": 4300,
+          "unit": "million USD",
+          "period": "Recent",
+          "source": "https://stockanalysis.com/stocks/upst/employees/"
+        },
+        "recurring_revenue": {
+          "value": "Not specified",
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "No data available in provided sources"
+        },
+        "customer_acquisition_cost": {
+          "value": "Not specified",
+          "unit": "USD per customer",
+          "period": "FY2024",
+          "source": "No data available in provided sources"
+        }
+      }
+    },
+    {
+      "name": "Block, Inc.",
+      "ticker": "SQ",
+      "metrics": {
+        "annual_revenue": {
+          "value": 21916,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "https://en.wikipedia.org/wiki/Block,_Inc."
+        },
+        "revenue_growth": {
+          "value": 25,
+          "unit": "%",
+          "period": "FY2023",
+          "source": "https://en.wikipedia.org/wiki/Block,_Inc."
+        },
+        "gross_margin": {
+          "value": 42.3,
+          "unit": "%",
+          "period": "FY2023",
+          "source": "https://dcfmodeling.com/blogs/health/sq-financial-health"
+        },
+        "ebitda_margin": {
+          "value": -3.3,
+          "unit": "%",
+          "period": "FY2023",
+          "source": "https://www.alphaquery.com/stock/SQ/fundamentals/annual/ebitda-margin"
+        },
+        "rd_percentage": {
+          "value": 3.24,
+          "unit": "%",
+          "period": "FY2023",
+          "source": "Calculated from R&D expenses ($682 million) in relation to revenue ($21,916 million)"
+        },
+        "operating_cash_flow": {
+          "value": 1450,
+          "unit": "million USD",
+          "period": "FY2023",
+          "source": "https://dcfmodeling.com/blogs/health/sq-financial-health"
+        },
+        "employee_count": {
+          "value": 12985,
+          "unit": "people",
+          "period": "FY2023",
+          "source": "https://en.wikipedia.org/wiki/Block,_Inc."
+        },
+        "market_capitalization": {
+          "value": 31140,
+          "unit": "million USD",
+          "period": "2025",
+          "source": "https://stockanalysis.com/stocks/xyz/statistics/"
+        },
+        "recurring_revenue": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": "Not explicitly available in provided sources"
+        },
+        "customer_acquisition_cost": {
+          "value": 10,
+          "unit": "USD",
+          "period": "2021",
+          "source": "https://www.paymentsdive.com/news/block-defends-higher-marketing-spending/619452/"
+        }
+      }
+    },
+    {
+      "name": "LendingClub Corporation",
+      "ticker": "LC",
+      "metrics": {
+        "annual_revenue": {
+          "value": 1160,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://ir.lendingclub.com/news/news-details/2025/LendingClub-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+        },
+        "revenue_growth": {
+          "value": 17,
+          "unit": "percent",
+          "period": "FY2024",
+          "source": "https://ir.lendingclub.com/news/news-details/2025/LendingClub-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+        },
+        "gross_margin": {
+          "value": 23.77,
+          "unit": "percent",
+          "period": "FY2024",
+          "source": "https://stockanalysis.com/stocks/lc/statistics/"
+        },
+        "ebitda_margin": {
+          "value": 10.74,
+          "unit": "percent",
+          "period": "FY2024",
+          "source": "https://stockanalysis.com/stocks/lc/statistics/"
+        },
+        "rd_percentage": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "employee_count": {
+          "value": 1002,
+          "unit": "employees",
+          "period": "Q1 2025",
+          "source": "https://stockanalysis.com/stocks/lc/statistics/"
+        },
+        "market_capitalization": {
+          "value": 1190,
+          "unit": "million USD",
+          "period": "April 2025",
+          "source": "https://companiesmarketcap.com/lendingclub/marketcap/"
+        },
+        "recurring_revenue": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        },
+        "customer_acquisition_cost": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null
+        }
+      }
+    },
+    {
+      "name": "Rocket Companies, Inc.",
+      "ticker": "RKT",
+      "metrics": {
+        "annual_revenue": {
+          "value": 5100.8,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://ir.rocketcompanies.com/news-and-events/press-releases/press-release-details/2025/Rocket-Companies-Announces-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+        },
+        "revenue_growth": {
+          "value": 34.3,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://ir.rocketcompanies.com/news-and-events/press-releases/press-release-details/2025/Rocket-Companies-Announces-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+        },
+        "gross_margin": {
+          "value": 69.79,
+          "unit": "%",
+          "period": "TTM",
+          "source": "https://www.investing.com/equities/rocket-companies-inc-ratios"
+        },
+        "ebitda_margin": {
+          "value": 16.5,
+          "unit": "%",
+          "period": "TTM",
+          "source": "https://www.investing.com/equities/rocket-companies-inc-ratios"
+        },
+        "operating_cash_flow": {
+          "value": 176.38,
+          "unit": "million USD",
+          "period": "TTM",
+          "source": "https://www.investing.com/equities/rocket-companies-inc-ratios"
+        },
+        "recurring_revenue": {
+          "value": 1400,
+          "unit": "million USD",
+          "period": "Annualized Q2 2024",
+          "source": "https://www.prnewswire.com/news-releases/rocket-companies-announces-second-quarter-2024-results-302212864.html"
+        },
+        "market_capitalization": {
+          "value": 38200,
+          "unit": "million USD",
+          "period": "Current",
+          "source": "https://www.nasdaq.com/articles/rocket-companies-rkt-reports-q4-earnings-what-key-metrics-have-say"
+        },
+        "employee_count": {
+          "value": 14573,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        }
+      }
+    },
+    {
+      "name": "Ally Financial Inc.",
+      "ticker": "ALLY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 8180,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.alphaquery.com/stock/ALLY/profile-key-metrics"
+        },
+        "revenue_growth": {
+          "value": -3.8,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-ally-financial-ally-q2-earnings"
+        },
+        "gross_margin": {
+          "value": null,
+          "reason": "Not explicitly disclosed in sources",
+          "source": null
+        },
+        "ebitda_margin": {
+          "value": 9.8,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.ally.com/content/dam/pdf/investor-relations/2024-10k.pdf"
+        },
+        "rd_percentage": {
+          "value": null,
+          "reason": "R&D expenses are not generally applicable for Ally Financial's business model.",
+          "source": null
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "reason": "Not explicitly disclosed in sources",
+          "source": null
+        },
+        "employee_count": {
+          "value": 23371,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "market_capitalization": {
+          "value": 11510,
+          "unit": "million USD",
+          "period": "April 2025",
+          "source": "https://www.alphaquery.com/stock/ALLY/profile-key-metrics"
+        },
+        "recurring_revenue": {
+          "value": null,
+          "reason": "Not explicitly disclosed in sources",
+          "source": null
+        },
+        "customer_acquisition_cost": {
+          "value": null,
+          "reason": "Not explicitly disclosed in sources",
+          "source": null
+        }
+      }
+    },
+    {
+      "name": "Ally Financial Inc.",
+      "ticker": "ALLY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 8180,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.alphaquery.com/stock/ALLY/profile-key-metrics"
+        },
+        "revenue_growth": {
+          "value": -3.8,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-ally-financial-ally-q2-earnings"
+        },
+        "gross_margin": {
+          "value": null,
+          "reason": "Not explicitly disclosed in sources",
+          "source": null
+        },
+        "ebitda_margin": {
+          "value": 9.8,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.ally.com/content/dam/pdf/investor-relations/2024-10k.pdf"
+        },
+        "rd_percentage": {
+          "value": null,
+          "reason": "R&D expenses are not generally applicable for Ally Financial's business model.",
+          "source": null
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "reason": "Not explicitly disclosed in sources",
+          "source": null
+        },
+        "employee_count": {
+          "value": 23371,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "market_capitalization": {
+          "value": 11510,
+          "unit": "million USD",
+          "period": "April 2025",
+          "source": "https://www.alphaquery.com/stock/ALLY/profile-key-metrics"
+        },
+        "recurring_revenue": {
+          "value": null,
+          "reason": "Not explicitly disclosed in sources",
+          "source": null
+        },
+        "customer_acquisition_cost": {
+          "value": null,
+          "reason": "Not explicitly disclosed in sources",
+          "source": null
+        }
+      }
+    }
+  ]
+}

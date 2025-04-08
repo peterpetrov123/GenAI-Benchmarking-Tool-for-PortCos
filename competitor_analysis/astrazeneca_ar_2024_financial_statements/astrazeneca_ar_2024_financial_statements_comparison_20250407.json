@@ -1,0 +1,102 @@
+{
+  "company_name": "AstraZeneca_AR_2024_Financial_Statements",
+  "comparison_date": "2025-04-07",
+  "metrics": [
+    {
+      "metric": "Annual Revenue",
+      "values": {
+        "AstraZeneca_AR_2024_Financial_Statements": "$54,073M",
+        "Roche Holding AG": "$60,495M",
+        "AbbVie Inc.": "$56,334M",
+        "Merck & Co.": "$64,168M",
+        "Novartis AG": "$51,722M",
+        "GlaxoSmithKline": "$31,400M",
+        "Eli Lilly and Company": "$45,040M"
+      }
+    },
+    {
+      "metric": "Revenue Growth",
+      "values": {
+        "AstraZeneca_AR_2024_Financial_Statements": "54.9%",
+        "Roche Holding AG": "7.0%",
+        "AbbVie Inc.": "3.7%",
+        "Merck & Co.": "7.0%",
+        "Novartis AG": "10.8%",
+        "GlaxoSmithKline": "3.0%",
+        "Eli Lilly and Company": "32.0%"
+      }
+    },
+    {
+      "metric": "Gross Margin",
+      "values": {
+        "AstraZeneca_AR_2024_Financial_Statements": "81.1%",
+        "Roche Holding AG": "73.1%",
+        "AbbVie Inc.": "70.0%",
+        "Merck & Co.": "80.8%",
+        "Novartis AG": "Missing value",
+        "GlaxoSmithKline": "71.2%",
+        "Eli Lilly and Company": "81.3%"
+      }
+    },
+    {
+      "metric": "EBITDA Margin",
+      "values": {
+        "AstraZeneca_AR_2024_Financial_Statements": "18.5%",
+        "Roche Holding AG": "Missing value",
+        "AbbVie Inc.": "Missing value",
+        "Merck & Co.": "38.5%",
+        "Novartis AG": "Missing value",
+        "GlaxoSmithKline": "20.9%",
+        "Eli Lilly and Company": "Missing value"
+      }
+    },
+    {
+      "metric": "R&D % of Revenue",
+      "values": {
+        "AstraZeneca_AR_2024_Financial_Statements": "25.1%",
+        "Roche Holding AG": "21.5%",
+        "AbbVie Inc.": "22.7%",
+        "Merck & Co.": "27.9%",
+        "Novartis AG": "19.4%",
+        "GlaxoSmithKline": "20.8%",
+        "Eli Lilly and Company": "24.4%"
+      }
+    },
+    {
+      "metric": "Operating Cash Flow",
+      "values": {
+        "AstraZeneca_AR_2024_Financial_Statements": "Missing value",
+        "Roche Holding AG": "Missing value",
+        "AbbVie Inc.": "Missing value",
+        "Merck & Co.": "Missing value",
+        "Novartis AG": "Missing value",
+        "GlaxoSmithKline": "$7,900.00M",
+        "Eli Lilly and Company": "Missing value"
+      }
+    },
+    {
+      "metric": "Employee Count",
+      "values": {
+        "AstraZeneca_AR_2024_Financial_Statements": "Missing value",
+        "Roche Holding AG": "103,249",
+        "AbbVie Inc.": "112,668",
+        "Merck & Co.": "128,336",
+        "Novartis AG": "75,883",
+        "GlaxoSmithKline": "68,629",
+        "Eli Lilly and Company": "90,080"
+      }
+    },
+    {
+      "metric": "Market Cap",
+      "values": {
+        "AstraZeneca_AR_2024_Financial_Statements": "Missing value",
+        "Roche Holding AG": "$237,300M",
+        "AbbVie Inc.": "Missing value",
+        "Merck & Co.": "$226,737M",
+        "Novartis AG": "$230,870M",
+        "GlaxoSmithKline": "$64,730M",
+        "Eli Lilly and Company": "Missing value"
+      }
+    }
+  ]
+}

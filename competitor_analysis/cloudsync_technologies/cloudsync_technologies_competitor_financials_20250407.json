@@ -1,0 +1,389 @@
+{
+  "company_metrics": [
+    {
+      "name": "Dropbox, Inc.",
+      "ticker": "DBX",
+      "metrics": {
+        "market_capitalization": {
+          "value": 7465.528,
+          "unit": "million USD",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Market capitalization in millions USD"
+        },
+        "employee_count": {
+          "value": 7140,
+          "unit": "employees",
+          "period": "2023-12-31",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "price_to_earnings_ratio": {
+          "value": 18.18,
+          "unit": "ratio",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Price to earnings ratio"
+        },
+        "ebitda_margin": {
+          "value": 17.7,
+          "unit": "%",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Using profit margin as an approximation for EBITDA margin"
+        },
+        "annual_revenue": {
+          "value": 2499.0,
+          "unit": "million USD",
+          "period": "2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT",
+          "notes": "Annual revenue from income statement"
+        },
+        "revenue_growth": {
+          "value": 7.1,
+          "unit": "%",
+          "period": "2023-12-31 vs 2022-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Year-over-year revenue growth"
+        },
+        "gross_margin": {
+          "value": 45.3,
+          "unit": "%",
+          "period": "2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Gross margin percentage"
+        },
+        "rd_percentage": {
+          "value": 37.5,
+          "unit": "%",
+          "period": "2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "R&D expenses as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": 783.7,
+          "unit": "million USD",
+          "period": "2023-12-31",
+          "source": "Alpha Vantage CASH_FLOW",
+          "notes": "Operating cash flow from cash flow statement"
+        }
+      }
+    },
+    {
+      "name": "Box, Inc.",
+      "ticker": "BOX",
+      "metrics": {
+        "market_capitalization": {
+          "value": 4286.35,
+          "unit": "million USD",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Market capitalization in millions USD"
+        },
+        "employee_count": {
+          "value": 2973,
+          "unit": "employees",
+          "period": "2024-01-31",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "price_to_earnings_ratio": {
+          "value": 21.92,
+          "unit": "ratio",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Price to earnings ratio"
+        },
+        "ebitda_margin": {
+          "value": 22.400000000000002,
+          "unit": "%",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Using profit margin as an approximation for EBITDA margin"
+        },
+        "annual_revenue": {
+          "value": 1040.66,
+          "unit": "million USD",
+          "period": "2024-01-31",
+          "source": "Alpha Vantage INCOME_STATEMENT",
+          "notes": "Annual revenue from income statement"
+        },
+        "revenue_growth": {
+          "value": 4.7,
+          "unit": "%",
+          "period": "2024-01-31 vs 2023-01-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Year-over-year revenue growth"
+        },
+        "gross_margin": {
+          "value": 24.1,
+          "unit": "%",
+          "period": "2024-01-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Gross margin percentage"
+        },
+        "rd_percentage": {
+          "value": 23.9,
+          "unit": "%",
+          "period": "2024-01-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "R&D expenses as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": 318.727,
+          "unit": "million USD",
+          "period": "2024-01-31",
+          "source": "Alpha Vantage CASH_FLOW",
+          "notes": "Operating cash flow from cash flow statement"
+        }
+      }
+    },
+    {
+      "name": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metrics": {
+        "market_capitalization": {
+          "value": 2675043.205,
+          "unit": "million USD",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Market capitalization in millions USD"
+        },
+        "employee_count": {
+          "value": 599277,
+          "unit": "employees",
+          "period": "2023-06-30",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "price_to_earnings_ratio": {
+          "value": 29.0,
+          "unit": "ratio",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Price to earnings ratio"
+        },
+        "ebitda_margin": {
+          "value": 35.4,
+          "unit": "%",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Using profit margin as an approximation for EBITDA margin"
+        },
+        "annual_revenue": {
+          "value": 209747.0,
+          "unit": "million USD",
+          "period": "2023-06-30",
+          "source": "Alpha Vantage INCOME_STATEMENT",
+          "notes": "Annual revenue from income statement"
+        },
+        "revenue_growth": {
+          "value": 7.0,
+          "unit": "%",
+          "period": "2023-06-30 vs 2022-06-30",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Year-over-year revenue growth"
+        },
+        "gross_margin": {
+          "value": 52.3,
+          "unit": "%",
+          "period": "2023-06-30",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Gross margin percentage"
+        },
+        "rd_percentage": {
+          "value": 13.0,
+          "unit": "%",
+          "period": "2023-06-30",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "R&D expenses as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": 87582.0,
+          "unit": "million USD",
+          "period": "2023-06-30",
+          "source": "Alpha Vantage CASH_FLOW",
+          "notes": "Operating cash flow from cash flow statement"
+        }
+      }
+    },
+    {
+      "name": "Atlassian Corporation",
+      "ticker": "TEAM",
+      "metrics": {
+        "annual_revenue": {
+          "value": 4400,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.businesswire.com/news/home/20240801981974/en/Atlassian-Announces-Fourth-Quarter-and-Fiscal-Year-2024-Results",
+          "notes": "Total revenue grew 23% year-over-year"
+        },
+        "revenue_growth": {
+          "value": 23,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.businesswire.com/news/home/20240801981974/en/Atlassian-Announces-Fourth-Quarter-and-Fiscal-Year-2024-Results"
+        },
+        "gross_margin": {
+          "value": 85,
+          "unit": "%",
+          "period": "Q4 FY2024",
+          "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-atlassian-beats-q4-2024-forecasts-stock-surges-93CH-3844010",
+          "notes": "Based on quarterly earnings call disclosure"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "Not explicitly disclosed in available sources"
+        },
+        "rd_percentage": {
+          "value": 49.6,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/TEAM/atlassian/research-development-expenses",
+          "notes": "Calculated from $2.184B R&D spend against $4.4B revenue"
+        },
+        "operating_cash_flow": {
+          "value": 1400,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://s28.q4cdn.com/541786762/files/doc_downloads/agm/2024/Oct/TEAM-2024-Annual-Report.pdf"
+        },
+        "employee_count": {
+          "value": 12157,
+          "unit": "employees",
+          "period": "June 30, 2024",
+          "source": "https://stockanalysis.com/stocks/team/employees/"
+        },
+        "market_capitalization": {
+          "value": 79900,
+          "unit": "million USD",
+          "period": "Q4 FY2024",
+          "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-atlassian-beats-q4-2024-forecasts-stock-surges-93CH-3844010"
+        }
+      }
+    },
+    {
+      "name": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metrics": {
+        "annual_revenue": {
+          "value": 350018,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://abc.xyz/assets/a3/91/6d1950c148fa84c7d699abe05284/2024q4-alphabet-earnings-release.pdf"
+        },
+        "revenue_growth": {
+          "value": 14,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://abc.xyz/assets/a3/91/6d1950c148fa84c7d699abe05284/2024q4-alphabet-earnings-release.pdf"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "Not directly disclosed in available sources"
+        },
+        "ebitda_margin": {
+          "value": 36.48,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/GOOG/alphabet/ebitda-margin"
+        },
+        "rd_percentage": {
+          "value": 14.17,
+          "unit": "%",
+          "period": "2024",
+          "source": "https://www.rdworldonline.com/top-15-rd-spenders-of-2024/",
+          "notes": "$49.6B R&D spend against $350B revenue"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": "million USD",
+          "period": null,
+          "source": null,
+          "notes": "Not explicitly stated in available sources"
+        },
+        "employee_count": {
+          "value": 183323,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "https://www.bullfincher.io/companies/alphabet/number-of-employees"
+        },
+        "market_capitalization": {
+          "value": 2158150,
+          "unit": "million USD",
+          "period": "February 21, 2025",
+          "source": "https://stockanalysis.com/quote/etr/ABEC/market-cap/",
+          "notes": "Converted from \u20ac2.11T at 1.023 EUR/USD rate"
+        }
+      }
+    },
+    {
+      "name": "Adobe Inc.",
+      "ticker": "ADBE",
+      "metrics": {
+        "annual_revenue": {
+          "value": 21510,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/c75e6yhrste.pdf",
+          "notes": "Record FY2024 revenue per Q4 earnings report"
+        },
+        "revenue_growth": {
+          "value": 11,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/c75e6yhrste.pdf",
+          "notes": "Year-over-year growth in constant currency"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": "%",
+          "period": "FY2024",
+          "source": null,
+          "notes": "Segment-level gross margins available but consolidated annual figure not disclosed in provided sources"
+        },
+        "ebitda_margin": {
+          "value": 46.6,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/c75e6yhrste.pdf",
+          "notes": "Calculated using non-GAAP operating income ($10.02B) as proxy for EBITDA"
+        },
+        "rd_percentage": {
+          "value": 18.3,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/ADBE/adobe/research-development-expenses",
+          "notes": "$3.944B R&D expense against $21.51B revenue"
+        },
+        "operating_cash_flow": {
+          "value": 8060,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/c75e6yhrste.pdf",
+          "notes": "Record annual cash flow from operations"
+        },
+        "employee_count": {
+          "value": 30709,
+          "unit": "employees",
+          "period": "FY2024 (as of Nov 29, 2024)",
+          "source": "https://stockanalysis.com/stocks/adbe/employees/",
+          "notes": "2.55% YoY increase from FY2023"
+        },
+        "market_capitalization": {
+          "value": 162840,
+          "unit": "million USD",
+          "period": "As of April 2025",
+          "source": "https://stockanalysis.com/stocks/adbe/employees/",
+          "notes": "Third-party estimate based on latest available data"
+        }
+      }
+    }
+  ]
+}

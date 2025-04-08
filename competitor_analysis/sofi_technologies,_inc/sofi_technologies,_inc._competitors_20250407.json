@@ -1,0 +1,52 @@
+{
+  "competitors": [
+    {
+      "name": "Robinhood Markets, Inc.",
+      "ticker": "HOOD",
+      "relevance_justification": "Competes in tech-driven investing platforms and financial services for millennials, with overlapping demographics and digital-first strategies[1][3].",
+      "investor_relations_url": "https://investors.robinhood.com",
+      "recent_financial_report_url": "https://investors.robinhood.com/financials/sec-filings/",
+      "api_attempted": true
+    },
+    {
+      "name": "Block, Inc.",
+      "ticker": "SQ",
+      "relevance_justification": "Cash App provides banking, payments, and investment services, directly competing with SoFi's multi-product ecosystem[1][3][12].",
+      "investor_relations_url": "https://investor.block.xyz",
+      "recent_financial_report_url": "https://investor.block.xyz/quarterly-earnings/",
+      "api_attempted": true
+    },
+    {
+      "name": "Upstart Holdings, Inc.",
+      "ticker": "UPST",
+      "relevance_justification": "AI-driven lending platform targeting personal loans and refinancing, mirroring SoFi's tech-enabled credit solutions[7][13].",
+      "investor_relations_url": "https://ir.upstart.com",
+      "recent_financial_report_url": "https://ir.upstart.com/financial-information/quarterly-results",
+      "api_attempted": true
+    },
+    {
+      "name": "LendingClub Corporation",
+      "ticker": "LC",
+      "relevance_justification": "Peer-to-peer lending and personal loan refinancing with comparable digital infrastructure and customer acquisition models[7][13].",
+      "investor_relations_url": "https://ir.lendingclub.com",
+      "recent_financial_report_url": "https://ir.lendingclub.com/financials/quarterly-results/",
+      "api_attempted": true
+    },
+    {
+      "name": "Ally Financial Inc.",
+      "ticker": "ALLY",
+      "relevance_justification": "Digital-first banking and lending services, including auto loans and mortgages, with similar revenue scaling challenges[14][13].",
+      "investor_relations_url": "https://www.ally.com/investor",
+      "recent_financial_report_url": "https://www.ally.com/investor/financials/sec-filings/",
+      "api_attempted": true
+    },
+    {
+      "name": "Rocket Companies, Inc.",
+      "ticker": "RKT",
+      "relevance_justification": "Dominant in mortgage origination and refinancing, directly competing with SoFi's home loan vertical[13][10].",
+      "investor_relations_url": "https://www.rocketcompanies.com/investors",
+      "recent_financial_report_url": "https://www.rocketcompanies.com/investors/financial-information",
+      "api_attempted": true
+    }
+  ]
+}

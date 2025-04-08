@@ -6,7 +6,7 @@
         "size_bytes": 6991560,
         "last_modified": "2025-03-11 14:05:08"
     },
-    "extraction_date": "2025-03-21 13:54:46",
+    "extraction_date": "2025-04-08 17:59:16",
     "files": {
         "csv": [
             {
@@ -40,6 +40,11 @@
                 "type": "cash_flow",
                 "format": "json",
                 "filename": "astrazeneca_ar_2024_financial_statements_cash_flow.json"
+            },
+            {
+                "type": "financial_metrics",
+                "format": "json",
+                "filename": "astrazeneca_ar_2024_financial_statements_financial_metrics.json"
             }
         ]
     }

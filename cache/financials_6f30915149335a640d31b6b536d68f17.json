@@ -1,0 +1,128 @@
+{
+  "company_metrics": [
+    {
+      "name": "Merck & Co.",
+      "ticker": "MRK",
+      "metrics": {
+        "annual_revenue": {
+          "value": 64168,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.merck.com/news/merck-announces-fourth-quarter-and-full-year-2024-financial-results/",
+          "notes": "Reported as full-year 2024 worldwide sales"
+        },
+        "revenue_growth": {
+          "value": 7.0,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.merck.com/stories/our-q4-and-full-year-2024-financial-results/",
+          "notes": "7% year-over-year growth in USD terms"
+        },
+        "gross_margin": {
+          "value": 80.8,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.merck.com/news/merck-announces-fourth-quarter-and-full-year-2024-financial-results/",
+          "notes": "Non-GAAP calculation derived from adjusted cost of sales ($12.29B) and total revenue ($64.17B)"
+        },
+        "ebitda_margin": {
+          "value": 38.5,
+          "unit": "%",
+          "period": "TTM 2024-12-31",
+          "source": "https://www.macrotrends.net/stocks/charts/MRK/merck/ebitda-margin",
+          "notes": "Calculated as EBITDA ($24.72B) divided by revenue ($64.17B)"
+        },
+        "rd_percentage": {
+          "value": 27.9,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.statista.com/statistics/282738/expenditure-on-research-and-development-by-merck-and-co/",
+          "notes": "R&D expenses of $17.9B as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Not explicitly disclosed in provided sources"
+        },
+        "employee_count": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Employee count not found in provided sources"
+        },
+        "market_capitalization": {
+          "value": 226737,
+          "unit": "million USD",
+          "period": "As of 2024 data",
+          "source": "https://www.macrotrends.net/stocks/charts/MRK/merck/ebitda-margin",
+          "notes": "Market cap from sector data in source"
+        }
+      }
+    },
+    {
+      "name": "Novartis AG",
+      "ticker": "NVS",
+      "metrics": {
+        "annual_revenue": {
+          "value": 51722,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/NVS/novartis-ag/revenue",
+          "notes": "Reported as full-year 2024 revenue"
+        },
+        "revenue_growth": {
+          "value": 10.85,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.macrotrends.net/stocks/charts/NVS/novartis-ag/revenue",
+          "notes": "Year-over-year growth in USD terms"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Insufficient data to calculate from provided sources"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "EBITDA not explicitly disclosed in provided sources"
+        },
+        "rd_percentage": {
+          "value": 19.4,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/NVS/novartis-ag/research-development-expenses",
+          "notes": "R&D expenses of $10.02B as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Not explicitly disclosed in provided sources"
+        },
+        "employee_count": {
+          "value": 75883,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/NVS/novartis-ag/number-of-employees",
+          "notes": "Reported total employee count"
+        },
+        "market_capitalization": {
+          "value": 230870,
+          "unit": "million USD",
+          "period": "As of Dec 2024",
+          "source": "https://tradingeconomics.com/nvs:us:market-capitalization",
+          "notes": "Market cap from source's December 2024 data"
+        }
+      }
+    }
+  ]
+}

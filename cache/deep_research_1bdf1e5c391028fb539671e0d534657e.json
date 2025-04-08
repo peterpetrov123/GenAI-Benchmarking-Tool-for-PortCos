@@ -1,0 +1,66 @@
+{
+  "company_metrics": [
+    {
+      "name": "Adobe Inc.",
+      "ticker": "ADBE",
+      "metrics": {
+        "annual_revenue": {
+          "value": 21510,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/c75e6yhrste.pdf",
+          "notes": "Record FY2024 revenue per Q4 earnings report"
+        },
+        "revenue_growth": {
+          "value": 11,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/c75e6yhrste.pdf",
+          "notes": "Year-over-year growth in constant currency"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": "%",
+          "period": "FY2024",
+          "source": null,
+          "notes": "Segment-level gross margins available but consolidated annual figure not disclosed in provided sources"
+        },
+        "ebitda_margin": {
+          "value": 46.6,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/c75e6yhrste.pdf",
+          "notes": "Calculated using non-GAAP operating income ($10.02B) as proxy for EBITDA"
+        },
+        "rd_percentage": {
+          "value": 18.3,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/ADBE/adobe/research-development-expenses",
+          "notes": "$3.944B R&D expense against $21.51B revenue"
+        },
+        "operating_cash_flow": {
+          "value": 8060,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11214202/c75e6yhrste.pdf",
+          "notes": "Record annual cash flow from operations"
+        },
+        "employee_count": {
+          "value": 30709,
+          "unit": "employees",
+          "period": "FY2024 (as of Nov 29, 2024)",
+          "source": "https://stockanalysis.com/stocks/adbe/employees/",
+          "notes": "2.55% YoY increase from FY2023"
+        },
+        "market_capitalization": {
+          "value": 162840,
+          "unit": "million USD",
+          "period": "As of April 2025",
+          "source": "https://stockanalysis.com/stocks/adbe/employees/",
+          "notes": "Third-party estimate based on latest available data"
+        }
+      }
+    }
+  ]
+}

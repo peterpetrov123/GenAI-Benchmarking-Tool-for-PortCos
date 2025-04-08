@@ -1,0 +1,23 @@
+{
+  "market_capitalization": {
+    "value": 49169.539,
+    "unit": "million USD",
+    "period": "Latest",
+    "source": "Alpha Vantage OVERVIEW",
+    "notes": "Market capitalization in millions USD"
+  },
+  "employee_count": {
+    "value": null,
+    "unit": "employees",
+    "period": "Latest",
+    "source": "Alpha Vantage OVERVIEW",
+    "notes": "Full-time employee count"
+  },
+  "ebitda_margin": {
+    "value": -7.22,
+    "unit": "%",
+    "period": "Latest",
+    "source": "Alpha Vantage OVERVIEW",
+    "notes": "Using profit margin as an approximation for EBITDA margin"
+  }
+}

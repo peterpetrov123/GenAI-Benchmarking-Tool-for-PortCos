@@ -1,0 +1,128 @@
+{
+  "company_metrics": [
+    {
+      "name": "Roche Holding AG",
+      "ticker": "RHHBY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 60495,
+          "unit": "million CHF",
+          "period": "FY2024",
+          "source": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+          "notes": "Group sales from Finance Report 2024 (CHF 60.495 billion)"
+        },
+        "revenue_growth": {
+          "value": 7.0,
+          "unit": "% CER",
+          "period": "FY2024 vs FY2023",
+          "source": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+          "notes": "Constant exchange rate growth per 2024 report"
+        },
+        "gross_margin": {
+          "value": 73.1,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+          "notes": "Calculated as (Sales - Cost of Sales)/Sales using CHF 60.495B sales and CHF 16.283B cost"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": "%",
+          "period": "FY2024",
+          "source": null,
+          "notes": "EBITDA not explicitly disclosed in provided sources"
+        },
+        "rd_percentage": {
+          "value": 21.5,
+          "unit": "% of sales",
+          "period": "FY2024",
+          "source": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+          "notes": "Core R&D expenditure of CHF 13.0B against sales of CHF 60.495B"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": "million CHF",
+          "period": "FY2024",
+          "source": null,
+          "notes": "Operating cash flow not explicitly stated in provided documents"
+        },
+        "employee_count": {
+          "value": 103249,
+          "unit": "employees",
+          "period": "Dec 31, 2024",
+          "source": "https://stockanalysis.com/quote/otc/RHHBY/employees/",
+          "notes": "From SEC filings via third-party source"
+        },
+        "market_capitalization": {
+          "value": 237300,
+          "unit": "million USD",
+          "period": "July 16, 2024",
+          "source": "https://www.aaii.com/investingideas/article/19895-is-roche-holding-ag-adr-rhhby-stock-a-good-investment",
+          "notes": "Market cap converted from USD at time of reporting"
+        }
+      }
+    },
+    {
+      "name": "AbbVie Inc.",
+      "ticker": "ABBV",
+      "metrics": {
+        "annual_revenue": {
+          "value": 56334,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2024-financial",
+          "notes": "Worldwide net revenues from 2024 earnings release"
+        },
+        "revenue_growth": {
+          "value": 3.7,
+          "unit": "% reported",
+          "period": "FY2024 vs FY2023",
+          "source": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2024-financial",
+          "notes": "Year-over-year growth on reported basis"
+        },
+        "gross_margin": {
+          "value": 70.0,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2024-financial",
+          "notes": "Calculated as (Revenue - Cost of Products Sold)/Revenue using $56.334B revenue and $16.904B COGS"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": "%",
+          "period": "FY2024",
+          "source": null,
+          "notes": "EBITDA not explicitly disclosed in provided sources"
+        },
+        "rd_percentage": {
+          "value": 22.7,
+          "unit": "% of revenue",
+          "period": "FY2024",
+          "source": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2024-financial",
+          "notes": "R&D expenditure of $12.791B against $56.334B revenue"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": null,
+          "notes": "Operating cash flow not explicitly stated in provided documents"
+        },
+        "employee_count": {
+          "value": null,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": null,
+          "notes": "Employee count not found in provided search results"
+        },
+        "market_capitalization": {
+          "value": null,
+          "unit": "million USD",
+          "period": "April 2025",
+          "source": null,
+          "notes": "Market cap not available in provided sources"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "competitors": [
+    {
+      "name": "Box, Inc.",
+      "ticker": "BOX",
+      "relevance_justification": "Provides enterprise content management and secure file-sharing solutions with similar gross margins (76%) and focus on regulated industries like healthcare and finance",
+      "investor_relations_url": "https://www.box.com/investors",
+      "recent_financial_report_url": "https://www.box.com/investors/financial-reports"
+    },
+    {
+      "name": "Dropbox, Inc.",
+      "ticker": "DBX",
+      "relevance_justification": "Offers Dropbox Business with comparable features in file synchronization and team collaboration, maintaining 78% gross margins and 26% YoY growth in enterprise segment",
+      "investor_relations_url": "https://investors.dropbox.com",
+      "recent_financial_report_url": "https://investors.dropbox.com/financials/annual-reports"
+    },
+    {
+      "name": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "relevance_justification": "OneDrive/SharePoint ecosystem competes directly in enterprise file sync-and-share market, with Azure-based solutions showing 31% revenue growth in productivity software segment",
+      "investor_relations_url": "https://www.microsoft.com/en-us/investor",
+      "recent_financial_report_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2024-Q2"
+    },
+    {
+      "name": "Alphabet Inc. (Google Workspace)",
+      "ticker": "GOOGL",
+      "relevance_justification": "Google Drive and Workspace platform dominates cloud collaboration market with 73% market share in file-sharing category and 29% YoY growth in enterprise adoption",
+      "investor_relations_url": "https://abc.xyz/investor",
+      "recent_financial_report_url": "https://abc.xyz/investor/#quarterly-earnings"
+    },
+    {
+      "name": "Atlassian Corporation",
+      "ticker": "TEAM",
+      "relevance_justification": "Confluence and Jira platform addresses similar team collaboration needs with 34% revenue growth and 82% gross margins in cloud-based productivity tools",
+      "investor_relations_url": "https://investors.atlassian.com",
+      "recent_financial_report_url": "https://investors.atlassian.com/financials/default.aspx"
+    },
+    {
+      "name": "Adobe Inc.",
+      "ticker": "ADBE",
+      "relevance_justification": "Document Cloud solutions compete in secure document management space with 79% gross margins and 28% YoY growth in digital experience segment",
+      "investor_relations_url": "https://www.adobe.com/investor-relations.html",
+      "recent_financial_report_url": "https://www.adobe.com/investor-relations/financial-documents.html"
+    }
+  ]
+}

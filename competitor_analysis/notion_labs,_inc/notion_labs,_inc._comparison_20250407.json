@@ -1,0 +1,102 @@
+{
+  "company_name": "Notion Labs, Inc.",
+  "comparison_date": "2025-04-07",
+  "metrics": [
+    {
+      "metric": "Annual Revenue",
+      "values": {
+        "Notion Labs, Inc.": "$150M",
+        "Atlassian Corporation": "$2,740M",
+        "Smartsheet Inc.": "$958M",
+        "Asana, Inc.": "$579M",
+        "monday.com Ltd.": "$972M",
+        "Adobe Inc.": "$21,510M",
+        "Salesforce, Inc.": "$34,900M"
+      }
+    },
+    {
+      "metric": "Revenue Growth",
+      "values": {
+        "Notion Labs, Inc.": "40.0%",
+        "Atlassian Corporation": "11.0%",
+        "Smartsheet Inc.": "17.0%",
+        "Asana, Inc.": "44.6%",
+        "monday.com Ltd.": "32.0%",
+        "Adobe Inc.": "11.0%",
+        "Salesforce, Inc.": "10.0%"
+      }
+    },
+    {
+      "metric": "Gross Margin",
+      "values": {
+        "Notion Labs, Inc.": "85.0%",
+        "Atlassian Corporation": "82.7%",
+        "Smartsheet Inc.": "Missing value",
+        "Asana, Inc.": "88.1%",
+        "monday.com Ltd.": "89.3%",
+        "Adobe Inc.": "89.0%",
+        "Salesforce, Inc.": "Missing value"
+      }
+    },
+    {
+      "metric": "EBITDA Margin",
+      "values": {
+        "Notion Labs, Inc.": "-10.0%",
+        "Atlassian Corporation": "-0.9%",
+        "Smartsheet Inc.": "Missing value",
+        "Asana, Inc.": "-31.4%",
+        "monday.com Ltd.": "-1.3%",
+        "Adobe Inc.": "35.3%",
+        "Salesforce, Inc.": "33.7%"
+      }
+    },
+    {
+      "metric": "R&D % of Revenue",
+      "values": {
+        "Notion Labs, Inc.": "25.0%",
+        "Atlassian Corporation": "Not Available",
+        "Smartsheet Inc.": "Missing value",
+        "Asana, Inc.": "41.3%",
+        "monday.com Ltd.": "22.0%",
+        "Adobe Inc.": "11.0%",
+        "Salesforce, Inc.": "Missing value"
+      }
+    },
+    {
+      "metric": "Operating Cash Flow",
+      "values": {
+        "Notion Labs, Inc.": "Missing value",
+        "Atlassian Corporation": "$868.00M",
+        "Smartsheet Inc.": "$172.75M",
+        "Asana, Inc.": "$20.20M",
+        "monday.com Ltd.": "$311.07M",
+        "Adobe Inc.": "$8,060.00M",
+        "Salesforce, Inc.": "$7,100.00M"
+      }
+    },
+    {
+      "metric": "Employee Count",
+      "values": {
+        "Notion Labs, Inc.": "400",
+        "Atlassian Corporation": "12,157",
+        "Smartsheet Inc.": "3,330",
+        "Asana, Inc.": "1,300",
+        "monday.com Ltd.": "245,000",
+        "Adobe Inc.": "30,709",
+        "Salesforce, Inc.": "73,000"
+      }
+    },
+    {
+      "metric": "Market Cap",
+      "values": {
+        "Notion Labs, Inc.": "Missing value",
+        "Atlassian Corporation": "$4,370M",
+        "Smartsheet Inc.": "$8M",
+        "Asana, Inc.": "Missing value",
+        "monday.com Ltd.": "$13,540M",
+        "Adobe Inc.": "$162,240M",
+        "Salesforce, Inc.": "$102,930M"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "company_name": "SoFi Technologies, Inc.",
+  "comparison_date": "2025-04-07",
+  "metrics": [
+    {
+      "metric": "Annual Revenue",
+      "values": {
+        "SoFi Technologies, Inc.": "$2,143M",
+        "Robinhood Markets, Inc.": "$1,900M",
+        "Upstart Holdings, Inc.": "$842M",
+        "Block, Inc.": "$21,916M",
+        "LendingClub Corporation": "$1,160M",
+        "Rocket Companies, Inc.": "$5,101M",
+        "Ally Financial Inc.": "$8,180M"
+      }
+    },
+    {
+      "metric": "Revenue Growth",
+      "values": {
+        "SoFi Technologies, Inc.": "35.5%",
+        "Robinhood Markets, Inc.": "37.0%",
+        "Upstart Holdings, Inc.": "Missing value",
+        "Block, Inc.": "25.0%",
+        "LendingClub Corporation": "17.0%",
+        "Rocket Companies, Inc.": "34.3%",
+        "Ally Financial Inc.": "-3.8%"
+      }
+    },
+    {
+      "metric": "Gross Margin",
+      "values": {
+        "SoFi Technologies, Inc.": "78.2%",
+        "Robinhood Markets, Inc.": "89.5%",
+        "Upstart Holdings, Inc.": "72.6%",
+        "Block, Inc.": "42.3%",
+        "LendingClub Corporation": "23.8%",
+        "Rocket Companies, Inc.": "69.8%",
+        "Ally Financial Inc.": "Missing value"
+      }
+    },
+    {
+      "metric": "EBITDA Margin",
+      "values": {
+        "SoFi Technologies, Inc.": "11.3%",
+        "Robinhood Markets, Inc.": "28.2%",
+        "Upstart Holdings, Inc.": "Missing value",
+        "Block, Inc.": "-3.3%",
+        "LendingClub Corporation": "10.7%",
+        "Rocket Companies, Inc.": "16.5%",
+        "Ally Financial Inc.": "9.8%"
+      }
+    },
+    {
+      "metric": "R&D % of Revenue",
+      "values": {
+        "SoFi Technologies, Inc.": "7.1%",
+        "Robinhood Markets, Inc.": "10.0%",
+        "Upstart Holdings, Inc.": "Missing value",
+        "Block, Inc.": "3.2%",
+        "LendingClub Corporation": "Missing value",
+        "Rocket Companies, Inc.": "Missing value",
+        "Ally Financial Inc.": "Missing value"
+      }
+    },
+    {
+      "metric": "Operating Cash Flow",
+      "values": {
+        "SoFi Technologies, Inc.": "Missing value",
+        "Robinhood Markets, Inc.": "$536.00M",
+        "Upstart Holdings, Inc.": "Missing value",
+        "Block, Inc.": "$1,450.00M",
+        "LendingClub Corporation": "Missing value",
+        "Rocket Companies, Inc.": "$176.38M",
+        "Ally Financial Inc.": "Missing value"
+      }
+    },
+    {
+      "metric": "Employee Count",
+      "values": {
+        "SoFi Technologies, Inc.": "4,000",
+        "Robinhood Markets, Inc.": "2,300",
+        "Upstart Holdings, Inc.": "1,193",
+        "Block, Inc.": "12,985",
+        "LendingClub Corporation": "1,002",
+        "Rocket Companies, Inc.": "14,573",
+        "Ally Financial Inc.": "23,371"
+      }
+    },
+    {
+      "metric": "Market Cap",
+      "values": {
+        "SoFi Technologies, Inc.": "Missing value",
+        "Robinhood Markets, Inc.": "$31M",
+        "Upstart Holdings, Inc.": "$4,300M",
+        "Block, Inc.": "$31,140M",
+        "LendingClub Corporation": "$1,190M",
+        "Rocket Companies, Inc.": "$38,200M",
+        "Ally Financial Inc.": "$11,510M"
+      }
+    }
+  ]
+}

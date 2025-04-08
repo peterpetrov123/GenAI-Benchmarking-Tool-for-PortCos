@@ -1,0 +1,120 @@
+{
+  "company_metrics": [
+    {
+      "name": "Atlassian Corporation",
+      "ticker": "TEAM",
+      "metrics": {
+        "annual_revenue": {
+          "value": 4400,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.businesswire.com/news/home/20240801981974/en/Atlassian-Announces-Fourth-Quarter-and-Fiscal-Year-2024-Results",
+          "notes": "Total revenue grew 23% year-over-year"
+        },
+        "revenue_growth": {
+          "value": 23,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.businesswire.com/news/home/20240801981974/en/Atlassian-Announces-Fourth-Quarter-and-Fiscal-Year-2024-Results"
+        },
+        "gross_margin": {
+          "value": 85,
+          "unit": "%",
+          "period": "Q4 FY2024",
+          "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-atlassian-beats-q4-2024-forecasts-stock-surges-93CH-3844010",
+          "notes": "Based on quarterly earnings call disclosure"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "Not explicitly disclosed in available sources"
+        },
+        "rd_percentage": {
+          "value": 49.6,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/TEAM/atlassian/research-development-expenses",
+          "notes": "Calculated from $2.184B R&D spend against $4.4B revenue"
+        },
+        "operating_cash_flow": {
+          "value": 1400,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://s28.q4cdn.com/541786762/files/doc_downloads/agm/2024/Oct/TEAM-2024-Annual-Report.pdf"
+        },
+        "employee_count": {
+          "value": 12157,
+          "unit": "employees",
+          "period": "June 30, 2024",
+          "source": "https://stockanalysis.com/stocks/team/employees/"
+        },
+        "market_capitalization": {
+          "value": 79900,
+          "unit": "million USD",
+          "period": "Q4 FY2024",
+          "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-atlassian-beats-q4-2024-forecasts-stock-surges-93CH-3844010"
+        }
+      }
+    },
+    {
+      "name": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metrics": {
+        "annual_revenue": {
+          "value": 350018,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://abc.xyz/assets/a3/91/6d1950c148fa84c7d699abe05284/2024q4-alphabet-earnings-release.pdf"
+        },
+        "revenue_growth": {
+          "value": 14,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://abc.xyz/assets/a3/91/6d1950c148fa84c7d699abe05284/2024q4-alphabet-earnings-release.pdf"
+        },
+        "gross_margin": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "source": null,
+          "notes": "Not directly disclosed in available sources"
+        },
+        "ebitda_margin": {
+          "value": 36.48,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/GOOG/alphabet/ebitda-margin"
+        },
+        "rd_percentage": {
+          "value": 14.17,
+          "unit": "%",
+          "period": "2024",
+          "source": "https://www.rdworldonline.com/top-15-rd-spenders-of-2024/",
+          "notes": "$49.6B R&D spend against $350B revenue"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": "million USD",
+          "period": null,
+          "source": null,
+          "notes": "Not explicitly stated in available sources"
+        },
+        "employee_count": {
+          "value": 183323,
+          "unit": "employees",
+          "period": "FY2024",
+          "source": "https://www.bullfincher.io/companies/alphabet/number-of-employees"
+        },
+        "market_capitalization": {
+          "value": 2158150,
+          "unit": "million USD",
+          "period": "February 21, 2025",
+          "source": "https://stockanalysis.com/quote/etr/ABEC/market-cap/",
+          "notes": "Converted from \u20ac2.11T at 1.023 EUR/USD rate"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "company_metrics": [
+    {
+      "name": "GlaxoSmithKline",
+      "ticker": "GSK",
+      "metrics": {
+        "annual_revenue": {
+          "value": 31400,
+          "unit": "million GBP",
+          "period": "FY2024",
+          "source": "https://www.gsk.com/en-gb/investors/why-invest-in-gsk/",
+          "notes": "Group turnover excluding COVID-19 solutions"
+        },
+        "revenue_growth": {
+          "value": 3.0,
+          "unit": "% AER",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.gsk.com/en-gb/investors/why-invest-in-gsk/"
+        },
+        "gross_margin": {
+          "value": 71.16,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://macrotrends.net/stocks/charts/GSK/gsk/gross-margin",
+          "notes": "Gross profit margin as of December 31, 2024"
+        },
+        "ebitda_margin": {
+          "value": 20.95,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/GSK/gsk/ebitda",
+          "notes": "Calculated using EBITDA $8.398B (FY2024) and revenue $40.096B (converted from \u00a331.4B at 1.25 USD/GBP)"
+        },
+        "rd_percentage": {
+          "value": 20.8,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.macrotrends.net/stocks/charts/GSK/gsk/research-development-expenses",
+          "notes": "R&D expenses of $8.18B USD against $39.25B USD revenue"
+        },
+        "operating_cash_flow": {
+          "value": 7900,
+          "unit": "million GBP",
+          "period": "FY2024",
+          "source": "https://www.gsk.com/media/11774/fy-2024-results-slides.pdf"
+        },
+        "employee_count": {
+          "value": 68629,
+          "unit": "employees",
+          "period": "December 31, 2024",
+          "source": "https://stockanalysis.com/quote/lon/GSK/employees/"
+        },
+        "market_capitalization": {
+          "value": 64730,
+          "unit": "million GBP",
+          "period": "2024",
+          "source": "https://eulerpool.com/en/stock/GlaxoSmithKline-Stock-GB0009252882/Marketcapitalization"
+        }
+      }
+    },
+    {
+      "name": "Eli Lilly and Company",
+      "ticker": "LLY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 45040,
+          "unit": "million USD",
+          "period": "FY2024",
+          "source": "https://www.moomoo.com/news/notice/303843836/eli-lilly-and-co-10-k-fy2024-annual-report"
+        },
+        "revenue_growth": {
+          "value": 32.0,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.moomoo.com/news/notice/303843836/eli-lilly-and-co-10-k-fy2024-annual-report"
+        },
+        "gross_margin": {
+          "value": 81.3,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.moomoo.com/news/notice/303843836/eli-lilly-and-co-10-k-fy2024-annual-report"
+        },
+        "ebitda_margin": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Data not available in provided sources"
+        },
+        "rd_percentage": {
+          "value": 24.4,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.moomoo.com/news/notice/303843836/eli-lilly-and-co-10-k-fy2024-annual-report",
+          "notes": "R&D expenses of $10.99B against $45.04B revenue"
+        },
+        "operating_cash_flow": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Data not available in provided sources"
+        },
+        "employee_count": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Data not available in provided sources"
+        },
+        "market_capitalization": {
+          "value": null,
+          "unit": null,
+          "period": null,
+          "source": null,
+          "notes": "Data not available in provided sources"
+        }
+      }
+    }
+  ]
+}

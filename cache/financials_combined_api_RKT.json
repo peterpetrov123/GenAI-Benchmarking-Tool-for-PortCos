@@ -1,0 +1,16 @@
+{
+  "market_capitalization": {
+    "value": 30785.062311335743,
+    "unit": "million USD",
+    "period": "Latest",
+    "source": "Finnhub stock/profile2",
+    "notes": "Market capitalization in millions USD"
+  },
+  "price_to_earnings_ratio": {
+    "value": 1048.1805,
+    "unit": "ratio",
+    "period": "TTM",
+    "source": "Finnhub stock/metric",
+    "notes": "Price to earnings ratio (trailing twelve months)"
+  }
+}
