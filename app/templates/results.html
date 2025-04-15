@@ -1,0 +1,293 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ results.company_name }} - Analysis Results{% endblock %}
+
+{% block extra_css %}
+<style>
+    .report-container {
+        height: 800px;
+        overflow-y: auto;
+        border: 1px solid #dee2e6;
+        border-radius: 4px;
+        background-color: #fff;
+    }
+    .pdf-embed {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .charts-sidebar {
+        max-height: 800px;
+        overflow-y: auto;
+        padding-right: 5px;
+    }
+    .chart-preview {
+        cursor: pointer;
+        transition: transform 0.2s;
+        margin-bottom: 15px;
+    }
+    .chart-preview:hover {
+        transform: scale(1.03);
+    }
+    .chart-thumbnail {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #dee2e6;
+        border-radius: 4px;
+    }
+    .chart-modal-img {
+        max-width: 100%;
+    }
+    .nav-tabs .nav-link {
+        font-weight: 500;
+    }
+    .report-actions {
+        margin-bottom: 15px;
+    }
+    .report-title {
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .tab-content {
+        background-color: #fff;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-success text-white">
+                <h4>
+                    <i class="fas fa-chart-line"></i> 
+                    Financial Analysis Results: {{ results.company_name }}
+                </h4>
+                <div class="text-light">
+                    Analysis date: {{ results.timestamp }}
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-end mb-3">
+                    <a href="{{ url_for('index') }}" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left"></i> Back to Home
+                    </a>
+                </div>
+                
+                <ul class="nav nav-tabs" id="resultTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="combined-tab" data-bs-toggle="tab" data-bs-target="#combined" type="button" role="tab" aria-controls="combined" aria-selected="true">
+                            <i class="fas fa-file-alt"></i> Report & Charts
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="charts-tab" data-bs-toggle="tab" data-bs-target="#charts" type="button" role="tab" aria-controls="charts" aria-selected="false">
+                            <i class="fas fa-chart-bar"></i> All Charts ({{ results.charts|length }})
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="data-tab" data-bs-toggle="tab" data-bs-target="#data" type="button" role="tab" aria-controls="data" aria-selected="false">
+                            <i class="fas fa-table"></i> Data Files
+                        </button>
+                    </li>
+                </ul>
+                
+                <div class="tab-content p-3 border border-top-0 rounded-bottom" id="resultTabsContent">
+                    <!-- Report and Charts Combined Tab -->
+                    <div class="tab-pane fade show active" id="combined" role="tabpanel" aria-labelledby="combined-tab">
+                        <div class="row">
+                            <!-- Report Section -->
+                            <div class="col-md-8">
+                                <h5 class="report-title">Financial Analysis Report</h5>
+                                
+                                <div class="report-actions">
+                                    {% if results.reports %}
+                                        {% for report in results.reports %}
+                                            {% if report.endswith('.pdf') %}
+                                                <a href="{{ url_for('download_file', filename='competitor_analysis/' + results.company_slug + '/' + report) }}" class="btn btn-outline-primary me-2">
+                                                    <i class="fas fa-file-pdf"></i> Download PDF Report
+                                                </a>
+                                            {% endif %}
+                                            {% if report.endswith('.txt') %}
+                                                <a href="{{ url_for('download_file', filename='competitor_analysis/' + results.company_slug + '/' + report) }}" class="btn btn-outline-secondary me-2">
+                                                    <i class="fas fa-file-alt"></i> Download Text Report
+                                                </a>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                </div>
+                                
+                                <div class="report-container">
+                                    {% set pdf_found = false %}
+                                    {% if results.reports %}
+                                        {% for report in results.reports %}
+                                            {% if report.endswith('.pdf') %}
+                                                {% set pdf_found = true %}
+                                                <iframe class="pdf-embed" src="{{ url_for('get_pdf', company_slug=results.company_slug, pdf_file=report) }}"></iframe>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                    
+                                    {% if not pdf_found %}
+                                        {% if results.report_content %}
+                                            <pre>{{ results.report_content }}</pre>
+                                        {% else %}
+                                            <div class="alert alert-info">
+                                                <i class="fas fa-info-circle"></i> No analysis report found for this company.
+                                            </div>
+                                        {% endif %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            
+                            <!-- Charts Sidebar -->
+                            <div class="col-md-4">
+                                <h5 class="mb-3">Charts</h5>
+                                
+                                {% if results.charts %}
+                                    <div class="charts-sidebar">
+                                        {% for chart in results.charts %}
+                                            <div class="chart-preview" data-bs-toggle="modal" data-bs-target="#chartModal" data-chart="{{ chart }}">
+                                                <h6 class="fw-bold text-truncate">{{ chart|replace('.png', '')|replace('_', ' ')|title }}</h6>
+                                                <img src="{{ url_for('get_chart', company_slug=results.company_slug, chart_file=chart) }}" 
+                                                    alt="{{ chart }}" 
+                                                    class="chart-thumbnail">
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                {% else %}
+                                    <div class="alert alert-info">
+                                        <i class="fas fa-info-circle"></i> No charts generated for this analysis.
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- All Charts Tab -->
+                    <div class="tab-pane fade" id="charts" role="tabpanel" aria-labelledby="charts-tab">
+                        {% if results.charts %}
+                            <div class="row">
+                                {% for chart in results.charts %}
+                                    <div class="col-md-6 mb-4">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h6 class="mb-0">{{ chart|replace('.png', '')|replace('_', ' ')|title }}</h6>
+                                            </div>
+                                            <div class="card-body chart-container">
+                                                <img src="{{ url_for('get_chart', company_slug=results.company_slug, chart_file=chart) }}" 
+                                                     alt="{{ chart }}" 
+                                                     class="chart-image">
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ url_for('get_chart', company_slug=results.company_slug, chart_file=chart) }}" 
+                                                   download="{{ chart }}" 
+                                                   class="btn btn-sm btn-outline-secondary">
+                                                    <i class="fas fa-download"></i> Download Chart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        {% else %}
+                            <div class="alert alert-info">
+                                <i class="fas fa-info-circle"></i> No charts generated for this analysis.
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <!-- Data Files Tab -->
+                    <div class="tab-pane fade" id="data" role="tabpanel" aria-labelledby="data-tab">
+                        {% if results.comparison_files %}
+                            <h5 class="mb-3">Comparison Data Files</h5>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>File Name</th>
+                                            <th>Type</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for file in results.comparison_files %}
+                                            <tr>
+                                                <td>{{ file }}</td>
+                                                <td>
+                                                    {% if file.endswith('.csv') %}
+                                                        <span class="badge bg-success">CSV</span>
+                                                    {% elif file.endswith('.xlsx') %}
+                                                        <span class="badge bg-primary">Excel</span>
+                                                    {% elif file.endswith('.json') %}
+                                                        <span class="badge bg-warning text-dark">JSON</span>
+                                                    {% else %}
+                                                        <span class="badge bg-secondary">Other</span>
+                                                    {% endif %}
+                                                </td>
+                                                <td>
+                                                    <a href="{{ url_for('download_file', filename='competitor_analysis/' + results.company_slug + '/' + file) }}" 
+                                                       class="btn btn-sm btn-outline-primary">
+                                                        <i class="fas fa-download"></i> Download
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        {% else %}
+                            <div class="alert alert-info">
+                                <i class="fas fa-info-circle"></i> No comparison data files found.
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Chart Modal -->
+<div class="modal fade" id="chartModal" tabindex="-1" aria-labelledby="chartModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="chartModalLabel">Chart View</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img id="modalChartImage" src="" alt="Chart" class="chart-modal-img">
+            </div>
+            <div class="modal-footer">
+                <a id="downloadChartLink" href="#" class="btn btn-primary" download>
+                    <i class="fas fa-download"></i> Download Chart
+                </a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+$(document).ready(function() {
+    // Chart preview modal handling
+    $('.chart-preview').on('click', function() {
+        const chart = $(this).data('chart');
+        const chartUrl = "{{ url_for('get_chart', company_slug=results.company_slug, chart_file='CHART_PLACEHOLDER') }}".replace('CHART_PLACEHOLDER', chart);
+        
+        // Set the image source
+        $('#modalChartImage').attr('src', chartUrl);
+        
+        // Set the download link
+        $('#downloadChartLink').attr('href', chartUrl);
+        $('#downloadChartLink').attr('download', chart);
+        
+        // Set the modal title
+        $('#chartModalLabel').text(chart.replace('.png', '').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()));
+    });
+});
+</script>
+{% endblock %}

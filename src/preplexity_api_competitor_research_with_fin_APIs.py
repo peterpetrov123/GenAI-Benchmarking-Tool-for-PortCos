@@ -1333,7 +1333,7 @@ def main():
     
     # If not provided via arguments, look for files or ask for input
     if not file_path:
-        default_path = "financial_data"
+        default_path = os.path.join(os.path.dirname(__file__), "..", "financial_data")
         
         print(f"Looking for input company data in {default_path}...")
         

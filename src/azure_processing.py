@@ -393,21 +393,50 @@ def save_financials_to_json(financials, output_dir, prefix="astrazeneca_"):
             saved_files.append({"type": name, "format": "json", "filename": os.path.basename(filename)})
     return saved_files
 
+
 def create_metadata_json(csv_files, json_files, output_dir, prefix="astrazeneca_"):
     """
     Create a metadata JSON file with information about all saved files
     and the date of retrieval.
     """
-    # Get PDF file information
-    pdf_file = Path(PDF_PATH)
+    import os
+    from pathlib import Path
+    from datetime import datetime
+    import json
+    
+    # Get the actual PDF path that was used for processing
+    # Instead of using the hardcoded PDF_PATH, use the provided pdf_path parameter
+    pdf_filename = ""
+    pdf_size = 0
+    pdf_modified = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Try to determine PDF info from the first part of the generated path
+    if prefix:
+        try:
+            pdf_filename = prefix.replace("_", " ").strip()
+            if pdf_filename.endswith(".pdf"):
+                pdf_filename = pdf_filename
+            else:
+                pdf_filename = f"{pdf_filename}.pdf"
+        except:
+            pdf_filename = "Unknown"
+    
+    # Check if we're running in Docker
+    running_in_docker = os.path.exists("/.dockerenv") or os.environ.get("DOCKERIZED") == "1"
+    
     pdf_info = {
-        "filename": pdf_file.name,
-        "size_bytes": pdf_file.stat().st_size,
-        "last_modified": datetime.fromtimestamp(pdf_file.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
+        "filename": pdf_filename,
+        "size_bytes": pdf_size,  # We'll leave this as 0 since we can't reliably get it
+        "last_modified": pdf_modified
     }
     
+    # Extract company name from the prefix
+    company_name = "Unknown"
+    if prefix:
+        company_name = prefix.split("_")[0].capitalize()
+    
     metadata = {
-        "company": "AstraZeneca",
+        "company": company_name,
         "source": "Annual Report PDF",
         "pdf_info": pdf_info,
         "extraction_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),

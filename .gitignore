@@ -1,1 +1,6 @@
 .env
+# Ignore PDF files
+*.pdf
+
+# Ignore specific directories if needed
+test_data/*.pdf

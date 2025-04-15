@@ -1,0 +1,358 @@
+{% extends 'base.html' %}
+
+{% block title %}Financial Competitor Finder - Home{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4><i class="fas fa-search"></i> Financial Competitor Analysis Tool</h4>
+            </div>
+            <div class="card-body">
+                <p class="lead">
+                    Upload a company's financial statement PDF to identify competitors and generate comparative analysis.
+                </p>
+                <p>
+                    This tool will:
+                </p>
+                <ul>
+                    <li>Extract financial metrics from your company's financial statements</li>
+                    <li>Identify relevant competitors in the same industry</li>
+                    <li>Collect competitors' financial data</li>
+                    <li>Generate comparative analysis and visualizations</li>
+                    <li>Provide a detailed financial benchmarking report</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- PDF Upload Section -->
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-file-pdf"></i> Step 1: Upload Financial Statement PDF</h5>
+            </div>
+            <div class="card-body">
+                <form action="{{ url_for('upload_file') }}" method="POST" enctype="multipart/form-data" class="mb-3">
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Select Financial Statement PDF</label>
+                        <input class="form-control" type="file" id="formFile" name="file" accept=".pdf" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-upload"></i> Upload PDF
+                    </button>
+                </form>
+                
+                <hr>
+                
+                <h6>Available Financial Statements:</h6>
+                {% if pdf_files %}
+                <div class="list-group file-list">
+                    {% for pdf in pdf_files %}
+                    <div class="list-group-item">
+                        <i class="fas fa-file-pdf text-danger"></i> {{ pdf }}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-muted">No PDF files uploaded yet.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Analysis Start Section -->
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-play-circle"></i> Step 2: Start Analysis</h5>
+            </div>
+            <div class="card-body">
+                <form action="{{ url_for('analyze') }}" method="POST" class="mb-3">
+                    <div class="mb-3">
+                        <label for="selected_pdf" class="form-label">Select a PDF to analyze:</label>
+                        <select class="form-select" id="selected_pdf" name="selected_pdf" required>
+                            <option value="">Choose PDF file...</option>
+                            {% for pdf in pdf_files %}
+                            <option value="{{ pdf }}">{{ pdf }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-success" id="analyze-button">
+                        <i class="fas fa-chart-bar"></i> Start Analysis
+                    </button>
+                </form>
+                
+                <div class="alert alert-info" role="alert">
+                    <i class="fas fa-info-circle"></i> The analysis process may take 20-30 minutes to complete depending on the complexity of the financial data.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Analysis Status Section -->
+<div class="row mt-3">
+    <div class="col-md-12">
+        <div class="card status-card" id="status-card" style="display: none;">
+            <div class="card-header bg-info text-white">
+                <h5><i class="fas fa-tasks"></i> Analysis Status: <span id="status-text">Idle</span></h5>
+            </div>
+            <div class="card-body">
+                <h6 id="company-name">
+                    Waiting for analysis to start...
+                </h6>
+                
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" 
+                         role="progressbar" 
+                         id="progress-bar"
+                         style="width: 0%;" 
+                         aria-valuenow="0" 
+                         aria-valuemin="0" 
+                         aria-valuemax="100">
+                        0%
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h6 class="mb-0">Process Log</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="log-container" style="max-height: 300px; overflow-y: auto;">
+                            <ul class="list-group" id="log-messages">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Results links appear when analysis is complete -->
+                <div id="results-section" style="display: none;" class="mt-3">
+                    <h5 class="text-success"><i class="fas fa-check-circle"></i> Analysis Complete!</h5>
+                    <a href="#" id="view-results-link" class="btn btn-primary">
+                        <i class="fas fa-chart-pie"></i> View Analysis Results
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Previous Analyses Section -->
+<div class="row mt-3">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-secondary text-white">
+                <h5><i class="fas fa-history"></i> Previous Analyses</h5>
+            </div>
+            <div class="card-body">
+                {% if completed_analyses %}
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Company</th>
+                                <th>Date Analyzed</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for analysis in completed_analyses %}
+                            <tr>
+                                <td>{{ analysis.company_name }}</td>
+                                <td>{{ analysis.timestamp }}</td>
+                                <td>
+                                    <a href="{{ url_for('results', company_slug=analysis.company_slug) }}" class="btn btn-sm btn-primary">
+                                        <i class="fas fa-chart-line"></i> View Results
+                                    </a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <p class="text-muted">No previous analyses found.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hidden data for JavaScript -->
+<div id="server-data" 
+     data-running="{% if process_status.running %}true{% else %}false{% endif %}"
+     data-status="{{ process_status.status|default('idle') }}"
+     data-progress="{{ process_status.progress|default(0) }}"
+     data-company-name="{{ process_status.company_name|default('') }}"
+     data-has-pdf-files="{% if pdf_files %}true{% else %}false{% endif %}"
+     style="display: none;">
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+/* jshint esversion: 6 */
+$(document).ready(function() {
+    "use strict";
+    
+    // Variables
+    var pollInterval;
+    
+    // Get data from server using hidden div
+    var serverData = document.getElementById('server-data');
+    var initialState = {
+        running: serverData.dataset.running === 'true',
+        status: serverData.dataset.status || 'idle',
+        progress: parseInt(serverData.dataset.progress || '0', 10),
+        companyName: serverData.dataset.companyName || '',
+        hasPdfFiles: serverData.dataset.hasPdfFiles === 'true'
+    };
+    
+    // Initialize UI based on server-side state
+    function initializeUI() {
+        // Show status card if analysis is running or completed
+        if (initialState.running || initialState.status === 'completed') {
+            $("#status-card").show();
+            
+            if (initialState.running) {
+                $("#status-card").addClass("analysis-running");
+            }
+        }
+        
+        // Set status text
+        $("#status-text").text(initialState.status.charAt(0).toUpperCase() + 
+                              initialState.status.slice(1));
+        
+        // Set progress bar
+        $("#progress-bar").css("width", initialState.progress + "%");
+        $("#progress-bar").attr("aria-valuenow", initialState.progress);
+        $("#progress-bar").text(initialState.progress + "%");
+        
+        // Set company name
+        if (initialState.companyName) {
+            $("#company-name").text("Analyzing: " + initialState.companyName);
+        }
+        
+        // Show results section if analysis is completed
+        if (initialState.status === "completed") {
+            $("#results-section").show();
+        }
+        
+        // Get messages from server
+        $.get('/status', function(data) {
+            if (data.messages && data.messages.length) {
+                // Update log messages
+                $('#log-messages').empty();
+                data.messages.forEach(function(message) {
+                    $('#log-messages').append('<li class="list-group-item">' + message + '</li>');
+                });
+                
+                // Set view results link
+                if (data.results && data.results.company_slug) {
+                    $('#view-results-link').attr('href', '/results/' + data.results.company_slug);
+                }
+            }
+        });
+        
+        // Set form states
+        if (initialState.running) {
+            $("#selected_pdf").prop("disabled", true);
+            $("#analyze-button").prop("disabled", true);
+        } else {
+            $("#selected_pdf").prop("disabled", false);
+            $("#analyze-button").prop("disabled", !initialState.hasPdfFiles);
+        }
+    }
+    
+    // Function to update status
+    function updateStatus() {
+        $.get('/status', function(data) {
+            // Update status card visibility
+            if (data.running || data.status === 'completed') {
+                $('#status-card').show();
+            }
+            
+            // Update progress bar
+            $('#progress-bar').css('width', data.progress + '%');
+            $('#progress-bar').attr('aria-valuenow', data.progress);
+            $('#progress-bar').text(data.progress + '%');
+            
+            // Update status text
+            $('#status-text').text(data.status.charAt(0).toUpperCase() + data.status.slice(1));
+            
+            // Update company name
+            if (data.company_name) {
+                $('#company-name').text('Analyzing: ' + data.company_name);
+            }
+            
+            // Update log messages
+            $('#log-messages').empty();
+            if (data.messages && data.messages.length) {
+                data.messages.forEach(function(message) {
+                    $('#log-messages').append('<li class="list-group-item">' + message + '</li>');
+                });
+            }
+            
+            // Scroll to bottom of log
+            var logContainer = document.querySelector('.log-container');
+            if (logContainer) {
+                logContainer.scrollTop = logContainer.scrollHeight;
+            }
+            
+            // Handle completion
+            if (data.status === 'completed') {
+                $('#status-card').removeClass('analysis-running');
+                $('#results-section').show();
+                
+                if (data.results && data.results.company_slug) {
+                    $('#view-results-link').attr('href', '/results/' + data.results.company_slug);
+                }
+                
+                // Stop polling when complete
+                if (!data.running && pollInterval) {
+                    clearInterval(pollInterval);
+                }
+            } else if (data.status === 'error') {
+                $('#status-card').removeClass('analysis-running');
+                $('#status-text').text('Error');
+                $('#progress-bar').removeClass('bg-primary').addClass('bg-danger');
+                
+                // Stop polling on error
+                if (pollInterval) {
+                    clearInterval(pollInterval);
+                }
+            }
+            
+            // Enable/disable form based on process status
+            if (data.running) {
+                $('#selected_pdf').prop('disabled', true);
+                $('#analyze-button').prop('disabled', true);
+            } else {
+                $('#selected_pdf').prop('disabled', false);
+                var hasPdfFiles = initialState.hasPdfFiles;
+                $('#analyze-button').prop('disabled', !hasPdfFiles);
+            }
+        });
+    }
+    
+    // Initialize the UI first
+    initializeUI();
+    
+    // Start polling if analysis is running
+    if (initialState.running) {
+        pollInterval = setInterval(updateStatus, 2000);
+    }
+    
+    // Setup polling when starting analysis
+    $('form[action="/analyze"]').on('submit', function() {
+        // Start polling immediately after form submission
+        pollInterval = setInterval(updateStatus, 2000);
+    });
+});
+</script>
+{% endblock %}

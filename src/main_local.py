@@ -9,109 +9,64 @@ from pathlib import Path
 from azure_processing import process_uploaded_financials
 from blob_storage import upload_financial_data
 
-
-def running_in_docker():
-    """Check if the application is running inside a Docker container"""
-    return os.path.exists("/.dockerenv") or os.environ.get("DOCKERIZED") == "1"
-
-# Base project directory
-BASE_DIR = "/app" if running_in_docker() else os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-
-PDF_UPLOAD_DIR = os.environ.get("PDF_UPLOAD_DIR", os.path.join(BASE_DIR, "test_data"))
-FINANCIAL_DATA_DIR = os.environ.get("FINANCIAL_DATA_DIR", os.path.join(BASE_DIR, "financial_data"))
-PROCESSED_DIR = os.path.join(FINANCIAL_DATA_DIR, "processed")
-COMPETITOR_ANALYSIS_DIR = os.environ.get("COMPETITOR_ANALYSIS_DIR", os.path.join(BASE_DIR, "competitor_analysis"))
-SELECTED_PDF = os.environ.get("SELECTED_PDF", "").replace("\\", "/")
-
+# Configure Logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+
+# Paths
+FINANCIAL_DATA_DIR = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos\financial_data"
+PDF_UPLOAD_DIR = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos\test_data"
+PROCESSED_DIR = os.path.join(FINANCIAL_DATA_DIR, "processed")
+COMPETITOR_ANALYSIS_DIR = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos\competitor_analysis"
 
 def upload_pdf():
     """
-    Step 1: Use provided PDF path or prompt user to select one.
-    Returns path to processed metrics and company name.
+    Step 1: User provides a PDF, and it's processed using Azure Document Intelligence.
+    Returns the path to the processed data and the company name.
     """
-    # Add debug logs to diagnose path issues
-    logging.info(f"Running in Docker: {running_in_docker()}")
-    logging.info(f"BASE_DIR: {BASE_DIR}")
-    logging.info(f"PDF_UPLOAD_DIR: {PDF_UPLOAD_DIR}")
-    
     logging.info("📄 Waiting for financial report PDF input...")
-
-    if SELECTED_PDF:
-        # In Docker: use the container path as-is
-        pdf_path = SELECTED_PDF if running_in_docker() else os.path.abspath(SELECTED_PDF)
-        selected_pdf = os.path.basename(pdf_path)
-
-        # Log the path being used
-        logging.info(f"Using PDF path: {pdf_path}")
-
-        if not os.path.exists(pdf_path):
-            logging.error(f"❌ Selected PDF does not exist: {pdf_path}")
-            # List files in the directory to aid debugging
-            try:
-                parent_dir = os.path.dirname(pdf_path)
-                if os.path.exists(parent_dir):
-                    logging.info(f"Files in {parent_dir}: {os.listdir(parent_dir)}")
-                else:
-                    logging.error(f"Parent directory does not exist: {parent_dir}")
-            except Exception as e:
-                logging.error(f"Error checking directory: {str(e)}")
-            sys.exit(1)
-
-    else:
-        # Check if PDF_UPLOAD_DIR exists before listing files
-        if not os.path.exists(PDF_UPLOAD_DIR):
-            logging.error(f"❌ PDF upload directory does not exist: {PDF_UPLOAD_DIR}")
-            # Try to create it
-            try:
-                os.makedirs(PDF_UPLOAD_DIR, exist_ok=True)
-                logging.info(f"Created directory: {PDF_UPLOAD_DIR}")
-            except Exception as e:
-                logging.error(f"Failed to create directory: {str(e)}")
-            sys.exit(1)
-            
-        pdf_files = [f for f in os.listdir(PDF_UPLOAD_DIR) if f.endswith(".pdf")]
-
-        if not pdf_files:
-            logging.error("❌ No PDF files found in the directory.")
-            sys.exit(1)
-
-        print("\nAvailable Financial Reports:")
-        for idx, file in enumerate(pdf_files):
-            print(f"{idx + 1}. {file}")
-
-        try:
-            choice = int(input("\nSelect a financial report (enter number): ")) - 1
-            selected_pdf = pdf_files[choice]
-        except (ValueError, IndexError):
-            logging.error("❌ Invalid selection. Exiting.")
-            sys.exit(1)
-
-        pdf_path = os.path.join(PDF_UPLOAD_DIR, selected_pdf)
-        logging.info(f"Selected PDF path: {pdf_path}")
-
-    if not os.path.exists(pdf_path):
-        logging.error(f"❌ Selected PDF does not exist: {pdf_path}")
+    
+    # Prompt user for the PDF filename
+    pdf_files = [f for f in os.listdir(PDF_UPLOAD_DIR) if f.endswith(".pdf")]
+    
+    if not pdf_files:
+        logging.error("❌ No PDF files found in the directory.")
         sys.exit(1)
 
+    print("\nAvailable Financial Reports:")
+    for idx, file in enumerate(pdf_files):
+        print(f"{idx + 1}. {file}")
+
+    try:
+        choice = int(input("\nSelect a financial report (enter number): ")) - 1
+        selected_pdf = pdf_files[choice]
+    except (ValueError, IndexError):
+        logging.error("❌ Invalid selection. Exiting.")
+        sys.exit(1)
+
+    pdf_path = os.path.join(PDF_UPLOAD_DIR, selected_pdf)
     company_name = os.path.splitext(selected_pdf)[0]
     logging.info(f"📂 Selected PDF: {selected_pdf}")
 
-    # Ensure processed dir exists
+    # Process the PDF with Azure Document Intelligence
+    # Ensure the processed directory exists
     os.makedirs(PROCESSED_DIR, exist_ok=True)
-
+    
+    # Process the PDF and get the path to the processed data
     try:
         logging.info("🔍 Extracting financial metrics using Azure Document Intelligence...")
         metadata_file, metrics_file = process_uploaded_financials(pdf_path)
-
+        
+        # If process_uploaded_financials doesn't return a path, we need to construct it
         if not metrics_file:
+            logging.info("🔄 Looking for processed metrics file...")
+            # Construct a path where the processed data should be
             company_dir = os.path.join(FINANCIAL_DATA_DIR, company_name.lower().replace(" ", "_"))
             metrics_file = os.path.join(company_dir, f"{company_name.lower().replace(' ', '_')}_financial_metrics.json")
-            logging.info(f"Looking for metrics file at: {metrics_file}")
             if not os.path.exists(metrics_file):
                 logging.error(f"❌ Could not find financial metrics at {metrics_file}")
                 sys.exit(1)
-
+        
+        # Load and display basic metrics information for confirmation
         try:
             with open(metrics_file, 'r') as f:
                 metrics_data = json.load(f)
@@ -123,15 +78,11 @@ def upload_pdf():
                 print(f"  Employee Count: {metrics_data.get('employee_count', 'N/A')}")
         except Exception as e:
             logging.warning(f"⚠️ Could not display metrics summary: {str(e)}")
-
+        
         logging.info("✅ PDF processed successfully.")
         return metrics_file, company_name
-
     except Exception as e:
         logging.error(f"❌ Error processing PDF: {str(e)}")
-        # Print the full traceback for better debugging
-        import traceback
-        logging.error(f"Traceback: {traceback.format_exc()}")
         sys.exit(1)
 
 def identify_competitors_with_perplexity(metrics_file, company_name):
@@ -146,7 +97,7 @@ def identify_competitors_with_perplexity(metrics_file, company_name):
     os.makedirs(competitor_dir, exist_ok=True)
     
     # Run the updated Perplexity API script as a subprocess
-    perplexity_script = os.path.join(BASE_DIR, "src", "preplexity_api_competitor_research_with_fin_APIs.py")
+    perplexity_script = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos\src\preplexity_api_competitor_research_with_fin_APIs.py"
     
     try:
         # Check if script exists
@@ -280,7 +231,7 @@ def clean_and_combine_data(metrics_file, competitors_file, financials_file, comp
     logging.info("🧹 Cleaning and combining financial data...")
     
     # Run the updated data cleaning script as a subprocess
-    cleaning_script = os.path.join(BASE_DIR, "src", "clean_collected_data.py")
+    cleaning_script = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos\src\clean_collected_data.py"
     
     try:
         # Check if script exists
@@ -393,7 +344,7 @@ def generate_charts(company_name, comparison_files):
     competitor_dir = os.path.join(COMPETITOR_ANALYSIS_DIR, company_slug)
     
     # Generate PowerBI-style charts
-    charts_script = os.path.join(BASE_DIR, "src", "generate_PowerBI_graphs.py")
+    charts_script = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos\src\generate_PowerBI_graphs.py"
     
     try:
         if not os.path.exists(charts_script):
@@ -461,7 +412,7 @@ def generate_report(company_name, comparison_files, charts_dir):
     competitor_dir = os.path.join(COMPETITOR_ANALYSIS_DIR, company_slug)
     
     # Generate report using the generate_report.py script
-    report_script = os.path.join(BASE_DIR, "src", "generate_report.py")
+    report_script = r"C:\Users\peter\Downloads\FYP - AnM GenAI Benchmaking tool\GenAI-Benchmarking-Tool-for-PortCos\src\generate_report.py"
     
     try:
         if not os.path.exists(report_script):
