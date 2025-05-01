@@ -11,7 +11,7 @@ The pipeline leverages modern AI technologies to transform manual financial anal
 - **Financial Analysis**: Generate comparison metrics, visualizations, and narrative insights
 - **Reporting**: Create comprehensive analysis reports with human-quality commentary
 
-![System Architecture](Documentation/images/Workflow.png)
+![System Architecture](Documentation/Workflow.png)
 
 ## Features
 
