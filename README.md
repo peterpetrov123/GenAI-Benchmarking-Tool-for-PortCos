@@ -11,7 +11,7 @@ The pipeline leverages modern AI technologies to transform manual financial anal
 - **Financial Analysis**: Generate comparison metrics, visualizations, and narrative insights
 - **Reporting**: Create comprehensive analysis reports with human-quality commentary
 
-![System Architecture](docs/images/system_architecture.png)
+![System Architecture](Documentation/images/Workflow.png)
 
 ## Features
 
@@ -147,7 +147,20 @@ The system generates several types of outputs:
 - Normalized comparison datasets in CSV, Excel, and JSON formats
 
 ### 2. Visualization Charts
-<img src="docs/images/revenue_comparison.png" alt="Revenue Comparison Chart" width="400"/> <img src="docs/images/margin_analysis.png" alt="Margin Analysis Chart" width="400"/>
+The system generates several types of financial comparison charts:
+- Annual Revenue Comparison
+- Revenue Growth Analysis
+- Annual Revenue vs Revenue Growth (combo chart)
+- EBITDA Margin Comparison
+- Gross Margin Comparison
+- Gross Margin vs EBITDA Margin (combo chart)
+- Employee Count Comparison
+- Market Capitalization Comparison
+- Operating Cash Flow Analysis
+- R&D Percentage Comparison
+- Dashboard Summary (overview of all metrics)
+
+All charts feature color-coding to highlight the target company, competitor companies, and industry average benchmarks.
 
 ### 3. Analysis Reports
 - Executive Summary
