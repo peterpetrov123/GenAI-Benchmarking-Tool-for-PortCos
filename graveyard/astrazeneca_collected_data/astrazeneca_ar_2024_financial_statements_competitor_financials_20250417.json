@@ -1,0 +1,415 @@
+{
+  "company_metrics": [
+    {
+      "name": "AbbVie Inc.",
+      "ticker": "ABBV",
+      "metrics": {
+        "market_capitalization": {
+          "value": 330728.505,
+          "unit": "million USD",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Market capitalization in millions USD"
+        },
+        "employee_count": {
+          "value": 155194,
+          "unit": "employees",
+          "period": "2023-12-31",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "price_to_earnings_ratio": {
+          "value": 78.23,
+          "unit": "ratio",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Price to earnings ratio"
+        },
+        "ebitda_margin": {
+          "value": 7.59,
+          "unit": "%",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Using profit margin as an approximation for EBITDA margin"
+        },
+        "annual_revenue": {
+          "value": 54318.0,
+          "unit": "million USD",
+          "period": "2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT",
+          "notes": "Annual revenue from income statement"
+        },
+        "revenue_growth": {
+          "value": -6.4,
+          "unit": "%",
+          "period": "2023-12-31 vs 2022-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Year-over-year revenue growth"
+        },
+        "gross_margin": {
+          "value": 16.4,
+          "unit": "%",
+          "period": "2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Gross margin percentage"
+        },
+        "rd_percentage": {
+          "value": 15.6,
+          "unit": "%",
+          "period": "2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "R&D expenses as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": 22839.0,
+          "unit": "million USD",
+          "period": "2023-12-31",
+          "source": "Alpha Vantage CASH_FLOW",
+          "notes": "Operating cash flow from cash flow statement"
+        }
+      }
+    },
+    {
+      "name": "Merck & Co.",
+      "ticker": "MRK",
+      "metrics": {
+        "market_capitalization": {
+          "value": 205796.491,
+          "unit": "million USD",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Market capitalization in millions USD"
+        },
+        "employee_count": {
+          "value": 183337,
+          "unit": "employees",
+          "period": "2024-12-31",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "price_to_earnings_ratio": {
+          "value": 12.09,
+          "unit": "ratio",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Price to earnings ratio"
+        },
+        "ebitda_margin": {
+          "value": 26.700000000000003,
+          "unit": "%",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Using profit margin as an approximation for EBITDA margin"
+        },
+        "annual_revenue": {
+          "value": 64168.0,
+          "unit": "million USD",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT",
+          "notes": "Annual revenue from income statement"
+        },
+        "revenue_growth": {
+          "value": 6.7,
+          "unit": "%",
+          "period": "2024-12-31 vs 2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Year-over-year revenue growth"
+        },
+        "gross_margin": {
+          "value": 56.2,
+          "unit": "%",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Gross margin percentage"
+        },
+        "rd_percentage": {
+          "value": 28.0,
+          "unit": "%",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "R&D expenses as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": 21468.0,
+          "unit": "million USD",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage CASH_FLOW",
+          "notes": "Operating cash flow from cash flow statement"
+        }
+      }
+    },
+    {
+      "name": "Novartis AG",
+      "ticker": "NVS",
+      "metrics": {
+        "market_capitalization": {
+          "value": 211512.639,
+          "unit": "million USD",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Market capitalization in millions USD"
+        },
+        "employee_count": {
+          "value": 147777,
+          "unit": "employees",
+          "period": "2024-12-31",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "price_to_earnings_ratio": {
+          "value": 18.03,
+          "unit": "ratio",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Price to earnings ratio"
+        },
+        "ebitda_margin": {
+          "value": 23.1,
+          "unit": "%",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Using profit margin as an approximation for EBITDA margin"
+        },
+        "annual_revenue": {
+          "value": 51722.0,
+          "unit": "million USD",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT",
+          "notes": "Annual revenue from income statement"
+        },
+        "revenue_growth": {
+          "value": 10.8,
+          "unit": "%",
+          "period": "2024-12-31 vs 2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Year-over-year revenue growth"
+        },
+        "gross_margin": {
+          "value": 75.2,
+          "unit": "%",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Gross margin percentage"
+        },
+        "rd_percentage": {
+          "value": 19.4,
+          "unit": "%",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "R&D expenses as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": 17619.0,
+          "unit": "million USD",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage CASH_FLOW",
+          "notes": "Operating cash flow from cash flow statement"
+        }
+      }
+    },
+    {
+      "name": "Eli Lilly and Company",
+      "ticker": "LLY",
+      "metrics": {
+        "market_capitalization": {
+          "value": 662904.504,
+          "unit": "million USD",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Market capitalization in millions USD"
+        },
+        "employee_count": {
+          "value": 128693,
+          "unit": "employees",
+          "period": "2024-12-31",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "price_to_earnings_ratio": {
+          "value": 62.88,
+          "unit": "ratio",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Price to earnings ratio"
+        },
+        "ebitda_margin": {
+          "value": 23.5,
+          "unit": "%",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Using profit margin as an approximation for EBITDA margin"
+        },
+        "annual_revenue": {
+          "value": 45042.7,
+          "unit": "million USD",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT",
+          "notes": "Annual revenue from income statement"
+        },
+        "revenue_growth": {
+          "value": 32.0,
+          "unit": "%",
+          "period": "2024-12-31 vs 2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Year-over-year revenue growth"
+        },
+        "gross_margin": {
+          "value": 60.1,
+          "unit": "%",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Gross margin percentage"
+        },
+        "rd_percentage": {
+          "value": 31.7,
+          "unit": "%",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "R&D expenses as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": 8817.9,
+          "unit": "million USD",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage CASH_FLOW",
+          "notes": "Operating cash flow from cash flow statement"
+        }
+      }
+    },
+    {
+      "name": "GlaxoSmithKline",
+      "ticker": "GSK",
+      "metrics": {
+        "market_capitalization": {
+          "value": 77656.572,
+          "unit": "million USD",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Market capitalization in millions USD"
+        },
+        "employee_count": {
+          "value": 89645,
+          "unit": "employees",
+          "period": "2024-12-31",
+          "source": "Estimated based on industry averages",
+          "notes": "Estimated from revenue using industry benchmarks"
+        },
+        "price_to_earnings_ratio": {
+          "value": 22.41,
+          "unit": "ratio",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Price to earnings ratio"
+        },
+        "ebitda_margin": {
+          "value": 8.21,
+          "unit": "%",
+          "period": "Latest",
+          "source": "Alpha Vantage OVERVIEW",
+          "notes": "Using profit margin as an approximation for EBITDA margin"
+        },
+        "annual_revenue": {
+          "value": 31376.0,
+          "unit": "million USD",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT",
+          "notes": "Annual revenue from income statement"
+        },
+        "revenue_growth": {
+          "value": 3.5,
+          "unit": "%",
+          "period": "2024-12-31 vs 2023-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Year-over-year revenue growth"
+        },
+        "gross_margin": {
+          "value": 71.2,
+          "unit": "%",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "Gross margin percentage"
+        },
+        "rd_percentage": {
+          "value": 20.4,
+          "unit": "%",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage INCOME_STATEMENT (calculated)",
+          "notes": "R&D expenses as percentage of revenue"
+        },
+        "operating_cash_flow": {
+          "value": 6554.0,
+          "unit": "million USD",
+          "period": "2024-12-31",
+          "source": "Alpha Vantage CASH_FLOW",
+          "notes": "Operating cash flow from cash flow statement"
+        }
+      }
+    },
+    {
+      "name": "Roche Holding AG",
+      "ticker": "RHHBY",
+      "metrics": {
+        "annual_revenue": {
+          "value": 68.85,
+          "unit": "billion USD",
+          "period": "FY2024",
+          "source": "https://stockanalysis.com/quote/otc/RHHBY/statistics/"
+        },
+        "revenue_growth": {
+          "value": -7.97,
+          "unit": "%",
+          "period": "FY2024 vs FY2023",
+          "source": "https://www.investing.com/equities/roche-holding-ltd-ratios"
+        },
+        "gross_margin": {
+          "value": 74.79,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.investing.com/equities/roche-holding-ltd-ratios"
+        },
+        "ebitda_margin": {
+          "value": 36.41,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://stockanalysis.com/quote/otc/RHHBY/statistics/"
+        },
+        "rd_percentage": {
+          "value": 20.2,
+          "unit": "%",
+          "period": "FY2024",
+          "source": "https://www.investing.com/equities/roche-holding-ltd-ratios"
+        },
+        "operating_cash_flow": {
+          "value": 22.17,
+          "unit": "billion USD",
+          "period": "FY2024",
+          "source": "https://stockanalysis.com/quote/otc/RHHBY/statistics/"
+        },
+        "employee_count": {
+          "value": 103249,
+          "unit": "",
+          "period": "as of Dec 31, 2024",
+          "source": "https://stockanalysis.com/quote/lon/0QOK/employees/"
+        },
+        "market_capitalization": {
+          "value": 275.03,
+          "unit": "billion USD",
+          "period": "as of April 2025",
+          "source": "https://stockanalysis.com/quote/otc/RHHBY/statistics/"
+        },
+        "pipeline_products": {
+          "value": 80,
+          "unit": "pipeline products",
+          "period": "as of Q1 2025",
+          "source": "https://www.roche.com/investors/reports"
+        },
+        "clinical_trials": {
+          "value": 450,
+          "unit": "active trials",
+          "period": "as of Q1 2025",
+          "source": "https://www.roche.com/investors/reports"
+        }
+      }
+    }
+  ]
+}

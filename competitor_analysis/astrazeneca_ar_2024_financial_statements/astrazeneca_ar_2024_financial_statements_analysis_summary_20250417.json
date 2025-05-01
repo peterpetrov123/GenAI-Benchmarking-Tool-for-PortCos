@@ -1,0 +1,11 @@
+{
+  "analysis_date": "2025-04-17 15:07:41",
+  "input_company": "AstraZeneca_AR_2024_Financial_Statements",
+  "industry": "Pharmaceutical",
+  "competitors_found": 6,
+  "competitors_with_financials": 6,
+  "files": {
+    "competitors": "astrazeneca_ar_2024_financial_statements_competitors_20250417.json",
+    "financials": "astrazeneca_ar_2024_financial_statements_competitor_financials_20250417.json"
+  }
+}

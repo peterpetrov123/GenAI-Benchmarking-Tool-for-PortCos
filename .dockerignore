@@ -1,0 +1,4 @@
+# Exclude PDFs from build context
+*.pdf
+test_data/*.pdf
+test_data/AstraZeneca_AR_2024_Financial_Statements.pdf

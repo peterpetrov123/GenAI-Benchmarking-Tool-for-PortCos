@@ -1,0 +1,74 @@
+{
+  "Annual Revenue": {
+    "AstraZeneca_AR_2024_Financial_Statements": "$54073.0M",
+    "AbbVie Inc.": "$54318.0M",
+    "Merck & Co.": "$64168.0M",
+    "Novartis AG": "$51722.0M",
+    "Eli Lilly and Company": "$45042.7M",
+    "GlaxoSmithKline": "$31376.0M",
+    "Roche Holding AG": "$68.8M"
+  },
+  "Revenue Growth": {
+    "AstraZeneca_AR_2024_Financial_Statements": "54.9%",
+    "AbbVie Inc.": "-6.4%",
+    "Merck & Co.": "6.7%",
+    "Novartis AG": "10.8%",
+    "Eli Lilly and Company": "32.0%",
+    "GlaxoSmithKline": "3.5%",
+    "Roche Holding AG": "-8.0%"
+  },
+  "Gross Margin": {
+    "AstraZeneca_AR_2024_Financial_Statements": "81.1%",
+    "AbbVie Inc.": "16.4%",
+    "Merck & Co.": "56.2%",
+    "Novartis AG": "75.2%",
+    "Eli Lilly and Company": "60.1%",
+    "GlaxoSmithKline": "71.2%",
+    "Roche Holding AG": "74.8%"
+  },
+  "EBITDA Margin": {
+    "AstraZeneca_AR_2024_Financial_Statements": "18.5%",
+    "AbbVie Inc.": "7.6%",
+    "Merck & Co.": "26.7%",
+    "Novartis AG": "23.1%",
+    "Eli Lilly and Company": "23.5%",
+    "GlaxoSmithKline": "8.2%",
+    "Roche Holding AG": "36.4%"
+  },
+  "R&D Percentage": {
+    "AstraZeneca_AR_2024_Financial_Statements": "25.1%",
+    "AbbVie Inc.": "15.6%",
+    "Merck & Co.": "28.0%",
+    "Novartis AG": "19.4%",
+    "Eli Lilly and Company": "31.7%",
+    "GlaxoSmithKline": "20.4%",
+    "Roche Holding AG": "20.2%"
+  },
+  "Operating Cash Flow": {
+    "AstraZeneca_AR_2024_Financial_Statements": "N/A",
+    "AbbVie Inc.": "$22839.0M",
+    "Merck & Co.": "$21468.0M",
+    "Novartis AG": "$17619.0M",
+    "Eli Lilly and Company": "$8817.9M",
+    "GlaxoSmithKline": "$6554.0M",
+    "Roche Holding AG": "$22.2M"
+  },
+  "Employee Count": {
+    "AstraZeneca_AR_2024_Financial_Statements": "N/A",
+    "AbbVie Inc.": "155,194",
+    "Merck & Co.": "183,337",
+    "Novartis AG": "147,777",
+    "Eli Lilly and Company": "128,693",
+    "GlaxoSmithKline": "89,645",
+    "Roche Holding AG": "103,249"
+  },
+  "Market Capitalization": {
+    "AstraZeneca_AR_2024_Financial_Statements": "N/A",
+    "AbbVie Inc.": "$330728.5M",
+    "Merck & Co.": "$205796.5M",
+    "Novartis AG": "$211512.6M",
+    "Eli Lilly and Company": "$662904.5M",
+    "GlaxoSmithKline": "$77656.6M",
+    "Roche Holding AG": "$275.0M"
+  }
+}
